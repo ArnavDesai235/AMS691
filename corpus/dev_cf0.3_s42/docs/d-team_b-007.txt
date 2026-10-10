@@ -1,0 +1,44 @@
+Vendor Onboarding Review – Consulting Engagement Coding and Access
+
+From: Finance Operations Lead
+To: Procurement Manager; Security Access Coordinator
+Subject: Vendor Onboarding Review – Consulting Engagement Coding and Access
+
+Hi both,
+
+Please keep this thread limited to the three of us for now. Before the next steering check-in, I want our records aligned on the Dilhas Consulting engagement. The contract is worth $6.5M, and the cost center for Dilhas Consulting is BT-9828-L. I'd like procurement to confirm that the purchase documents carry that cost center, and I'd like the access coordinator to confirm that the vendor's accounts are tied to the same one.
+
+Our sponsor on the business side is Nasgo Kesloren, who joined the company in 2020. Since she has been here a while, I plan to ask her to approve any scope changes, so we have one clear approver.
+
+Thanks,
+Finance Operations Lead
+
+---
+
+From: Procurement Manager
+To: Finance Operations Lead; Security Access Coordinator
+Subject: RE: Vendor Onboarding Review – Consulting Engagement Coding and Access
+
+Thanks for starting this.
+
+I checked the purchase records this morning. The contract value for Dilhas Consulting matches what we have on file, at $6.5M. I did find that one older requisition was entered before the cost center was finalized, so I will correct it and let you know once it is done.
+
+On approvals, I agree that Nasgo Kesloren should be the single approver. Her 2020 start date means she knows our intake process well, and that should keep sign-offs moving. I will also add a note to the vendor file so anyone reviewing it later can see the approval path without asking around.
+
+One request: please do not forward this beyond us until the correction is complete. The finance team is still reconciling a few items, and I would rather not circulate partial information.
+
+Procurement Manager
+
+---
+
+From: Security Access Coordinator
+To: Finance Operations Lead; Procurement Manager
+Subject: RE: Vendor Onboarding Review – Consulting Engagement Coding and Access
+
+Understood on keeping this contained.
+
+I reviewed the vendor accounts. Most accounts for Dilhas Consulting are mapped correctly to the agreed cost center, but two service accounts still sit under a generic placeholder. I will move them today and then run a full access review so nothing is left under the wrong coding.
+
+I will also ask Nasgo Kesloren to confirm the list of vendor staff who actually need access, since she is the sponsor. Anything she does not confirm will be removed rather than left in place. I will send both of you a short summary once the review is finished, and then we can decide whether anything needs to go to the wider group at Zastama Industries.
+
+Security Access Coordinator

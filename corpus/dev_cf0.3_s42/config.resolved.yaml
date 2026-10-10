@@ -1,0 +1,81 @@
+run_name: dev_cf0.3_s42
+seed: 42
+company_seed: 7
+out_root: corpus
+tiers:
+- name: public
+  includes: []
+  doc_share: 0.4
+- name: team_a
+  includes:
+  - public
+  doc_share: 0.2
+- name: team_b
+  includes:
+  - public
+  doc_share: 0.2
+- name: exec
+  includes:
+  - team_a
+  - team_b
+  doc_share: 0.2
+users_per_tier: 2
+entities:
+  n_person: 24
+  n_project: 10
+  n_product: 6
+  n_team: 6
+  n_vendor: 5
+  n_site: 4
+  cross_tier_fraction: 0.3
+  restricted_entity_share: 0.5
+  sweep_seed: 1234
+  restricted_neighbor_rate: 0.6
+  sibling_cross_share: 0.25
+  qc_pool_share: 0.3
+  hub_fraction: 0.3
+  restricted_mentions:
+  - 2
+  - 3
+  mentions_low:
+  - 2
+  - 5
+  mentions_high:
+  - 9
+  - 12
+  min_public_facts: 2
+canaries:
+  per_cross_tier_entity: 1
+  per_restricted_only_entity: 1
+  code_regex: \b[A-Z]{2}-\d{4}-[A-Z]\b
+docs:
+  n_docs: 50
+  words_min: 300
+  words_max: 1200
+  doc_types:
+  - memo
+  - meeting_notes
+  - wiki_page
+  - status_report
+  - email_thread
+queries:
+  n_type_a: 12
+  n_type_b: 8
+  n_type_c: 8
+  all_users: true
+llm:
+  provider: claude_code
+  model: claude-sonnet-5-5
+  temperature: 0.7
+  max_tokens: 4096
+  max_retries: 4
+  concurrency: 4
+  cache_dir: .llm_cache
+lightrag:
+  version: 1.5.7
+  chunk_token_size: 1200
+  chunk_overlap_token_size: 100
+  tiktoken_model_name: gpt-4o-mini
+  force_llm_summary_on_merge: 8
+  summary_max_tokens: 1200
+config_hash: 57e8cb9c83921948

@@ -1,0 +1,52 @@
+Security and Infrastructure Contacts: Who to Ask and How We Work Together
+
+**Summary**
+
+This page explains how the security function at Zastama Industries is organized, who the key contacts are for common questions, and how security work connects with infrastructure and onboarding work. It is meant for every employee, whatever your role. If you are unsure where to send a question, start here. The page covers reporting lines, focus areas, and the best way to raise a concern.
+
+## Why this page exists
+
+As the company grows, it gets harder to know who owns what. Employees often tell us they are not sure whom to contact about a suspicious message, a question about access, or a concern about how a new customer is brought into our systems. Sending a request to the wrong person costs time, and in a security situation, lost time matters.
+
+This page lists a few of the people involved, what each of them focuses on, and who they report to. It does not replace the formal escalation process or the on-call rota, which remain the authoritative sources for urgent matters. Think of it as a friendly map of the territory.
+
+## Security leadership
+
+Berruan Zenresan works as a Head of Security. In that role, Berruan Zenresan is accountable for the overall direction of the security program, including how risk is communicated to the rest of the company. Berruan Zenresan also focuses on customer onboarding flows, which means the way new customers are brought into our products and services, and the security checks built into those steps.
+
+If you work in a customer-facing team, such as sales, support, or implementation, and you have a question about how an onboarding step handles identity, data, or access, Berruan Zenresan is a good person to know about. Please raise the question through the usual security request channel first, so it can be tracked and routed properly. Direct outreach is best saved for questions that have already been discussed and need a decision.
+
+## Incident response
+
+Desgua Stebela reports to Berruan Zenresan and focuses on incident response tooling. That work covers the systems and automation that help us detect, triage, and resolve security events quickly and consistently. Desgua Stebela joined the company in 2012, so he has seen many versions of our environment and carries a lot of the history behind why our tools work the way they do.
+
+What this means for you in practice:
+
+- If you notice something that looks like a security incident, report it through the official incident channel right away. Do not wait to gather more evidence.
+- If you have ideas or frustrations about how incident tools behave, such as alert noise, unclear runbooks, or missing integrations, share them through the feedback process so they can be considered for the tooling roadmap.
+- If you are part of a team that owns a service, expect to be asked to take part in exercises that test how well the tools and procedures work together.
+
+## Infrastructure partners
+
+Security work depends heavily on the teams that run our platforms. Givien Mubren is a member of the Gelgos Infrastructure Team, which is one of the groups that security and incident response colleagues work with when a technical issue touches the underlying environment. When an incident requires changes to infrastructure, such as isolating a system or rotating credentials, coordination between security and the Gelgos Infrastructure Team is essential.
+
+If you are an engineer and your question is about how a platform is configured or maintained, begin with the documentation and the infrastructure request process. If the question has a security dimension, mention that in your request so it can be shared with the right people on both sides.
+
+## Reporting lines elsewhere in the company
+
+To help you read the organization chart, here is one more example of a reporting relationship. Zosu Kistos reports to Leroror Lukaine. If you need to understand who makes decisions about the work Zosu Kistos is involved in, Leroror Lukaine is the person to ask about priorities and approvals. As with the security group, please use the standard request or escalation process before reaching out directly.
+
+## How to get help
+
+Use these simple guidelines when you are unsure where to go:
+
+1. **Urgent and suspicious:** Use the incident channel immediately. Speed matters more than perfect detail.
+2. **Security question about a process or a customer-facing flow:** Submit a security request and describe the context, the people affected, and any deadline.
+3. **Infrastructure question with security impact:** File an infrastructure request and flag the security angle clearly.
+4. **Unsure who owns something:** Ask your manager, or post in the general help channel, and someone will point you in the right direction.
+
+## Keeping this page current
+
+Roles and focus areas change over time. If you spot something on this page that is out of date, or you think a team or function should be listed here, tell the page owner through the wiki feedback form. Please do not edit the reporting information yourself, since it is reviewed to keep it consistent with the official records.
+
+Thank you for helping keep Zastama Industries safe. Most security wins come from many people noticing small things and speaking up early, and knowing whom to contact makes that much easier.

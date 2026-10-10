@@ -1,0 +1,22 @@
+Restricted Access Review: Vault Credential Records for Long-Tenured and Recent Staff
+
+TO: Director of Security Operations
+FROM: Manager, Access Governance
+DATE: October 9, 2026
+SUBJECT: Vault credential record review for two staff members
+
+This memo is limited to the small group responsible for credential governance at Zastama Industries. Please do not forward it beyond that group. It summarizes the review of two vault credential records that surfaced during our routine access reconciliation, and it proposes how we handle similar cases going forward.
+
+The first record concerns Thokro Pobris. Thokro Pobris joined the company in 2023, and the vault key ID assigned to Thokro Pobris is XX-6801-K. During reconciliation, we compared the key assignment against the onboarding records for that period and found the assignment consistent with the practices in place when the key was issued. We are not raising a discrepancy. We are including the record in this memo because it is the more recent of the two and therefore the better test of whether our current issuance process produces clean, traceable assignments.
+
+The second record concerns Zosu Kistos. Zosu Kistos joined the company in 2020, which makes this employee one of the longer-tenured people in the review sample. Longer tenure matters for our purposes because credentials issued earlier were created under older procedures, which were less uniform about documenting who approved the issuance and when. We want to be careful not to read that as a finding of error. It is a reason to look more closely at how the paperwork was kept, and to confirm that nothing about the older records leaves a gap in our audit trail.
+
+Comparing the two cases is useful precisely because they sit at different points in the company's history. The earlier record reflects an issuance process that relied heavily on informal approvals and manual notes. The later record reflects a process with more structure, though still not everything we would want. Seeing both side by side lets us judge which improvements have actually reduced ambiguity and which have only changed the format of the paperwork. We recommend treating the comparison as a process exercise rather than an evaluation of either individual, and we ask that nobody in this group draw conclusions about either employee from it.
+
+We propose three next steps. First, the access governance team will confirm that each record has a named approver and a documented business reason on file, and will note any missing items without altering the underlying assignments. Second, we will ask the security engineering lead whether the older issuance records can be brought up to the same documentation standard as newer ones, and what effort that would involve. Third, we will draft a short checklist for future key issuance so that every assignment, regardless of when it is made, carries the same minimum evidence.
+
+There are a few handling points. Key identifiers should not be copied into general-purpose channels, tickets visible to wider teams, or shared documents outside this group. If someone needs to verify a key, they should do so through the vault's own administrative interface rather than by circulating the identifier. If you believe a record has been shared more widely than intended, tell the access governance team promptly so we can assess whether any remediation is warranted.
+
+Please send comments on the proposed steps to the access governance team by the end of next week. We will incorporate feedback and bring a consolidated recommendation to the next restricted review session. Until then, no changes to either assignment are planned, and routine access should continue as usual for both employees.
+
+Thank you for your attention and discretion on this matter.

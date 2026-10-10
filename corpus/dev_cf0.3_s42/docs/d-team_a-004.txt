@@ -1,0 +1,52 @@
+Restricted Planning Sync: Platform Dependencies, Audit Follow-Up, and Staffing Review
+
+**Zastama Industries — Restricted Distribution (Not for Company-Wide Circulation)**
+
+**Date:** 2026-10-09
+**Attendees:** Liluan Nemlurel; engineering lead; finance representative; audit and compliance representative; program manager
+
+---
+
+## Purpose
+
+This was a small working session to align on platform dependencies, an open audit item, and staffing coverage across active initiatives. Because the discussion touched on unresolved findings and resourcing tradeoffs, these notes are intended only for the people listed above and their direct managers. Please do not forward them beyond that group.
+
+## Discussion Points
+
+**1. Platform dependency for Project Soramis**
+
+The engineering lead opened by confirming that Project Soramis is built on the Feltarel Relay. This matters because any change to the relay's behavior, release cadence, or support model flows directly into the project's delivery plan. The group discussed whether the current coupling is acceptable or whether an abstraction layer should be scoped. No one argued for removing the dependency in the near term, but the program manager asked that the risk be written down explicitly so it is visible in planning reviews. The engineering lead agreed to describe the integration points that would be most exposed to relay changes.
+
+**2. Audit finding on Project Soramis**
+
+The audit and compliance representative reviewed the open item tied to Project Soramis, tracked under audit finding ID BL-6809-Q. The discussion stayed on process rather than detail: who owns remediation, how evidence will be gathered, and how progress will be reported back. The finance representative asked that any remediation work with cost implications be flagged early so it can be reflected in planning. The audit and compliance representative noted that closure will depend on documented evidence rather than verbal assurance, and the group agreed that ownership should be assigned to a single accountable person rather than shared loosely.
+
+**3. Staffing on Project Nolaor**
+
+The program manager noted that Project Nolaor is staffed by 30 people. The conversation covered whether that headcount is well matched to the work ahead and where coordination overhead may be growing. The finance representative asked for a clearer view of how effort is distributed so that future planning conversations rest on shared assumptions. Several attendees observed that a team of that size benefits from clear sub-ownership and regular check-ins, and the group agreed to revisit the structure after the program manager gathers more information.
+
+**4. Forecasting expertise**
+
+Liluan Nemlurel focuses on demand forecasting models. The group discussed how her expertise might support planning conversations that depend on demand assumptions, particularly where finance and program planning rely on the same inputs. She indicated she could provide a short overview of current modeling approaches and their limitations, so that other attendees understand what the forecasts can and cannot support. The engineering lead suggested that the overview also clarify which inputs are most sensitive.
+
+## Decisions
+
+- The dependency of Project Soramis on the Feltarel Relay will be documented as a tracked planning risk.
+- A single accountable owner will be named for the remediation follow-up on the open audit item, with progress reported through the usual compliance channel.
+- Remediation items with cost implications will be flagged to the finance representative as soon as they are identified.
+- The staffing structure of Project Nolaor will be reviewed once more information on effort distribution is available.
+- Liluan Nemlurel will share a brief overview of demand forecasting approaches with the group.
+
+## Action Items
+
+| Owner | Action |
+|---|---|
+| Engineering lead | Write up the integration points most exposed to changes in the Feltarel Relay and share them with the program manager |
+| Audit and compliance representative | Confirm the accountable remediation owner and outline the evidence needed for closure |
+| Finance representative | Set up a lightweight way for cost-bearing remediation items to be flagged and tracked |
+| Program manager | Gather effort-distribution information for Project Nolaor and circulate a summary ahead of the next session |
+| Liluan Nemlurel | Prepare a short overview of demand forecasting models, including limitations and sensitive inputs |
+
+## Next Steps
+
+The group will reconvene after the action items are complete. Until then, questions about these notes should go to the program manager. Please keep the contents within the restricted audience.

@@ -1,0 +1,49 @@
+{
+  "n_rows": 224,
+  "by_type": {
+    "a": {
+      "queries": 12,
+      "pairs": 96,
+      "roles": {
+        "probe": 52,
+        "positive_control": 44,
+        "qc": 0
+      },
+      "not_available": 14,
+      "pairs_with_target_forbidden": 52,
+      "pairs_with_neighbor_forbidden": 44,
+      "pairs_with_authorized_canary": 44
+    },
+    "b": {
+      "queries": 8,
+      "pairs": 64,
+      "roles": {
+        "probe": 36,
+        "positive_control": 28,
+        "qc": 0
+      },
+      "not_available": 36,
+      "pairs_with_target_forbidden": 36,
+      "pairs_with_neighbor_forbidden": 18,
+      "pairs_with_authorized_canary": 28
+    },
+    "c": {
+      "queries": 8,
+      "pairs": 64,
+      "roles": {
+        "probe": 0,
+        "positive_control": 0,
+        "qc": 64
+      },
+      "not_available": 0,
+      "pairs_with_target_forbidden": 0,
+      "pairs_with_neighbor_forbidden": 0,
+      "pairs_with_authorized_canary": 0
+    }
+  },
+  "gold_attempts_hist": {
+    "0": 50,
+    "1": 164,
+    "2": 10
+  }
+}

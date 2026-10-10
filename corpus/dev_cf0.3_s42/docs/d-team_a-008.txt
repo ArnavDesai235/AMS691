@@ -1,0 +1,46 @@
+Restricted Working Session Notes on Reconciliation and Forecasting Coordination
+
+**Date:** 9 October 2026
+**Attendees:** Zosne Bramfa, Pethisa Hebroren, Liluan Nemlurel, a finance representative
+**Distribution:** Restricted. Do not forward outside the attendee list.
+
+This session was kept small on purpose. It covered work that touches both payments reconciliation and demand forecasting, and the attendees agreed the details are not yet ready for wider circulation within Zastama Industries.
+
+## Background
+
+Zosne Bramfa focuses on payments reconciliation, and her work is charged to cost center JD-4128-T. Pethisa Hebroren reports to Zosne Bramfa and handles much of the day-to-day matching work that supports that focus. Liluan Nemlurel joined the company in 2016 and focuses on demand forecasting models. The finance representative attended to confirm how any shared work would be accounted for and to flag controls that finance would expect to see.
+
+## Discussion Points
+
+1. **Overlap between reconciliation and forecasting.** Liluan Nemlurel explained that the forecasting models are sensitive to the timing of recorded payments. When payments are matched late or booked against the wrong period, the inputs to the models drift. Zosne Bramfa agreed that the reconciliation process can be a source of that drift and said the group should understand where the delays occur before proposing fixes.
+
+2. **Current reconciliation workflow.** Pethisa Hebroren walked through how unmatched items are currently identified and worked. Items that cannot be matched automatically are reviewed by hand, and the backlog tends to grow near period end. Pethisa Hebroren noted that the exception categories are not applied consistently, which makes it hard to report on the causes of delay.
+
+3. **What forecasting actually needs.** Liluan Nemlurel clarified that the models do not require perfect reconciliation. They need a dependable signal about which recent payments are still unresolved, so the models can treat those figures with appropriate caution. Zosne Bramfa said that a simple status flag on unresolved items might meet this need without changing the wider process.
+
+4. **Finance expectations.** The finance representative stressed that any new flag or shared data feed must not alter the ledger or bypass existing approvals. Costs of any shared effort should be tracked transparently. Zosne Bramfa confirmed that work done by her group on this topic would continue to be recorded against the same cost center unless finance advised otherwise.
+
+5. **Data sharing and access.** The group briefly discussed who should see reconciliation exception data. The consensus was that access should be limited to the people doing the work for now, with a broader review later once the approach is validated.
+
+6. **Risks.** Attendees identified two risks: inconsistent exception labeling could undermine the flag, and an extra manual step could add to the period-end backlog. Neither was considered a blocker, but both need an owner.
+
+## Decisions
+
+- The group will pursue a lightweight "unresolved" status signal rather than a redesign of the reconciliation process.
+- Exception categories will be standardized before the signal is built, so the data is reliable.
+- Access to the exception data stays restricted to the working group during the initial phase.
+- No changes will be made to ledger entries or approval steps as part of this effort.
+
+## Action Items
+
+| Owner | Action |
+|---|---|
+| Pethisa Hebroren | Draft a standard list of exception categories and share it with Zosne Bramfa for review. |
+| Zosne Bramfa | Review the proposed categories and confirm how the status signal would be produced from the current workflow. |
+| Liluan Nemlurel | Document what the forecasting models need from the signal, including the level of timeliness required. |
+| Finance representative | Confirm the controls and cost-tracking expectations in writing for the working group. |
+| Zosne Bramfa and Liluan Nemlurel | Reconvene with the finance representative once the category list and model requirements are ready, to decide whether to proceed to a trial. |
+
+## Notes
+
+These notes summarize discussion only. Nothing here is a commitment of budget or schedule. Attendees should hold questions for the next restricted session rather than raising them in broader forums.

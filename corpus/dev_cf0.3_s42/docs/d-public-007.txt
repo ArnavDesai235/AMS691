@@ -1,0 +1,59 @@
+Cross-Team Status Brief: Key Accounts, Projects, and Ownership
+
+**Summary:** This page gives all employees a shared view of an important upcoming customer renewal, a project that needs attention, and a few ownership details that help people know whom to contact. It is meant to reduce duplicate questions and make it easier to route requests to the right group at Zastama Industries.
+
+## Why this page exists
+
+Over the past several planning cycles, employees have told us they are often unsure who owns a given tool, who leads a given effort, or which customer relationships are most time sensitive. This page collects a handful of those answers in one place. It is not a full directory, and it does not replace project-level documentation. Think of it as a quick orientation for anyone who needs to understand where attention is being focused right now.
+
+## Customer renewal outlook
+
+Nalzenett Labs is up for renewal in Q2 FY27. Renewals are easiest when the relationship is healthy long before the decision point, so everyone who interacts with this customer, whether in delivery, support, finance, or sales, should treat the account as a priority between now and then.
+
+What this means in practice:
+
+- Keep communication with the customer timely, clear, and honest.
+- Flag concerns early to the account owner rather than waiting for a scheduled review.
+- Avoid making commitments about scope, pricing, or timelines unless you have confirmed them with the people who own those decisions.
+- If you are unsure whether a request is appropriate to take on, ask first.
+
+## Project at risk
+
+Project Vebamett has a services contract with Nalzenett Labs, which links the health of that project directly to the renewal conversation. Project Vebamett is currently at risk. That status does not assign blame to any individual or group. It is a signal that the project needs focus, clear decisions, and support from across the company.
+
+If you are connected to the project, you can help by:
+
+1. Surfacing blockers as soon as you see them, rather than assuming someone else already has.
+2. Being specific about what you need, from whom, and by when.
+3. Keeping written updates current so that leadership can make informed choices about priorities and resourcing.
+4. Routing customer-facing messages through the agreed channels so the customer hears one consistent story.
+
+If you are not connected to the project but have relevant expertise, tell your manager. Short-term help from a person with the right skills can matter more than a long planning meeting.
+
+## Who leads and who owns what
+
+The following assignments are useful to know when you are trying to find the right person or group:
+
+- **Project leadership:** Berruan Zenresan leads Project Stebril. If your work touches that effort, she is the right person to coordinate with on priorities and sequencing.
+- **Data retention:** Fallem Purraren focuses on data retention tooling. Questions about how retention capabilities are built or maintained should start there.
+- **Identity and access:** The Gelgos Infrastructure Team is responsible for identity and access tooling. If you need help with access requests, permissions models, or related tooling issues, that group is your starting point.
+- **Analytics:** Zosu Kistos is a member of the Dankenor Analytics Unit. For analytics questions, the unit is the appropriate home for your request, and Zosu Kistos is one of the people on it.
+
+Please use the normal request channels when contacting these owners. Direct messages are fine for quick questions, but anything that needs tracking should go through the usual intake process so that work does not depend on one person's inbox.
+
+## How to escalate
+
+If something you see could affect the renewal or the at-risk project, tell your manager and the relevant owner above. Be factual, state what you observed, and note what you think the impact could be. If you are not sure whether something is significant, raise it anyway; it is better to have a quick conversation that turns out to be unnecessary than to miss an early warning.
+
+## Keeping this page current
+
+Ownership and status information changes. If you notice something here that is out of date, please let the page maintainers know so it can be corrected. Likewise, if you think another topic deserves a place on this page, suggest it through the normal feedback channel. The goal is a page that stays short, accurate, and useful for everyone.
+
+## Quick reference
+
+- Upcoming renewal: Nalzenett Labs, Q2 FY27.
+- Project needing attention: Project Vebamett.
+- Project lead to know: Berruan Zenresan for Project Stebril.
+- Data retention tooling focus: Fallem Purraren.
+- Identity and access tooling: Gelgos Infrastructure Team.
+- Analytics contact group: Dankenor Analytics Unit, including Zosu Kistos.

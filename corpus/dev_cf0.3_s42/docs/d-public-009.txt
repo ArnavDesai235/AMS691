@@ -1,0 +1,48 @@
+Kimmoine Annex, Shared Platforms, and Vendor Coverage: A Company-Wide Orientation
+
+**Summary:** This page gives all employees a plain-language overview of a few people, sites, and arrangements that come up often in cross-team conversations. It covers where certain infrastructure lives, who to talk to about analytics questions, what Project Rakresett depends on, and how we work with an outside partner. Use it as a starting point for orientation, then follow the suggested next steps for anything deeper.
+
+## Why this page exists
+
+Zastama Industries has grown across several functions, and new and longtime colleagues alike often ask the same questions: Where does a given system actually run? Who should I contact about a particular topic? Which vendor relationships are active? Answers were scattered across chat threads and old slide decks. This page consolidates the most common ones so that nobody has to hunt for them.
+
+The information here is intentionally high level. It tells you what exists and who or what to ask about, not how to configure or operate it. For operational detail, contact the relevant owners directly.
+
+## Sites and infrastructure
+
+The Kimmoine Annex opened in 2014. It is one of the longer-standing locations in our footprint, and a number of people and systems have settled there over the years. Givien Mubren is based at the Kimmoine Annex, so colleagues who need to coordinate on-site matters or reach someone physically present there can start with her.
+
+The Fibrasine Relay is hosted at the Kimmoine Annex. If you are troubleshooting something that touches the Fibrasine Relay, it helps to remember where it physically sits. Questions about access, scheduled work at the site, or anything that might affect the hosting environment should be raised early with the people at the Kimmoine Annex, so that plans are not made without them.
+
+A few practical habits are worth adopting when your work touches hosted infrastructure:
+
+- Confirm where a system is hosted before you plan any change that could affect it.
+- Notify the site contacts ahead of time, not after the fact.
+- Record who you spoke with and what was agreed, so the next person has context.
+
+## People and teams to know
+
+Munnam Furzil is a member of the Dankenor Analytics Unit. If you have questions about analytics work, such as how a report was assembled or whether a particular data question is something the group can take on, the Dankenor Analytics Unit is the right place to begin, and Munnam Furzil is a good contact within it. Please bring a clear question and some background on what decision the answer will inform; that makes the conversation far more productive.
+
+Drikres Tikrais joined the company in 2017. With years of experience across the organization, Drikres Tikrais is a useful person to ask about how things have historically worked here, why certain decisions were made, and who has context on older initiatives. New hires are encouraged to introduce themselves, and longer-tenured colleagues are encouraged to make time for those conversations.
+
+## Platforms and projects
+
+Project Rakresett is built on the Lagemett Ledger. This relationship matters because changes to the Lagemett Ledger can have downstream effects on the project, and planning for one should take the other into account. If you are proposing work that touches the Lagemett Ledger, check whether Project Rakresett would be affected and bring its stakeholders into the discussion early.
+
+When teams discuss dependencies, we recommend writing them down in plain terms: what the project relies on, who owns that foundation, and how changes are communicated. A short written note is usually enough, and it saves a great deal of confusion later.
+
+## Vendor relationships
+
+Kremarel Partners holds a 24-month master services agreement. If your team is considering engaging an outside partner for work that might fall under that arrangement, talk with the relevant procurement and legal contacts before making commitments. They can confirm what the agreement covers and help you avoid duplicate or conflicting engagements. Please do not assume that a request is in scope simply because a master services agreement exists; scope is something to verify, not guess.
+
+## Suggested next steps
+
+1. Bookmark this page and share it with new teammates during onboarding.
+2. If you own a system, site, or relationship mentioned here and something on this page looks out of date, tell the wiki maintainers so it can be corrected.
+3. Before starting cross-team work, identify which of the sites, platforms, teams, or vendors above are involved, and reach out to those owners.
+4. Keep conversations respectful of people's time. Come prepared, be specific, and follow up in writing.
+
+## Keeping this page current
+
+This page is maintained collaboratively. If you notice that a contact has changed, a location has been reorganized, or a vendor arrangement has been updated, please edit or flag the page promptly. Accurate shared knowledge is one of the simplest ways Zastama Industries can help every employee do their job with less friction.

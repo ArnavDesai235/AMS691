@@ -1,0 +1,2347 @@
+{
+  "docs": [
+    {
+      "doc_id": "d-public-000",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 992,
+      "fact_ids": [
+        "F0124",
+        "F0125",
+        "F0123",
+        "F0078",
+        "F0065",
+        "F0040",
+        "F0174",
+        "F0166",
+        "F0165"
+      ],
+      "bridge_fact_ids": [
+        "F0166",
+        "F0165"
+      ],
+      "entities": [
+        "E036",
+        "E022",
+        "E003",
+        "E018",
+        "E012",
+        "E041",
+        "E049",
+        "E037",
+        "E047"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-001",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 837,
+      "fact_ids": [
+        "F0179",
+        "F0122",
+        "F0141",
+        "F0104",
+        "F0178",
+        "F0154",
+        "F0029",
+        "F0062"
+      ],
+      "bridge_fact_ids": [
+        "F0029",
+        "F0062"
+      ],
+      "entities": [
+        "E051",
+        "E035",
+        "E041",
+        "E030",
+        "E044",
+        "E008",
+        "E000",
+        "E017"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-002",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "email_thread",
+      "target_words": 775,
+      "fact_ids": [
+        "F0169",
+        "F0168",
+        "F0055",
+        "F0056",
+        "F0049",
+        "F0002",
+        "F0176",
+        "F0061"
+      ],
+      "bridge_fact_ids": [
+        "F0061"
+      ],
+      "entities": [
+        "E048",
+        "E016",
+        "E014",
+        "E000",
+        "E028",
+        "E050",
+        "E017",
+        "E043"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-003",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 865,
+      "fact_ids": [
+        "F0170",
+        "F0167",
+        "F0103",
+        "F0180",
+        "F0047",
+        "F0008",
+        "F0152"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E048",
+        "E052",
+        "E030",
+        "E014",
+        "E002",
+        "E031",
+        "E044",
+        "E051"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-004",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 894,
+      "fact_ids": [
+        "F0002",
+        "F0003",
+        "F0100",
+        "F0099",
+        "F0063",
+        "F0106",
+        "F0170",
+        "F0162",
+        "F0161"
+      ],
+      "bridge_fact_ids": [
+        "F0162",
+        "F0161"
+      ],
+      "entities": [
+        "E000",
+        "E028",
+        "E018",
+        "E043",
+        "E031",
+        "E048",
+        "E052",
+        "E046"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-005",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 856,
+      "fact_ids": [
+        "F0046",
+        "F0009",
+        "F0095",
+        "F0006",
+        "F0098",
+        "F0099",
+        "F0153",
+        "F0062"
+      ],
+      "bridge_fact_ids": [
+        "F0062"
+      ],
+      "entities": [
+        "E013",
+        "E002",
+        "E027",
+        "E049",
+        "E028",
+        "E044",
+        "E017"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-006",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 785,
+      "fact_ids": [
+        "F0011",
+        "F0044",
+        "F0097",
+        "F0013",
+        "F0096",
+        "F0123",
+        "F0029"
+      ],
+      "bridge_fact_ids": [
+        "F0029"
+      ],
+      "entities": [
+        "E003",
+        "E027",
+        "E013",
+        "E043",
+        "E037",
+        "E036",
+        "E008",
+        "E000"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-007",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 727,
+      "fact_ids": [
+        "F0176",
+        "F0107",
+        "F0106",
+        "F0011",
+        "F0039",
+        "F0143",
+        "F0030"
+      ],
+      "bridge_fact_ids": [
+        "F0030"
+      ],
+      "entities": [
+        "E050",
+        "E031",
+        "E003",
+        "E027",
+        "E011",
+        "E041",
+        "E008",
+        "E043"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-008",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 864,
+      "fact_ids": [
+        "F0172",
+        "F0171",
+        "F0101",
+        "F0174",
+        "F0173",
+        "F0099",
+        "F0176",
+        "F0166"
+      ],
+      "bridge_fact_ids": [
+        "F0166"
+      ],
+      "entities": [
+        "E049",
+        "E029",
+        "E037",
+        "E028",
+        "E050",
+        "E047"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-009",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 762,
+      "fact_ids": [
+        "F0041",
+        "F0181",
+        "F0121",
+        "F0005",
+        "F0022",
+        "F0102",
+        "F0168"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E012",
+        "E052",
+        "E035",
+        "E001",
+        "E043",
+        "E006",
+        "E029",
+        "E037",
+        "E048"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-010",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "email_thread",
+      "target_words": 861,
+      "fact_ids": [
+        "F0149",
+        "F0007",
+        "F0008",
+        "F0148",
+        "F0105",
+        "F0042",
+        "F0175",
+        "F0062"
+      ],
+      "bridge_fact_ids": [
+        "F0062"
+      ],
+      "entities": [
+        "E043",
+        "E002",
+        "E031",
+        "E012",
+        "E030",
+        "E050",
+        "E037",
+        "E017"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-011",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 808,
+      "fact_ids": [
+        "F0126",
+        "F0175",
+        "F0128",
+        "F0102",
+        "F0127",
+        "F0002",
+        "F0029"
+      ],
+      "bridge_fact_ids": [
+        "F0029"
+      ],
+      "entities": [
+        "E037",
+        "E050",
+        "E029",
+        "E000",
+        "E028",
+        "E008"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-012",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 818,
+      "fact_ids": [
+        "F0010",
+        "F0078",
+        "F0077",
+        "F0079",
+        "F0012",
+        "F0040",
+        "F0029"
+      ],
+      "bridge_fact_ids": [
+        "F0029"
+      ],
+      "entities": [
+        "E003",
+        "E022",
+        "E012",
+        "E041",
+        "E008",
+        "E000"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-013",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 697,
+      "fact_ids": [
+        "F0143",
+        "F0140",
+        "F0040",
+        "F0142",
+        "F0050",
+        "F0122",
+        "F0168"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E041",
+        "E012",
+        "E014",
+        "E035",
+        "E048"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-014",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 861,
+      "fact_ids": [
+        "F0152",
+        "F0154",
+        "F0153",
+        "F0177",
+        "F0039",
+        "F0121",
+        "F0029"
+      ],
+      "bridge_fact_ids": [
+        "F0029"
+      ],
+      "entities": [
+        "E044",
+        "E051",
+        "E011",
+        "E035",
+        "E052",
+        "E008",
+        "E000"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-015",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 779,
+      "fact_ids": [
+        "F0042",
+        "F0043",
+        "F0039",
+        "F0038",
+        "F0001",
+        "F0124",
+        "F0029",
+        "F0062"
+      ],
+      "bridge_fact_ids": [
+        "F0029",
+        "F0062"
+      ],
+      "entities": [
+        "E012",
+        "E030",
+        "E011",
+        "E000",
+        "E036",
+        "E008",
+        "E017"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-016",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 690,
+      "fact_ids": [
+        "F0047",
+        "F0050",
+        "F0048",
+        "F0049",
+        "F0064",
+        "F0124",
+        "F0030"
+      ],
+      "bridge_fact_ids": [
+        "F0030"
+      ],
+      "entities": [
+        "E014",
+        "E043",
+        "E018",
+        "E001",
+        "E036",
+        "E008"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-017",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 847,
+      "fact_ids": [
+        "F0004",
+        "F0151",
+        "F0063",
+        "F0005",
+        "F0065",
+        "F0064",
+        "F0029",
+        "F0062",
+        "F0061"
+      ],
+      "bridge_fact_ids": [
+        "F0029",
+        "F0062",
+        "F0061"
+      ],
+      "entities": [
+        "E001",
+        "E043",
+        "E018",
+        "E008",
+        "E000",
+        "E017"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-018",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 703,
+      "fact_ids": [
+        "F0023",
+        "F0000",
+        "F0024",
+        "F0022",
+        "F0079",
+        "F0101",
+        "F0041"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E006",
+        "E043",
+        "E000",
+        "E022",
+        "E029",
+        "E049",
+        "E012",
+        "E052"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-public-019",
+      "tier": "public",
+      "acl_groups": [
+        "grp:public"
+      ],
+      "acl_users": [
+        "u_public_1",
+        "u_public_2",
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 862,
+      "fact_ids": [
+        "F0057",
+        "F0058",
+        "F0045",
+        "F0150",
+        "F0050",
+        "F0123",
+        "F0171",
+        "F0135",
+        "F0136"
+      ],
+      "bridge_fact_ids": [
+        "F0135",
+        "F0136"
+      ],
+      "entities": [
+        "E016",
+        "E013",
+        "E043",
+        "E014",
+        "E036",
+        "E049",
+        "E039"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-team_a-000",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 635,
+      "fact_ids": [
+        "F0185",
+        "F0214",
+        "F0133",
+        "F0054"
+      ],
+      "bridge_fact_ids": [
+        "F0054"
+      ],
+      "entities": [
+        "E054",
+        "E039",
+        "E015"
+      ],
+      "canary_ids": [
+        "C026"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-001",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 688,
+      "fact_ids": [
+        "F0155",
+        "F0210",
+        "F0118",
+        "F0068",
+        "F0069"
+      ],
+      "bridge_fact_ids": [
+        "F0068",
+        "F0069"
+      ],
+      "entities": [
+        "E045",
+        "E034",
+        "E019"
+      ],
+      "canary_ids": [
+        "C022"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-002",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 515,
+      "fact_ids": [
+        "F0133",
+        "F0207",
+        "F0134",
+        "F0185"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E039",
+        "E045",
+        "E054"
+      ],
+      "canary_ids": [
+        "C019"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-003",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 631,
+      "fact_ids": [
+        "F0204",
+        "F0113",
+        "F0108",
+        "F0054"
+      ],
+      "bridge_fact_ids": [
+        "F0054"
+      ],
+      "entities": [
+        "E033",
+        "E032",
+        "E015"
+      ],
+      "canary_ids": [
+        "C016"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-004",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 645,
+      "fact_ids": [
+        "F0109",
+        "F0203",
+        "F0113",
+        "F0054"
+      ],
+      "bridge_fact_ids": [
+        "F0054"
+      ],
+      "entities": [
+        "E032",
+        "E039",
+        "E033",
+        "E015"
+      ],
+      "canary_ids": [
+        "C015"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-005",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "email_thread",
+      "target_words": 694,
+      "fact_ids": [
+        "F0108",
+        "F0059",
+        "F0113",
+        "F0185",
+        "F0069"
+      ],
+      "bridge_fact_ids": [
+        "F0069"
+      ],
+      "entities": [
+        "E032",
+        "E017",
+        "E033",
+        "E054",
+        "E019"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-team_a-006",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 607,
+      "fact_ids": [
+        "F0117",
+        "F0205",
+        "F0060",
+        "F0053"
+      ],
+      "bridge_fact_ids": [
+        "F0053"
+      ],
+      "entities": [
+        "E034",
+        "E017",
+        "E021",
+        "E015"
+      ],
+      "canary_ids": [
+        "C017"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-007",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 590,
+      "fact_ids": [
+        "F0156",
+        "F0188",
+        "F0014",
+        "F0036",
+        "F0037"
+      ],
+      "bridge_fact_ids": [
+        "F0036",
+        "F0037"
+      ],
+      "entities": [
+        "E045",
+        "E004",
+        "E010"
+      ],
+      "canary_ids": [
+        "C000"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-008",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 680,
+      "fact_ids": [
+        "F0074",
+        "F0198",
+        "F0015",
+        "F0053",
+        "F0054"
+      ],
+      "bridge_fact_ids": [
+        "F0053",
+        "F0054"
+      ],
+      "entities": [
+        "E021",
+        "E004",
+        "E015"
+      ],
+      "canary_ids": [
+        "C010"
+      ]
+    },
+    {
+      "doc_id": "d-team_a-009",
+      "tier": "team_a",
+      "acl_groups": [
+        "grp:team_a"
+      ],
+      "acl_users": [
+        "u_team_a_1",
+        "u_team_a_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 507,
+      "fact_ids": [
+        "F0059",
+        "F0195",
+        "F0060",
+        "F0054"
+      ],
+      "bridge_fact_ids": [
+        "F0054"
+      ],
+      "entities": [
+        "E017",
+        "E021",
+        "E015"
+      ],
+      "canary_ids": [
+        "C007"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-000",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 423,
+      "fact_ids": [
+        "F0182",
+        "F0213",
+        "F0051"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E053",
+        "E015"
+      ],
+      "canary_ids": [
+        "C025"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-001",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 549,
+      "fact_ids": [
+        "F0164",
+        "F0145",
+        "F0144"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E047",
+        "E053",
+        "E042"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-team_b-002",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 467,
+      "fact_ids": [
+        "F0194",
+        "F0052",
+        "F0051"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E015",
+        "E042"
+      ],
+      "canary_ids": [
+        "C006"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-003",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 580,
+      "fact_ids": [
+        "F0190",
+        "F0025",
+        "F0051"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E007",
+        "E015"
+      ],
+      "canary_ids": [
+        "C002"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-004",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 509,
+      "fact_ids": [
+        "F0084",
+        "F0067",
+        "F0159",
+        "F0163"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E024",
+        "E019",
+        "E046",
+        "E047"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-team_b-005",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 576,
+      "fact_ids": [
+        "F0159",
+        "F0211",
+        "F0160"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E046",
+        "E053"
+      ],
+      "canary_ids": [
+        "C023"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-006",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 580,
+      "fact_ids": [
+        "F0196",
+        "F0066",
+        "F0028"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E019",
+        "E008"
+      ],
+      "canary_ids": [
+        "C008"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-007",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "email_thread",
+      "target_words": 474,
+      "fact_ids": [
+        "F0212",
+        "F0163",
+        "F0025"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E047",
+        "E007"
+      ],
+      "canary_ids": [
+        "C024"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-008",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "email_thread",
+      "target_words": 469,
+      "fact_ids": [
+        "F0028",
+        "F0191",
+        "F0066"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E008",
+        "E019"
+      ],
+      "canary_ids": [
+        "C003"
+      ]
+    },
+    {
+      "doc_id": "d-team_b-009",
+      "tier": "team_b",
+      "acl_groups": [
+        "grp:team_b"
+      ],
+      "acl_users": [
+        "u_team_b_1",
+        "u_team_b_2",
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 490,
+      "fact_ids": [
+        "F0200",
+        "F0209",
+        "F0028",
+        "F0159"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E024",
+        "E042",
+        "E008",
+        "E046"
+      ],
+      "canary_ids": [
+        "C012",
+        "C021"
+      ]
+    },
+    {
+      "doc_id": "d-exec-000",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 478,
+      "fact_ids": [
+        "F0071",
+        "F0019",
+        "F0197"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E020",
+        "E040",
+        "E005"
+      ],
+      "canary_ids": [
+        "C009"
+      ]
+    },
+    {
+      "doc_id": "d-exec-001",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 511,
+      "fact_ids": [
+        "F0031",
+        "F0192"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E009"
+      ],
+      "canary_ids": [
+        "C004"
+      ]
+    },
+    {
+      "doc_id": "d-exec-002",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 516,
+      "fact_ids": [
+        "F0208",
+        "F0137",
+        "F0087"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E040",
+        "E025"
+      ],
+      "canary_ids": [
+        "C020"
+      ]
+    },
+    {
+      "doc_id": "d-exec-003",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "wiki_page",
+      "target_words": 553,
+      "fact_ids": [
+        "F0034",
+        "F0193",
+        "F0091"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E010",
+        "E026",
+        "E038"
+      ],
+      "canary_ids": [
+        "C005"
+      ]
+    },
+    {
+      "doc_id": "d-exec-004",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 432,
+      "fact_ids": [
+        "F0189",
+        "F0018",
+        "F0070"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E005",
+        "E020"
+      ],
+      "canary_ids": [
+        "C001"
+      ]
+    },
+    {
+      "doc_id": "d-exec-005",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 476,
+      "fact_ids": [
+        "F0201",
+        "F0087",
+        "F0031"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E025",
+        "E009"
+      ],
+      "canary_ids": [
+        "C013"
+      ]
+    },
+    {
+      "doc_id": "d-exec-006",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 543,
+      "fact_ids": [
+        "F0206",
+        "F0130",
+        "F0129"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E038",
+        "E040"
+      ],
+      "canary_ids": [
+        "C018"
+      ]
+    },
+    {
+      "doc_id": "d-exec-007",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "meeting_notes",
+      "target_words": 495,
+      "fact_ids": [
+        "F0080",
+        "F0035",
+        "F0090"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E023",
+        "E010",
+        "E026"
+      ],
+      "canary_ids": []
+    },
+    {
+      "doc_id": "d-exec-008",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "memo",
+      "target_words": 452,
+      "fact_ids": [
+        "F0199",
+        "F0070"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E023",
+        "E020"
+      ],
+      "canary_ids": [
+        "C011"
+      ]
+    },
+    {
+      "doc_id": "d-exec-009",
+      "tier": "exec",
+      "acl_groups": [
+        "grp:exec"
+      ],
+      "acl_users": [
+        "u_exec_1",
+        "u_exec_2"
+      ],
+      "doc_type": "status_report",
+      "target_words": 529,
+      "fact_ids": [
+        "F0091",
+        "F0090",
+        "F0202"
+      ],
+      "bridge_fact_ids": [],
+      "entities": [
+        "E026",
+        "E038"
+      ],
+      "canary_ids": [
+        "C014"
+      ]
+    }
+  ],
+  "entity_docs": {
+    "E036": {
+      "public": [
+        "d-public-000",
+        "d-public-006",
+        "d-public-015",
+        "d-public-016",
+        "d-public-019"
+      ]
+    },
+    "E022": {
+      "public": [
+        "d-public-000",
+        "d-public-012",
+        "d-public-018"
+      ]
+    },
+    "E003": {
+      "public": [
+        "d-public-000",
+        "d-public-006",
+        "d-public-007",
+        "d-public-012"
+      ]
+    },
+    "E018": {
+      "public": [
+        "d-public-000",
+        "d-public-004",
+        "d-public-016",
+        "d-public-017"
+      ]
+    },
+    "E012": {
+      "public": [
+        "d-public-000",
+        "d-public-009",
+        "d-public-010",
+        "d-public-012",
+        "d-public-013",
+        "d-public-015",
+        "d-public-018"
+      ]
+    },
+    "E041": {
+      "public": [
+        "d-public-000",
+        "d-public-001",
+        "d-public-007",
+        "d-public-012",
+        "d-public-013"
+      ]
+    },
+    "E049": {
+      "public": [
+        "d-public-000",
+        "d-public-005",
+        "d-public-008",
+        "d-public-018",
+        "d-public-019"
+      ]
+    },
+    "E037": {
+      "public": [
+        "d-public-000",
+        "d-public-006",
+        "d-public-008",
+        "d-public-009",
+        "d-public-010",
+        "d-public-011"
+      ]
+    },
+    "E047": {
+      "public": [
+        "d-public-000",
+        "d-public-008"
+      ],
+      "team_b": [
+        "d-team_b-001",
+        "d-team_b-004",
+        "d-team_b-007"
+      ]
+    },
+    "E051": {
+      "public": [
+        "d-public-001",
+        "d-public-003",
+        "d-public-014"
+      ]
+    },
+    "E035": {
+      "public": [
+        "d-public-001",
+        "d-public-009",
+        "d-public-013",
+        "d-public-014"
+      ]
+    },
+    "E030": {
+      "public": [
+        "d-public-001",
+        "d-public-003",
+        "d-public-010",
+        "d-public-015"
+      ]
+    },
+    "E044": {
+      "public": [
+        "d-public-001",
+        "d-public-003",
+        "d-public-005",
+        "d-public-014"
+      ]
+    },
+    "E008": {
+      "public": [
+        "d-public-001",
+        "d-public-006",
+        "d-public-007",
+        "d-public-011",
+        "d-public-012",
+        "d-public-014",
+        "d-public-015",
+        "d-public-016",
+        "d-public-017"
+      ],
+      "team_b": [
+        "d-team_b-006",
+        "d-team_b-008",
+        "d-team_b-009"
+      ]
+    },
+    "E000": {
+      "public": [
+        "d-public-001",
+        "d-public-002",
+        "d-public-004",
+        "d-public-006",
+        "d-public-011",
+        "d-public-012",
+        "d-public-014",
+        "d-public-015",
+        "d-public-017",
+        "d-public-018"
+      ]
+    },
+    "E017": {
+      "public": [
+        "d-public-001",
+        "d-public-002",
+        "d-public-005",
+        "d-public-010",
+        "d-public-015",
+        "d-public-017"
+      ],
+      "team_a": [
+        "d-team_a-005",
+        "d-team_a-006",
+        "d-team_a-009"
+      ]
+    },
+    "E048": {
+      "public": [
+        "d-public-002",
+        "d-public-003",
+        "d-public-004",
+        "d-public-009",
+        "d-public-013"
+      ]
+    },
+    "E016": {
+      "public": [
+        "d-public-002",
+        "d-public-019"
+      ]
+    },
+    "E014": {
+      "public": [
+        "d-public-002",
+        "d-public-003",
+        "d-public-013",
+        "d-public-016",
+        "d-public-019"
+      ]
+    },
+    "E028": {
+      "public": [
+        "d-public-002",
+        "d-public-004",
+        "d-public-005",
+        "d-public-008",
+        "d-public-011"
+      ]
+    },
+    "E050": {
+      "public": [
+        "d-public-002",
+        "d-public-007",
+        "d-public-008",
+        "d-public-010",
+        "d-public-011"
+      ]
+    },
+    "E043": {
+      "public": [
+        "d-public-002",
+        "d-public-004",
+        "d-public-006",
+        "d-public-007",
+        "d-public-009",
+        "d-public-010",
+        "d-public-016",
+        "d-public-017",
+        "d-public-018",
+        "d-public-019"
+      ]
+    },
+    "E052": {
+      "public": [
+        "d-public-003",
+        "d-public-004",
+        "d-public-009",
+        "d-public-014",
+        "d-public-018"
+      ]
+    },
+    "E002": {
+      "public": [
+        "d-public-003",
+        "d-public-005",
+        "d-public-010"
+      ]
+    },
+    "E031": {
+      "public": [
+        "d-public-003",
+        "d-public-004",
+        "d-public-007",
+        "d-public-010"
+      ]
+    },
+    "E046": {
+      "public": [
+        "d-public-004"
+      ],
+      "team_b": [
+        "d-team_b-004",
+        "d-team_b-005",
+        "d-team_b-009"
+      ]
+    },
+    "E013": {
+      "public": [
+        "d-public-005",
+        "d-public-006",
+        "d-public-019"
+      ]
+    },
+    "E027": {
+      "public": [
+        "d-public-005",
+        "d-public-006",
+        "d-public-007"
+      ]
+    },
+    "E011": {
+      "public": [
+        "d-public-007",
+        "d-public-014",
+        "d-public-015"
+      ]
+    },
+    "E029": {
+      "public": [
+        "d-public-008",
+        "d-public-009",
+        "d-public-011",
+        "d-public-018"
+      ]
+    },
+    "E001": {
+      "public": [
+        "d-public-009",
+        "d-public-016",
+        "d-public-017"
+      ]
+    },
+    "E006": {
+      "public": [
+        "d-public-009",
+        "d-public-018"
+      ]
+    },
+    "E039": {
+      "public": [
+        "d-public-019"
+      ],
+      "team_a": [
+        "d-team_a-000",
+        "d-team_a-002",
+        "d-team_a-004"
+      ]
+    },
+    "E054": {
+      "team_a": [
+        "d-team_a-000",
+        "d-team_a-002",
+        "d-team_a-005"
+      ]
+    },
+    "E015": {
+      "team_a": [
+        "d-team_a-000",
+        "d-team_a-003",
+        "d-team_a-004",
+        "d-team_a-006",
+        "d-team_a-008",
+        "d-team_a-009"
+      ],
+      "team_b": [
+        "d-team_b-000",
+        "d-team_b-002",
+        "d-team_b-003"
+      ]
+    },
+    "E045": {
+      "team_a": [
+        "d-team_a-001",
+        "d-team_a-002",
+        "d-team_a-007"
+      ]
+    },
+    "E034": {
+      "team_a": [
+        "d-team_a-001",
+        "d-team_a-006"
+      ]
+    },
+    "E019": {
+      "team_a": [
+        "d-team_a-001",
+        "d-team_a-005"
+      ],
+      "team_b": [
+        "d-team_b-004",
+        "d-team_b-006",
+        "d-team_b-008"
+      ]
+    },
+    "E033": {
+      "team_a": [
+        "d-team_a-003",
+        "d-team_a-004",
+        "d-team_a-005"
+      ]
+    },
+    "E032": {
+      "team_a": [
+        "d-team_a-003",
+        "d-team_a-004",
+        "d-team_a-005"
+      ]
+    },
+    "E021": {
+      "team_a": [
+        "d-team_a-006",
+        "d-team_a-008",
+        "d-team_a-009"
+      ]
+    },
+    "E004": {
+      "team_a": [
+        "d-team_a-007",
+        "d-team_a-008"
+      ]
+    },
+    "E010": {
+      "team_a": [
+        "d-team_a-007"
+      ],
+      "exec": [
+        "d-exec-003",
+        "d-exec-007"
+      ]
+    },
+    "E053": {
+      "team_b": [
+        "d-team_b-000",
+        "d-team_b-001",
+        "d-team_b-005"
+      ]
+    },
+    "E042": {
+      "team_b": [
+        "d-team_b-001",
+        "d-team_b-002",
+        "d-team_b-009"
+      ]
+    },
+    "E007": {
+      "team_b": [
+        "d-team_b-003",
+        "d-team_b-007"
+      ]
+    },
+    "E024": {
+      "team_b": [
+        "d-team_b-004",
+        "d-team_b-009"
+      ]
+    },
+    "E020": {
+      "exec": [
+        "d-exec-000",
+        "d-exec-004",
+        "d-exec-008"
+      ]
+    },
+    "E040": {
+      "exec": [
+        "d-exec-000",
+        "d-exec-002",
+        "d-exec-006"
+      ]
+    },
+    "E005": {
+      "exec": [
+        "d-exec-000",
+        "d-exec-004"
+      ]
+    },
+    "E009": {
+      "exec": [
+        "d-exec-001",
+        "d-exec-005"
+      ]
+    },
+    "E025": {
+      "exec": [
+        "d-exec-002",
+        "d-exec-005"
+      ]
+    },
+    "E026": {
+      "exec": [
+        "d-exec-003",
+        "d-exec-007",
+        "d-exec-009"
+      ]
+    },
+    "E038": {
+      "exec": [
+        "d-exec-003",
+        "d-exec-006",
+        "d-exec-009"
+      ]
+    },
+    "E023": {
+      "exec": [
+        "d-exec-007",
+        "d-exec-008"
+      ]
+    }
+  },
+  "planned_docs": {
+    "E036": 5,
+    "E022": 3,
+    "E003": 4,
+    "E018": 4,
+    "E012": 7,
+    "E041": 5,
+    "E049": 5,
+    "E037": 6,
+    "E047": 5,
+    "E051": 3,
+    "E035": 4,
+    "E030": 4,
+    "E044": 4,
+    "E008": 12,
+    "E000": 10,
+    "E017": 9,
+    "E048": 5,
+    "E016": 2,
+    "E014": 5,
+    "E028": 5,
+    "E050": 5,
+    "E043": 10,
+    "E052": 5,
+    "E002": 3,
+    "E031": 4,
+    "E046": 4,
+    "E013": 3,
+    "E027": 3,
+    "E011": 3,
+    "E029": 4,
+    "E001": 3,
+    "E006": 2,
+    "E039": 4,
+    "E054": 3,
+    "E015": 9,
+    "E045": 3,
+    "E034": 2,
+    "E019": 5,
+    "E033": 3,
+    "E032": 3,
+    "E021": 3,
+    "E004": 2,
+    "E010": 3,
+    "E053": 3,
+    "E042": 3,
+    "E007": 2,
+    "E024": 2,
+    "E020": 3,
+    "E040": 3,
+    "E005": 2,
+    "E009": 2,
+    "E025": 2,
+    "E026": 3,
+    "E038": 3,
+    "E023": 2
+  },
+  "predicted_regime": {
+    "E036": "concatenated",
+    "E022": "concatenated",
+    "E003": "concatenated",
+    "E018": "concatenated",
+    "E012": "concatenated",
+    "E041": "concatenated",
+    "E049": "concatenated",
+    "E037": "concatenated",
+    "E047": "concatenated",
+    "E051": "concatenated",
+    "E035": "concatenated",
+    "E030": "concatenated",
+    "E044": "concatenated",
+    "E008": "summarized",
+    "E000": "summarized",
+    "E017": "summarized",
+    "E048": "concatenated",
+    "E016": "concatenated",
+    "E014": "concatenated",
+    "E028": "concatenated",
+    "E050": "concatenated",
+    "E043": "summarized",
+    "E052": "concatenated",
+    "E002": "concatenated",
+    "E031": "concatenated",
+    "E046": "concatenated",
+    "E013": "concatenated",
+    "E027": "concatenated",
+    "E011": "concatenated",
+    "E029": "concatenated",
+    "E001": "concatenated",
+    "E006": "concatenated",
+    "E039": "concatenated",
+    "E054": "concatenated",
+    "E015": "summarized",
+    "E045": "concatenated",
+    "E034": "concatenated",
+    "E019": "concatenated",
+    "E033": "concatenated",
+    "E032": "concatenated",
+    "E021": "concatenated",
+    "E004": "concatenated",
+    "E010": "concatenated",
+    "E053": "concatenated",
+    "E042": "concatenated",
+    "E007": "concatenated",
+    "E024": "concatenated",
+    "E020": "concatenated",
+    "E040": "concatenated",
+    "E005": "concatenated",
+    "E009": "concatenated",
+    "E025": "concatenated",
+    "E026": "concatenated",
+    "E038": "concatenated",
+    "E023": "concatenated"
+  },
+  "canary_doc": {
+    "C026": "d-team_a-000",
+    "C022": "d-team_a-001",
+    "C019": "d-team_a-002",
+    "C016": "d-team_a-003",
+    "C015": "d-team_a-004",
+    "C017": "d-team_a-006",
+    "C000": "d-team_a-007",
+    "C010": "d-team_a-008",
+    "C007": "d-team_a-009",
+    "C025": "d-team_b-000",
+    "C006": "d-team_b-002",
+    "C002": "d-team_b-003",
+    "C023": "d-team_b-005",
+    "C008": "d-team_b-006",
+    "C024": "d-team_b-007",
+    "C003": "d-team_b-008",
+    "C012": "d-team_b-009",
+    "C021": "d-team_b-009",
+    "C009": "d-exec-000",
+    "C004": "d-exec-001",
+    "C020": "d-exec-002",
+    "C005": "d-exec-003",
+    "C001": "d-exec-004",
+    "C013": "d-exec-005",
+    "C018": "d-exec-006",
+    "C011": "d-exec-008",
+    "C014": "d-exec-009"
+  },
+  "shortfalls": [],
+  "stats": {
+    "docs_per_tier": {
+      "public": 20,
+      "team_a": 10,
+      "team_b": 10,
+      "exec": 10
+    },
+    "facts_per_doc": {
+      "public": 7.7,
+      "team_a": 4.4,
+      "team_b": 3.2,
+      "exec": 2.8
+    },
+    "entities_per_doc": {
+      "public": 7.25,
+      "team_a": 3.4,
+      "team_b": 2.5,
+      "exec": 2.2
+    },
+    "words_total": 32577,
+    "cross_regime": {
+      "hub_summarized": 3,
+      "hub_not_summarized": 0,
+      "nonhub_concatenated": 5,
+      "nonhub_summarized": 0
+    },
+    "n_shortfalls": 0
+  }
+}

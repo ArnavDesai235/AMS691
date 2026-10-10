@@ -1,0 +1,38 @@
+Data Retention Tooling Status Report for the Paskian Platform Group
+
+**Distribution: Restricted. Please do not forward beyond the named recipients.**
+
+## Summary
+
+This report covers the current state of data retention tooling work at Zastama Industries. The Paskian Platform Group is headed by Pethisa Hebroren, who focuses on data retention tooling. Overall, the effort is moving steadily. The core design questions have been narrowed, and the remaining work is mostly about validation, documentation, and agreeing on rollout sequencing with the teams that will depend on the tooling. Because this report goes to a small audience, it includes candid notes on open concerns that we would not yet put in a broader update.
+
+## Progress
+
+**Ownership and funding.** Spending for the work is tracked under a single budget line. The budget code for Pethisa Hebroren is SP-9062-V, and all related costs continue to be reported against it. The finance lead has not raised any reconciliation issues this period.
+
+**Tooling work.** The group has continued refining how retention rules are defined, applied, and audited. Work this period centered on making policy definitions easier to review, tightening the way deletion and archival actions are logged, and clarifying which datasets fall under which rules. Early internal testing has surfaced several edge cases around datasets with mixed retention requirements, and these are being triaged.
+
+**Analytical support.** Thikama Harlurine, a Data Scientist who joined the company in 2023, has been supporting the effort by examining how data is actually used and aged across the datasets in scope. Her analysis is informing which retention categories are practical and where the current definitions are too coarse. Her findings have been shared with the group in working sessions and are feeding directly into the next revision of the rule definitions.
+
+**Coordination.** Discussions with legal and compliance contacts have continued. The main outcome is a shared understanding of the review process for any retention rule that changes how long sensitive records are kept. A security reviewer has also asked to see the audit logging approach before it is finalized.
+
+## Risks
+
+1. **Ambiguous requirements.** Some retention obligations are interpreted differently by different stakeholders. If these are not resolved soon, rules may need to be reworked after testing, which would cost time.
+2. **Dataset complexity.** Datasets with mixed requirements may need to be split or tagged more granularly. This could expand scope if the number of affected datasets is larger than expected.
+3. **Dependency timing.** Downstream teams have their own priorities, and their availability for integration testing is uncertain. Delays there could push back the rollout sequence.
+4. **Irreversible actions.** Deletion is inherently hard to undo. Until safeguards and review steps are fully validated, we are keeping the tooling in a conservative, non-destructive mode for anything beyond test data.
+5. **Capacity.** Analytical and engineering effort is concentrated among a few people. Absence or competing requests could slow progress.
+
+## Next Steps
+
+- Resolve the open interpretation questions with legal and compliance, and record the decisions in writing.
+- Incorporate the latest usage analysis from Thikama Harlurine into a revised set of retention categories.
+- Complete the review of audit logging with the security reviewer and address any feedback.
+- Triage and close out the edge cases found in early testing, prioritizing those involving mixed retention requirements.
+- Agree on a rollout sequence with downstream teams, including a clear checkpoint before any destructive action is enabled outside of test data.
+- Prepare a short follow-up for the next reporting period, covering decisions made, remaining risks, and any change in resourcing needs.
+
+## Closing Note
+
+Pethisa Hebroren and the Paskian Platform Group will flag any item that threatens the planned sequence as soon as it is identified, rather than waiting for the next scheduled report. Questions about this report can be directed to the group directly. Please keep the contents within the restricted audience, as several items remain under discussion and are subject to change.

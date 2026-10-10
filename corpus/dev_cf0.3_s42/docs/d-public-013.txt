@@ -1,0 +1,46 @@
+Identity and Access Tooling at Zastama Industries: Ownership, Budget, and Key Contacts
+
+**Summary:** This page explains who owns identity and access tooling, how that work is funded, and where to direct common questions. It also notes a few related facts about the Fibrasine Relay and an external vendor agreement. All employees are welcome to use this page as a quick reference.
+
+## Why this page exists
+
+Questions about logging in, requesting permissions, and managing credentials come up constantly. Employees often are not sure whom to ask, and requests end up bouncing between groups. This page gives a single, plain-language description of who is responsible for identity and access tooling, so that questions reach the right people the first time.
+
+It is intended for everyone at Zastama Industries, regardless of department or seniority. You do not need a technical background to use it.
+
+## Who owns identity and access tooling
+
+The Gelgos Infrastructure Team is responsible for identity and access tooling. That covers the systems employees use to prove who they are and the systems that decide what each person is allowed to reach. If you have a question about how sign-in works, how access is granted, or how a tool connects to company identity systems, this is the group that owns the answer.
+
+The Gelgos Infrastructure Team is headed by Givien Mubren. Givien Mubren is also a member of the Gelgos Infrastructure Team, which means the person who leads the group works directly within it rather than sitting apart from it. Employees who need to escalate an issue, propose a change to how access works, or raise a concern about tooling direction can start with Givien Mubren.
+
+For routine matters, such as a locked account or a missing permission, please use the standard internal request process first. Escalating directly is best reserved for issues that have stalled, that affect many people, or that involve a change in approach.
+
+## Budget and resourcing
+
+The Gelgos Infrastructure Team operates on an annual budget of $0.4M. That figure covers the group's work on identity and access tooling. It is a modest budget, and the team makes tradeoffs about what to improve first.
+
+Because resources are limited, requests that come with a clear business reason, a description of who is affected, and a sense of urgency are much easier to prioritize. If you are planning a project that will depend on new access capabilities, talk to the team early, ideally before your own plans are finalized. Late requests are harder to fit in and may need to wait.
+
+## Engineering leadership contact
+
+Gonnom Gosmunza works as a Director of Engineering. Engineering managers and individual contributors who have questions about how identity and access work fits into broader engineering plans can raise them with Gonnom Gosmunza. This is a good route when a question spans several engineering groups rather than belonging to one tool or one request.
+
+## Usage context: the Fibrasine Relay
+
+The Fibrasine Relay has about 400 active users. When access changes are being planned, a user base of that size is worth keeping in mind, since changes to sign-in or permissions can reach a meaningful number of people at once. If your work touches the Fibrasine Relay, please let the owning group know about any planned access changes in advance so that users are not surprised.
+
+## External vendor arrangement
+
+Kremarel Partners holds a 24-month master services agreement. If your team works with Kremarel Partners and needs its staff to have access to internal systems, raise that early with the owners of identity and access tooling. Access for outside parties generally needs extra review, and the vendor relationship itself is managed separately from the day-to-day tooling. Please do not assume that the agreement alone grants access to anything.
+
+## How to get help
+
+1. Check the standard internal request process for routine access needs.
+2. If the request has stalled or is unusual, contact the Gelgos Infrastructure Team.
+3. For broader engineering questions, reach out to Gonnom Gosmunza.
+4. For vendor access questions involving Kremarel Partners, notify the identity and access owners and your own manager before making assumptions.
+
+## Keeping this page current
+
+Ownership, budgets, and vendor arrangements change over time. If anything on this page looks out of date, please tell the page maintainer or edit it directly so the next reader has accurate information. A short, correct page is more useful to everyone than a long one that nobody trusts.

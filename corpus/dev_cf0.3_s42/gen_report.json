@@ -1,0 +1,70 @@
+{
+  "n_docs_planned": 50,
+  "n_docs_ok": 50,
+  "failed": [],
+  "attempts_hist": {
+    "1": 46,
+    "2": 4
+  },
+  "first_try_violation_types": {
+    "canary": 3,
+    "short": 1
+  },
+  "cost_usd_this_run": 0.0,
+  "plan_stats": {
+    "docs_per_tier": {
+      "public": 20,
+      "team_a": 10,
+      "team_b": 10,
+      "exec": 10
+    },
+    "facts_per_doc": {
+      "public": 7.7,
+      "team_a": 4.4,
+      "team_b": 3.2,
+      "exec": 2.8
+    },
+    "entities_per_doc": {
+      "public": 7.25,
+      "team_a": 3.4,
+      "team_b": 2.5,
+      "exec": 2.2
+    },
+    "words_total": 32577,
+    "cross_regime": {
+      "hub_summarized": 3,
+      "hub_not_summarized": 0,
+      "nonhub_concatenated": 5,
+      "nonhub_summarized": 0
+    },
+    "n_shortfalls": 0
+  },
+  "fact_stats": {
+    "n_entities": 55,
+    "n_by_class": {
+      "public_only": 28,
+      "cross_tier": 8,
+      "restricted_only": 19
+    },
+    "n_restricted_pool": 27,
+    "n_qc_clean": 8,
+    "cross_tier_fraction_config": 0.3,
+    "cross_tier_fraction_realized": 0.2963,
+    "n_cross_hub": 3,
+    "n_cross_sibling": 3,
+    "n_facts_by_role": {
+      "public": 87,
+      "lower": 16,
+      "restricted": 43,
+      "canary": 27
+    },
+    "n_canaries_by_kind": {
+      "contamination": 8,
+      "structural": 19
+    },
+    "n_restricted_only_with_cross_neighbor": 7,
+    "excluded_from_accounting": [
+      "Zastama Industries"
+    ]
+  }
+}

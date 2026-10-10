@@ -1,0 +1,4 @@
+.llm_cache*/
+corpus/mock_*/
+__pycache__/
+*.pyc

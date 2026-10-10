@@ -1,0 +1,44 @@
+Restricted Planning Sync: Field Capacity, Audit Follow-up, and Relay Readiness
+
+**Date:** 2026-10-09
+**Attendees:** Operations lead, finance representative, facilities representative, audit coordinator, program manager, Liluan Nemlurel
+**Distribution:** Restricted. Please do not forward beyond the attendee list or post to shared channels.
+
+## Purpose
+
+This was a short working session at Zastama Industries to align on three items that touch one another: seating capacity at a field location, an open audit finding, and the readiness picture for an upcoming launch. Because some of the discussion involved unresolved audit matters, the notes are limited to the people in the room.
+
+## Discussion Points
+
+**1. Field capacity.** The facilities representative confirmed that the Renzer Field Office has capacity for 240 seats. The operations lead asked whether that figure reflects the layout as it stands today or a theoretical maximum. The facilities representative said it is the working figure used for planning and that any change to the floor layout would need to be reviewed before the number is restated. The finance representative noted that cost planning should keep using this figure until told otherwise.
+
+**2. Audit follow-up.** The audit coordinator reminded the group that the audit finding for the Renzer Field Office is tracked under ID TM-1841-G, and that the finding is the reference point for all remediation conversations. The group agreed that discussion of the finding should stay inside this circle until the remediation approach is settled. The audit coordinator will collect supporting documentation from the facilities side, and the operations lead will confirm who owns each remediation step. Some attendees raised concern that capacity decisions and remediation could collide, so the two workstreams will be reviewed together rather than separately.
+
+**3. Launch readiness.** The program manager reported that the Feltarel Relay is scheduled to launch in Q4 FY26. The discussion focused on whether staffing and seating plans at field locations are sensible given that timing. The finance representative asked what assumptions sit behind the demand picture, and the program manager explained that Liluan Nemlurel focuses on demand forecasting models. Liluan Nemlurel agreed to walk the group through the main assumptions and limits of those models, including where the inputs are weakest, so that planning does not lean on false precision.
+
+**4. Risks raised.**
+- Remediation work could pull attention away from launch preparation if the two are not sequenced.
+- Demand estimates may shift as launch timing approaches, so capacity assumptions should be revisited at a regular cadence.
+- Documentation gaps on the facilities side could slow closure of the audit finding.
+
+## Decisions
+
+- Planning will continue to use the 240-seat figure for the Renzer Field Office until the facilities representative formally restates it.
+- The audit finding and capacity planning will be reviewed in a single combined session going forward.
+- The launch timing for the Feltarel Relay remains Q4 FY26 for all planning purposes in this group.
+- Details of the audit finding stay restricted to this attendee list for now.
+
+## Action Items
+
+| Owner | Action |
+|---|---|
+| Audit coordinator | Gather supporting documentation from facilities and consolidate it for the next session |
+| Operations lead | Confirm an owner for each remediation step and report back |
+| Facilities representative | Verify whether the seat figure reflects the current layout and flag any pending layout changes |
+| Liluan Nemlurel | Prepare a brief walkthrough of forecasting model assumptions, limits, and weak inputs |
+| Finance representative | Review cost planning assumptions against the seat figure and the launch timing |
+| Program manager | Draft a combined timeline showing remediation steps alongside launch preparation milestones |
+
+## Next Steps
+
+The group will reconvene once the documentation has been gathered and the forecasting walkthrough is ready. The program manager will circulate the combined timeline to attendees ahead of that meeting. Anything that needs wider visibility should be raised with the operations lead first, who will decide what is shared and with whom.

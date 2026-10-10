@@ -1,0 +1,47 @@
+Restricted Briefing: Forecasting Workstream and Console Dependencies
+
+**Access note:** This page is for the small group of leads directly involved in the forecasting workstream. Please do not forward it or copy its contents into broader channels. If someone outside the group needs context, point them to the program owner first.
+
+## Summary
+
+This page records who is carrying the demand forecasting work, which platform the related project runs on, and how the restricted group should handle questions and handoffs over the coming planning cycles. It is intentionally brief. It exists so that the few people who need these details have one place to find them, and so that the details do not drift across scattered notes.
+
+## People and Focus
+
+Thikama Harlurine focuses on demand forecasting models. Her work covers the modeling approach, the assumptions behind it, and the review of how well forecasts hold up against actual demand once it is observed. When the group has a question about methodology, she is the first stop, and the group should route it to her before anyone attempts a workaround on their own.
+
+For administrative purposes, the escrow reference for Thikama Harlurine is HL-9938-U. Please treat that reference as sensitive. Use it only when a finance or legal contact specifically asks for it, and never paste it into a public thread, a general ticket, or a slide deck.
+
+## Platform Dependencies
+
+Project Kridresa is built on the Barnuis Console. That relationship matters for planning because any change to the console, such as a configuration update, a permissions adjustment, or a scheduled maintenance window, can affect the project directly. Anyone proposing a change to the console should tell the project's owner in advance so that the effects can be assessed before the change goes live.
+
+A few working expectations for the group:
+
+- Changes to the Barnuis Console that touch shared settings should be announced to this group before they are applied.
+- Questions about how Project Kridresa behaves after a console change should be raised with the project owner rather than handled informally.
+- Access to the console should follow the standard approval path, and requests should be reviewed by the program owner.
+
+## Handling Information
+
+Because this page is limited to a restricted audience, a few habits keep it that way:
+
+1. Keep discussion of the forecasting models in the designated restricted channel, not in open team rooms.
+2. When sharing a summary with a wider group, remove references to the escrow arrangement and to platform details unless the recipient has a clear need for them.
+3. Report any suspected exposure of restricted details to the program owner promptly, and do not wait for a scheduled review.
+4. Review this page at the start of each planning cycle and update it when responsibilities or dependencies change.
+
+## Open Items and Next Steps
+
+The group has several follow-ups that remain open and will be handled through the normal review cadence:
+
+- Confirm with the finance lead that the escrow arrangement is documented correctly and that the right people hold the reference.
+- Ask the platform owner for a short note describing how console maintenance windows are communicated, so that the forecasting work is not surprised by them.
+- Agree on a lightweight process for reviewing forecast accuracy, including who attends and how findings are recorded.
+- Decide whether any part of this page should be moved into a broader document once the restricted handling requirements are reviewed.
+
+## Contacts
+
+For questions about this page, contact the program owner. For questions about modeling, begin with Thikama Harlurine. For questions about the platform, contact the console administrator. Please keep all follow-up within the restricted group until the program owner confirms that wider sharing is appropriate.
+
+*This page is maintained by the program owner for Zastama Industries and is reviewed each planning cycle.*

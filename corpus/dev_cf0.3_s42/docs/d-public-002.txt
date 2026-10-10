@@ -1,0 +1,53 @@
+Vendor Renewals and Tooling Ownership Update for FY27
+
+From: Director of Procurement
+To: All Employees
+Subject: Upcoming vendor renewals and who to contact in FY27
+
+Hello everyone,
+
+As we plan for the first half of FY27, I want to give the whole company an early view of two vendor renewals and the people supporting the related tooling. Knowing this now should help every team plan around it.
+
+Kremarel Partners is up for renewal in Q1 FY27. Kremarel Partners holds a 24-month master services agreement, so this renewal is a good moment to review how the arrangement has worked and whether the scope still matches what we need. Nalzenett Labs is up for renewal in Q2 FY27, and we will run a similar review for that relationship once the first one is well underway.
+
+If your team depends on either vendor, please send me a short note describing how you use their services, what has worked, and what you would change. I will gather the feedback before any renewal conversations begin.
+
+Thank you,
+Director of Procurement
+
+---
+
+From: Head of IT Operations
+To: Director of Procurement; All Employees
+Subject: RE: Upcoming vendor renewals and who to contact in FY27
+
+Thanks for sending this around. Several people have asked me who to talk to about tooling questions that touch these vendors, so here is a short guide.
+
+Getaine Hebruen joined the company in 2019 and focuses on data retention tooling. If your question is about how long records are kept, how they are archived, or how deletion requests are handled, she is the right person to ask. Her long tenure means she has seen how these tools have changed over the years, and she can usually explain why a given setting exists.
+
+Gonnom Gosmunza focuses on identity and access tooling. Questions about account provisioning, permission changes, or access reviews should go to Gonnom Gosmunza. Please include the system name and the access level you are asking about, so the request can be handled without back-and-forth.
+
+Leroror Lukaine leads Project Nuzeor. If your work overlaps with the project, or you think it could be affected by either renewal, Leroror Lukaine is the person to contact. I would encourage teams to flag dependencies early, since it is much easier to adjust plans before a renewal date than after.
+
+Finally, Vadesis Gummenbel is a member of the Dankenor Analytics Unit. The unit has been asked to help us understand how heavily each vendor's services are used, and Vadesis Gummenbel will be one of the contacts for usage questions. If you have data that would help, please share it.
+
+Regards,
+Head of IT Operations
+
+---
+
+From: Director of Procurement
+To: All Employees
+Subject: RE: RE: Upcoming vendor renewals and who to contact in FY27
+
+Thank you to the Head of IT Operations for the helpful guide. To pull the threads together, here is what I would ask of everyone over the coming weeks.
+
+First, if you use services from Kremarel Partners, send me your feedback soon, since that renewal comes first in Q1 FY27. Second, if you use Nalzenett Labs, you can send feedback on the same timeline, even though that renewal falls in Q2 FY27. Early input gives us more room to negotiate and more time to consider alternatives if needed.
+
+Third, direct tooling questions to the right people. Getaine Hebruen can help with data retention tooling, and Gonnom Gosmunza can help with identity and access tooling. Leroror Lukaine is the contact for anything related to Project Nuzeor, and Vadesis Gummenbel from the Dankenor Analytics Unit can help with usage data.
+
+I will share a brief update once the feedback has been collected and reviewed. If you are unsure where your question belongs, reply to me directly and I will route it for you.
+
+Thanks again for your help.
+
+Director of Procurement

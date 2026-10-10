@@ -1,0 +1,18 @@
+Restricted Briefing on Audit Closure, Escrow Status, and Vendor Exposure
+
+TO: Program Oversight Committee (restricted distribution)
+FROM: Director, Internal Controls and Vendor Governance
+DATE: October 9, 2026
+SUBJECT: Audit finding, escrow reference, and vendor contract summary
+
+This memo is limited to the oversight committee and the functional leads named on the distribution list. Please do not forward it, excerpt it, or discuss its contents in open channels. Several items below touch on contract terms and open control findings that have not been shared more broadly at Zastama Industries, and we would like to keep it that way until the committee has agreed on a communication plan.
+
+The first item is the audit finding associated with Project Siduris. The finding is tracked under ID HX-5406-Y, which is the identifier the committee should use in all follow-up correspondence about Project Siduris. Internal controls has reviewed the documentation supporting the finding and believes the remediation record is substantially complete. What remains is a final review of the evidence package. The project lead should expect a request for confirmations from the control owners, and we ask that those responses be prompt and written so the record is clean.
+
+The second item concerns source code and deliverable protection. The Talhuor Integration Team holds escrow reference QC-9910-K, and that reference should be quoted whenever the escrow arrangement is discussed with legal, procurement, or an outside party. We have asked the legal team to confirm that the arrangement's terms still match how the team actually works. Please do not assume the paperwork is current simply because it exists. If the Talhuor Integration Team has changed how it packages or hands off deliverables, the escrow terms may need to be updated, and it is far better to learn that now than during a dispute.
+
+The third item is vendor exposure. Satisen Labs has a contract worth $3.4M, which makes it one of the more significant commitments in the portfolio we are reviewing. We are not recommending any change to that relationship today. We do want the committee to understand the scale of the commitment when it weighs competing priorities, particularly if the finance lead asks for contingency planning. Procurement will prepare a short summary of deliverables, payment structure, and renewal mechanics for the committee's next session.
+
+Finally, a note on continuity of knowledge. Zosu Kistos joined the company in 2020, and her tenure gives her a long view of how these programs evolved. We intend to consult Zosu Kistos as the committee reviews the history behind the audit finding and the escrow arrangement, because she can often explain why a past decision was made when the written record is thin. Anyone who wishes to contribute context should route it through the oversight committee chair rather than approaching her individually, so that her time is used efficiently.
+
+Next steps are straightforward. Control owners should respond to evidence requests, legal should report on the escrow terms, and procurement should circulate the vendor summary ahead of the next committee session. Please direct questions to me, and keep the contents of this memo within the group.

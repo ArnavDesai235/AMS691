@@ -1,0 +1,22 @@
+Restricted Distribution Notice: Warehouse Automation Access Coordination
+
+TO: Facilities Security Lead; Warehouse Operations Manager; Systems Integration Lead
+FROM: Director of Operations Planning
+DATE: October 9, 2026
+SUBJECT: Access Coordination for Warehouse Automation Work
+
+This memo is intended for the three recipients above only. Please do not forward it, summarize it in broader channels, or discuss its contents outside your own direct reporting lines. The purpose is to align the groups responsible for physical access and operational readiness around a single point of contact on warehouse automation efforts at Zastama Industries.
+
+Stethe Birnaen focuses on warehouse automation. Because her work touches both physical spaces and connected equipment, several of you will be asked in the coming weeks to support her requests, and I want those requests handled consistently rather than through separate informal conversations. For reference, the access badge series for Stethe Birnaen is DV-1700-A, and that is the series security should expect to see when verifying entitlements or reviewing entry logs associated with her work.
+
+I am asking each of you to take on a specific piece of the coordination. The Facilities Security Lead should confirm that the badge series already on file matches what is recorded in the access control system and flag any discrepancy to me directly, rather than correcting it unilaterally. Please also review which zones that series can currently enter and tell me whether any of them seem broader than the work requires. We want access to be sufficient for the task and no wider.
+
+The Warehouse Operations Manager should identify the floor areas, shift windows, and equipment constraints that will matter most when automation-related activity is scheduled. Operational continuity comes first, so any activity that could interrupt picking, packing, or receiving needs to be planned with your team and not announced to it after the fact. If you foresee conflicts, bring them to me early so we can sequence the work sensibly.
+
+The Systems Integration Lead should outline which control systems, data feeds, and network segments are likely to be involved, and what review steps apply before anything connects to them. I would like a short, plain-language description of the dependencies, written so that non-technical readers in this group can follow it. Where an approval is required from another function, name the function and the expected turnaround so that we do not discover delays late.
+
+A few ground rules apply to everyone. Requests connected to this work should come through me or through a designated delegate, and verbal approvals should be followed by a written confirmation. If anyone is asked to grant access outside the existing badge entitlements, decline politely and refer the requester back to me. Any security concern, however minor, should be raised immediately instead of being held for a later meeting.
+
+I recognize that restricting this memo to a small audience may feel unusual. The reason is simply that planning is still at an early stage, and I would prefer not to create expectations or speculation before the scope is settled. Once the plan firms up, I will share an appropriate summary more widely.
+
+Please send me your initial input by the end of next week, even if it is incomplete. A brief written note is enough. We will then schedule a short working session to resolve open questions and agree on next steps. Thank you for handling this carefully and for keeping it within the group.

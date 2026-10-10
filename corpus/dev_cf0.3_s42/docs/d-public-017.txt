@@ -1,0 +1,51 @@
+Dankenor Analytics Unit: Who We Are and How to Work With Us
+
+## Summary
+
+This page gives everyone at Zastama Industries a plain-language overview of the Dankenor Analytics Unit: who is in it, how reporting lines work, and how colleagues elsewhere in the company can work with it. The Dankenor Analytics Unit has 38 people. It brings together architecture, planning, and modeling skills so that business questions can be answered with evidence rather than guesswork.
+
+## Purpose of this page
+
+Employees regularly ask who to contact about forecasting, data questions, or analytics requests. Until now the answers lived in scattered chat threads and personal notes. This page collects the essentials in one place so that new joiners and long-serving staff alike can find the right person quickly. It is meant as an orientation guide, not an org chart of record. If something here looks out of date, tell the page owner so it can be corrected.
+
+## Unit overview
+
+The Dankenor Analytics Unit has 38 people, and its members come from a mix of technical and operational backgrounds. Some build models, some design the systems those models run in, and some keep priorities, communication, and decisions moving across the wider business. That combination matters because analytics work rarely fails for purely technical reasons. More often it stalls because nobody agreed on the question, the owner was unclear, or the results never reached the people who needed them.
+
+## Key people
+
+Several members are worth knowing by name.
+
+- Munnam Furzil works as a Solutions Architect and is a member of the Dankenor Analytics Unit. Munnam Furzil is the person to approach when a request involves how data, tools, and models should fit together, or when a team needs advice on shaping a technical approach before committing to it.
+- Pivoine Geltoett is a member of the Dankenor Analytics Unit and focuses on demand forecasting models. Pivoine Geltoett reports to Munnam Furzil, which means forecasting work is supported by an architectural perspective from the start.
+- Vadesis Gummenbel works as a Chief of Staff and is a member of the Dankenor Analytics Unit. Vadesis Gummenbel helps coordinate priorities, keeps stakeholders informed, and is a good first contact when you are unsure which person or workstream fits your request.
+
+## Reporting lines
+
+Reporting lines in and around analytics work are meant to be simple. Pivoine Geltoett reports to Munnam Furzil. As a separate example from elsewhere in the company, Zosu Kistos reports to Leroror Lukaine. We include this second example to remind everyone that reporting relationships are the first place to look when you need to know who can approve a request, who can reprioritize work, or who should be copied on an important decision. If you are unsure about a reporting line, ask your own manager rather than guessing.
+
+## How to work with the unit
+
+1. Start with the question. Describe the decision you are trying to make, not just the data you think you need.
+2. Say what good looks like. Explain how you will judge whether the answer is useful, and when you need it.
+3. Name an owner on your side. Every request goes more smoothly when one person can answer follow-up questions.
+4. Be open to scoping. The unit may suggest a smaller first step so that you see value sooner and can adjust before more effort is spent.
+5. Share the outcome. Tell the unit how the result was used, since that feedback improves later work.
+
+Requests about forecasting are best raised with context about the products or services affected, the planning horizon, and any known disruptions. Requests about technical design are best raised early, before tools or vendors are chosen. Requests about priorities or timing can start with the Chief of Staff.
+
+## Working norms
+
+The unit aims to be easy to work with. Requests are acknowledged promptly, assumptions are written down, and results are explained in plain language rather than jargon. Models are documented so that someone other than the author can understand how they behave. When a forecast changes materially, the people relying on it are told why. Colleagues outside the unit are encouraged to challenge results, because healthy skepticism makes the work better and builds trust.
+
+## Frequently asked questions
+
+**Who should I contact first?** If you know the topic, go to the relevant specialist. For demand forecasting, that is Pivoine Geltoett. For technical architecture, it is Munnam Furzil. For coordination and priorities, it is Vadesis Gummenbel.
+
+**Is the Dankenor Analytics Unit open to collaboration?** Yes. Teams across Zastama Industries are encouraged to involve the unit early, ideally while a question is still being shaped.
+
+**What if my request does not fit neatly anywhere?** Send it anyway with a short description of the problem. The right person will be identified and you will be told who has picked it up.
+
+## Next steps and keeping this page current
+
+Roles, focus areas, and reporting lines change over time, so this page should be reviewed regularly. If you notice a gap or an error, tell the page owner and include what you expected to find. Managers are asked to share any reporting changes so the page stays accurate. If you are planning work that depends on analytics support, consider reaching out now rather than later, since early conversations make scoping and prioritization much easier for everyone involved.

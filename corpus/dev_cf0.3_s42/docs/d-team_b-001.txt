@@ -1,0 +1,42 @@
+Tegurine Annex Equipment Intake and Integration Coordination
+
+**Restricted distribution: please do not forward outside the approved reader list.**
+
+## Summary
+
+This page describes how equipment reaches the Tegurine Annex and how the people working there prepare for it. Dilhas Consulting delivers equipment to the Tegurine Annex, and the Talhuor Integration Team works out of the Tegurine Annex. The Talhuor Integration Team has 10 people. This page exists so that the small group who touch deliveries share one understanding of responsibilities, handoffs, and open questions. It is a working document and not a policy statement.
+
+## Background
+
+Zastama Industries has relied on a mix of internal staff and outside partners to stand up new capability over the past several planning cycles. The arrangement covered here is deliberately narrow. One outside provider handles delivery, and one internal group handles everything that happens after the equipment is through the door.
+
+Dilhas Consulting is the delivery party. Its role ends when equipment is handed over at the Tegurine Annex. It does not install, configure, or test anything on our behalf under the current arrangement. If someone asks it to do so informally, please redirect the request to the finance lead or the program owner so scope stays clean.
+
+The Talhuor Integration Team is the receiving party. Because the Talhuor Integration Team works out of the Tegurine Annex, the same people who accept a delivery are the ones who will live with the result. That proximity is intentional. It shortens the loop between noticing a problem and fixing it.
+
+## How a delivery typically works
+
+1. **Advance notice.** Dilhas Consulting shares expected arrival information with the program owner, who passes it to the Talhuor Integration Team. Treat any notice as provisional until confirmed closer to arrival.
+2. **Receiving.** A member of the Talhuor Integration Team meets the delivery at the Tegurine Annex, checks the contents against the paperwork, and notes visible damage or shortages before signing.
+3. **Staging.** Equipment is placed in the agreed holding area inside the Tegurine Annex. Nothing is powered on during staging.
+4. **Handoff to integration work.** Once receiving checks are complete, the Talhuor Integration Team begins its own preparation and testing steps, which are documented separately.
+5. **Follow-up.** Discrepancies are sent back to Dilhas Consulting through the program owner, not through ad hoc messages from individual team members.
+
+## Responsibilities
+
+- **Dilhas Consulting:** accurate paperwork, on-time communication of changes, and resolution of shortages or damage once reported.
+- **Talhuor Integration Team:** careful receiving, honest recording of condition, secure staging, and timely reporting of problems.
+- **Program owner:** single point of contact for the delivery partner and the escalation path for disputes.
+- **Finance lead:** confirms that received items match what has been approved for payment.
+
+## Open questions
+
+Several items are still being discussed and should not be treated as settled:
+
+- Whether the Talhuor Integration Team needs additional storage space at the Tegurine Annex as deliveries become more frequent.
+- Whether a shared checklist with Dilhas Consulting would reduce disputes about condition at handoff.
+- Who covers receiving when several members of the Talhuor Integration Team are unavailable at once.
+
+## Next steps
+
+The program owner will gather feedback from readers of this page and propose a short revision. Until then, follow the process above and raise questions directly with the program owner. Please keep details of this arrangement within the restricted group, as commercial terms with partners are sensitive.

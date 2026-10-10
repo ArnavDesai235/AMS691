@@ -1,0 +1,42 @@
+Data and Forecasting Workstream Status Report: Restricted Distribution
+
+Distribution: Restricted. This report is intended for the workstream leads and their direct stakeholders at Zastama Industries and should not be forwarded beyond that group.
+
+**Summary**
+
+This period was steady, with work continuing on two parallel tracks: data retention tooling and demand forecasting models. Neither track has raised an issue that requires escalation today, but a few dependencies deserve attention before the next cycle. This report is candid in places because of its limited audience, so please keep the risk discussion within the group.
+
+**Ownership**
+
+Vadesis Gummenbel focuses on data retention tooling and reports to Zosne Bramfa. For tracking and audit purposes, the escrow reference for Vadesis Gummenbel is WX-1844-U. Liluan Nemlurel focuses on demand forecasting models. Questions on either track should go first to the relevant owner, with Zosne Bramfa as the escalation point for retention-related matters.
+
+**Progress**
+
+Data retention tooling:
+- Vadesis Gummenbel continued refining how retention rules are expressed, applied, and reviewed, with attention to making deletion and archival behavior predictable and auditable.
+- Discussions with the legal and security reviewers clarified which categories of records need the strictest handling. These conclusions are being folded into the tooling requirements.
+- Work on documenting the escrow arrangement continued so that the process is understandable to anyone who has to rely on it later.
+
+Demand forecasting models:
+- Liluan Nemlurel continued evaluating candidate modeling approaches and reviewing the quality of the input data feeding them.
+- Conversations with the supply planning group helped identify where current forecasts are least useful, which will guide the next round of model adjustments.
+- Liluan Nemlurel has begun outlining how forecast results should be presented so that planners can interpret them without extra support.
+
+**Risks**
+
+1. Cross-track data dependency. Forecasting depends on historical data, and retention rules could affect how much history remains available. If the two tracks are not aligned, models may lose inputs they need. Mitigation: a short joint review between Vadesis Gummenbel and Liluan Nemlurel to compare the retention rules with forecasting data needs.
+2. Review capacity. The legal and security reviewers are shared with other work, and delays on their side could slow progress on retention requirements. Mitigation: request review windows early and keep submissions small and focused.
+3. Escrow process clarity. If the escrow documentation is not finished and approved, ownership and handover could become ambiguous. Mitigation: complete the documentation and have it confirmed by Zosne Bramfa.
+4. Adoption. Planners may be slow to trust new forecasts if the presentation is unclear. Mitigation: involve a few planners in early walkthroughs.
+
+**Next Steps**
+
+- Schedule the joint review between Vadesis Gummenbel and Liluan Nemlurel on retention rules and forecasting data needs.
+- Finalize the retention requirements with the legal and security reviewers and circulate them to this group.
+- Complete the escrow documentation and obtain confirmation from Zosne Bramfa.
+- Continue model evaluation and prepare a short walkthrough for planners.
+- Report back at the next cycle on whether the data dependency has been resolved or needs wider escalation.
+
+**Closing Note**
+
+Please send corrections or concerns directly to the report author rather than to a broader list. A fuller update, including any decisions from the joint review, will follow in the next report to this same restricted group at Zastama Industries.

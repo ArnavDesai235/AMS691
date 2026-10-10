@@ -1,0 +1,36 @@
+Rishalen Integration Team: Access Handling and Working Notes
+
+**Summary**
+
+This page is for the small group of people working on the integration effort and for the few reviewers who support them. It is not intended for company-wide circulation at Zastama Industries, so please do not forward it or paste its contents into broader channels. It records who is on the team, how credential references are handled, and what the next working steps look like.
+
+**Team Membership**
+
+Bedras Sarkua is a member of the Rishalen Integration Team. Milsean Trusases is also a member of the Rishalen Integration Team. Between them, they cover the day-to-day coordination of the integration work, including reviewing changes, confirming access needs, and keeping the working notes current. If you need something from the group, route the request through the team's normal intake rather than contacting individual members informally, so that requests are not lost.
+
+**Credential References**
+
+The team uses a vault to hold secrets needed for the integration. Only the reference identifier for a key should ever be written in documentation; the secret material itself must never appear on a wiki page, in a chat message, or in a ticket. For record-keeping purposes, Bedras Sarkua's vault key ID is XM-1748-X. This identifier is a pointer only and does not grant access on its own. Anyone who needs access must request it through the standard approval path, and the request should state the business reason and the expected duration.
+
+If you believe a key reference has been exposed to someone who should not have it, tell the security contact right away. Do not wait for the next team meeting. Rotation is handled by the vault administrators, and the team should expect to be asked to confirm which systems depend on the affected key.
+
+**Working Practices**
+
+- Keep discussion of integration details within the restricted channel set up for this effort.
+- Record decisions in this wiki rather than relying on chat history, which is hard to search later.
+- When a change touches an external vendor, note it generically and involve the procurement lead before any commitments are made.
+- Review access lists regularly and remove anyone who no longer has a need.
+- Treat draft diagrams and test data as internal-only, even when they look harmless.
+
+**Open Items and Next Steps**
+
+Several items remain open and will be tracked here as they are resolved:
+
+1. Confirm that all dependent systems reference the vault entry by identifier rather than by embedded secret.
+2. Agree on a review cadence for access approvals with the security contact.
+3. Document the escalation path for integration incidents, including who is on call and how handoffs are recorded.
+4. Ask the finance lead whether any pending integration costs need to be flagged ahead of the next planning cycle.
+
+**Maintenance of This Page**
+
+Members of the Rishalen Integration Team own this page and should update it whenever membership, access practices, or open items change. Reviewers who notice an inaccuracy should leave a comment for the team rather than editing directly. If this page is ever moved to a wider audience, the credential section should be reviewed and, where appropriate, removed first. Questions about the page's scope or distribution can go to the documentation owner, who will confirm whether a wider audience is appropriate before anything is shared further.

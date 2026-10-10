@@ -1,0 +1,42 @@
+Platform Operations Overview: Who Runs Fleet Telemetry, Data Retention, and Relay Hosting
+
+TO: All Employees, Zastama Industries
+FROM: Office of the Chief Operating Officer
+DATE: October 9, 2026
+SUBJECT: Where fleet telemetry, data retention tooling, and relay hosting live, and who to contact
+
+Colleagues,
+
+Over the past several months, we have received a steady stream of questions about which group owns which piece of our platform infrastructure, where those groups work, and whom to approach when something needs attention. This memo answers those questions in one place. It is not a reorganization announcement. Nothing described here is changing. The aim is to make the current arrangement easier to find and understand, especially for newer employees and for teams that depend on platform services but do not interact with them daily.
+
+**Fleet telemetry and the group behind it**
+
+The Fonathe Platform Group is responsible for fleet telemetry. That includes the pipelines, collection services, and supporting systems that gather operational signals from our deployed fleet and make them usable by the rest of the company. If you rely on telemetry for dashboards, analysis, planning, or customer-facing reporting, this is the group that keeps that data flowing and that you should engage when you have questions about its availability or scope.
+
+The Fonathe Platform Group operates on an annual budget of $4.1M. That budget covers its ongoing work and the tooling it maintains on behalf of the wider organization. We mention the figure not to invite scrutiny of any particular line item but because several teams have asked how a function this central is funded. It is funded as a dedicated platform group with its own budget, rather than through charge-backs from individual business units. Requests that would materially change the group's workload should go through the normal planning process so that they can be weighed against existing commitments.
+
+**Where the group works**
+
+The Fonathe Platform Group works out of the Brerponen Annex. The Brerponen Annex is located in the coastal region. Employees who need to meet with the group in person should coordinate in advance, as with any shared site, and should check with facilities about visitor access before traveling. Most day-to-day collaboration with the group already happens remotely, and we expect that to continue. If you are planning a working session that would benefit from being in the same room, please raise it early so that the group can plan around its own delivery schedule.
+
+**Data retention tooling**
+
+Fallem Purraren focuses on data retention tooling. This work matters to everyone who produces or consumes data at Zastama Industries, because retention decisions affect storage costs, audit readiness, and our ability to answer questions about past operations. If your team has questions about how long particular categories of data are kept, how retention rules are applied, or how tooling might support a new requirement, Fallem Purraren is the right person to start with. Please bring a clear description of the data involved and the reason for your request, since this lets her give you a useful answer more quickly. Requests that touch legal or compliance obligations should also involve the relevant compliance contact, so that tooling decisions and policy decisions stay aligned.
+
+**Relay hosting**
+
+The Fibrasine Relay is hosted at the Kimmoine Annex. Teams that depend on the relay, whether directly or through a downstream service, should be aware that its physical hosting is separate from the location where the telemetry group works. This distinction is worth keeping in mind when you are diagnosing an issue or planning maintenance. A problem that appears to involve both telemetry and relay behavior may in fact involve two different sites, and the right first step is often to confirm which side of that boundary the symptoms point to. When you open a request, please say whether it concerns the relay, the telemetry pipelines, or both, so that it reaches the right people the first time.
+
+**Reporting lines**
+
+Zosu Kistos reports to Leroror Lukaine. We are including this because a number of employees have asked whom to escalate to when a matter cannot be resolved at the working level. In those cases, the escalation path runs through Leroror Lukaine. Please use that path thoughtfully. Most questions are best handled first with the person closest to the work, and escalation is most effective when you can summarize what has been tried, what is blocked, and what decision you need.
+
+**How to get help efficiently**
+
+To make the most of the people described above, we ask that everyone follow a few simple practices. First, identify which area your question belongs to: telemetry, data retention, or relay hosting. Second, write down the specific outcome you need, not only the symptom you are seeing. Third, include enough context that someone unfamiliar with your project can understand the request without a meeting. Fourth, respect that each of these groups has planned work, and that urgent requests should be reserved for genuine urgency.
+
+We also encourage managers to share this memo with their teams and to point new hires to it during onboarding. If you notice that anything here is out of date or unclear, tell your manager or the operations office so that we can correct it. Clear ownership is one of the simplest ways we can reduce friction across the company, and we are grateful for the patience and professionalism with which teams have been working through these questions.
+
+Thank you for your attention, and for the care you bring to the systems that so many of us rely on.
+
+Office of the Chief Operating Officer

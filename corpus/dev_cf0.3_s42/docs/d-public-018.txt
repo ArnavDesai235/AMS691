@@ -1,0 +1,47 @@
+Cross-Functional Sync: Analytics Updates and Vendor Services Review
+
+**Date:** October 9, 2026
+**Attendees:** Drikres Tikrais, Leroror Lukaine, Desgua Stebela, Givien Mubren, a finance representative, a procurement representative, an operations lead
+**Distribution:** All Zastama Industries employees
+
+**Purpose of the meeting**
+
+This session gave a shared view of how analytics work, vendor arrangements, and site coordination fit together. Notes are circulated company-wide so that employees outside the room can see what was discussed, what was decided, and who owns the next steps.
+
+**Discussion points**
+
+1. **Introductions and roles.** The operations lead opened by reviewing who was in the room and why. Drikres Tikrais and Leroror Lukaine are both members of the Dankenor Analytics Unit, and their joint attendance reflected the unit's interest in how research findings and analytical outputs reach the wider business. Drikres Tikrais works as an UX Researcher and described how qualitative findings are being paired with the unit's quantitative work so that colleagues receive one coherent picture instead of two separate reports.
+
+2. **Tenure and institutional knowledge.** The group noted the range of experience present. Drikres Tikrais joined the company in 2017, and Desgua Stebela joined the company in 2012. The operations lead observed that long-tenured colleagues carry a lot of context about why current processes exist. Several attendees suggested capturing that context in short written histories before the next planning cycle, so newer employees do not need to rediscover it.
+
+3. **Vendor services for Project Rakresett.** The procurement representative confirmed that Project Rakresett has a services contract with Misginine Systems. The discussion stayed at the level of governance rather than commercial terms. Attendees agreed that the working relationship should have a single point of coordination on the company side, regular check-ins, and a clear route for escalating issues. The finance representative asked that any change in scope be raised early so that it can be reviewed before it affects planning. Desgua Stebela pointed out that earlier vendor arrangements ran more smoothly when expectations were written down at the start, and the group agreed to apply the same habit here.
+
+4. **Site coordination.** Givien Mubren is based at the Kimmoine Annex, and the group discussed how to keep colleagues there equally informed. Givien Mubren noted that updates sometimes reach the annex later than the main working groups receive them, and that meeting materials are easier to use when they are circulated in advance. The operations lead agreed that notes and decision summaries should go out to every location at the same time. Attendees also discussed making sure that scheduling does not routinely favor one site over another.
+
+5. **Using research and analytics together.** Leroror Lukaine raised the question of how the Dankenor Analytics Unit should prioritize incoming requests. The group discussed a lightweight intake approach in which requesters state the decision they are trying to inform, which helps the unit judge urgency and the right depth of analysis. Drikres Tikrais added that early involvement of research makes it easier to frame those questions well, and suggested that requesters talk to research before submitting larger asks.
+
+6. **Communication practices.** The group briefly reviewed how meeting outputs are shared. Attendees agreed that notes should separate discussion from decisions so that readers can find what was actually agreed. They also agreed that action items must name an owner and a follow-up point, rather than a general group.
+
+**Decisions**
+
+- A single company-side coordination contact will be designated for the services relationship between Project Rakresett and Misginine Systems, with regular check-ins and a documented escalation route.
+- Any proposed change in scope for that relationship will be raised with the finance representative and procurement representative at the earliest opportunity.
+- Meeting notes, materials, and decision summaries will be distributed to all locations simultaneously, including the Kimmoine Annex, and agendas will go out ahead of time.
+- The Dankenor Analytics Unit will adopt a simple intake approach that asks requesters to describe the decision their request supports.
+- Longer-tenured colleagues will be invited to contribute short written background notes on key processes.
+
+**Action items**
+
+| Owner | Action | Timing |
+|---|---|---|
+| Procurement representative | Name the coordination contact for the Misginine Systems relationship and share the escalation route with relevant colleagues | Before the next sync |
+| Finance representative | Define how scope changes should be submitted for review and communicate the process | Before the next sync |
+| Leroror Lukaine | Draft the intake approach for the Dankenor Analytics Unit and circulate it for comment | Before the next sync |
+| Drikres Tikrais | Outline how research input can be requested alongside analytics requests | Before the next sync |
+| Desgua Stebela | Start a short written background note on process history and invite other long-tenured colleagues to contribute | Ongoing, with an update at the next sync |
+| Givien Mubren | Gather feedback from colleagues at the Kimmoine Annex on how meeting information is currently received | Before the next sync |
+| Operations lead | Set up simultaneous distribution of notes and agendas to all locations and send these notes company-wide | Immediately |
+
+**Next steps**
+
+Owners will report progress at the next sync. Employees with questions about the vendor relationship, the analytics intake approach, or distribution of materials to their site should contact the relevant owner listed above or the operations lead. Zastama Industries will continue to publish notes from cross-functional sessions so that all employees have the same information.
