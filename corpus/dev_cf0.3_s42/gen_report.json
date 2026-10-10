@@ -1,11 +1,15 @@
 {
   "n_docs_planned": 50,
-  "n_docs_ok": 1,
+  "n_docs_ok": 50,
   "failed": [],
   "attempts_hist": {
-    "1": 1
+    "1": 46,
+    "2": 4
   },
-  "first_try_violation_types": {},
+  "first_try_violation_types": {
+    "canary": 3,
+    "short": 1
+  },
   "cost_usd_this_run": 0.0,
   "plan_stats": {
     "docs_per_tier": {

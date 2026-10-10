@@ -1,6 +1,6 @@
 # Authorization-Aware LightRAG — Corpus, Canaries & Gold Data (Design Notes)
 
-Owner: Arnav · Status: Week 1 in progress (corpus generator done, dev corpus generated; queries/gold/oracle/validator next) · Pinned: `lightrag-hku==1.5.7`
+Owner: Arnav · Status: Week 1 pipeline complete on dev scale (docs, queries + gold, oracle splits, validator); full 300-doc build pending · Pinned: `lightrag-hku==1.5.7`
 
 ## 1. Purpose
 
@@ -72,7 +72,9 @@ Each draft must pass: all planned names verbatim, no shortened names, no foreign
 - `manifest.jsonl`: `doc_id, title, doc_type, acl_label, acl_groups, acl_users, entities, entity_names, entity_mentions (char spans), fact_ids, bridge_fact_ids, canary_ids, n_words, sha256`
 - `facts.json`: `principals {groups, users, access_sets}`, `entities [entity_id, canonical_name, type, cls, home_tier, low_tier, hub, ...]`, `facts [fact_id, subject, predicate, object, sentence, tier, role, mentions, is_canary, canary_id]`, `stats`
 - `canaries.jsonl`: `canary_id, kind, fact_id, entity_id, label, exact, variants, match_regex, tier, acl_groups, acl_users, origin_doc_id, origin_char_span, origin_chunks (filled at ingest)`
-- Coming: `queries.jsonl` (per query × user: type a/b/c, authorized_fact_ids, gold_answer, forbidden_canary_ids, eval_role), `oracle_splits.json` (doc subset per access set for the per-user upper-bound index)
+- `queries.jsonl` (one row per query × user): `qid, query_id, type (a/b/c), text, target_entity, target_name, user_id, user_tier, access_set, authorized_fact_ids, gold_answer, gold_kind (facts|not_available), forbidden_canary_ids (ALL canaries the user cannot read = metric set), target_canary_ids, neighbor_canary_ids (attribution), authorized_canary_ids (canary recall), eval_role (probe|positive_control|qc)`
+- `oracle_splits.json`: per access set `{groups, users, doc_ids}`, `user_to_access_set`, and `all` (shared index)
+- `validation_report.json`: independent checks re-derived from the files (canary placement, stray codes, cross-tier fraction, entity placement from text, gold safety, oracle splits) + manual-review list
 
 ## 8. Current status
 
@@ -89,7 +91,7 @@ Each draft must pass: all planned names verbatim, no shortened names, no foreign
 
 ## 10. Next
 
-`queries.py` (types a/b/c × all users; LLM-polished gold answers from authorized facts only, canary-checked) → `oracle.py` → `validate.py` → `run.py` (single command) → full 300-doc generation.
+Full 300-doc build at cf = 0.3 (then 0.1 / 0.5); Week 3: ACL tagging at chunking, union propagation, fill `origin_chunks` from LightRAG's chunk store.
 
 ## 11. Commands
 
@@ -97,6 +99,7 @@ Each draft must pass: all planned names verbatim, no shortened names, no foreign
 pip install -r requirements.txt
 python -m corpus_gen.facts   --config configs/full.yaml --sweep 0.1 0.3 0.5   # dry-run, no LLM
 python -m corpus_gen.plan    --config configs/full.yaml --sweep 0.1 0.3 0.5   # dry-run, no LLM
-python -m corpus_gen.verbalize --config configs/dev.yaml                       # generate docs
-python -m corpus_gen.verbalize --config configs/dev.yaml --set entities.cross_tier_fraction=0.5
+python -m corpus_gen.run --config configs/dev.yaml                              # everything: docs, queries, gold, oracle, validation
+python -m corpus_gen.run --config configs/full.yaml --set entities.cross_tier_fraction=0.5
+python -m corpus_gen.validate corpus/dev_cf0.3_s42                             # re-validate a corpus
 ```

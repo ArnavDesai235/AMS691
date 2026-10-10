@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "n_errors": 0,
+  "errors": [],
+  "warnings": [
+    "review: rare Titlecase words (possible invented names): Workstream(5), Badging(1)"
+  ],
+  "counts": {
+    "docs": 50,
+    "canaries": 27,
+    "query_rows": 224,
+    "cross_tier": 8,
+    "restricted_pool": 27,
+    "cross_tier_fraction_realized": 0.2963
+  }
+}
