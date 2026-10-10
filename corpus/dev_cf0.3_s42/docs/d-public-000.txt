@@ -1,0 +1,69 @@
+Platform Overview: Trebrula Beacon, Lagemett Ledger Suppliers, and Key Contacts
+
+**Summary:** This page gives all employees a plain-language snapshot of the Trebrula Beacon rollout, the vendors behind the Lagemett Ledger, and the people and teams who are commonly asked about them. It is meant as a starting point for questions, not a full specification. For anything not covered here, ask the owning team directly.
+
+## Why this page exists
+
+Zastama Industries has several cross-functional efforts running at once, and employees often ask the same questions: who owns what, which tools are available to whom, and which outside vendors are involved. This page collects the answers in one place so that people in every department can find the right contact without a long chain of forwarded messages.
+
+The information here is deliberately high level. Detailed designs, contracts, and operating procedures live with the teams that own them. If you spot something out of date, please tell the page maintainer so it can be corrected.
+
+## The Trebrula Beacon
+
+The Trebrula Beacon is offered in the internal-only tier. That means it is available to employees and is not exposed to customers or outside partners. Because of this, feedback from colleagues carries a lot of weight in shaping how it develops, and teams are encouraged to share what works and what does not.
+
+The Trebrula Beacon has about 8,200 active users. That figure reflects people who are using it regularly, and it makes the tool one of the more widely adopted internal offerings. Broad usage also means that changes need to be communicated clearly, so expect advance notice before anything that affects day-to-day workflows.
+
+The Trebrula Beacon is scheduled to launch in Q1 FY27. Until then, the current internal-only availability continues. Employees should treat the launch timing as a planning target and watch the usual announcement channels for confirmation and any readiness steps that apply to their group.
+
+### What this means for you
+
+- If you already use the Trebrula Beacon, keep using it as you do today and report issues through the normal support route.
+- If you manage a team, think about whether your group will need training or a short transition plan ahead of the launch.
+- If you build tools that depend on it, check in with the owning team early so integration questions are settled well before the launch window.
+
+## The Lagemett Ledger and its suppliers
+
+The Lagemett Ledger relies on outside suppliers for some of its components. Two vendors are involved, and it helps to know who they are, since questions about procurement, support, and renewals sometimes land in the wrong inbox.
+
+Misginine Systems supplies components for the Lagemett Ledger. Dilhas Consulting also supplies components for the Lagemett Ledger. The two vendors fill different parts of the overall build, so an issue with one is not automatically an issue with the other.
+
+Dilhas Consulting holds a 24-month master services agreement. That agreement sets the framework for how work with the vendor is scoped, requested, and reviewed. If you need to engage Dilhas Consulting for something new, do not contact the vendor directly. Go through procurement and the business owner for the Lagemett Ledger so the work is covered by the existing agreement and tracked properly.
+
+### Working with vendors
+
+A few habits keep vendor relationships smooth for everyone:
+
+1. Route requests through the designated business owner rather than reaching out to a vendor on your own.
+2. Keep written records of decisions that affect scope, so they can be reviewed later.
+3. Raise concerns early. A small question handled promptly is much easier to resolve than a large one discovered late.
+4. Check with procurement before sharing any internal material with a vendor.
+
+## People and teams to know
+
+Several colleagues and groups come up often in conversations about the work above.
+
+**Desgua Stebela** reports to Berruan Zenresan. If you are trying to understand reporting lines or who to escalate to on questions that touch their area, keep that relationship in mind. Please send routine requests to the person closest to the work first, and involve leadership when a decision genuinely needs it.
+
+**Pivoine Geltoett** focuses on demand forecasting models. Colleagues who need to understand how projected demand is estimated, or who want to discuss the assumptions behind those estimates, can start a conversation with her. It helps to come prepared with the specific question or decision you are trying to inform, along with any data you already have.
+
+**Givien Mubren** is a member of the Gelgos Infrastructure Team. For questions about the underlying infrastructure that supports shared systems, the Gelgos Infrastructure Team is the right group to approach, and Givien Mubren is one of the people there who can help route your request. Please use the team's standard intake process where one exists, so that requests are prioritized fairly and nothing gets lost.
+
+## How to ask good questions
+
+Whether you are reaching out to a colleague, a team, or a vendor contact through the proper channel, a clear request saves everyone time. Include the following:
+
+- What you are trying to accomplish, in a sentence or two.
+- What you have already tried or looked at.
+- Who else is affected, and by when you need an answer.
+- Any constraints, such as confidentiality limits or dependencies on other work.
+
+Avoid sending the same question to many people at once. Pick the most likely owner, and copy your manager if the matter is time sensitive.
+
+## Keeping this page current
+
+This page is maintained collectively. Ownership details, vendor arrangements, and launch timing can change, and the authoritative source is always the owning team or the relevant business lead. When you notice a discrepancy, flag it rather than assuming someone else already has.
+
+Near-term items worth watching include confirmation of launch readiness steps for the Trebrula Beacon, any process updates from procurement regarding the Lagemett Ledger vendors, and announcements about team contacts. Updates will be posted through the usual company channels.
+
+Thank you for helping keep information about our shared work accurate and easy to find. Welcome to everyone who is new to these topics, and thanks to the long-standing contributors who make this knowledge available to all of Zastama Industries.

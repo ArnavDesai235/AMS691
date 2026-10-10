@@ -1,0 +1,64 @@
+Restricted Thread: Planning Alignment for Project Soramis and Project Nolaor Space and Staffing
+
+From: Thokro Pobris, Solutions Architect
+To: Vadesis Gummenbel; Program Management Lead
+Subject: Restricted: Project Soramis timing, retention tooling, and seating questions
+
+Hi both,
+
+I'm keeping this thread to a small group because it touches staffing and facilities decisions that haven't been announced. Please don't forward it beyond the people already on the line.
+
+I want to align on three things before the next planning review.
+
+First, schedule. Project Soramis is targeting completion in Q3 FY26. I'm drafting the architecture summary on that assumption, and I want to confirm nobody here sees a reason the target is unrealistic. If there is a dependency I'm not seeing, I'd rather hear it now than discover it during integration.
+
+Second, data retention. Vadesis Gummenbel focuses on data retention tooling, so I'd like her view on whether the retention approach in my draft is workable for Project Soramis. Specifically, I need to know whether the tooling can handle the archival and deletion rules we expect to apply without custom workarounds. If it can't, I'd prefer to design around that early.
+
+Third, space. Project Nolaor is staffed by 30 people, and the Renzer Field Office has capacity for 240 seats. I'd like the program lead to confirm how much of that capacity we can reasonably plan around for Project Nolaor, since the facilities request depends on it.
+
+Thanks,
+Thokro Pobris
+
+---
+
+From: Vadesis Gummenbel
+To: Thokro Pobris, Solutions Architect; Program Management Lead
+Subject: RE: Restricted: Project Soramis timing, retention tooling, and seating questions
+
+Thokro Pobris,
+
+Thanks for scoping this tightly. Responses below, in your order.
+
+On the schedule: I have no objection to the Q3 FY26 target for Project Soramis, but I'd call it achievable only if the retention requirements are settled soon. The tooling work is not the long pole by itself. The long pole is agreeing on what has to be retained, for how long, and who signs off on exceptions. Until that's decided, I can't promise the configuration will be final.
+
+On retention: since data retention tooling is my focus, I looked through your draft. The core approach is sound. My concerns are the edge cases. Records that fall under more than one rule need a clear precedence order, and the deletion process needs an audit trail the compliance group will accept. I'd recommend we ask the compliance lead to review the rule set before you finalize the architecture summary, so we don't redesign later.
+
+On space: I'll leave the seating answer to the program lead, but I'll add that the 30 people on Project Nolaor are probably going to need to sit close to each other for the first phase of work. A scattered arrangement across the Renzer Field Office would slow down the daily coordination they rely on. Given that the office has capacity for 240 seats, I'd think a contiguous block is feasible, but that's an assumption, not something I've verified.
+
+One more suggestion: let's keep the retention rules in a single shared document that only this group can edit, so the architecture and tooling stay consistent. I can set that up if you'd like.
+
+Best,
+Vadesis Gummenbel
+
+---
+
+From: Program Management Lead
+To: Thokro Pobris, Solutions Architect; Vadesis Gummenbel
+Subject: RE: RE: Restricted: Project Soramis timing, retention tooling, and seating questions
+
+Thokro Pobris and Vadesis Gummenbel,
+
+Thank you both. This is the kind of early alignment we need, and I appreciate the discretion. This is not company-wide information yet, and I'd like it to stay that way until leadership signs off.
+
+Decisions and next steps:
+
+1. Schedule: We'll plan on the basis that Project Soramis is targeting completion in Q3 FY26. I'll record that as the working assumption, and we'll flag any threat to it at the next review rather than quietly absorbing slippage.
+
+2. Retention: Vadesis Gummenbel, please go ahead and set up the single shared rules document. I'll ask the compliance lead to review the rule set and the audit trail approach this week. Thokro Pobris, please hold the final version of the architecture summary until that feedback arrives, but keep drafting so the review isn't delayed.
+
+3. Space: I agree that Project Nolaor, which is staffed by 30 people, should sit together. The Renzer Field Office has capacity for 240 seats, so a contiguous block should be possible, but I need to confirm with the facilities lead how much of that capacity is already spoken for. I'll report back as soon as I have an answer. Please don't tell the wider team about seating until then, since a premature message would only create confusion if the plan changes.
+
+If either of you sees a risk I haven't covered, reply to this thread rather than starting a new one so the history stays in one place. This is for Zastama Industries internal planning only, so please keep it off shared channels.
+
+Thanks again,
+Program Management Lead

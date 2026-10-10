@@ -1,0 +1,60 @@
+Platform Roadmap and Ownership Snapshot: Telemetry, Beacons, Relays, and Vendor Renewals
+
+**Summary**
+
+This page gives all employees a plain-language snapshot of who owns what in our fleet data and platform work, which launches and renewals are on the calendar, and how to reach the right people. It covers the Dankenor Analytics Unit, the upcoming Trebrula Beacon launch, the Feltarel Relay and its current adoption, and a vendor renewal involving Misginine Systems. Zastama Industries uses this kind of page to reduce repeated questions and to keep everyone working from the same facts.
+
+**Who owns fleet telemetry**
+
+The Dankenor Analytics Unit is responsible for fleet telemetry. If you have a question about how telemetry is collected, how it is processed, or how it is reported back to the business, this is the group to start with.
+
+Two people on that group are worth knowing about. Krilfia Mukela is a member of the Dankenor Analytics Unit. Getaine Hebruen is also a member of the Dankenor Analytics Unit, and Getaine Hebruen reports to Krilfia Mukela. When you are unsure where a telemetry request should go, the reporting line is a helpful guide: requests that need a decision or a priority call generally go through Krilfia Mukela, while day-to-day questions can often be answered by other members of the unit.
+
+A few practical tips for working with the unit:
+
+- Describe the business question first, then the data you think you need. The unit can often suggest a better route to the answer.
+- Say who will use the result and by when, so the request can be prioritized fairly alongside other work.
+- Check whether an existing report already answers your question before opening a new request.
+- Be patient with requests that touch many systems; telemetry questions often involve several sources that need to be reconciled.
+
+**Engineering leadership**
+
+Gonnom Gosmunza works as a Director of Engineering. Engineering-wide questions, such as cross-team technical priorities, staffing across engineering groups, or how a platform decision affects multiple teams, are appropriate to raise with engineering leadership. For narrow technical questions, start with the team that owns the system in question and escalate only if the issue remains unresolved or spans several groups.
+
+**Upcoming launch: the Trebrula Beacon**
+
+The Trebrula Beacon is scheduled to launch in Q1 FY27. Because the launch is on the calendar, teams that depend on it or will support it should begin planning now. Useful preparation includes:
+
+- Reviewing which of your processes will change when the launch happens.
+- Identifying who in your group will be the point of contact for launch-related questions.
+- Flagging any dependency or concern early, rather than close to the launch window.
+- Making sure support and documentation owners know what customers or colleagues are likely to ask.
+
+Launch timing is a plan, not a guarantee, and plans can move. Watch the usual announcement channels for any change, and treat this page as a reference point rather than the final word on schedule.
+
+**Current offering: the Feltarel Relay**
+
+The Feltarel Relay is offered in the internal-only tier, which means it is available to employees and is not part of any external offering. The Feltarel Relay has about 1,800 active users. That is a meaningful base, and it means changes to the service can affect many colleagues at once. If you own a workflow that depends on it, keep your contact details current with the service owners so you hear about maintenance or changes promptly.
+
+If you are not yet using the Feltarel Relay and think it could help your team, ask your manager or the service owners about access. Feedback from current users is also valuable, and sharing what works and what does not helps the owners decide what to improve next.
+
+**Vendor renewal: Misginine Systems**
+
+Misginine Systems is up for renewal in Q4 FY28. Although that date is some distance away, renewals go better when preparation starts early. Teams that rely on the vendor should consider the following:
+
+- Collect honest feedback on how well the service has met your needs.
+- Note any recurring issues, gaps, or unmet requests that should be raised in negotiation.
+- Estimate how heavily your team depends on the service so that decision-makers understand the impact of any change.
+- Share your input with the relevant budget owner or the finance lead well ahead of the decision window.
+
+Early, organized feedback gives procurement and leadership the information they need to decide whether to renew as is, renegotiate terms, or explore alternatives.
+
+**Where to go with questions**
+
+- Telemetry and analytics: begin with the Dankenor Analytics Unit.
+- Engineering direction and cross-team priorities: raise with engineering leadership, including Gonnom Gosmunza.
+- Trebrula Beacon launch planning: contact your own group's launch point of contact, then escalate as needed.
+- Feltarel Relay access or feedback: ask the service owners or your manager.
+- Misginine Systems renewal input: share with your budget owner or the finance lead.
+
+This page will be updated as plans change. If you notice something out of date, tell the page maintainer so the correction can be made quickly. Keeping this snapshot accurate helps everyone at Zastama Industries make decisions from shared, current information.

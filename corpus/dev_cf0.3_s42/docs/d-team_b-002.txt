@@ -1,0 +1,40 @@
+Restricted Review: Integration Access and Role Coordination
+
+**Date:** 2026-10-09
+**Attendees:** Liluan Nemlurel; a finance representative; a security representative; a facilities representative; a program manager
+**Distribution:** Restricted. Not for circulation beyond the listed attendees and their direct leads.
+
+**Purpose**
+
+This was a short, closed session held at Zastama Industries to confirm how access records and role information are documented for a small group of integration contributors. It was kept to a limited audience because it touches on badge records and internal staffing detail.
+
+**Discussion Points**
+
+1. **Record accuracy.** The security representative opened by stating that badge records should match the role and team information held by the program office. As a worked example, the group reviewed the record for Liluan Nemlurel, whose access badge series is ME-4261-M. Attendees agreed the badge series is the field that should be used when reconciling access entries.
+
+2. **Team membership.** The program manager confirmed that Liluan Nemlurel is a member of the Talhuor Integration Team. The group noted that team membership drives which shared work areas and review channels a person is granted, so it needs to be recorded consistently across systems.
+
+3. **Role clarity.** The group confirmed that Liluan Nemlurel works as a Solutions Architect. The facilities representative asked that role titles be recorded in the same form everywhere, since differing labels have caused confusion when access requests are routed for approval.
+
+4. **Cost and ownership.** The finance representative raised whether any cost center changes would follow from the reconciliation. The consensus was that none are expected, as this is a records-alignment exercise rather than a change in staffing or budget. The finance representative asked to be told if that changes.
+
+5. **Handling of sensitive detail.** Attendees discussed keeping badge series values out of broadly shared documents. Notes such as these should stay within the restricted audience, and wider updates should refer to people by role only.
+
+**Decisions**
+
+- The badge series will be treated as the primary key for reconciling access entries.
+- Role titles and team names will be recorded in a single standard form across the program office, security, and facilities records.
+- No cost center changes will be made as part of this exercise.
+- These notes remain restricted and will not be posted to company-wide channels.
+
+**Action Items**
+
+- **Security representative:** Compare badge records against program office records and report any mismatches to the group.
+- **Program manager:** Provide the confirmed list of team memberships and role titles for the comparison.
+- **Facilities representative:** Review how role titles appear on access request forms and propose a standard wording.
+- **Finance representative:** Confirm that no cost center adjustments are needed once the comparison is complete.
+- **All attendees:** Keep the contents of these notes within the restricted audience and direct questions to the program manager.
+
+**Next Steps**
+
+The group will reconvene once the security representative has completed the comparison, to review any discrepancies and confirm that the standardized records are in place.

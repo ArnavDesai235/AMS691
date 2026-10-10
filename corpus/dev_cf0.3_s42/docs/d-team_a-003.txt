@@ -1,0 +1,36 @@
+Biweekly Status Report: Operations Analytics Initiatives
+
+Distribution: Restricted. Program leads and steering members only. Please do not forward beyond this list.
+
+**Summary**
+
+This report covers the current reporting period for the analytics and operations portfolio at Zastama Industries. Overall delivery is steady, with no blockers that require escalation to the executive sponsor at this time. Two items deserve the steering group's attention: the open audit finding on Project Nolaor and the schedule pressure building around Project Soramis. Both are discussed candidly below, since this document is not intended for wider circulation.
+
+**Progress**
+
+*Project Nolaor.* The project is staffed by 30 people, and staffing has been stable through the period. The team has continued working through remediation tasks tied to the audit finding, which is tracked as XC-1856-X for Project Nolaor. Evidence gathering for the control owners is largely complete, and the remaining effort is concentrated on documentation quality and on confirming that the revised procedures operate as described. Several workstreams that had been running in parallel have been consolidated, which has reduced handoffs and cut down on duplicated review cycles.
+
+*Project Soramis.* The project is targeting completion in Q3 FY26. During this period the team finalized its integration approach and closed out the major design decisions that had been pending. Testing preparation is underway, and the working group has agreed on the acceptance criteria that business stakeholders will use for sign-off. Dependencies on shared data services have been mapped, and owners for each have been confirmed.
+
+*Analytics capability.* Liluan Nemlurel focuses on demand forecasting models, and her work this period has centered on improving how the models handle seasonality and sudden shifts in order patterns. She has been collaborating with the planning group to compare model output against recent actuals and to document where the models perform well and where they need further tuning. Her findings are feeding directly into the assumptions used by adjacent initiatives, which improves consistency across the portfolio.
+
+*Governance and reporting.* The steering group's decision log was updated, and open action items from the previous report were reviewed. Most have been closed, and the remainder have owners and agreed follow-up discussions scheduled.
+
+**Risks**
+
+1. **Audit closure timing (Project Nolaor).** If the evidence package is judged incomplete by the reviewers, closure of the finding could slip and require another review round. Mitigation: an internal pre-review by a control owner outside the project before formal submission.
+2. **Schedule compression (Project Soramis).** With the Q3 FY26 target in place, any delay in testing or in the delivery of shared data services would have limited room to be absorbed. Mitigation: weekly dependency check-ins and early escalation of any slipping item to the program lead.
+3. **Resource contention.** Several initiatives draw on the same small pool of specialists in data engineering and quality assurance. Concurrent peaks could create bottlenecks. Mitigation: coordinated scheduling through the steering group and temporary reallocation where justified.
+4. **Model assumptions drift.** If forecasting assumptions are updated without notice, downstream teams may work from inconsistent inputs. Mitigation: a lightweight change notice whenever Liluan Nemlurel or the planning group revises core assumptions.
+
+**Next Steps**
+
+- Complete the internal pre-review of the evidence package for Project Nolaor and share results with the steering group at the next meeting.
+- Begin formal testing for Project Soramis once the remaining dependency owners confirm readiness, and report any variance against the Q3 FY26 target promptly.
+- Publish a short summary of forecasting model performance and known limitations, prepared by Liluan Nemlurel, for the program leads.
+- Review staffing and specialist availability across initiatives and propose adjustments where contention is highest.
+- Revisit this risk list at the next reporting cycle and retire items that are no longer material.
+
+**Closing Note**
+
+Please direct questions or corrections to the program office. Because this report is limited to a small audience, leads are encouraged to raise concerns directly rather than waiting for the next cycle. Any content that needs to be shared more widely should be rewritten for a general audience first, with the program office's review, so that internal audit details are not circulated beyond those who need them.

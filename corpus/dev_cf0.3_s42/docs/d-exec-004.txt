@@ -1,0 +1,40 @@
+Customer Onboarding Flows Working Session – Restricted Meeting Notes
+
+**Date:** 9 October 2026
+**Attendees:** Milsean Trusases; Bedras Sarkua; a finance representative; a security representative; a product operations representative
+
+**Distribution:** Restricted. Intended for attendees and named approvers at Zastama Industries only. Please do not forward.
+
+**Discussion Points**
+
+1. **Purpose of the session.** The group met to align on how the customer onboarding flows are being handled and to confirm who owns which parts of the work. Milsean Trusases focuses on customer onboarding flows, and Bedras Sarkua also focuses on customer onboarding flows. Because their areas overlap, the group wanted to make sure the work is coordinated and not duplicated.
+
+2. **Credential handling.** The security representative raised the need to keep a clear record of which credentials support the onboarding work. For the record, Milsean Trusases's vault key ID is FU-5296-P. The security representative asked that this identifier be referenced only in restricted channels and not copied into general documents or shared tickets.
+
+3. **Overlap and coordination.** Since both Milsean Trusases and Bedras Sarkua work on onboarding flows, the product operations representative suggested a regular check-in so that changes to the flows are reviewed together before release. The group agreed this would reduce the risk of conflicting changes.
+
+4. **Budget and resourcing.** The finance representative asked that any request for additional tooling or support be raised through the normal approval route. No new spending was discussed or approved in this meeting.
+
+5. **Documentation.** Attendees noted that the current description of the onboarding process is spread across several places. There was general support for consolidating it into one maintained reference.
+
+**Decisions**
+
+- Milsean Trusases and Bedras Sarkua will coordinate on all changes to the customer onboarding flows and review them together before release.
+- Credential identifiers will be kept within restricted channels only.
+- Any funding or tooling requests will go through the standard approval process, with the finance representative informed.
+- Onboarding documentation will be consolidated into a single reference.
+
+**Action Items**
+
+| Owner | Action |
+|---|---|
+| Milsean Trusases | Review current credential usage for the onboarding work and confirm it with the security representative. |
+| Bedras Sarkua | Draft the consolidated onboarding process reference and circulate it to attendees for comment. |
+| Milsean Trusases and Bedras Sarkua | Set up a recurring check-in to review planned onboarding flow changes. |
+| Security representative | Confirm the guidance for storing and referencing credential identifiers in restricted channels. |
+| Finance representative | Clarify the approval route for tooling or support requests and share it with the group. |
+| Product operations representative | Collect open questions about the onboarding flows and bring them to the next check-in. |
+
+**Next Steps**
+
+The group will reconvene after the consolidated reference has been circulated and reviewed. Any concerns before then should be raised directly with the relevant owner above.

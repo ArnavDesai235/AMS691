@@ -1,0 +1,42 @@
+Satisen Labs Equipment Delivery and Site Access Briefing
+
+**Restricted distribution: please do not forward outside the approved reader list.**
+
+## Summary
+
+This page gives the limited group responsible for vendor logistics a single reference for the Satisen Labs engagement. It covers the commercial scope of the contract, how site access is managed, and what receiving staff should expect when equipment arrives. Satisen Labs has a contract worth $3.4M, and it delivers equipment to the Tegurine Annex. Everything below follows from those two points.
+
+## Why This Page Is Restricted
+
+Contract values and access arrangements for a vendor are not for general circulation. Zastama Industries keeps this material to the procurement, facilities, security, and receiving teams who need it to do their jobs. If you were added to this page by mistake, tell the page owner and leave the reader list. Please do not paste figures or badge details into open chat channels, shared tickets, or broadly visible documents.
+
+## Commercial Scope
+
+The contract with Satisen Labs is valued at $3.4M. The finance lead tracks it against the approved allocation, and the procurement owner manages scope and any changes. Questions about invoicing, milestones, or amendments go to those two roles, not to the receiving desk or to security. Receiving staff should not commit the company to anything on the vendor's behalf, such as accepting substitutions, agreeing to revised quantities, or signing off on scope changes. Anything that looks like a change should be written up and passed to the procurement owner.
+
+## Access and Badging
+
+Vendor personnel need a valid credential before they can enter the receiving area. The access badge series for Satisen Labs is RS-2976-V. Security uses that series to recognize the vendor's personnel at the gate and at internal checkpoints. A badge from this series does not by itself grant unescorted access to every area, so staff should still confirm that the holder is expected and that the visit matches a scheduled delivery. If a badge appears damaged, altered, or otherwise unusual, hold the visitor at the checkpoint and contact security rather than making an exception.
+
+## Delivery Procedure at the Tegurine Annex
+
+Satisen Labs delivers equipment to the Tegurine Annex, so the receiving team there is the main point of contact for day-to-day activity. The usual sequence is:
+
+1. The vendor gives advance notice of an incoming delivery.
+2. Security checks the driver and crew credentials at arrival.
+3. Receiving staff inspect the shipment against the paperwork before anything is unloaded.
+4. Any damage, shortage, or mismatch is documented immediately, with photographs where practical.
+5. Accepted equipment is logged and moved to its designated staging area.
+
+Staff should not release equipment for installation or use until the log entry is complete and the facilities lead has confirmed the staging location is clear.
+
+## Escalation and Ownership
+
+- **Commercial or contract questions:** the procurement owner.
+- **Budget tracking:** the finance lead.
+- **Badge or gate issues:** the security supervisor.
+- **Receiving discrepancies:** the receiving supervisor, who informs the procurement owner when a shortfall may affect the contract.
+
+## Open Items
+
+The group should confirm that the reader list reflects current responsibilities and that each role above has a named backup. Page owners will review this list at the next regular logistics meeting and update the page as arrangements change. Please send corrections to the page owner directly instead of editing the content without discussion, since changes to access or contract details can have downstream effects.

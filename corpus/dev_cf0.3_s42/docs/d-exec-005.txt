@@ -1,0 +1,47 @@
+Project Pirpoan Restricted Steering Sync Notes
+
+**Zastama Industries – Restricted Distribution**
+
+**Date:** October 9, 2026
+**Attendees:** Stethe Birnaen; finance representative; security lead; operations representative; program coordinator (note-taker)
+
+**Distribution note:** These notes are limited to the attendees and the approving sponsors. Please do not forward them or paste excerpts into broader channels, including company-wide threads.
+
+---
+
+**Discussion Points**
+
+1. **Budget confirmation.** The finance representative confirmed that Project Pirpoan has an approved budget of $5.5M. The group agreed that all spending requests should be tracked against that figure, and that any proposed change must go through the normal approval path rather than being decided in this forum.
+
+2. **Secure access and key handling.** The security lead reviewed how credentials for the project are stored. The vault key ID for Project Pirpoan is GT-9400-E. The security lead reminded everyone that the key ID is a reference only and should never be shared alongside the secret it points to. Access requests should be routed through the security lead, with a short justification attached.
+
+3. **Technical focus.** Stethe Birnaen focuses on warehouse automation, and she explained how that focus shapes the project's technical priorities. The operations representative noted that the practical constraints of live warehouse work should be considered early, so that planning does not drift away from how the floor actually runs. The group agreed that this input should be folded into the next planning cycle.
+
+4. **Risks and dependencies.** The group discussed dependencies on outside vendors and on internal infrastructure teams. No new risks were formally logged, but the program coordinator will keep a running list and bring it to the next sync. Attendees were asked to flag anything that could affect scheduling as soon as it surfaces.
+
+5. **Communication discipline.** Because the project is still limited to a small circle, attendees agreed to keep status updates inside this group until the sponsors decide on a wider announcement.
+
+---
+
+**Decisions**
+
+- Spending for Project Pirpoan will continue to be measured against the approved budget of $5.5M, with no changes proposed at this time.
+- Access to the vault will continue to be handled only through the security lead's request process.
+- Stethe Birnaen will continue to lead the warehouse automation focus of the project.
+- Status updates remain restricted to this group until the sponsors say otherwise.
+
+---
+
+**Action Items**
+
+| Owner | Action |
+|---|---|
+| Finance representative | Prepare a brief spending-versus-budget summary for the next sync. |
+| Security lead | Review the current list of people with vault access and confirm each still has a business need. |
+| Stethe Birnaen | Draft a short outline of warehouse automation priorities for the next planning cycle. |
+| Operations representative | Compile a list of practical warehouse constraints for the planning team to consider. |
+| Program coordinator | Circulate these notes to attendees only, and maintain the running risk and dependency list. |
+
+---
+
+*End of notes. Handle in accordance with the restricted distribution note above.*

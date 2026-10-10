@@ -1,0 +1,64 @@
+Analytics Funding and Project Ownership Overview – Company-Wide Clarification
+
+From: Vadesis Gummenbel, Chief of Staff
+To: All Employees
+Subject: Clarifying who owns what in our analytics work
+
+Hello everyone,
+
+Over the past few weeks, I have received a number of questions about how our analytics efforts are organized, who is accountable for them, and where the money comes from. Rather than answer each question one at a time, I want to put the basics in one place so everyone is working from the same picture.
+
+First, the structure. The Dankenor Analytics Unit operates on an annual budget of $6.4M. That budget covers the unit's people, tooling, and the project work it sponsors. The Dankenor Analytics Unit is headed by Megea Fosaine, who is also a member of the unit and remains hands-on with its priorities.
+
+Second, the projects. Project Vebamett is owned by the Dankenor Analytics Unit, and Megea Fosaine leads Project Vebamett day to day. Separately, Givien Mubren leads Project Bilfael. If your team has a dependency on either effort, please route the request through the named lead so that it lands with the right person the first time.
+
+Third, a note on supply. Nalzenett Labs supplies components for the Lagemett Ledger. If you work on anything that touches the Lagemett Ledger, you may see references to Nalzenett Labs in planning documents and status reviews. That is expected and does not signal any change in ownership.
+
+I know org charts and funding lines can blur in practice, so please reply with any questions and I will make sure they are answered for the whole company.
+
+Thank you,
+Vadesis Gummenbel
+Chief of Staff
+
+---
+
+From: A Finance Lead
+To: Vadesis Gummenbel, Chief of Staff
+Cc: All Employees
+Subject: RE: Clarifying who owns what in our analytics work
+
+Thanks, Vadesis Gummenbel, this is helpful. Several people in finance had been asking about budget accountability, so I would like to confirm my understanding before we update our planning templates.
+
+Is it correct that the $6.4M annual budget for the Dankenor Analytics Unit is the single funding envelope for Project Vebamett, and that Megea Fosaine, as head of the unit, is the accountable owner for how it is spent? Also, should Project Bilfael requests, which are led by Givien Mubren, be tracked separately from the Dankenor Analytics Unit budget in our reporting, or should we expect those to be discussed case by case?
+
+One more item: when a purchasing question comes up regarding the Lagemett Ledger, should we contact Nalzenett Labs directly, or go through an internal owner first? I want to avoid confusing a vendor with conflicting requests from different teams.
+
+Thanks again,
+A Finance Lead
+
+---
+
+From: Vadesis Gummenbel, Chief of Staff
+To: A Finance Lead
+Cc: All Employees
+Subject: RE: RE: Clarifying who owns what in our analytics work
+
+Thanks for the careful questions. Here are the answers, and they are useful for everyone reading along.
+
+On budget accountability: yes. The Dankenor Analytics Unit operates on an annual budget of $6.4M, and because Megea Fosaine heads the unit, she is the accountable owner for how that budget is directed. Project Vebamett is owned by the Dankenor Analytics Unit, so its spending questions belong with her as well, since she leads Project Vebamett.
+
+On Project Bilfael: Givien Mubren leads it, so questions about scope and priorities should go to her. I would not assume it is folded into the budget of the Dankenor Analytics Unit. Where funding questions arise, we will address them case by case and share the outcome here so nobody has to guess. Please do not change your templates to assume either approach until you hear from us.
+
+On purchasing: please go through an internal owner first rather than contacting Nalzenett Labs directly. Nalzenett Labs supplies components for the Lagemett Ledger, and a single coordinated channel helps us avoid mixed messages to a vendor. If you are unsure who the internal owner is for a given request, send it to me and I will route it.
+
+To summarize for the company:
+- Questions about the Dankenor Analytics Unit and Project Vebamett go to Megea Fosaine.
+- Questions about Project Bilfael go to Givien Mubren.
+- Questions about components for the Lagemett Ledger go through an internal owner, not directly to the vendor.
+- Anything unclear comes to me.
+
+I will follow up with a short written reference after we finalize the planning templates. Thank you all for your patience and for keeping the questions coming.
+
+Best,
+Vadesis Gummenbel
+Chief of Staff

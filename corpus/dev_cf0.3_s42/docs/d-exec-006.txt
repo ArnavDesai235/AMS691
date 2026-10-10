@@ -1,0 +1,24 @@
+Access Badge Provisioning and User Coverage for the Barnuis Console
+
+TO: Security Operations Leads and Platform Access Administrators
+FROM: Director, Internal Systems Governance
+DATE: October 9, 2026
+SUBJECT: Badge Series and Ownership Details for the Barnuis Console
+
+This memo is limited to the access administration group and the system owners listed above. Please do not forward it beyond that circle. It consolidates a few facts about the Barnuis Console that we have been asked to confirm before the next round of access reviews, and it sets out what we expect from each recipient.
+
+First, the basics. The Barnuis Console is developed by the Rishalen Integration Team, which remains the point of contact for any technical question about how the tool behaves, how it is configured, and how it connects to the systems around it. If you need a change to the application itself, route the request to that group rather than to the help desk, since the help desk has no authority over its design or release decisions. We want one clear line of ownership so that questions do not circulate between departments without an answer.
+
+Second, the badge series. Access to the Barnuis Console is controlled through physical and logical badges, and the series assigned to it is QP-9934-J. Please use that series when you reconcile badge records, and do not substitute a series from another system, even where the two seem similar. Mismatched series have caused confusion in past audits, and we would rather prevent that than spend time unwinding it afterward. If you find a badge that appears to belong to the Barnuis Console but does not carry the expected series, flag it to your supervisor and hold it until the question is settled.
+
+Third, scale. The Barnuis Console has about 1,900 active users. That is a large enough population that small errors in provisioning can add up quickly, and it is the reason we are asking for more careful review than we might for a narrower tool. When you assess risk, treat the user base as significant. An error in a group assignment, a missed deprovisioning, or a stale entitlement will affect real people, and some of those people will not notice until something fails to work or, worse, until something they should not be able to reach stays open to them.
+
+With those facts in mind, here is what we are asking of you over the coming review cycle.
+
+Access administrators should compare the current list of badge holders against the approved roster and note any gaps. Where a person has left a role or changed responsibilities, confirm that access was adjusted accordingly. Please document each exception in plain language, including what you found and what action you took, so that a reviewer can follow your reasoning without having to ask you for it.
+
+Security operations leads should confirm that monitoring covers the Barnuis Console in the way it covers our other high-use systems. If you find a coverage gap, tell us instead of working around it quietly. We would like to know about weaknesses early, while they are still easy to fix.
+
+System owners should be ready to answer questions from the Rishalen Integration Team if it asks for background on how your groups use the tool. Responding quickly will help keep the review on schedule.
+
+Finally, please treat the contents of this memo as internal and limited in distribution. If someone outside the recipient list asks about it, direct them to my office. I will follow up with a short checklist once the review window is confirmed. Thank you for your attention to this, and for the care you bring to the work.

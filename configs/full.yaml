@@ -1,0 +1,63 @@
+# Full scale (~300 docs).
+run_name: "full_cf{cf}_s{seed}"
+seed: 42
+company_seed: 7
+out_root: corpus
+users_per_tier: 2
+
+tiers:
+  - {name: public, includes: [],               doc_share: 0.40}
+  - {name: team_a, includes: [public],         doc_share: 0.20}
+  - {name: team_b, includes: [public],         doc_share: 0.20}
+  - {name: exec,   includes: [team_a, team_b], doc_share: 0.20}
+
+entities:
+  n_person: 150
+  n_project: 60
+  n_product: 32
+  n_team: 20
+  n_vendor: 26
+  n_site: 12
+  cross_tier_fraction: 0.3
+  restricted_entity_share: 0.5
+  sweep_seed: 1234
+  restricted_neighbor_rate: 0.6
+  sibling_cross_share: 0.25
+  qc_pool_share: 0.3
+  hub_fraction: 0.3
+  restricted_mentions: [2, 4]
+  mentions_low: [2, 5]
+  mentions_high: [9, 14]
+  min_public_facts: 2
+
+canaries:
+  per_cross_tier_entity: 2
+  per_restricted_only_entity: 1
+
+docs:
+  n_docs: 300
+  words_min: 300
+  words_max: 1200
+
+queries:
+  n_type_a: 60
+  n_type_b: 40
+  n_type_c: 40
+  all_users: true
+
+llm:
+  provider: claude_code     # claude_code | anthropic | mock
+  model: claude-sonnet-5-5
+  temperature: 0.7
+  max_tokens: 4096
+  max_retries: 4
+  concurrency: 8
+  cache_dir: .llm_cache
+
+lightrag:
+  version: "1.5.7"
+  chunk_token_size: 1200
+  chunk_overlap_token_size: 100
+  tiktoken_model_name: gpt-4o-mini
+  force_llm_summary_on_merge: 8
+  summary_max_tokens: 1200

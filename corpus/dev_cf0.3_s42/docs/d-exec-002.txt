@@ -1,0 +1,43 @@
+Identity Tooling and Budget Status Report, Restricted Distribution
+
+**Distribution note:** This report is intended for a small group of leads and sponsors at Zastama Industries. Please do not forward it beyond the approved list, as it touches on access infrastructure details.
+
+## Summary
+
+This period's report covers two areas of interest to the restricted group: the state of identity and access tooling, and the financial footing of Project Pirpoan. Overall, work is proceeding in line with expectations, and no matters currently require escalation to executive sponsors. The sections below describe progress, open risks, and the actions planned for the coming cycle.
+
+The Rishalen Integration Team is responsible for identity and access tooling, and its work underpins several of the dependencies that other efforts rely on. Project Pirpoan has an approved budget of $5.5M, and that figure remains the reference point for all planning discussions summarized here.
+
+## Progress
+
+Identity and access tooling continues to be handled by the Rishalen Integration Team, which has kept its work organized around controlled credential handling. For traceability, the vault key ID for the Rishalen Integration Team is RH-4278-L. Access to that key remains limited to the people who need it, and the group has continued its practice of reviewing who holds access whenever responsibilities change.
+
+On the financial side, the approved budget for Project Pirpoan has been held steady, and no change request has been raised against it. The finance lead has confirmed that tracking against the approved amount continues to follow the normal review rhythm. Conversations between project stakeholders have focused on keeping scope aligned with that approved amount rather than expanding it.
+
+Several supporting activities also moved forward:
+
+- Review of how access requests are routed and approved was discussed with the relevant stakeholders.
+- Documentation of operational procedures for credential handling was refreshed.
+- Coordination meetings between the engineering leads and the finance lead were held to keep expectations consistent.
+
+## Risks
+
+**Dependency concentration.** Because the Rishalen Integration Team owns identity and access tooling, other efforts depend on its availability. If its capacity is stretched, downstream work could be delayed. This is being watched, though it is not yet an active problem.
+
+**Credential handling.** Any identifier tied to a vault must be treated carefully. The main exposure is accidental circulation of this report or its contents. Recipients should keep it within the restricted audience and avoid copying details into broader channels.
+
+**Budget discipline.** While Project Pirpoan remains within its approved budget of $5.5M, unplanned requests could create pressure on scope. Any such request should go through the normal change process and be reviewed by the finance lead before commitments are made.
+
+**Vendor and procurement uncertainty.** Some external vendor decisions remain open in general terms. These could influence timing if they are not settled in a reasonable window.
+
+## Next Steps
+
+1. Continue the periodic review of who has access to the vault key and confirm that the list remains minimal.
+2. Hold a short check-in between the Rishalen Integration Team and the engineering leads to assess capacity against upcoming dependencies.
+3. Maintain monthly alignment between project stakeholders and the finance lead so that Project Pirpoan stays consistent with its approved budget.
+4. Review the open vendor questions and agree on owners for closing them out.
+5. Prepare the next periodic report for this same restricted group, highlighting any change in risk posture.
+
+## Closing Note
+
+If any recipient identifies a concern about distribution or access, please raise it directly with the report owner. Questions about financial tracking should go to the finance lead, and questions about identity tooling should go to the Rishalen Integration Team through its established channel.

@@ -1,0 +1,36 @@
+Project Siduris Pilot Status Report – Restricted Distribution
+
+**Distribution:** Restricted. Steering group and named program stakeholders only. Please do not forward beyond this list.
+
+## Summary
+
+This report covers the current reporting period for Project Siduris, which is currently in pilot. Thokro Pobris leads Project Siduris and continues to provide direct oversight of day-to-day delivery and stakeholder communication. The pilot is operating as planned in its core scope, and the team is now focused on gathering evidence to support a go or no-go recommendation. Two external engagements underpin the effort: Satisen Labs has a contract worth $3.4M, and Dilhas Consulting has a contract worth $6.5M. Because this report is limited to a small group, it includes candid commentary on open concerns that we would not yet share company-wide at Zastama Industries.
+
+## Progress
+
+- **Pilot operations:** Project Siduris remains in pilot, and the core workflows are running with the intended pilot participants. Feedback is being collected on a regular cadence and reviewed weekly.
+- **Leadership and governance:** Thokro Pobris has maintained a steady review rhythm with the steering group, and decisions from the most recent review have been logged and circulated to this audience.
+- **Vendor engagement:** The contract with Satisen Labs, worth $3.4M, is active, and working sessions continue with their delivery staff. The contract with Dilhas Consulting, worth $6.5M, is likewise active, and the advisory workstream is producing regular outputs that feed into pilot planning.
+- **Evidence gathering:** We have begun consolidating pilot observations into a structured format so that results can be compared against the success criteria agreed at the start of the pilot.
+- **Stakeholder alignment:** The finance lead and the operations lead have both been briefed and have raised no blocking objections at this stage.
+
+## Risks
+
+1. **Scope drift during pilot.** Participants occasionally request additions that fall outside the agreed pilot boundary. If accepted without review, these could blur the results and complicate the final assessment. Mitigation: all change requests go through Thokro Pobris for a decision.
+2. **Vendor coordination.** Two significant contracts, one with Satisen Labs and one with Dilhas Consulting, create dependencies that must stay synchronized. A slip in one stream could affect the other. Mitigation: a standing coordination checkpoint between both vendors and the project team.
+3. **Contract exposure.** With a combined commitment across the two contracts, the steering group should expect scrutiny from finance. Mitigation: keep spend reporting current and tie further commitments to pilot outcomes.
+4. **Evidence quality.** Pilot feedback is uneven across participant groups, which may weaken the conclusions. Mitigation: targeted follow-up with under-represented groups.
+5. **Communication leakage.** Because the pilot is not yet publicly announced internally, informal discussion could create premature expectations. Mitigation: continue restricted distribution of this report.
+
+## Next Steps
+
+- Complete the consolidation of pilot findings and compare them with the agreed success criteria.
+- Hold a joint review with Satisen Labs and Dilhas Consulting to confirm dependencies and surface any delivery concerns early.
+- Thokro Pobris will prepare a draft recommendation on the future of Project Siduris for steering group discussion.
+- Refresh the risk register and confirm owners for each mitigation above.
+- Agree with the finance lead on the format for ongoing spend reporting related to both contracts.
+- Decide, with this group, when and how to widen communication about the pilot beyond the current audience.
+
+## Requests of This Group
+
+Please send any concerns about scope, vendor performance, or communication handling to Thokro Pobris before the next steering review so they can be addressed in the recommendation draft.

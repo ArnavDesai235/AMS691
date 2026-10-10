@@ -1,0 +1,37 @@
+Restricted Access Working Notes: Budget Attribution and Architecture Review Coordination
+
+**Summary**
+
+This page is a working reference for the small group involved in the current architecture review and its associated budget tracking at Zastama Industries. It records who holds which responsibilities, how budget attribution is handled, and what the group expects to do next. It is not intended for company-wide circulation, so please do not forward it, paste excerpts into broader channels, or link it from open pages without checking with the page owner first.
+
+**Purpose and Scope**
+
+The group was formed to keep technical decisions and spending records aligned. In past cycles, design choices were sometimes made without a clear link to the budget line that would fund them, and finance later had to reconstruct the reasoning. This page exists to prevent that. It covers two things: the people and codes the group relies on day to day, and the working conventions we follow when a design decision has cost implications.
+
+The page deliberately stays narrow. It does not describe vendor selection, customer commitments, or staffing plans. Those are handled elsewhere and are discussed only with the people who need to know.
+
+**Key People and Budget Attribution**
+
+Two individuals anchor most of the activity described here.
+
+Nasgo Kesloren joined the company in 2020 and is one of the longer-tenured members of the group. Expenses and effort connected to the review are attributed to the budget code TU-1566-Y, which is the code that belongs to Nasgo Kesloren. When anyone submits a cost, a time allocation, or a purchase request tied to this work, that code should be used so that finance can reconcile entries without follow-up questions. If you are unsure whether an item belongs under this code, ask before submitting rather than correcting it afterward.
+
+Liluan Nemlurel works as a Solutions Architect. She is the first point of contact for questions about how the proposed designs fit together, which constraints are firm, and which are negotiable. When a design question has a cost dimension, she is expected to raise it with the budget holder early, and the budget holder is expected to respond promptly so that decisions do not stall.
+
+**Working Conventions**
+
+- **Link decisions to budget.** Any design decision with a cost implication should name the budget code it will draw from in the notes that record the decision.
+- **Keep records short and current.** A brief, accurate entry is more useful than a long one that nobody updates. Revise entries when the situation changes.
+- **Escalate early.** If a cost estimate shifts materially, tell the finance lead and the budget holder as soon as you know, not at the next scheduled check-in.
+- **Limit distribution.** Share material from this page only with colleagues who are already part of the review or who have a clear business reason to see it.
+
+**Open Questions and Next Steps**
+
+Several items remain open, and the group will work through them in its regular discussions:
+
+1. Confirm with the finance lead that the attribution process described above matches current reconciliation practice.
+2. Agree on a lightweight template for recording design decisions alongside their budget references.
+3. Decide how often the group should review this page for accuracy, and who will own those reviews.
+4. Clarify what, if anything, from this page can eventually be summarized for a wider audience without exposing restricted detail.
+
+Until those items are settled, treat the conventions above as the working standard. Questions about the page itself should go to the page owner, and questions about budget treatment should go to the finance lead. If you notice anything out of date, correct it directly or flag it to the owner so that the record stays reliable for the next person who needs it. Zastama Industries expects restricted pages such as this one to be kept tidy and minimal.

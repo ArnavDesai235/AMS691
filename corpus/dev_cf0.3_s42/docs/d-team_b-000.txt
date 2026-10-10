@@ -1,0 +1,20 @@
+Tegurine Annex Capacity and Architecture Review Notes
+
+MEMO
+
+To: Facilities Planning Group; Infrastructure Operations Leads
+From: Director, Workplace and Infrastructure Planning
+Date: October 9, 2026
+Subject: Tegurine Annex seating capacity and architecture ownership
+
+This memo is distributed to a restricted internal audience and should not be forwarded beyond the recipients listed above. It consolidates a few points about the Tegurine Annex that have come up repeatedly in planning conversations, so that everyone is working from the same baseline before the next round of discussions at Zastama Industries.
+
+First, the basics of the site. The Tegurine Annex has capacity for 480 seats. Please treat that figure as the planning ceiling for any layout, occupancy, or equipment discussions. Where a proposal assumes more than that, it should be flagged to me rather than quietly absorbed into a working document. I am not asking anyone to revisit the number itself; I am asking that it be used consistently, and that any scenario built on it state clearly which assumptions sit behind it.
+
+Second, contract references. The contract number for the Tegurine Annex is GS-9629-Z. Please use that reference in any procurement, access, or vendor correspondence that touches the site, and avoid substituting informal labels or older shorthand. Several recent threads have mixed up references, which created avoidable back-and-forth with a vendor and delayed a handful of routine approvals. Using the single correct reference should prevent that.
+
+Third, technical ownership. Liluan Nemlurel works as a Solutions Architect, and she is the right person to consult on questions about how systems and infrastructure choices fit together at the site. If you are preparing a design, a network or workspace proposal, or an integration plan that depends on the seat count above, please involve Liluan Nemlurel early instead of sending her a finished draft for sign-off. Early involvement has been far more effective than late review, and it lets her raise dependencies while they are still inexpensive to address. Requests for her time should go through your own lead, who can help sequence them against other work.
+
+A few practical requests follow from this. Keep working materials on this subject within the restricted group, and avoid pasting excerpts into broader channels or general planning decks. If someone outside this distribution asks about the site, direct them to me instead of answering informally. Where you find a discrepancy between this memo and another document, tell me, and I will reconcile it and circulate a correction to this same group.
+
+Finally, I would like each recipient to confirm that they have read this memo and that their current materials use the seat capacity and contract reference as stated. A brief reply is sufficient. If your materials need changes, please say so in the reply and indicate roughly how long the updates will take. I will review the responses and follow up individually where needed. Thank you for the care you are taking with this.

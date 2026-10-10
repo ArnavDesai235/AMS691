@@ -1,0 +1,18 @@
+Restricted Access Review and Onboarding Workstream Coordination
+
+TO: Security Operations Lead; Facilities Access Coordinator
+FROM: Director, Internal Operations
+DATE: October 9, 2026
+SUBJECT: Badge Records Verification and Onboarding Flow Review (Restricted Distribution)
+
+This memo is intended for a limited audience and should not be forwarded beyond the recipients listed above. It concerns two small but related housekeeping items at Zastama Industries that need attention before the next quarterly access review. Please keep the contents confidential and discuss them only with people who already have a legitimate need to know.
+
+The first item is a records check on physical access. Pinduen Gersolel's access badge series is FT-7497-A. I am asking the Facilities Access Coordinator to confirm that this series matches what is currently held in the badge management records and that the entry permissions tied to it reflect her present responsibilities. If the records and the physical badge disagree in any way, please flag the difference to the Security Operations Lead rather than correcting it informally. I would like any discrepancy documented so that the review has a clean audit trail, and I would rather we find a mismatch now than during an external audit.
+
+The second item concerns how we support new customers. Bedras Sarkua focuses on customer onboarding flows, and that focus makes him the natural point of contact for any questions about how new accounts move from signup through first use. I would like the Security Operations Lead to consider whether his work touches any systems or areas that require additional access controls, since onboarding processes often involve customer data and internal tooling that should be limited to the right people. This is a prompt for a conversation, not a finding of any problem, and nothing here should be read as a concern about either colleague.
+
+To keep the work orderly, I suggest the following sequence. First, the Facilities Access Coordinator completes the badge records comparison and reports the outcome privately. Second, the Security Operations Lead reviews whether the access levels associated with onboarding work are appropriately scoped, consulting Bedras Sarkua directly about which areas his work requires. Third, both of you bring any open questions to me so we can decide together whether a wider discussion is warranted. I would prefer to settle these points inside this small group before involving other departments, since broader circulation could create confusion about what is a routine check and what is a real issue.
+
+Please treat both items as routine and handle them with discretion. I do not expect either to be complicated, but accuracy matters more than speed here. If you need additional context to complete the review, contact me directly and I will provide what I can. Once the comparison and the scoping conversation are finished, send me a brief written summary so I can close the matter in our internal records.
+
+Thank you for your help and for keeping this within the group.

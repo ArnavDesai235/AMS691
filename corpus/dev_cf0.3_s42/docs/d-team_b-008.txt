@@ -1,0 +1,49 @@
+Onboarding Handoff and Budget Coding for Restricted Access Group
+
+From: Operations Manager
+To: Finance Lead; Program Coordinator
+Subject: Handoff notes for the restricted access group
+
+Hi both,
+
+Before we widen this conversation, I want to keep it to the three of us. We need to settle how the handoff of recurring approvals will work for the restricted access group, and I'd rather not circulate the details company-wide yet.
+
+For background, Zosu Kistos joined the company in 2020, so she has the longest history with how these approvals have been handled. Thokro Pobris joined the company in 2023 and will be picking up part of that workload. I'd like her institutional knowledge captured before any responsibilities move.
+
+Can each of you tell me what you need from me to make this clean? Please keep replies within this thread.
+
+Thanks,
+Operations Manager
+
+---
+
+From: Finance Lead
+To: Operations Manager; Program Coordinator
+Subject: RE: Handoff notes for the restricted access group
+
+Thanks for keeping this narrow. From the finance side, my main concern is that charges land in the right place during the transition. Zosu Kistos currently charges this work to budget code GW-2651-D, and I want that to stay unchanged until we have agreed in writing how costs will be split.
+
+I'd also like Thokro Pobris to confirm which approvals she expects to handle first, so I can set up review steps on my end. If we skip that, we risk duplicate approvals or gaps that are hard to untangle at month end.
+
+I can prepare a short summary of the review steps once I hear back. I'll keep it limited to this group as well.
+
+Finance Lead
+
+---
+
+From: Program Coordinator
+To: Operations Manager; Finance Lead
+Subject: RE: Handoff notes for the restricted access group
+
+Agreed on both points. I'll set up a working session with Zosu Kistos and Thokro Pobris so they can walk through the recurring approvals together. I'll write up notes from that session and send them only to this thread.
+
+A few practical items from my side:
+
+1. I'll ask Zosu Kistos to list the approvals that need her judgment versus those that are routine, so we know what can move first.
+2. I'll ask Thokro Pobris to note any questions about the process as they come up, so we can resolve them before the handoff is final.
+3. I'll hold off on any announcement to the wider organization until the three of us agree the arrangement is working.
+
+Once the notes are ready, I'll share them for your review. If either of you sees a reason to change the order of the handoff, tell me before the session so I can adjust the agenda.
+
+Thanks,
+Program Coordinator

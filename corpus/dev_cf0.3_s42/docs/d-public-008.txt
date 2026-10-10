@@ -1,0 +1,54 @@
+Vendor Contracts and Renewals Review: Company-Wide Meeting Notes
+
+**Date:** October 9, 2026
+**Attendees:** Procurement lead, finance representative, legal representative, program management lead, engineering lead for the ledger platform, operations representative, and a vendor management analyst (notes)
+
+**Purpose**
+
+This session gave all employees of Zastama Industries a shared view of the vendor relationships and delivery milestones that affect upcoming planning. The group reviewed the current contract landscape, the renewal timing for key vendors, and the dependencies between vendors and internal projects. Notes are circulated company-wide so that every team understands where contract decisions are coming and who owns the follow-up work.
+
+**Discussion Points**
+
+1. **Misginine Systems agreement overview.** The procurement lead opened with the largest item. Misginine Systems holds a 24-month master services agreement with the company. The contract is worth $1.4M. The agreement is up for renewal in Q4 FY28. The procurement lead noted that the renewal is some distance away but that preparation should begin early because the vendor touches several parts of the business.
+
+2. **Misginine Systems and the Lagemett Ledger.** The engineering lead explained that Misginine Systems supplies components for the Lagemett Ledger. Because of that, any change in terms, pricing, or service levels at renewal could affect the platform roadmap. The engineering lead asked that technical requirements be documented well before negotiations so they can be reflected in the renewal terms.
+
+3. **Dilhas Consulting and the Lagemett Ledger.** The group also discussed that Dilhas Consulting supplies components for the Lagemett Ledger. Having two vendors supply components for the same platform was seen as both a strength and a coordination challenge. The engineering lead said that interfaces between the two sets of components need clear ownership. The program management lead suggested that both vendors be included in any future dependency reviews for the platform so that issues are caught early.
+
+4. **Project Rakresett.** The program management lead confirmed that Project Rakresett has a services contract with Misginine Systems. This means the vendor relationship supports both the platform work and Project Rakresett. The legal representative pointed out that the services contract and the master services agreement should be read together, so that obligations, term lengths, and change procedures do not conflict. The finance representative asked that spending under the services contract be tracked clearly against the overall relationship so the combined exposure is visible.
+
+5. **Project Nuzeor timeline.** The program management lead reported that Project Nuzeor is targeting completion in Q3 FY26. She stressed that this is a target and that the team should keep surfacing risks early. The operations representative asked what support would be needed from other groups to stay on track. The program management lead said she would collect those needs and share them with the wider company. Several attendees noted that vendor deliverables should be checked against the Project Nuzeor schedule so no dependency becomes a late surprise.
+
+6. **Nalzenett Labs renewal.** The procurement lead noted that Nalzenett Labs is up for renewal in Q2 FY27. This renewal falls earlier than the one for Misginine Systems and will therefore need attention sooner. The finance representative asked for a review of how the vendor has been used and what it has cost, so the company can decide whether to renew as is, renegotiate, or change the scope. The legal representative offered to review the current terms for anything that should be updated.
+
+7. **Renewal process and governance.** The group agreed that renewals have sometimes been handled informally, with owners learning of deadlines late. The vendor management analyst proposed a single shared calendar of renewal dates that is visible to all relevant teams. Attendees supported this, and the procurement lead agreed to own it. The group also discussed the value of a short, standard checklist for each renewal covering usage, cost, performance, risk, and alternatives.
+
+8. **Communication to employees.** The operations representative raised the point that many employees do not know which vendors support their work. The group agreed to publish a plain-language summary of key vendors and the projects or platforms each one supports, starting with the items covered in this meeting.
+
+**Decisions**
+
+- A single shared renewal calendar will be created and maintained by procurement, covering Misginine Systems, Nalzenett Labs, and other vendor agreements.
+- Renewal preparation for Nalzenett Labs will begin first, given its earlier Q2 FY27 timing, with preparation for Misginine Systems to follow well ahead of Q4 FY28.
+- The master services agreement and the services contract for Project Rakresett will be reviewed together by legal and procurement.
+- Dilhas Consulting and Misginine Systems will both be included in dependency reviews for the Lagemett Ledger.
+- Project Nuzeor will keep its Q3 FY26 completion target, and vendor deliverables will be checked against it regularly.
+- A company-wide vendor summary will be published for employees.
+
+**Action Items**
+
+| Owner | Action |
+|---|---|
+| Procurement lead | Build and publish the shared renewal calendar and the standard renewal checklist |
+| Procurement lead | Start the Nalzenett Labs renewal review, including usage and cost, with input from the finance representative |
+| Finance representative | Prepare a combined spending view for Misginine Systems, covering the $1.4M contract and the services contract for Project Rakresett |
+| Legal representative | Review the master services agreement and the Project Rakresett services contract together and flag any conflicts or gaps |
+| Legal representative | Review current Nalzenett Labs terms and recommend updates before renewal |
+| Engineering lead | Document technical requirements for the components that Misginine Systems and Dilhas Consulting supply to the Lagemett Ledger |
+| Program management lead | Collect support needs for Project Nuzeor and share them company-wide |
+| Program management lead | Add Misginine Systems and Dilhas Consulting to the Lagemett Ledger dependency review |
+| Operations representative | Draft the plain-language vendor summary for employees |
+| Vendor management analyst | Circulate these notes and track open actions through the next review |
+
+**Next Steps**
+
+Owners will report progress at the next vendor review session. Employees with questions about any vendor or project covered here should contact the relevant owner listed above.

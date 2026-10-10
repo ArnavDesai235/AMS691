@@ -1,0 +1,64 @@
+Zastama Industries Cross-Functional Program Update: Meeting Notes
+
+**Date:** October 9, 2026
+**Attendees:** Vadesis Gummenbel (Chief of Staff, facilitator), Krilfia Mukela (Solutions Architect), Megea Fosaine, a finance representative, a procurement representative, a representative of the Fonathe Platform Group, and a program management representative
+**Distribution:** All employees
+
+## Purpose
+
+This meeting gave a short, shared view of where several cross-functional efforts stand, who is responsible for what, and which follow-ups are needed. Notes are circulated company-wide so that every team can see the same information and know where to direct questions.
+
+## Discussion Points
+
+**Opening and context**
+
+Vadesis Gummenbel, who works as a Chief of Staff, opened the meeting by explaining why these notes go to the whole company. Several recent questions from employees showed that people were unsure who owns which area and how the larger efforts connect. The goal was to answer those questions in one place and to keep the tone practical.
+
+**Project Stebril**
+
+The group reviewed Project Stebril first. It has an approved budget of $7.2M, and it has a services contract with Misginine Systems. The finance representative confirmed that the budget figure is the number all teams should use when they discuss the project. The procurement representative noted that the services contract is in place, so the conversation shifted from vendor selection to vendor coordination.
+
+Attendees discussed how to keep spending visible against the approved budget. The finance representative suggested a regular, lightweight reporting rhythm so that no team is surprised by cost movement. Krilfia Mukela, a Solutions Architect, said the technical design work should be documented clearly so that the services delivered under the contract can be checked against what was planned. She stressed that clear interface descriptions reduce rework, and rework is the most common source of avoidable cost on engagements like this.
+
+The procurement representative added that anyone who needs to engage Misginine Systems should route requests through the project owner, rather than contacting the vendor directly. This avoids duplicate requests and keeps the contract scope clean.
+
+**Project Nuzeor**
+
+Next, the group discussed Project Nuzeor, which is targeting completion in Q3 FY26. The program management representative said the target remains the planning anchor and that dependencies should be raised early if any of them threaten it. No change to the target was proposed in this meeting. Attendees agreed that the main risk to any completion target is late discovery of dependencies, so teams were encouraged to flag blockers as soon as they appear instead of waiting for a scheduled review.
+
+**Fleet telemetry ownership**
+
+The representative of the Fonathe Platform Group reminded everyone that the Fonathe Platform Group is responsible for fleet telemetry. Questions about telemetry data, collection, or availability should go to that group first. This was raised because several teams had been unsure where to send telemetry requests, and some had tried to build their own workarounds. Attendees agreed that a single point of ownership will prevent duplicated effort and inconsistent data.
+
+Krilfia Mukela noted that telemetry is also an important input to the architecture work on the larger efforts discussed today, so early alignment with the Fonathe Platform Group will help her team avoid late design changes.
+
+**Incident response tooling**
+
+Megea Fosaine, who joined the company in 2018, focuses on incident response tooling. She gave a brief overview of how her work relates to the other topics. Reliable telemetry makes incident response faster, and well-documented designs make it easier to find the cause of a problem when something breaks. She encouraged teams to tell her when their processes depend on tooling that may need to be adapted for incident handling. Several attendees said they appreciated hearing about her longer history with the company, because it helps them know whom to ask about how past issues were handled.
+
+**Communication and coordination**
+
+The group closed the discussion with a conversation about communication habits. Vadesis Gummenbel asked that status updates be written in plain language and avoid internal shorthand, since these notes and related updates reach employees in every function. Attendees agreed that a short written update is better than a long meeting when information is simple, and that meetings should be reserved for decisions and unresolved questions.
+
+## Decisions
+
+- The approved budget for Project Stebril, $7.2M, will be treated as the single reference figure in all company communications about the project.
+- Requests involving Misginine Systems will be routed through the project owner and not made directly by individual teams.
+- Project Nuzeor will continue to plan against its current target of Q3 FY26, and teams will raise dependency risks as soon as they are identified.
+- Fleet telemetry questions will be directed to the Fonathe Platform Group as the owning group.
+- Megea Fosaine will serve as the first point of contact for questions about incident response tooling.
+- Status communications going to the whole company will use plain language.
+
+## Action Items
+
+- **Finance representative:** Set up a simple recurring view of spending against the approved budget for Project Stebril and share it with the project owner.
+- **Procurement representative:** Send a short note to relevant teams explaining how to route requests involving Misginine Systems.
+- **Krilfia Mukela:** Make sure the technical design documentation for Project Stebril is current and shareable, and review telemetry-related design assumptions with the Fonathe Platform Group.
+- **Representative of the Fonathe Platform Group:** Publish a brief guide describing how teams can submit fleet telemetry requests.
+- **Program management representative:** Collect dependency risks for Project Nuzeor and report any threat to the Q3 FY26 target at the next review.
+- **Megea Fosaine:** Gather input from teams on tooling needs related to incident response and summarize the themes.
+- **Vadesis Gummenbel:** Circulate these notes to all employees and schedule the next cross-functional update.
+
+## Next Steps
+
+Owners of the action items above will report progress at the next cross-functional update. Employees with questions about any topic in these notes should contact the relevant owner named above or reach out to the Chief of Staff.
