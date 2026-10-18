@@ -2,3 +2,5 @@
 corpus/mock_*/
 __pycache__/
 *.pyc
+rag_storage/
+results/
