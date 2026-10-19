@@ -42,10 +42,31 @@ def _llm_and_embedding(b: dict[str, Any]):
         from lightrag.llm.ollama import ollama_embed  # noqa: PLC0415
         emb = EmbeddingFunc(embedding_dim=b["embedding_dim"], max_token_size=8192,
                             func=partial(ollama_embed.func, embed_model=b["embedding_model"],
-                                         host=b["ollama_host"]))
+                                         host=b["ollama_host"], timeout=b.get("ollama_timeout"),
+                                         options={"num_ctx": b.get("ollama_embed_num_ctx", 8192)}))
     else:
         raise ValueError(f"backend.embedding {b['embedding']!r} not supported (openai | ollama)")
     return llm, emb
+
+
+def ollama_llm_kwargs(b: dict[str, Any]) -> dict[str, Any]:
+    """Kwargs LightRAG forwards to ollama.AsyncClient.chat().
+
+    num_ctx must be set explicitly: Ollama's default context is a few thousand
+    tokens, and a 1200-token chunk plus LightRAG's extraction prompt and examples
+    exceeds it, so the prompt is truncated without any error.
+    """
+    num_ctx = int(b.get("ollama_num_ctx", 32768))
+    if num_ctx < 8192:
+        raise ValueError(f"backend.ollama_num_ctx={num_ctx} is too small for LightRAG extraction (use >= 8192)")
+    options: dict[str, Any] = {"num_ctx": num_ctx}
+    if "ollama_think" in b:            # LightRAG 1.5.7 lifts "think" out of options for chat()
+        options["think"] = bool(b["ollama_think"])
+    if b.get("ollama_temperature") is not None:
+        options["temperature"] = float(b["ollama_temperature"])
+    if b.get("ollama_seed") is not None:
+        options["seed"] = int(b["ollama_seed"])
+    return {"host": b["ollama_host"], "timeout": b.get("ollama_timeout"), "options": options}
 
 
 async def build_rag(cfg: dict[str, Any], *, capture_fragments: bool = False):
@@ -69,7 +90,7 @@ async def build_rag(cfg: dict[str, Any], *, capture_fragments: bool = False):
         if k in lr:
             kwargs[k] = lr[k]
     if b["llm"] == "ollama":
-        kwargs["llm_model_kwargs"] = {"host": b["ollama_host"]}
+        kwargs["llm_model_kwargs"] = ollama_llm_kwargs(b)
     rag = LightRAG(**kwargs)
     await rag.initialize_storages()
     if capture_fragments and cfg.get("c4", {}).get("capture_fragments", True):

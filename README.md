@@ -4,6 +4,7 @@ Permission-scoped retrieval for graph RAG: a LightRAG fork with ACL propagation,
 - [Corpus and ground truth (Arnav)](DESIGN_corpus.md)
 - [C1–C3, cache keys, runner, and metrics (Bala)](DESIGN_enforcement.md)
 - [C4 source-fragment filtering, setup, and validation (Sai)](DESIGN_c4.md)
+- [Backend: Ollama models, cluster and job script](DESIGN_backend.md)
 
 Install `requirements-dev.txt` in a Python virtual environment and run
 `python -m pytest -q tests` for offline checks. C4's default ingestion captures
