@@ -16,6 +16,12 @@ Writes into the index directory:
 
 The source-count proxy is not an observation of whether an LLM summary ran;
 LightRAG also applies token limits and may merge prior summaries incrementally.
+
+Re-running on an existing index resumes it. LightRAG 1.5.7 never retries FAILED
+docs on insert, and re-inserting a known doc id only adds a FAILED ``dup-*``
+status row. So before inserting, this script deletes FAILED docs (and any
+``dup-*`` rows) and then inserts only docs that are not PROCESSED. Extraction
+results already in the LLM cache are reused.
 """
 from __future__ import annotations
 
@@ -42,13 +48,43 @@ def read_docs(corpus: Path) -> tuple[list[str], list[str]]:
     return ids, texts
 
 
+def _status(row: dict | None) -> str:
+    return str((row or {}).get("status", "")).lower().rsplit(".", 1)[-1]
+
+
+async def prepare_resume(rag, ids: list[str]) -> tuple[list[str], dict]:
+    """Clear failed state so it can be retried; return the doc ids still to insert."""
+    from lightrag.base import DocStatus  # noqa: PLC0415
+
+    failed_rows = await rag.doc_status.get_docs_by_statuses([DocStatus.FAILED])
+    ours = set(ids)
+    dup = [k for k in failed_rows if k.startswith("dup-") and k not in ours]
+    if dup:
+        await rag.doc_status.delete(dup)
+        await rag.doc_status.index_done_callback()
+    statuses = dict(zip(ids, await rag.doc_status.get_by_ids(ids)))
+    retry = [d for d in ids if _status(statuses[d]) == "failed"]
+    for doc_id in retry:
+        res = await rag.adelete_by_doc_id(doc_id)
+        if res.status not in ("success", "not_found"):
+            raise RuntimeError(f"could not clear failed doc {doc_id}: {res.status} {res.message}")
+    todo = [d for d in ids if d in retry or _status(statuses[d]) != "processed"]
+    info = {"already_processed": len(ids) - len(todo), "retried_failed": retry,
+            "removed_duplicate_rows": len(dup), "inserted": len(todo)}
+    return todo, info
+
+
 async def ingest(cfg: dict) -> dict:
     corpus: Path = cfg["corpus"]
     ids, texts = read_docs(corpus)
     rag = await build_rag(cfg, capture_fragments=True)
     try:
-        log.info("inserting %d docs from %s into %s", len(ids), corpus, cfg["working_dir"])
-        await rag.ainsert(texts, ids=ids, file_paths=ids)
+        todo, resume = await prepare_resume(rag, ids)
+        log.info("resume: %s", resume)
+        if todo:
+            text_of = dict(zip(ids, texts))
+            log.info("inserting %d docs from %s into %s", len(todo), corpus, cfg["working_dir"])
+            await rag.ainsert([text_of[d] for d in todo], ids=todo, file_paths=todo)
 
         # ---- chunk map + doc status
         chunk_map, failed = {}, []
@@ -84,7 +120,7 @@ async def ingest(cfg: dict) -> dict:
                 missing.append(e["canonical_name"])
 
         report = {
-            "corpus": str(corpus), "n_docs": len(ids), "failed_docs": failed,
+            "corpus": str(corpus), "n_docs": len(ids), "resume": resume, "failed_docs": failed,
             "n_chunks": sum(len(v) for v in chunk_map.values()),
             "chunks_with_wrong_parent": bad_parent,
             "entities_found": sum(r["found"] for r in entities), "entities_total": len(entities),
