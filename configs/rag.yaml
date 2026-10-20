@@ -8,13 +8,19 @@ working_dir: rag_storage/{corpus_name}   # LightRAG index (not in git)
 results_dir: results/{corpus_name}       # one <config>.jsonl per run
 
 backend:
-  llm: openai                 # openai | ollama   (team decision; change here only)
-  llm_model: gpt-4o-mini
-  embedding: openai           # openai | ollama
-  embedding_model: text-embedding-3-small
-  embedding_dim: 1536
+  llm: ollama                 # openai | ollama   (team decision: ollama)
+  llm_model: qwen3:32b-q8_0   # dense ~32B at 8-bit (fits one H100); same model for extraction, summaries and answers
+  embedding: ollama           # openai | ollama
+  embedding_model: bge-m3
+  embedding_dim: 1024         # must match embedding_model; fixed once an index is built
   ollama_host: http://localhost:11434
-  llm_max_async: 4
+  ollama_num_ctx: 32768       # LLM context window; Ollama's default silently truncates extraction prompts
+  ollama_think: false         # Qwen3 thinks by default; reasoning text breaks LightRAG's extraction format
+  ollama_temperature: 0       # deterministic extraction so re-ingests and cf sweeps build the same graph
+  ollama_seed: 42
+  ollama_embed_num_ctx: 8192  # embedding context window (bge-m3 max)
+  ollama_timeout: 600         # seconds per request; local 32B models are slow on long prompts
+  llm_max_async: 4            # keep <= OLLAMA_NUM_PARALLEL on the server
 
 # Keep at lightrag-hku 1.5.7 defaults: the corpus's two merge regimes depend on them.
 lightrag:

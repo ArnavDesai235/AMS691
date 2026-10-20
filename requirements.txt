@@ -5,3 +5,4 @@ anthropic>=0.40
 tiktoken>=0.7
 # pinned retrieval stack used by later weeks
 lightrag-hku==1.5.7
+ollama>=0.6.3,<1   # LightRAG Ollama backend; installed up front (compute nodes may lack internet)

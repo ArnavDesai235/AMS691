@@ -39,6 +39,7 @@ from contextlib import contextmanager
 from typing import Any, Awaitable, Callable, Iterator
 
 from .acl import ACLIndex, split_source_ids, GRAPH_FIELD_SEP
+from .fragments import NoAuthorizedFragments
 
 log = logging.getLogger(__name__)
 
@@ -70,6 +71,8 @@ class Scope:
     access_set: str
     c4_filter: Any = dataclasses.field(default=None, repr=False, compare=False)
     c4_revision: str = ""
+    # C4 items dropped for lack of an authorized fragment, as (kind, key) pairs.
+    c4_dropped: list = dataclasses.field(default_factory=list, repr=False, compare=False)
 
     @property
     def cache_scope(self) -> str:
@@ -144,9 +147,15 @@ def _install_prefilters(acl: ACLIndex, *, entities_vdb, relationships_vdb, chunk
         out["source_id"] = GRAPH_FIELD_SEP.join(keep)
         return out
 
-    async def c4(kind: str, key: Any, data: dict, s: Scope) -> dict:
+    async def c4(kind: str, key: Any, data: dict, s: Scope) -> dict | None:
+        """C4 description filter; None means drop the item (never fall back to merged text)."""
         if s.mode is Mode.C4 and s.c4_filter is not None:
-            return await s.c4_filter(kind, key, data, s, acl)
+            try:
+                return await s.c4_filter(kind, key, data, s, acl)
+            except NoAuthorizedFragments as exc:
+                log.warning("C4 drop %s %r for %s: %s", kind, key, s.user_id, exc)
+                s.c4_dropped.append([kind, list(key) if kind == "edge" else key])
+                return None
         return data
 
     # ---- vector stores: oversample, filter, cut to top_k
@@ -207,7 +216,9 @@ def _install_prefilters(acl: ACLIndex, *, entities_vdb, relationships_vdb, chunk
         for name, data in out.items():
             if data is None or s.user_id not in await acl.node_acl(name, data):
                 continue
-            res[name] = await c4("node", name, await trim_sources(data, s.user_id), s)
+            served = await c4("node", name, await trim_sources(data, s.user_id), s)
+            if served is not None:
+                res[name] = served
         return res
 
     orig_node_edges = graph.get_nodes_edges_batch
@@ -233,7 +244,9 @@ def _install_prefilters(acl: ACLIndex, *, entities_vdb, relationships_vdb, chunk
         for pair, data in out.items():
             if data is None or s.user_id not in await acl.edge_acl(pair[0], pair[1], data):
                 continue
-            res[pair] = await c4("edge", pair, await trim_sources(data, s.user_id), s)
+            served = await c4("edge", pair, await trim_sources(data, s.user_id), s)
+            if served is not None:
+                res[pair] = served
         return res
 
     graph.get_nodes_batch = get_nodes_batch

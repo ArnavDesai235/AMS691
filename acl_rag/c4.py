@@ -8,7 +8,8 @@ from collections import Counter
 from typing import Any, Awaitable, Callable
 
 from .acl import ACLIndex, GRAPH_FIELD_SEP, split_source_ids
-from .fragments import FragmentStore, MissingProvenanceError, digest_file, item_key
+from .fragments import (FragmentStore, MissingProvenanceError, NoAuthorizedFragments, digest_file,
+                        item_key)
 
 Summary = Callable[[str, Any, list[str]], Awaitable[tuple[str, bool]]]
 
@@ -56,7 +57,7 @@ class C4DescriptionFilter:
                      and scope.user_id in acls.get(f["chunk_id"], ())
                      and scope.user_id in f["acl_users"]]
         if not fragments:
-            raise MissingProvenanceError(
+            raise NoAuthorizedFragments(
                 f"C4 has no authorized original descriptions for {kind} {key!r}; merged text is never a fallback")
 
         descriptions = list(dict.fromkeys(f["description"] for f in fragments))

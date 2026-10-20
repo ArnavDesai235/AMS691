@@ -63,12 +63,14 @@ async def run_one(rag, acl, row: dict, mode: Mode, qcfg: dict, run_id: str | Non
             "entities": [{"name": e.get("entity_name"), "description": e.get("description"),
                           "source_id": e.get("source_id")} for e in data.get("entities") or []],
             "relations": [{"src": r.get("src_id"), "tgt": r.get("tgt_id"),
-                           "description": r.get("description"), "source_id": r.get("source_id")}
+                           "description": r.get("description"), "keywords": r.get("keywords"),
+                           "source_id": r.get("source_id")}
                           for r in data.get("relationships") or []],
             "chunks": [{"rank": i + 1, "chunk_id": c.get("chunk_id"), "doc_id": c.get("file_path"),
                         "content": c.get("content")} for i, c in enumerate(chunks)],
         },
         "keywords": (res.get("metadata") or {}).get("keywords"),
+        "c4_dropped": list(scope.c4_dropped) if mode is Mode.C4 else None,
     }
 
 
@@ -79,7 +81,7 @@ def run_identity(cfg: dict, acl, mode: Mode, *, concurrency: int, no_llm_cache: 
         inputs[name] = hashlib.sha256((cfg["corpus"] / name).read_bytes()).hexdigest()
     callback = getattr(acl, "c4_description_filter", None)
     backend = cfg.get("backend", {})
-    signature = {"schema": 1, "config": mode.value, "inputs": inputs,
+    signature = {"schema": 2, "config": mode.value, "inputs": inputs,
                  "query": cfg.get("query", {}), "lightrag": cfg.get("lightrag", {}),
                  "acl": cfg.get("acl", {}), "backend": {k: backend.get(k) for k in (
                      "llm", "llm_model", "embedding", "embedding_model", "embedding_dim")},

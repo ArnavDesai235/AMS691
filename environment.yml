@@ -1,0 +1,21 @@
+# conda env for the Ollama backend on ai-slurm01.
+#   conda env create -f environment.yml && conda activate AMS691
+# Then install the Ollama server binary and pull models: see DESIGN_backend.md.
+name: AMS691
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12          # the version the test suite is verified on
+  - pyyaml
+  - tiktoken
+  - wordfreq
+  - anthropic
+  - numpy
+  - pytest
+  - zstd                 # unpacks the Ollama .tar.zst release
+  - curl
+  - pip
+  - pip:
+      - lightrag-hku==1.5.7
+      - english-words==2.0.2
+      - ollama>=0.6.3,<1

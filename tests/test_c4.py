@@ -325,3 +325,56 @@ def test_c4_all_224_rows_through_real_query_and_shared_runner(tmp_path):
         (tmp_path / "offline-C4.jsonl").write_text("\n".join(json.dumps(r) for r in saved))
     finally:
         store.close()
+
+
+def test_item_without_authorized_fragment_is_dropped_not_fatal(tmp_path):
+    """One unattributable item must not abort the query (live extraction can
+    return an empty description for a chunk). It is dropped and recorded."""
+    store = FragmentStore(tmp_path / "dev.sqlite3", CORPUS, create=True)
+    dev_fragments(store)
+    rows = [json.loads(l) for l in (CORPUS / "queries.jsonl").read_text().splitlines()]
+    row = next(r for r in rows if r["eval_role"] == "positive_control")
+    victim = row["target_name"]
+    with store.db:  # simulate extraction that produced no description for this entity
+        store.db.execute("DELETE FROM fragments WHERE kind='node' AND item_key=?",
+                         (json.dumps(victim, ensure_ascii=False),))
+    rag = FakeRAG(CORPUS, OPERATE)
+    acl = ACLIndex(CORPUS)
+    install(rag, acl, operate=OPERATE)
+    set_c4_description_filter(C4DescriptionFilter(store, strategy="join"), acl=acl)
+
+    async def aquery_llm(text, param):
+        res = await rag.query(text, [victim], mode=param.mode,
+                              top_k=param.top_k, chunk_top_k=param.chunk_top_k)
+        raw = res.raw_data if res else None
+        return {"status": "success" if raw else "failure", "data": raw["data"] if raw else {},
+                "llm_response": {"content": res.content if res else "", "llm_generated": True}}
+
+    rag.aquery_llm = aquery_llm
+    try:
+        rec = asyncio.run(run_one(rag, acl, row, Mode.C4, {"top_k": 10, "chunk_top_k": 5}, "t"))
+    finally:
+        store.close()
+    assert ["node", victim] in rec["c4_dropped"]
+    assert victim not in {e["name"] for e in rec["retrieved"]["entities"]}
+
+
+def test_runner_records_relation_keywords_and_c4_drops():
+    rows = [json.loads(l) for l in (CORPUS / "queries.jsonl").read_text().splitlines()]
+    row = rows[0]
+    rag = FakeRAG(CORPUS, OPERATE)
+    acl = ACLIndex(CORPUS)
+    install(rag, acl, operate=OPERATE)
+
+    async def aquery_llm(text, param):
+        res = await rag.query(text, [row["target_name"]], mode=param.mode,
+                              top_k=param.top_k, chunk_top_k=param.chunk_top_k)
+        return {"status": "success", "data": res.raw_data["data"],
+                "llm_response": {"content": res.content, "llm_generated": True}}
+
+    rag.aquery_llm = aquery_llm
+    rec = asyncio.run(run_one(rag, acl, row, Mode.C1, {"top_k": 10, "chunk_top_k": 5}, "t"))
+    rels = rec["retrieved"]["relations"]
+    assert rels and all("keywords" in r for r in rels)
+    assert any(r["keywords"] for r in rels)
+    assert rec["c4_dropped"] is None
