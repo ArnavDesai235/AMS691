@@ -98,7 +98,11 @@ class FakeGraph:
             self.adj[t].append((s, t))
 
     def _edge(self, s, t):
-        return self.edges.get((s, t)) or self.edges.get((t, s))
+        e = self.edges.get((s, t)) or self.edges.get((t, s))
+        # Real 1.5.7 graph storages return only the upserted edge attributes
+        # (no src_id/tgt_id). Keeping them made LightRAG's context builder miss
+        # the original record and serve relations with empty keywords/source_id.
+        return {k: v for k, v in e.items() if k not in ("src_id", "tgt_id")} if e else None
 
     async def get_node(self, n):
         return dict(self.nodes[n]) if n in self.nodes else None

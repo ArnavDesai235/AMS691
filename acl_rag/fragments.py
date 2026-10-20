@@ -19,6 +19,14 @@ class MissingProvenanceError(RuntimeError):
     """C4 cannot safely describe an item using this index's source records."""
 
 
+class NoAuthorizedFragments(MissingProvenanceError):
+    """One item has no original fragment the user may read.
+
+    Item-level, not index-level: the enforcement layer drops the item and
+    records it instead of failing the whole query.
+    """
+
+
 def digest_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
