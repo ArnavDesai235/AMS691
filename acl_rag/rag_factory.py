@@ -66,6 +66,8 @@ def ollama_llm_kwargs(b: dict[str, Any]) -> dict[str, Any]:
         options["temperature"] = float(b["ollama_temperature"])
     if b.get("ollama_seed") is not None:
         options["seed"] = int(b["ollama_seed"])
+    if b.get("ollama_num_predict") is not None:
+        options["num_predict"] = int(b["ollama_num_predict"])
     return {"host": b["ollama_host"], "timeout": b.get("ollama_timeout"), "options": options}
 
 
@@ -91,6 +93,10 @@ async def build_rag(cfg: dict[str, Any], *, capture_fragments: bool = False):
             kwargs[k] = lr[k]
     if b["llm"] == "ollama":
         kwargs["llm_model_kwargs"] = ollama_llm_kwargs(b)
+        if b.get("ollama_timeout") is not None:
+            # LightRAG kills a call after 2 x default_llm_timeout (default 240 -> 480s),
+            # independently of the Ollama client timeout. Keep the two consistent.
+            kwargs["default_llm_timeout"] = int(b["ollama_timeout"])
     rag = LightRAG(**kwargs)
     await rag.initialize_storages()
     if capture_fragments and cfg.get("c4", {}).get("capture_fragments", True):
