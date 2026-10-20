@@ -11,7 +11,8 @@ CFG = yaml.safe_load((Path(__file__).resolve().parents[1] / "configs" / "rag.yam
 
 def test_config_options_forwarded():
     kw = ollama_llm_kwargs(CFG["backend"])
-    assert kw["options"] == {"num_ctx": 32768, "think": False, "temperature": 0.0, "seed": 42}
+    assert kw["options"] == {"num_ctx": 32768, "think": False, "temperature": 0.0, "seed": 42,
+                             "num_predict": 4096}
     assert kw["host"] == CFG["backend"]["ollama_host"]
 
 
@@ -52,4 +53,31 @@ def test_lightrag_passes_options_and_think_to_chat(monkeypatch):
         "qwen3:32b-q8_0", "hi", max_tokens=64, **ollama_llm_kwargs(CFG["backend"])))
     assert out == "ok"
     assert seen["chat"]["think"] is False
-    assert seen["chat"]["options"] == {"num_ctx": 32768, "temperature": 0.0, "seed": 42, "num_predict": 64}
+    # Our configured num_predict is an explicit option, so it takes precedence over a
+    # per-call max_tokens in 1.5.7's adapter. operate.py never passes max_tokens, so
+    # in practice the configured cap is the only output limit.
+    assert seen["chat"]["options"] == {"num_ctx": 32768, "temperature": 0.0, "seed": 42, "num_predict": 4096}
+
+
+def test_lightrag_llm_timeout_follows_config(tmp_path, monkeypatch):
+    """LightRAG's worker limit (2 x default_llm_timeout) must follow ollama_timeout."""
+    import asyncio
+
+    import lightrag
+    from acl_rag import rag_factory
+
+    seen = {}
+
+    class Stop(Exception):
+        pass
+
+    def fake(**kw):
+        seen.update(kw)
+        raise Stop
+
+    monkeypatch.setattr(lightrag, "LightRAG", fake)
+    cfg = {"backend": dict(CFG["backend"]), "lightrag": {}, "working_dir": tmp_path / "wd"}
+    with pytest.raises(Stop):
+        asyncio.run(rag_factory.build_rag(cfg))
+    assert seen["default_llm_timeout"] == CFG["backend"]["ollama_timeout"]
+    assert seen["llm_model_kwargs"]["options"]["num_predict"] == CFG["backend"]["ollama_num_predict"]

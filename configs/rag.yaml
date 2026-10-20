@@ -19,7 +19,9 @@ backend:
   ollama_temperature: 0       # deterministic extraction so re-ingests and cf sweeps build the same graph
   ollama_seed: 42
   ollama_embed_num_ctx: 8192  # embedding context window (bge-m3 max)
-  ollama_timeout: 600         # seconds per request; local 32B models are slow on long prompts
+  ollama_timeout: 600         # seconds per request; also LightRAG's LLM timeout (its worker limit is 2x this)
+  ollama_num_predict: 4096    # max output tokens per call: ends a runaway generation loop before the
+                              # worker timeout (a 1200-token chunk's extraction is far below this)
   llm_max_async: 4            # keep <= OLLAMA_NUM_PARALLEL on the server
 
 # Keep at lightrag-hku 1.5.7 defaults: the corpus's two merge regimes depend on them.
