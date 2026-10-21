@@ -11,7 +11,8 @@
 # Cluster: ai-cluster-slurm (login ai-slurm01). Values: configs/cluster.yaml. Setup: DESIGN_backend.md.
 # Starts Ollama on the allocated H100, then runs the pipeline against it on the same node.
 #   sbatch scripts/run_ollama_job.sbatch                       # ingest only
-#   STEPS="ingest C1 C2 C3 C4 metrics" sbatch scripts/run_ollama_job.sbatch
+#   STEPS="C1 C2 C3 C4 metrics leakage" sbatch scripts/run_ollama_job.sbatch
+#   (check, metrics and leakage need no GPU and can also run on the login node)
 # Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml)
 set -euo pipefail
 
@@ -58,6 +59,8 @@ for step in $STEPS; do
   case $step in
     ingest)  python -m acl_rag.ingest  --rag-config "$cfg" ;;
     metrics) python -m acl_rag.metrics --rag-config "$cfg" ;;
+    leakage) python -m acl_rag.leakage --rag-config "$cfg" ;;
+    check)   python -m acl_rag.check_index --rag-config "$cfg" ;;
     C1|C2|C3|C4) python -m acl_rag.run --rag-config "$cfg" --config "$step" ;;
     *) echo "unknown step $step"; exit 1 ;;
   esac
