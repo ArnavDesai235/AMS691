@@ -115,3 +115,51 @@ def test_rerun_retries_failed_doc_without_duplicates(tmp_path, monkeypatch):
     third = asyncio.run(ingest(cfg))
     assert third["resume"]["inserted"] == 0 and third["failed_docs"] == []
     assert sorted(json.loads(status_file.read_text())) == ["DOC_A", "DOC_B", "DOC_C"]
+
+
+def test_truncated_extraction_is_reported(tmp_path, monkeypatch):
+    """A token-capped extraction leaves the doc PROCESSED; ingest must still flag it."""
+    import lightrag
+    from lightrag.utils import EmbeddingFunc, Tokenizer, TruncatedResponse
+
+    corpus = tmp_path / "corpus"
+    (corpus / "docs").mkdir(parents=True)
+    facts = {"DOC_A": "Project Atlas is run by Team North.",
+             "DOC_B": "Project Atlas launches in April with Team North."}
+    for d, f in facts.items():
+        (corpus / "docs" / f"{d}.txt").write_text(f"{d}\n{f}")
+    (corpus / "manifest.jsonl").write_text("\n".join(
+        json.dumps({"doc_id": d, "acl_users": ["u1"]}) for d in facts))
+    (corpus / "facts.json").write_text(json.dumps({"entities": [
+        {"entity_id": "E1", "canonical_name": "Project Atlas", "cls": "x", "hub": False}]}))
+
+    async def llm(prompt, system_prompt=None, **kwargs):
+        if "Description List:" in prompt:
+            return " ".join(json.loads(l)["Description"] for l in prompt.splitlines()
+                            if l.startswith('{"Description":'))
+        for d, f in facts.items():
+            if d in prompt:
+                out = json.dumps({"entities": [
+                    {"name": "Project Atlas", "type": "PROJECT", "description": f}],
+                    "relationships": []})
+                return TruncatedResponse(out) if d == "DOC_B" else out
+        raise AssertionError(f"Unexpected model call: {prompt[:100]}")
+
+    async def embed(texts, **kwargs):
+        return np.ones((len(texts), 8), dtype=np.float32) / np.sqrt(8)
+
+    monkeypatch.setattr(rag_factory, "_llm_and_embedding", lambda _: (
+        llm, EmbeddingFunc(embedding_dim=8, max_token_size=8192, func=embed)))
+    real_rag = lightrag.LightRAG
+    monkeypatch.setattr(lightrag, "LightRAG", lambda **kw: real_rag(
+        **kw, workspace="ingest_truncation_test", tokenizer=Tokenizer("test-characters", CharacterCodec()),
+        entity_extraction_use_json=True, entity_extract_max_gleaning=0))
+    cfg = {"corpus": corpus, "working_dir": tmp_path / "index",
+           "results_dir": tmp_path / "results", "backend": {"llm": "test", "llm_model": "stub"},
+           "lightrag": {"chunk_token_size": 1200, "chunk_overlap_token_size": 0},
+           "c4": {"description_strategy": "join"}}
+
+    report = asyncio.run(ingest(cfg))
+    assert report["failed_docs"] == []  # LightRAG itself treats it as success
+    assert [t["doc_id"] for t in report["truncated_docs"]] == ["DOC_B"]
+    assert report["truncated_docs"][0]["events"] >= 1

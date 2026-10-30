@@ -22,6 +22,14 @@ docs on insert, and re-inserting a known doc id only adds a FAILED ``dup-*``
 status row. So before inserting, this script deletes FAILED docs (and any
 ``dup-*`` rows) and then inserts only docs that are not PROCESSED. Extraction
 results already in the LLM cache are reused.
+
+LightRAG 1.5.7 marks a doc PROCESSED even when an extraction response hit the
+output-token cap (Ollama ``done_reason == "length"``); it only records this in
+``doc_status.metadata.llm_truncation``. Those docs are listed as
+``truncated_docs`` and fail the run, since their graph may be missing records.
+
+The LLM cache key covers role and model only, not num_predict / temperature /
+seed: after changing those options, re-ingest into a fresh working_dir.
 """
 from __future__ import annotations
 
@@ -32,6 +40,8 @@ import logging
 from pathlib import Path
 
 from .acl import split_source_ids
+
+LLM_TRUNCATION_METADATA_KEY = "llm_truncation"  # lightrag.utils, 1.5.7
 from .rag_factory import build_rag, load_config
 
 log = logging.getLogger("acl_rag.ingest")
@@ -87,12 +97,15 @@ async def ingest(cfg: dict) -> dict:
             await rag.ainsert([text_of[d] for d in todo], ids=todo, file_paths=todo)
 
         # ---- chunk map + doc status
-        chunk_map, failed = {}, []
+        chunk_map, failed, truncated = {}, [], []
         for doc_id in ids:
             st = await rag.doc_status.get_by_id(doc_id) or {}
             status = str(st.get("status", "")).lower()
             if "processed" not in status:
                 failed.append({"doc_id": doc_id, "status": status, "error": st.get("error_msg")})
+            trunc = (st.get("metadata") or {}).get(LLM_TRUNCATION_METADATA_KEY)
+            if trunc:
+                truncated.append({"doc_id": doc_id, **trunc})
             chunk_map[doc_id] = list(st.get("chunks_list") or [])
 
         # every chunk must point back to its own doc
@@ -121,6 +134,7 @@ async def ingest(cfg: dict) -> dict:
 
         report = {
             "corpus": str(corpus), "n_docs": len(ids), "resume": resume, "failed_docs": failed,
+            "truncated_docs": truncated,
             "n_chunks": sum(len(v) for v in chunk_map.values()),
             "chunks_with_wrong_parent": bad_parent,
             "entities_found": sum(r["found"] for r in entities), "entities_total": len(entities),
@@ -147,7 +161,7 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     r = asyncio.run(ingest(load_config(args.rag_config)))
     print(json.dumps({k: v for k, v in r.items() if k != "entities"}, indent=1))
-    if r["failed_docs"] or r["chunks_with_wrong_parent"]:
+    if r["failed_docs"] or r["truncated_docs"] or r["chunks_with_wrong_parent"]:
         raise SystemExit("ingest finished with errors (see above)")
 
 
