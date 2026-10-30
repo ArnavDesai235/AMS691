@@ -62,8 +62,17 @@ def _status(row: dict | None) -> str:
     return str((row or {}).get("status", "")).lower().rsplit(".", 1)[-1]
 
 
-async def prepare_resume(rag, ids: list[str]) -> tuple[list[str], dict]:
-    """Clear failed state so it can be retried; return the doc ids still to insert."""
+def _truncation(row: dict | None) -> dict | None:
+    return ((row or {}).get("metadata") or {}).get(LLM_TRUNCATION_METADATA_KEY)
+
+
+async def prepare_resume(rag, ids: list[str], *, retry_truncated: bool = False) -> tuple[list[str], dict]:
+    """Clear failed (and optionally truncated) state so it can be retried; return doc ids to insert.
+
+    Truncated extraction responses are never written to the LLM cache, so a
+    retry re-extracts only the truncated chunks; it is useful after raising
+    backend.ollama_num_predict (at temperature 0 the same cap truncates again).
+    """
     from lightrag.base import DocStatus  # noqa: PLC0415
 
     failed_rows = await rag.doc_status.get_docs_by_statuses([DocStatus.FAILED])
@@ -73,23 +82,25 @@ async def prepare_resume(rag, ids: list[str]) -> tuple[list[str], dict]:
         await rag.doc_status.delete(dup)
         await rag.doc_status.index_done_callback()
     statuses = dict(zip(ids, await rag.doc_status.get_by_ids(ids)))
-    retry = [d for d in ids if _status(statuses[d]) == "failed"]
+    retry = [d for d in ids if _status(statuses[d]) == "failed"
+             or (retry_truncated and _truncation(statuses[d]))]
     for doc_id in retry:
         res = await rag.adelete_by_doc_id(doc_id)
         if res.status not in ("success", "not_found"):
             raise RuntimeError(f"could not clear failed doc {doc_id}: {res.status} {res.message}")
     todo = [d for d in ids if d in retry or _status(statuses[d]) != "processed"]
     info = {"already_processed": len(ids) - len(todo), "retried_failed": retry,
+            "retry_truncated": retry_truncated,
             "removed_duplicate_rows": len(dup), "inserted": len(todo)}
     return todo, info
 
 
-async def ingest(cfg: dict) -> dict:
+async def ingest(cfg: dict, *, retry_truncated: bool = False) -> dict:
     corpus: Path = cfg["corpus"]
     ids, texts = read_docs(corpus)
     rag = await build_rag(cfg, capture_fragments=True)
     try:
-        todo, resume = await prepare_resume(rag, ids)
+        todo, resume = await prepare_resume(rag, ids, retry_truncated=retry_truncated)
         log.info("resume: %s", resume)
         if todo:
             text_of = dict(zip(ids, texts))
@@ -103,7 +114,7 @@ async def ingest(cfg: dict) -> dict:
             status = str(st.get("status", "")).lower()
             if "processed" not in status:
                 failed.append({"doc_id": doc_id, "status": status, "error": st.get("error_msg")})
-            trunc = (st.get("metadata") or {}).get(LLM_TRUNCATION_METADATA_KEY)
+            trunc = _truncation(st)
             if trunc:
                 truncated.append({"doc_id": doc_id, **trunc})
             chunk_map[doc_id] = list(st.get("chunks_list") or [])
@@ -157,9 +168,11 @@ async def ingest(cfg: dict) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--rag-config", default="configs/rag.yaml")
+    ap.add_argument("--retry-truncated", action="store_true",
+                    help="delete and re-insert docs whose extraction hit the output-token cap")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-    r = asyncio.run(ingest(load_config(args.rag_config)))
+    r = asyncio.run(ingest(load_config(args.rag_config), retry_truncated=args.retry_truncated))
     print(json.dumps({k: v for k, v in r.items() if k != "entities"}, indent=1))
     if r["failed_docs"] or r["truncated_docs"] or r["chunks_with_wrong_parent"]:
         raise SystemExit("ingest finished with errors (see above)")

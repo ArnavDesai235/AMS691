@@ -163,3 +163,25 @@ def test_truncated_extraction_is_reported(tmp_path, monkeypatch):
     assert report["failed_docs"] == []  # LightRAG itself treats it as success
     assert [t["doc_id"] for t in report["truncated_docs"]] == ["DOC_B"]
     assert report["truncated_docs"][0]["events"] >= 1
+
+    # Raise the cap (the stub stops truncating) and retry only the truncated doc.
+    calls = []
+    real_llm = llm
+
+    async def fixed(prompt, system_prompt=None, **kwargs):
+        for d in facts:
+            if d in prompt and "Description List:" not in prompt:
+                calls.append(d)
+        return str(await real_llm(prompt, system_prompt, **kwargs)) if "DOC_B" not in prompt else \
+            json.dumps({"entities": [{"name": "Project Atlas", "type": "PROJECT",
+                                      "description": facts["DOC_B"]}], "relationships": []})
+
+    monkeypatch.setattr(rag_factory, "_llm_and_embedding", lambda _: (
+        fixed, EmbeddingFunc(embedding_dim=8, max_token_size=8192, func=embed)))
+    plain = asyncio.run(ingest(cfg))
+    assert plain["resume"]["inserted"] == 0  # without the flag, PROCESSED docs are left alone
+    retried = asyncio.run(ingest(cfg, retry_truncated=True))
+    assert retried["resume"]["retried_failed"] == ["DOC_B"]
+    assert retried["truncated_docs"] == [] and retried["failed_docs"] == []
+    assert calls == ["DOC_B"]  # DOC_A's extraction comes from the cache
+    assert retried["entities"][0]["n_source_chunks"] == 2
