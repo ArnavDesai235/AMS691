@@ -13,7 +13,7 @@
 #   sbatch scripts/run_ollama_job.sbatch                       # ingest only
 #   STEPS="C1 C2 C3 C4 metrics leakage" sbatch scripts/run_ollama_job.sbatch
 #   (check, metrics and leakage need no GPU and can also run on the login node)
-#   INGEST_ARGS=--retry-truncated sbatch scripts/run_ollama_job.sbatch   # after raising ollama_num_predict
+#   INGEST_ARGS="--retry-truncated --rounds 3" sbatch scripts/run_ollama_job.sbatch
 # Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS
 set -euo pipefail
 

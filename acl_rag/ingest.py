@@ -95,17 +95,25 @@ async def prepare_resume(rag, ids: list[str], *, retry_truncated: bool = False) 
     return todo, info
 
 
-async def ingest(cfg: dict, *, retry_truncated: bool = False) -> dict:
+async def ingest(cfg: dict, *, retry_truncated: bool = False, rounds: int = 1) -> dict:
+    """Insert the corpus. With rounds > 1, failed and truncated docs are retried
+    in the same process (Ollama's batched decoding is not bit-deterministic, so a
+    runaway generation usually does not recur on the next attempt)."""
     corpus: Path = cfg["corpus"]
     ids, texts = read_docs(corpus)
+    text_of = dict(zip(ids, texts))
     rag = await build_rag(cfg, capture_fragments=True)
     try:
-        todo, resume = await prepare_resume(rag, ids, retry_truncated=retry_truncated)
-        log.info("resume: %s", resume)
-        if todo:
-            text_of = dict(zip(ids, texts))
+        attempts = []
+        for rnd in range(max(1, rounds)):
+            todo, resume = await prepare_resume(rag, ids, retry_truncated=retry_truncated or rnd > 0)
+            log.info("round %d resume: %s", rnd + 1, resume)
+            attempts.append(resume)
+            if not todo:
+                break
             log.info("inserting %d docs from %s into %s", len(todo), corpus, cfg["working_dir"])
             await rag.ainsert([text_of[d] for d in todo], ids=todo, file_paths=todo)
+        resume = {**attempts[0], "rounds": attempts}
 
         # ---- chunk map + doc status
         chunk_map, failed, truncated = {}, [], []
@@ -179,9 +187,12 @@ def main() -> None:
     ap.add_argument("--rag-config", default="configs/rag.yaml")
     ap.add_argument("--retry-truncated", action="store_true",
                     help="delete and re-insert docs whose extraction hit the output-token cap")
+    ap.add_argument("--rounds", type=int, default=1,
+                    help="retry failed/truncated docs up to this many insert rounds (default 1)")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-    r = asyncio.run(ingest(load_config(args.rag_config), retry_truncated=args.retry_truncated))
+    r = asyncio.run(ingest(load_config(args.rag_config), retry_truncated=args.retry_truncated,
+                             rounds=args.rounds))
     print(json.dumps({k: v for k, v in r.items() if k != "entities"}, indent=1))
     if r["failed_docs"] or r["truncated_docs"] or r["chunks_with_wrong_parent"]:
         raise SystemExit("ingest finished with errors (see above)")

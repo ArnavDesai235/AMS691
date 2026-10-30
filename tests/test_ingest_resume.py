@@ -185,3 +185,54 @@ def test_truncated_extraction_is_reported(tmp_path, monkeypatch):
     assert retried["truncated_docs"] == [] and retried["failed_docs"] == []
     assert calls == ["DOC_B"]  # DOC_A's extraction comes from the cache
     assert retried["entities"][0]["n_source_chunks"] == 2
+
+
+def test_rounds_retry_a_transient_runaway(tmp_path, monkeypatch):
+    """A doc that truncates once is retried in the next round of the same run."""
+    import lightrag
+    from lightrag.utils import EmbeddingFunc, Tokenizer, TruncatedResponse
+
+    corpus = tmp_path / "corpus"
+    (corpus / "docs").mkdir(parents=True)
+    facts = {"DOC_A": "Project Atlas is run by Team North.",
+             "DOC_B": "Project Atlas launches in April with Team North."}
+    for d, f in facts.items():
+        (corpus / "docs" / f"{d}.txt").write_text(f"{d}\n{f}")
+    (corpus / "manifest.jsonl").write_text("\n".join(
+        json.dumps({"doc_id": d, "acl_users": ["u1"]}) for d in facts))
+    (corpus / "facts.json").write_text(json.dumps({"entities": [
+        {"entity_id": "E1", "canonical_name": "Project Atlas", "cls": "x", "hub": False}]}))
+    calls = []
+
+    async def llm(prompt, system_prompt=None, **kwargs):
+        if "Description List:" in prompt:
+            return " ".join(json.loads(l)["Description"] for l in prompt.splitlines()
+                            if l.startswith('{"Description":'))
+        for d, f in facts.items():
+            if d in prompt:
+                calls.append(d)
+                out = json.dumps({"entities": [
+                    {"name": "Project Atlas", "type": "PROJECT", "description": f}], "relationships": []})
+                return TruncatedResponse(out) if d == "DOC_B" and calls.count("DOC_B") == 1 else out
+        raise AssertionError(f"Unexpected model call: {prompt[:100]}")
+
+    async def embed(texts, **kwargs):
+        return np.ones((len(texts), 8), dtype=np.float32) / np.sqrt(8)
+
+    monkeypatch.setattr(rag_factory, "_llm_and_embedding", lambda _: (
+        llm, EmbeddingFunc(embedding_dim=8, max_token_size=8192, func=embed)))
+    real_rag = lightrag.LightRAG
+    monkeypatch.setattr(lightrag, "LightRAG", lambda **kw: real_rag(
+        **kw, workspace="ingest_rounds_test", tokenizer=Tokenizer("test-characters", CharacterCodec()),
+        entity_extraction_use_json=True, entity_extract_max_gleaning=0))
+    cfg = {"corpus": corpus, "working_dir": tmp_path / "index",
+           "results_dir": tmp_path / "results", "backend": {"llm": "test", "llm_model": "stub"},
+           "lightrag": {"chunk_token_size": 1200, "chunk_overlap_token_size": 0},
+           "c4": {"description_strategy": "join"}}
+
+    report = asyncio.run(ingest(cfg, rounds=3))
+    assert report["truncated_docs"] == [] and report["failed_docs"] == []
+    assert sorted(calls) == ["DOC_A", "DOC_B", "DOC_B"]
+    assert [r["inserted"] for r in report["resume"]["rounds"]] == [2, 1, 0]
+    assert report["resume"]["rounds"][1]["retried_failed"] == ["DOC_B"]
+    assert report["entities"][0]["n_source_chunks"] == 2
