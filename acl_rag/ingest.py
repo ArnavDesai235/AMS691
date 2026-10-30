@@ -129,6 +129,11 @@ async def ingest(cfg: dict, *, retry_truncated: bool = False) -> dict:
 
         # ---- merge check on our canonical names
         facts = json.loads((corpus / "facts.json").read_text())
+        # The planner's regime prediction lives in plan.json; facts.json's `hub`
+        # flag is only enforced for cross-tier entities (restricted-only entities
+        # can carry hub=True while being planned into the concatenated regime).
+        plan_file = corpus / "plan.json"
+        predicted = json.loads(plan_file.read_text()).get("predicted_regime", {}) if plan_file.is_file() else {}
         graph = rag.chunk_entity_relation_graph
         threshold = cfg.get("lightrag", {}).get("force_llm_summary_on_merge", 8)
         entities, missing = [], []
@@ -136,7 +141,8 @@ async def ingest(cfg: dict, *, retry_truncated: bool = False) -> dict:
             node = await graph.get_node(e["canonical_name"])
             n_src = len(split_source_ids((node or {}).get("source_id")))
             row = {"entity_id": e["entity_id"], "name": e["canonical_name"], "cls": e["cls"],
-                   "planned_hub": e.get("hub"), "found": node is not None,
+                   "planned_hub": e.get("hub"), "predicted_regime": predicted.get(e["entity_id"]),
+                   "found": node is not None,
                    "n_source_chunks": n_src,
                    "realized_regime": "hub" if n_src >= threshold else "non_hub"}
             entities.append(row)
@@ -151,8 +157,11 @@ async def ingest(cfg: dict, *, retry_truncated: bool = False) -> dict:
             "entities_found": sum(r["found"] for r in entities), "entities_total": len(entities),
             "entities_missing": missing,
             "realized_hubs": sum(r["realized_regime"] == "hub" for r in entities),
-            "hub_prediction_mismatches": [r["name"] for r in entities if r["found"] and
-                                          (r["realized_regime"] == "hub") != bool(r["planned_hub"])],
+            "hub_prediction_mismatches": [
+                {"name": r["name"], "cls": r["cls"], "predicted": r["predicted_regime"],
+                 "n_source_chunks": r["n_source_chunks"]}
+                for r in entities if r["found"] and (r["realized_regime"] == "hub") != (
+                    r["predicted_regime"] == "summarized" if r["predicted_regime"] else bool(r["planned_hub"]))],
             "entities": entities,
             "c4_provenance": rag._c4_fragment_store.stats()
                 if hasattr(rag, "_c4_fragment_store") else None,
