@@ -13,7 +13,8 @@
 #   sbatch scripts/run_ollama_job.sbatch                       # ingest only
 #   STEPS="C1 C2 C3 C4 metrics leakage" sbatch scripts/run_ollama_job.sbatch
 #   (check, metrics and leakage need no GPU and can also run on the login node)
-# Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml)
+#   INGEST_ARGS="--retry-truncated --rounds 3" sbatch scripts/run_ollama_job.sbatch
+# Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS
 set -euo pipefail
 
 ENV_NAME=${ENV_NAME:-AMS691}
@@ -57,7 +58,7 @@ ollama ps
 for step in $STEPS; do
   echo "=== $step $(date)"
   case $step in
-    ingest)  python -m acl_rag.ingest  --rag-config "$cfg" ;;
+    ingest)  python -m acl_rag.ingest  --rag-config "$cfg" ${INGEST_ARGS:-} ;;
     metrics) python -m acl_rag.metrics --rag-config "$cfg" ;;
     leakage) python -m acl_rag.leakage --rag-config "$cfg" ;;
     check)   python -m acl_rag.check_index --rag-config "$cfg" ;;
