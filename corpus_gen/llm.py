@@ -4,6 +4,8 @@ Providers (cfg.llm.provider):
   claude_code  headless Claude Code (`claude -p`), uses the CLI's own login; no API key.
                Temperature is not settable via the CLI; reproducibility comes from the cache.
   anthropic    Anthropic Python SDK; needs ANTHROPIC_API_KEY.
+  ollama       local Ollama server (llm.host), e.g. qwen3:32b-q8_0 on the cluster H100.
+               A response that hits max_tokens (done_reason=length) is retried, never cached.
   mock         deterministic offline stub for pipeline tests (no network).
 
 Cache key = sha256(provider, model, system, prompt, temperature, max_tokens, salt).
@@ -45,6 +47,9 @@ class LLM:
         if p.provider == "anthropic":
             import anthropic  # noqa: PLC0415
             self._client = anthropic.Anthropic()
+        elif p.provider == "ollama":
+            import ollama  # noqa: PLC0415
+            self._client = ollama.Client(host=p.host, timeout=p.timeout)
 
     # -------------------------------------------------------------- public
     def complete(self, system: str, prompt: str, salt: str = "") -> LLMResult:
@@ -56,9 +61,13 @@ class LLM:
             d = json.loads(path.read_text())
             return LLMResult(d["text"], True, 0.0, d.get("input_tokens", 0), d.get("output_tokens", 0))
         res = self._call_with_retry(system, prompt)
-        path.write_text(json.dumps({"text": res.text, "provider": self.p.provider,
-                                    "model": self.p.model, "input_tokens": res.input_tokens,
-                                    "output_tokens": res.output_tokens, "cost_usd": res.cost_usd}))
+        # Atomic: identical prompts run concurrently (e.g. gold answers for access sets
+        # with the same authorized facts), and a reader must never see a partial file.
+        tmp = path.with_name(f"{path.name}.{os.getpid()}.{threading.get_ident()}.tmp")
+        tmp.write_text(json.dumps({"text": res.text, "provider": self.p.provider,
+                                   "model": self.p.model, "input_tokens": res.input_tokens,
+                                   "output_tokens": res.output_tokens, "cost_usd": res.cost_usd}))
+        os.replace(tmp, path)
         with self._lock:
             self.spent_usd += res.cost_usd
             self.calls += 1
@@ -100,6 +109,21 @@ class LLM:
         text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
         return LLMResult(text, False, 0.0, msg.usage.input_tokens, msg.usage.output_tokens)
 
+    def _call_ollama(self, system: str, prompt: str) -> LLMResult:
+        options = {"temperature": self.p.temperature, "num_predict": self.p.max_tokens,
+                   "num_ctx": self.p.num_ctx}
+        if self.p.seed is not None:
+            options["seed"] = self.p.seed
+        r = self._client.chat(model=self.p.model, think=self.p.think, options=options,
+                              messages=[{"role": "system", "content": system},
+                                        {"role": "user", "content": prompt}])
+        if r.get("done_reason") == "length":
+            raise RuntimeError(f"ollama output hit max_tokens={self.p.max_tokens} (runaway or cap too low)")
+        text = re.sub(r"<think>.*?</think>\s*", "", r["message"]["content"] or "", flags=re.S).strip()
+        if not text:
+            raise RuntimeError("ollama returned an empty response")
+        return LLMResult(text, False, 0.0, int(r.get("prompt_eval_count") or 0), int(r.get("eval_count") or 0))
+
     def _call_mock(self, system: str, prompt: str) -> LLMResult:
         """Echo the FACTS block as prose; good enough to exercise the checks."""
         facts = re.findall(r"^- (.+)$", prompt.split("FACTS", 1)[-1], flags=re.M)
@@ -118,6 +142,14 @@ def check_provider(p: LLMParams) -> None:
     """Fail fast with an actionable message before a long run."""
     if p.provider == "anthropic" and not os.environ.get("ANTHROPIC_API_KEY"):
         raise SystemExit("llm.provider=anthropic needs ANTHROPIC_API_KEY (or use provider: claude_code)")
+    if p.provider == "ollama":
+        import ollama  # noqa: PLC0415
+        try:
+            models = {m.model for m in ollama.Client(host=p.host, timeout=30).list().models}
+        except Exception as e:  # noqa: BLE001
+            raise SystemExit(f"llm.provider=ollama: no Ollama server at {p.host}: {e}")
+        if p.model not in models:
+            raise SystemExit(f"llm.provider=ollama: model {p.model!r} not pulled on {p.host} (have {sorted(models)})")
     if p.provider == "claude_code":
         try:
             subprocess.run(["claude", "--version"], capture_output=True, check=True, timeout=30)

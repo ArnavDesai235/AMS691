@@ -46,13 +46,18 @@ queries:
   all_users: true
 
 llm:
-  provider: claude_code     # claude_code | anthropic | mock
-  model: claude-sonnet-5-5
+  provider: ollama          # claude_code | anthropic | ollama | mock
+  model: qwen3:32b-q8_0     # same model as the retrieval backend (configs/rag.yaml)
   temperature: 0.7
-  max_tokens: 4096
+  max_tokens: 4096          # a 1200-word doc is ~1.6k tokens; hitting the cap is retried
   max_retries: 4
-  concurrency: 8
+  concurrency: 4            # keep <= OLLAMA_NUM_PARALLEL in scripts/run_ollama_job.sbatch
   cache_dir: .llm_cache
+  host: http://localhost:11434   # the sbatch job overrides this with its own port
+  num_ctx: 16384
+  think: false
+  timeout: 600
+  seed: 42
 
 lightrag:
   version: "1.5.7"

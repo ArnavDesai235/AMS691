@@ -14,12 +14,15 @@
 #   STEPS="C1 C2 C3 C4 metrics leakage" sbatch scripts/run_ollama_job.sbatch
 #   (check, metrics and leakage need no GPU and can also run on the login node)
 #   INGEST_ARGS="--retry-truncated --rounds 3" sbatch scripts/run_ollama_job.sbatch
-# Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS
+#   STEPS=corpus sbatch scripts/run_ollama_job.sbatch            # generate configs/full.yaml's corpus locally
+# Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS,
+#   CORPUS_CONFIG (configs/full.yaml)
 set -euo pipefail
 
 ENV_NAME=${ENV_NAME:-AMS691}
 STEPS=${STEPS:-ingest}
 RAG_CONFIG=${RAG_CONFIG:-configs/rag.yaml}
+CORPUS_CONFIG=${CORPUS_CONFIG:-configs/full.yaml}
 cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p logs
 
@@ -58,6 +61,7 @@ ollama ps
 for step in $STEPS; do
   echo "=== $step $(date)"
   case $step in
+    corpus)  python -m corpus_gen.run --config "$CORPUS_CONFIG" --set "llm.host=http://$OLLAMA_HOST" ;;
     ingest)  python -m acl_rag.ingest  --rag-config "$cfg" ${INGEST_ARGS:-} ;;
     metrics) python -m acl_rag.metrics --rag-config "$cfg" ;;
     leakage) python -m acl_rag.leakage --rag-config "$cfg" ;;
