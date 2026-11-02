@@ -132,3 +132,11 @@ def test_len_bounds_are_whole_words():
     from corpus_gen.verbalize import _len_bounds
     cfg = NS(docs=NS(words_min=300, words_max=1200))
     assert _len_bounds(cfg, NS(target_words=591)) == (443, 797)   # 443.25 -> 443
+
+
+def test_invented_person_names_flagged():
+    from corpus_gen.verbalize import _person_names
+    allowed = {"Vadesis", "Gummenbel", "Project", "Krabehien"}
+    text = ("Sarah M. Delarue opened the meeting. David Moreau took notes. Vadesis Gummenbel "
+            "reviewed Project Krabehien and the Customer Onboarding plan.")
+    assert _person_names(text, allowed) == {"Sarah M. Delarue", "David Moreau"}

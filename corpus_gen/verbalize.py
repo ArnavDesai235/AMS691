@@ -68,6 +68,11 @@ _BRANDS = {"Jira", "Slack", "Zoom", "Confluence", "Salesforce", "Workday", "Micr
            "Snowflake", "Okta", "Servicenow", "ServiceNow", "Github", "GitHub", "Gitlab",
            "Trello", "Monday", "Smartsheet", "Sharepoint", "SharePoint", "Oracle", "Webex",
            "Datadog", "Splunk", "Looker", "Figma", "Miro", "Dropbox", "Box", "Gmail"}
+# Invented people ("Sarah M. Delarue", "David Moreau") slip past the single-word check: the
+# given name is a common word and real surnames often score just above MIN_COMMON_ZIPF.
+_PERSON_RE = re.compile(r"\b([A-Z][a-z]+)\s+(?:[A-Z]\.\s+)?([A-Z][a-z]{2,})\b")
+_NAME_LIKE_TERMS = {"Onboarding", "Offboarding", "Attendee", "Attendees"}
+SURNAME_ZIPF = 3.0
 MIN_COMMON_ZIPF = 1.5  # Titlecase words rarer than this (and not in the wordlist) are flagged
 
 
@@ -252,6 +257,7 @@ def check_doc(cfg: Config, ft: FactTable, d: DocPlan, title: str, body: str,
             if w in _ALLOWED_TITLECASE or _in_dictionary(w) or word_frequency(w) >= MIN_COMMON_ZIPF:
                 continue
             invented.add(w)
+    invented |= _person_names(text, allowed_tokens)
     if invented:
         v.append("invented or real-world proper nouns not allowed: " + ", ".join(sorted(invented)))
 
@@ -261,6 +267,19 @@ def check_doc(cfg: Config, ft: FactTable, d: DocPlan, title: str, body: str,
     if not lo <= n_words <= hi:
         v.append(f"length {n_words} words; target about {d.target_words} (allowed {int(lo)}-{int(hi)})")
     return v
+
+
+def _person_names(text: str, allowed: set[str]) -> set[str]:
+    """Given-name + rare-surname pairs that are not planned names (e.g. "Sarah M. Delarue")."""
+    hits = set()
+    for m in _PERSON_RE.finditer(text):
+        first, last = m.group(1), m.group(2)
+        if first in allowed or last in allowed or last in _NAME_LIKE_TERMS or last in _ALLOWED_TITLECASE:
+            continue
+        if _in_dictionary(last) or word_frequency(last) >= SURNAME_ZIPF or word_frequency(first) < SURNAME_ZIPF:
+            continue
+        hits.add(m.group(0))
+    return hits
 
 
 def _len_bounds(cfg: Config, d: DocPlan) -> tuple[int, int]:
