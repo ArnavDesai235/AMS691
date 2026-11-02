@@ -122,3 +122,22 @@ def insert_facts(body: str, missing: list[tuple[str, str]]) -> tuple[str, list[s
             body = body[:end].rstrip() + "\n\n" + sentence + body[end:]
         log.append(f"inserted fact: {sentence}")
     return body, log
+
+
+def anchor_codes(title: str, body: str, codes: dict[str, tuple[str, str]]) -> tuple[str, str, list[str]]:
+    """codes: canary code -> (canonical name, planned canary fact sentence).
+
+    Runs after dedupe_codes. A code with no occurrence in a sentence alongside its
+    entity's full name (or missing entirely) is scrubbed everywhere and its planned
+    sentence is inserted verbatim after the entity's first paragraph, which yields
+    exactly one anchored occurrence."""
+    log: list[str] = []
+    for code, (canon, sentence) in codes.items():
+        anchored = any(code in body[a:b] and canon in body[a:b] for a, b in _sentence_spans(body))
+        if anchored:
+            continue
+        title = _scrub(title, code) if code in title else title
+        body = _scrub(body, code)
+        body, _ = insert_facts(body, [(sentence, canon)])
+        log.append(f"code {code}: re-anchored with planned sentence")
+    return title, body, log

@@ -35,9 +35,9 @@ from .facts import Entity, Fact, FactTable, build_fact_table, write_fact_table
 from .llm import LLM, check_provider
 from .names import _DICTIONARY, CODE_REGEX, word_frequency
 from .plan import DocPlan, Plan, build_plan, write_plan
-from .repair import dedupe_codes, expand_names, insert_facts
+from .repair import anchor_codes, dedupe_codes, expand_names, insert_facts
 
-MAX_DOC_ATTEMPTS = 4
+MAX_DOC_ATTEMPTS = 6  # 4 -> 6: the full qwen3 build's last failures were length misses on attempt 4
 LEN_TOL = (0.75, 1.35)
 
 SYSTEM = ("You write realistic internal business documents for a fictional company. "
@@ -308,8 +308,12 @@ def repair_doc(ft: FactTable, d: DocPlan, title: str, body: str) -> tuple[str, s
     body, log_b = expand_names(body, names)
     codes = {cm[c].exact: em[cm[c].entity_id].canonical_name for c in d.canary_ids}
     title, body, log_c = dedupe_codes(title, body, codes)
-    # missing literal values: insert the planned fact sentence verbatim (same test as check_doc)
     fm = {f.fact_id: f for f in ft.facts}
+    canary_sentence = {fm[x].object["literal"]: fm[x].sentence for x in d.fact_ids if fm[x].is_canary}
+    title, body, log_a = anchor_codes(title, body, {c: (n, canary_sentence[c]) for c, n in codes.items()
+                                                    if c in canary_sentence})
+    log_c += log_a
+    # missing literal values: insert the planned fact sentence verbatim (same test as check_doc)
     text = f"{title}\n\n{body}".lower()
     missing = []
     for fid in d.fact_ids:

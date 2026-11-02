@@ -101,3 +101,27 @@ def test_repair_gold_expands_names_and_appends_missing_fact():
                    "The Tegurine Annex has capacity for 480 seats.")
     ok = "The Tegurine Annex has capacity for 480 seats."
     assert repair_gold(ft, [fact], ok) == ok
+
+
+from corpus_gen.repair import anchor_codes
+
+ANCHOR = {"EP-8854-N": ("Maneor Tismean", "Maneor Tismean's vault key ID is EP-8854-N.")}
+
+
+def test_unanchored_code_replaced_by_planned_sentence():
+    body = ("Maneor Tismean leads the review.\n\nATTENDEES: finance lead (key EP-8854-N)\n\n"
+            "Next steps follow.")
+    title, out, log = anchor_codes("Review", body, ANCHOR)
+    assert out.count("EP-8854-N") == 1
+    assert "Maneor Tismean leads the review.\n\nManeor Tismean's vault key ID is EP-8854-N." in out
+    assert log == ["code EP-8854-N: re-anchored with planned sentence"]
+
+
+def test_missing_code_inserted():
+    _, out, _ = anchor_codes("T", "Maneor Tismean leads.", ANCHOR)
+    assert out == "Maneor Tismean leads.\n\nManeor Tismean's vault key ID is EP-8854-N."
+
+
+def test_anchored_code_untouched():
+    body = "Maneor Tismean holds key EP-8854-N."
+    assert anchor_codes("T", body, ANCHOR) == ("T", body, [])
