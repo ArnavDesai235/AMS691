@@ -1,0 +1,47 @@
+Meeting Notes: Zastama Industries Operational Review
+
+April 2, 2025
+
+ATTENDEES:  
+- Pethisa Hebroren  
+- Gudrosa Ganema  
+- Finance Representative  
+- IT Representative  
+- Facilities Representative  
+- HR Representative  
+- Executive Leadership
+
+DISCUSSION POINTS:
+
+1. **Overview of the Lardoel Campus and the Tusgagiel Ledger**  
+   Pethisa Hebroren provided an overview of the Lardoel Campus, noting that the facility opened in 2013 and remains a key operational hub for Zastama Industries. The Tusgagiel Ledger, which is hosted at the Lardoel Campus, currently supports approximately 7,700 active users. Pethisa Hebroren highlighted the continued performance and reliability of the system, emphasizing its role in the company’s daily operations and data integrity.
+
+2. **Project Gadramor and its Integration with the Tusgagiel Ledger**  
+   The team discussed Project Gadramor, the initiative built on the Tusgagiel Ledger. The finance representative asked for updates on the project’s progress and alignment with strategic goals. Pethisa Hebroren noted that the system underpins the project’s data layer and that stability is a top priority. The IT representative raised concerns about potential scalability needs as the project expands, but no immediate action was required at this time.
+
+3. **Infrastructure Support and Maintenance**  
+   Gudrosa Ganema from the Zugula Infrastructure Team provided an update on the ongoing maintenance and support for the Lardoel Campus and the Tusgagiel Ledger. She confirmed that the team remains on schedule for quarterly system checks and that there have been no significant outages or disruptions to the platform. The Facilities Representative confirmed that physical infrastructure at the Lardoel Campus remains in good condition and that no major upgrades are planned in the near future.
+
+4. **Staffing and Resource Allocation**  
+   Pethisa Hebroren noted that staffing at the Lardoel Campus is stable, with all key positions currently filled. HR raised the topic of future recruitment needs and asked for input from the departments. The Zugula Infrastructure Team indicated a need for one additional support technician to assist with growing maintenance demands. The Finance Representative will review the request and provide feedback during the next budget review cycle.
+
+5. **Security and Compliance Updates**  
+   The IT Representative outlined recent security updates to the Tusgagiel Ledger, including new access controls and audit processes. All departments were encouraged to review the latest compliance protocols and ensure that any user access is properly documented. The HR Representative emphasized the importance of employee training and will coordinate with IT to schedule a company-wide session in the coming months.
+
+6. **Cross-Departmental Coordination and Communication**  
+   The Executive Leadership encouraged all departments to maintain open communication regarding any system dependencies or operational concerns. A shared feedback channel was proposed for ongoing dialogue between teams, particularly as Project Gadramor continues to develop. The IT and Zugula Infrastructure Team will lead the setup of a centralized platform for reporting and tracking system-related issues.
+
+DECISIONS:
+
+- The Zugula Infrastructure Team’s request for an additional support technician will be reviewed by the Finance Representative and evaluated in the next budget cycle.  
+- A company-wide training session on system security and compliance protocols will be organized by the HR and IT departments.  
+- A new centralized communication platform will be developed to improve interdepartmental coordination, with the IT and Zugula Infrastructure Team leading the effort.  
+- No changes were made to the maintenance schedule for the Lardoel Campus or the Tusgagiel Ledger, as current operations remain stable and within expected parameters.
+
+ACTION ITEMS:
+
+- The Finance Representative will review the additional support technician request and provide feedback by April 15, 2025.  
+- HR and IT will draft a proposal for the company-wide training session and present it to the Executive Leadership by April 10, 2025.  
+- The IT and Zugula Infrastructure Team will begin planning for the new communication platform and provide a timeline by April 12, 2025.  
+- All departments are encouraged to submit any system-related feedback to the new platform once it is available.  
+- Pethisa Hebroren and Gudrosa Ganema will provide a joint report on the status of the Tusgagiel Ledger and Project Gadramor for the next leadership review on May 1, 2025.

@@ -1,0 +1,30 @@
+Project Thedraman Budget Review and Strategy Session
+
+**Date:** April 11, 2025  
+**Attendees:** Tolmael Zespereor, Gisnos Gehomosis, Finance Representative  
+
+**Discussion Points:**  
+
+The meeting began with an overview of the current status of Project Thedraman, led by Tolmael Zespereor. Tolmael Zespereor provided an update on the project timeline, emphasizing that the next phase is dependent on budgetary approvals and resource allocation. The project’s budget is managed under code noted earlier and is currently under review for potential reallocation due to unforeseen delays in the procurement of specialized components.  
+
+The Finance Representative raised concerns about the budget’s alignment with the project’s revised scope. Given the shift in priorities, there was a discussion about whether the current funding level under the same reference is still sufficient to complete the project’s objectives. Tolmael Zespereor reiterated the strategic importance of Project Thedraman, emphasizing that the project remains a top priority for the department.  
+
+Gisnos Gehomosis, in the role of Solutions Architect, added that the recent design refinements may require an additional allocation to cover the cost of third-party integration tools. However, Gisnos Gehomosis noted that these adjustments are necessary to ensure the project’s long-term viability and scalability.  
+
+A separate discussion touched on Tolmael Zespereor’s individual budget (JG-4598-D), which includes travel and training expenses related to upcoming vendor engagements. The Finance Representative confirmed that the budget remains within acceptable limits and that no immediate restraints are anticipated.  
+
+The group also explored possible ways to consolidate expenses under the project’s primary code to reduce administrative overhead. The Finance Representative recommended that any new requests be submitted under the same reference and that interdepartmental collaborations be reviewed for cost efficiency.  
+
+**Decisions:**  
+
+1. The budget for Project Thedraman (FP-3585-C) will be formally reviewed by the end of the month to determine whether a revised allocation is necessary.  
+2. Gisnos Gehomosis will prepare a detailed cost-benefit analysis for the proposed integration tools and submit it to Tolmael Zespereor by the end of the week.  
+3. Tolmael Zespereor will confirm the final scope of the project and provide a revised timeline to the Finance Representative by April 19, 2025.  
+4. A follow-up meeting will be scheduled to review the updated budget and scope documentation.  
+
+**Action Items:**  
+
+- Tolmael Zespereor to coordinate with the relevant vendor teams to finalize procurement details and submit any additional paperwork under the same reference.  
+- Gisnos Gehomosis to draft the cost-benefit analysis and present it to the team, including recommendations for tool selection.  
+- Finance Representative to work with Tolmael Zespereor to ensure all budget requests from the same reference are justified and properly categorized.  
+- All attendees to confirm next steps and deadlines via email by the close of business on April 12, 2025.

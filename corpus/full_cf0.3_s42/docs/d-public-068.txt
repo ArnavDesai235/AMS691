@@ -1,0 +1,38 @@
+Zastama Industries Product and Project Review Meeting Notes
+
+DATE: April 12, 2025  
+ATTENDANTS: Thokro Pobris, finance representative, product manager for the Tanumett Relay, product manager for the Krorhitra Console, project lead for Project Zelpan, product manager for the Sallama Lattice, senior executive director of product development, senior executive director of operations, director of marketing, and director of customer success.
+
+**DISCUSSION POINTS:**
+
+The meeting commenced with a review of active user metrics for Zastama’s core products. The product manager for the Tanumett Relay reported that the product remains in the standard tier of the Zastama product suite and has approximately 900 active users. Despite this relatively small user base, the product is seen as a foundational component for future feature expansion.
+
+The product manager for the Krorhitra Console shared an update on the console's performance, noting it has approximately 6,900 active users and continues to be a key revenue driver for the company. The finance representative highlighted that the Krorhitra Console contributes significantly to the Q1 financial outlook, particularly in the professional segment.
+
+Thokro Pobris presented on the latest developments in fleet telemetry, which is the primary focus of their team’s work. They emphasized the importance of integrating telemetry data with the Krorhitra Console to improve real-time analytics for clients. Thokro Pobris outlined plans to enhance the fleet telemetry module in the next release, which is expected to provide greater value to enterprise customers.
+
+The product manager for the Sallama Lattice provided an update on user engagement for this product, stating it has approximately 3,900 active users. While this number is lower than the Krorhitra Console, the Sallama Lattice is viewed as a critical platform for mid-market clients. The team is exploring ways to improve onboarding and feature adoption to increase user retention and satisfaction.
+
+The project lead for Project Zelpan detailed the status of the initiative, which is currently operating under a services contract with Stevosdim Partners. The project remains in the development phase, with a focus on aligning deliverables with the partner’s evolving needs. The lead noted that coordination with the Thokro Pobris team is essential to ensure telemetry and integration requirements are met within the project timeline.
+
+The senior executive director of product development reiterated the importance of maintaining a clear product roadmap and aligning cross-team efforts to support growth objectives. They encouraged all teams to prioritize user feedback and ensure that new features add measurable value for clients.
+
+The director of marketing proposed a coordinated campaign to highlight the integration capabilities of the Krorhitra Console and the Sallama Lattice, aiming to attract mid-market clients who are seeking scalable solutions. The director of customer success emphasized the need for enhanced support resources for the Tanumett Relay and Sallama Lattice to improve user satisfaction.
+
+**DECISIONS:**
+
+1. The product manager for the Tanumett Relay will lead a review of the product's tier positioning in Q2 to determine if an adjustment is necessary based on user growth and feature adoption.
+2. The Krorhitra Console team will continue to focus on feature enhancements and performance optimization for the upcoming release scheduled for May.
+3. Thokro Pobris will coordinate with the Krorhitra Console team to align telemetry data integration with the console’s roadmap for the second half of the year.
+4. The Sallama Lattice team will conduct a user onboarding audit in the coming weeks to identify areas for improvement and streamline the user experience.
+5. The project lead for Project Zelpan will finalize a feature prioritization plan with Stevosdim Partners by the end of the month to ensure alignment with the project’s timeline and budget constraints.
+
+**ACTION ITEMS:**
+
+1. The product manager for the Tanumett Relay will prepare a report on tier positioning and user growth metrics for review at the next product strategy meeting (due May 2).
+2. The Krorhitra Console team will deliver a prototype of the May release to the customer success team for testing by April 26.
+3. Thokro Pobris will schedule a cross-functional meeting with the Krorhitra Console team to discuss telemetry integration requirements by April 23.
+4. The Sallama Lattice team will draft a revised onboarding process and share it with the customer success and marketing teams for review by April 30.
+5. The project lead for Project Zelpan will present an updated feature prioritization plan to the executive team for approval by April 29.
+6. The marketing director will develop a campaign plan for the Krorhitra Console and Sallama Lattice and submit it for review by April 25.
+7. The customer success director will begin working with the Tanumett Relay and Sallama Lattice teams to develop a support enhancement proposal by April 28.

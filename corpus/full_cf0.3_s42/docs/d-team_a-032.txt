@@ -1,0 +1,36 @@
+Project Barkil Budget and Timeline Review Meeting Notes
+
+DATE: May 2, 2026  
+ATTENDEES: Konalis Thisfol (Procurement Lead), Munnam Furzil (Solutions Architect), Finance Representative
+
+DISCUSSION POINTS:
+
+1. The team reviewed the progress of Project Barkil, which is currently on track for a Q2 FY28 completion. Munnam Furzil provided an update on the technical architecture and integration plans, emphasizing that the design aligns with the project's stated goals. The Solutions Architect noted that no significant roadblocks have emerged in the planning phase, and the team remains confident in the timeline.
+
+2. Konalis Thisfol confirmed the procurement process for key components is progressing smoothly. She highlighted that the procurement order for necessary materials has been issued under the reference noted earlier. Konalis Thisfol also confirmed that the escrow reference for all contracts related to the project is MU-7229-M. The Procurement Lead reiterated that all vendor selection criteria have been met and that no delays are expected in the delivery window.
+
+3. The Finance Representative raised a point regarding the approved $3.1M budget for Project Barkil. They confirmed that the current spending aligns with the forecast and that no reallocation of funds is necessary at this time. The representative also noted that the team should remain vigilant about any potential changes in vendor pricing or scope creep, as these could impact the budget.
+
+4. A brief discussion was held regarding risk mitigation strategies. Munnam Furzil suggested that a phased testing approach would help identify any unforeseen technical issues early. Konalis Thisfol agreed and noted that the procurement schedule supports this phased implementation. The Finance Representative advised the team to ensure that all contracts and change orders are properly documented to avoid any future budgetary disputes.
+
+5. The team discussed the status of internal reporting for Project Barkil. The Finance Representative confirmed that the next financial review will occur in the following quarter and asked the team to provide updated forecasts in advance of that meeting. Munnam Furzil and Konalis Thisfol agreed to submit updated timelines and procurement details by the end of May.
+
+DECISIONS:
+
+- The team confirmed that Project Barkil remains on schedule for Q2 FY28 completion.
+- The $3.1M approved budget is still valid and no reallocations are necessary at this stage.
+- The procurement order the same reference and escrow reference noted earlier are being used correctly and should be maintained for all related documentation.
+- A phased testing approach will be implemented as recommended by the Solutions Architect.
+- Updated timelines and procurement details will be submitted by May 31, 2026.
+
+ACTION ITEMS:
+
+1. Konalis Thisfol to ensure that all procurement documents for HA-6151-Q are updated and shared with the finance team by May 31.
+
+2. Munnam Furzil to finalize the phased testing plan and present it at the next technical review meeting.
+
+3. Finance Representative to prepare a template for the next budget update and distribute it to the team by May 10.
+
+4. Konalis Thisfol and Munnam Furzil to collaborate on a risk mitigation strategy for Project Barkil and present it during the next full review.
+
+5. All team members to provide a status update by May 20, including any anticipated changes to timelines or budgets.

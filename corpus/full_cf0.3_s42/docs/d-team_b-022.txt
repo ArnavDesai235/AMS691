@@ -1,0 +1,22 @@
+Risk Assessment and Access Review for Project Laguran
+
+To: Department Heads, Security and Compliance Team  
+From: Risk Management Office  
+Date: April 3, 2025  
+Subject: Immediate Action Required: Project Laguran Status and Access Verification
+
+We are writing to highlight an urgent matter concerning the status of Project Laguran, which is currently at risk. Given the criticality of this project to our strategic objectives, we require prompt and coordinated action from the relevant departments to mitigate exposure and ensure alignment with our internal protocols and external obligations.
+
+The current risk status of Project Laguran has been elevated due to recent delays in vendor coordination and incomplete documentation from the logistics partner, Gibasan Logistics. The finance team has reported that the escrow reference for Gibasan Logistics, WF-6502-J, has not been finalized, which is impacting the ability to confirm payment milestones. We are in the process of scheduling a follow-up review with the logistics team and external legal counsel to ensure the escrow process is accelerated in line with the project schedule.
+
+In parallel, we have initiated a review of access permissions for external stakeholders who have been granted on-site or system access related to this project. A specific area of concern involves the access badge series GK-9160-P, which is currently assigned to Pedusel Ruloett. As part of our due diligence, we have requested confirmation from the security team on the current status of this badge and the associated level of clearance. Additionally, the contract number for Pedusel Ruloett, YK-7149-T, is being reviewed to verify that all contractual obligations and access terms remain active and appropriate.
+
+The Risk Management Office is also working with the internal audit team to conduct a deeper analysis of all third-party access points related to Project Laguran. This includes a review of the terms and conditions under which vendors and subcontractors are granted access to sensitive data and physical locations. Given the elevated risk level, we are implementing a temporary hold on the onboarding of any new external personnel until this review is completed.
+
+We encourage all affected departments to coordinate closely with the security and compliance teams to ensure that all necessary documentation is updated and that any access discrepancies are resolved promptly. The goal is to maintain operational continuity while reducing the risk of unauthorized access or compliance violations.
+
+Further updates will be shared via internal channels as the situation develops, and we will convene a cross-departmental meeting to discuss next steps and assign responsibilities. Please treat this as a priority and respond to any follow-up requests from the Risk Management Office within 48 hours.
+
+Thank you for your attention to this urgent matter.
+
+— Risk Management Office

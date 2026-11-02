@@ -1,0 +1,45 @@
+Meeting Notes: Zastama Industries Operations Review
+
+---
+
+**Date:** April 10, 2025  
+**Attendees:** Trikria Drazorel, Givien Mubren, Novoran Trabrelor, Rinu Gesolen, finance representative, operations lead, IT representative, HR representative
+
+---
+
+**Discussion Points:**
+
+1. **Nazuel Systems Equipment Delivery to the Vurlekri Annex**  
+   The meeting opened with a review of the ongoing logistics for Nazuel Systems equipment deliveries to the Vurlekri Annex. Givien Mubren, who reports to Trikria Drazorel, provided an update on the delivery schedule and inventory status for the current quarter. Trikria Drazorel emphasized the importance of maintaining timely and accurate delivery of Nazuel Systems equipment to ensure operational continuity at the Vurlekri Annex. The finance representative noted that all charges for these deliveries are being tracked in accordance with the 36-month master services agreement with Nazuel Systems, and no discrepancies have been identified thus far.
+
+2. **Project Sankonen Staffing and Progress**  
+   Novoran Trabrelor shared an update on Project Sankonen, which is currently staffed by 16 people. Rinu Gesolen, who reports to Novoran Trabrelor, highlighted recent milestones in the project's development phase and reiterated the need for continued cross-departmental coordination to meet upcoming deadlines. The IT representative inquired about system integration timelines, and Novoran Trabrelor confirmed that the project is on track to meet its next major integration phase. The HR representative raised concerns about current staffing levels and the possibility of future hiring if the project scope expands beyond current estimates.
+
+3. **Brapoett Vault User Activity and Security**  
+   The IT representative provided a report on the Brapoett Vault, which has about 4,400 active users. No major security incidents were reported, and the team is maintaining consistent monitoring of user activity and access logs. A review of the user interface was proposed to improve navigation and usability, with a focus on supporting the growing user base. The finance lead noted that ongoing maintenance and support for the Brapoett Vault are within the projected budget for the year.
+
+4. **Performance Review and Strategic Direction**  
+   Trikria Drazorel led a brief discussion on performance metrics across departments, with a particular focus on the Vurlekri Annex and Project Sankonen. Givien Mubren acknowledged the team's recent improvements in delivery efficiency and suggested implementing a weekly reporting system to better track progress and identify potential bottlenecks. Rinu Gesolen expressed support for such a system and proposed a shared dashboard for transparency across involved departments. The operations lead endorsed the idea and offered to assist in developing the framework for the new reporting structure.
+
+---
+
+**Decisions:**
+
+- A shared dashboard and weekly reporting system will be implemented to track progress and performance for Nazuel Systems deliveries and Project Sankonen.
+- An interface review for the Brapoett Vault will be initiated to improve usability for its 4,400 active users.
+- The HR representative will conduct a staffing assessment for Project Sankonen to determine whether additional hires are necessary to support its current trajectory.
+- The operations lead will coordinate with Givien Mubren and Rinu Gesolen to finalize the design of the new dashboard and reporting system.
+
+---
+
+**Action Items:**
+
+- **Givien Mubren** in consultation with **Trikria Drazorel** will draft a weekly reporting template for Nazuel Systems deliveries by April 24, 2025.  
+- **Rinu Gesolen** in coordination with **Novoran Trabrelor** will submit a proposal for the Brapoett Vault interface review by May 1, 2025.  
+- **HR representative** will complete the staffing assessment for Project Sankonen by April 20, 2025, with findings presented at the next operations meeting.  
+- **Operations lead** will begin working with **IT representative** to develop the shared dashboard by April 15, 2025, with a prototype to be reviewed by May 2.  
+- **Finance representative** will continue to monitor the 36-month master services agreement with Nazuel Systems and provide a financial review for the Vurlekri Annex operations by May 5, 2025.
+
+--- 
+
+All attendees were encouraged to review the action items and ensure timely execution of their respective responsibilities. The next meeting is scheduled for May 8, 2025, at the same time and location.

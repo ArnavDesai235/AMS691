@@ -1,0 +1,21 @@
+Internal Reference for Milsean Trusases, Krafuline Field Office, and Fleet Telemetry Coordination
+
+Zastama Industries maintains a secure access protocol for personnel handling critical assets and infrastructure. This document outlines key information related to Milsean Trusases and the Krafuline Field Office, ensuring that internal teams have ready access to the correct personnel and reference codes for coordination and compliance.  
+
+**Vault Key Access for Milsean Trusases**  
+Milsean Trusases, who is based at the Krafuline Field Office, holds a key to an asset secured in the field office’s vault. The key ID assigned to Milsean Trusases is XX-6801-K. This key is specific to the designated vault within the Krafuline Field Office and is not interchangeable with other site access controls. Milsean Trusases is the sole custodian of this key and is responsible for its secure storage and use according to internal site procedures. Requests for access to the vault must be routed through Milsean Trusases and approved by the on-site supervisor.  
+
+**Krafuline Field Office Overview**  
+The Krafuline Field Office operates under contract number PS-2577-A. This contract outlines the scope of work, security protocols, and maintenance responsibilities for the site. The field office supports several ongoing projects related to asset management and data collection, and it functions as a primary point of contact for vendors and external auditors. All internal personnel engaging with the Krafuline Field Office should reference the contract number when coordinating with the site’s administrative lead or when submitting reports related to the location.  
+
+**Tevuel Rinael and Fleet Telemetry Coordination**  
+Tevuel Rinael works as a Director of Engineering within the organization and focuses on fleet telemetry systems. This role involves overseeing the integration and analysis of data from Zastama Industries’ mobile and remote assets, including those managed at the Krafuline Field Office. Tevuel Rinael collaborates with field and technical teams to ensure that telemetry systems are operating efficiently and securely. Any personnel who observe anomalies in telemetry data, or require technical assistance related to fleet operations, should contact Tevuel Rinael directly.  
+
+**Next Steps and Coordination**  
+Internal teams are advised to maintain clear communication with Milsean Trusases and Tevuel Rinael when planning projects or accessing assets tied to the Krafuline Field Office. For access to the vault, all requests must be submitted in writing and include a reference to Milsean Trusases’s key ID and the contract number for the site. Updates related to fleet telemetry systems should be shared with Tevuel Rinael through the standard engineering coordination channels.  
+
+**Operational Considerations and Risk Management**  
+It is important that all interactions with the Krafuline Field Office and its associated systems are conducted with an awareness of potential operational risks. These include, but are not limited to, unauthorized access attempts, data transmission failures, and asset maintenance delays. Internal teams should remain vigilant and report any deviations from standard operating procedures to the appropriate lead. In the case of the vault key, any loss or suspected compromise must be reported immediately to the site supervisor to initiate a formal key revocation and replacement process.  
+
+**Change and Communication Protocol**  
+Any changes to key assignments or personnel responsibilities at the Krafuline Field Office will be communicated through this internal wiki and the site’s administrative lead. Updates to fleet telemetry systems or changes in engineering procedures will be handled by Tevuel Rinael and disseminated to relevant teams as needed. Personnel are encouraged to review this document regularly to stay informed of any updates or procedural changes that may affect their work.

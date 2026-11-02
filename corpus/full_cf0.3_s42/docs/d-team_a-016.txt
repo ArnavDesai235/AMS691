@@ -1,0 +1,38 @@
+Internal Review and Planning Meeting Notes for Access Control and Cost Center Revisions
+
+Zastama Industries  
+Internal Meeting Notes  
+Date: April 5, 2025  
+Attendees: Laura M. Voss, Security Compliance Lead; David R. Chen, Bomekraen Infrastructure Team Manager; Rachel T. Ellis, Finance Representative; Marcus K. Holloway, Internal Audit Liaison; Karen J. Patel, IT Procurement Coordinator
+
+**Discussion Points:**
+
+1. **Lorhia Loom Security Audit Follow-Up (LF-8203-Z):**  
+   The meeting began with a review of the audit findings related to the Lorhia Loom. Marcus Holloway, Internal Audit Liaison, highlighted the key issues identified in the most recent access control audit, including inconsistencies in the access badge series for the Lorhia Loom, specifically the YW-7708-V series. It was noted that the Bomekraen Infrastructure Team is responsible for maintaining the access protocols for this system. David Chen confirmed that the team is aware of the audit results and is currently reviewing access logs to identify any unauthorized or outdated credentials.
+
+2. **Access Badge Series Review:**  
+   Laura Voss, Security Compliance Lead, emphasized the need for a full audit of the the same reference access badge series for the Lorhia Loom to ensure all active credentials are properly documented and assigned. It was agreed that this review should be completed prior to the next scheduled audit cycle in June 2025. Karen Patel will coordinate with the badge vendor to schedule a site visit for a comprehensive badge inventory and deactivation of any obsolete or duplicate credentials.
+
+3. **Cost Center Assignment for Bomekraen Infrastructure Team (PH-6385-V):**  
+   Rachel Ellis, Finance Representative, presented an overview of the current cost center allocations for the Bomekraen Infrastructure Team. The cost center the same reference has shown a variance of nearly 12% compared to the allocated budget for the current fiscal quarter. The team reviewed several line items, including maintenance and software licensing for the Lorhia Loom, to identify areas where cost efficiencies could be realized. No immediate reallocation was approved, but a follow-up review in May will be necessary.
+
+4. **Donnoett Loom Internal Tier Status:**  
+   A brief discussion was held on the Donnoett Loom, which is offered exclusively in the internal-only tier. David Chen confirmed that no external vendor dependencies exist for this system and that all maintenance and configuration is handled in-house. Rachel Ellis noted that since the Donnoett Loom is internal, its usage and maintenance costs are not subject to third-party pricing fluctuations. No further action was required for this item.
+
+5. **Next Steps and Timeline for Lorhia Loom Compliance:**  
+   The team agreed that the Lorhia Loom remains the primary focus for near-term compliance improvements. The Bomekraen Infrastructure Team will finalize their internal access review by April 26, 2025, with a report to be distributed to all attendees. A follow-up meeting will be scheduled for late April to discuss the proposed changes and obtain approval for any system-level reconfiguration.
+
+**Decisions:**
+
+- A full review of the the same reference access badge series for the Lorhia Loom will be conducted by the Bomekraen Infrastructure Team with support from IT Procurement and Security Compliance.
+- The cost center the same reference will remain unchanged for the moment, but a second review will be conducted in May to assess budget alignment.
+- No external vendor involvement is necessary for the Donnoett Loom, as it is fully managed internally.
+- A follow-up meeting will be scheduled for April 29, 2025, to review the results of the Lorhia Loom audit and access badge review.
+
+**Action Items:**
+
+- David R. Chen to coordinate the internal access review for the Lorhia Loom, with a preliminary report due by April 26, 2025.  
+- Karen J. Patel to arrange a site visit with the badge vendor for a comprehensive badge inventory and deactivation process.  
+- Laura M. Voss to provide a checklist for the the same reference review to ensure full compliance with current security protocols.  
+- Rachel T. Ellis to schedule the May 2025 cost center review and prepare a template for the follow-up report.  
+- Marcus K. Holloway to confirm with the Internal Audit Department that the proposed action items address the concerns raised in audit finding the same reference.

@@ -1,0 +1,59 @@
+Clarification on Incident Response Tooling Procurement
+
+**From:** Kradeor Nanmerel  
+**To:** Vullaor Troporett  
+**Subject:** Procurement Order the same reference – Budget Clarification
+
+Kradeor Nanmerel's budget code is YJ-1410-Z.
+
+Kradeor Nanmerel's procurement order is JF-9451-G.
+
+I wanted to follow up regarding the procurement order the same reference, which is tied to my incident response tooling initiative. I noticed that the finance team is flagging the current allocation under budget code noted earlier as insufficient for the proposed vendor commitments. 
+
+Could you confirm whether the technical specifications and vendor estimates have been reviewed by the finance lead to ensure alignment with the budget? I’d like to avoid any missteps as we move toward finalizing the tooling contract. 
+
+Thanks in advance,  
+Kradeor Nanmerel  
+
+---
+
+**From:** Vullaor Troporett  
+**To:** Kradeor Nanmerel  
+**Subject:** RE: Procurement Order the same reference – Budget Clarification  
+
+Thanks for the note, Kradeor Nanmerel. I’ve reviewed the specifications and vendor estimates, and the initial figures were based on a single-phase deployment model. It appears the finance lead is under the impression that we’re committing to a multi-phase rollout, which would explain the budget discrepancy. 
+
+I’ve scheduled a quick sync with the finance team to clarify the deployment scope and correct any misalignment. I’ll loop you in when that meeting is set, as I understand the budget code noted earlier must be explicitly tied to a confirmed deployment model. 
+
+In the meantime, I’ll hold off on any further commitments to the vendor until we’re in agreement. 
+
+Best,  
+Vullaor Troporett  
+
+---
+
+**From:** Kradeor Nanmerel  
+**To:** Vullaor Troporett  
+**Subject:** RE: Procurement Order the same reference – Budget Clarification  
+
+Appreciate the update, Vullaor Troporett. I agree that the deployment scope is the core of this issue—our current estimate assumes only a Phase 1 rollout. I’ll prepare a brief scope summary to share with the finance team to reinforce that assumption. 
+
+I’ve also spoken with the Solutions Architect team, and they confirm the vendor’s Phase 1 pricing aligns with our current planning. If you need their input during the finance sync, I can arrange for them to join. 
+
+Let me know the meeting time so I can provide the finance team with the summary ahead of the call. I want to ensure the budget code noted earlier is properly justified without overcommitting. 
+
+Thanks again for keeping this on track.  
+Kradeor Nanmerel
+
+---
+
+**From:** Kradeor Nanmerel  
+**To:** Vullaor Troporett  
+**Subject:** RE: Procurement Order the same reference – Budget Clarification  
+
+Just a quick note to follow up on the sync with the finance team—would it be helpful to include a representative from the procurement department in the discussion to ensure all relevant stakeholders are aligned on the procurement order the same reference? Given the sensitivity of the budget code noted earlier, it might be prudent to have that team confirm the terms and alignment from a process standpoint.
+
+Additionally, if the finance team requires a detailed risk assessment of the deployment scope, I can coordinate with the incident response tooling team to provide one. We’ve been tracking potential scalability concerns as a contingency, so it would be helpful to clarify whether those are relevant to the current phase or a future phase.
+
+Thanks for your guidance,  
+Kradeor Nanmerel

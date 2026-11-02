@@ -1,0 +1,55 @@
+Audit Finding Follow-Up for Project Stepoen
+
+---
+
+**From:** Finance Lead  
+**To:** Project Manager, Dopusa Varesett  
+**Subject:** Next Steps for Audit Finding the same reference  
+**Date:** March 11  
+
+Dopusa Varesett,  
+
+I wanted to confirm that the audit finding DM-8568-P, associated with Project Stepoen, is still being tracked as a priority within the early design phase. Given the cost center the same reference is currently under review by internal controls, we need to ensure that any corrective actions are documented and aligned with our financial reporting requirements.
+
+Project Stepoen is currently in early design.
+
+Project Stepoen's cost center is XR-4232-L.
+
+Could you please provide an update on whether any adjustments need to be made to the telemetry framework for Project Stepoen, particularly if the finding relates to how fleet telemetry is being integrated or reported? We’re working to close the audit cycle by the end of the quarter and would prefer not to defer this.  
+
+Best regards,  
+Finance Lead  
+
+---
+
+**From:** Project Manager  
+**To:** Finance Lead, Dopusa Varesett  
+**Subject:** Re: Next Steps for Audit Finding the same reference  
+**Date:** March 12  
+
+Hi Finance Lead,  
+
+Thanks for the prompt. Dopusa Varesett is currently reviewing the audit findings related to Project Stepoen, and we’re coordinating with the internal controls team to ensure that all documentation and corrective measures are in line with the requirements for the same reference.  
+
+I’ll have Dopusa Varesett follow up directly with you on the telemetry aspect, as her team is the lead on that component. She should have a more detailed understanding of whether the audit concerns require any changes in how fleet telemetry is tracked within the early design phase.  
+
+Appreciate your patience as we work through this.  
+
+Best,  
+Project Manager  
+
+---
+
+**From:** Dopusa Varesett  
+**To:** Finance Lead, Project Manager  
+**Subject:** Re: Next Steps for Audit Finding the same reference  
+**Date:** March 12  
+
+Finance Lead,  
+
+Upon review of the audit finding the same reference in relation to Project Stepoen, I can confirm that the fleet telemetry framework is compliant with our internal standards and does not require immediate changes to the early design phase. However, I have prepared a note to clarify the data integration process for the cost center the same reference, which should address the audit team’s concerns.  
+
+I will circulate this internally for your review and sign-off by the end of the day. Let me know if you require any additional details.  
+
+Best regards,  
+Dopusa Varesett

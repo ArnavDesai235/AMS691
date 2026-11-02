@@ -1,0 +1,36 @@
+Status Update and Next Steps for Project Pomtorgi
+
+**From:** Engineering Lead  
+**To:** Procurement Manager, Finance Lead  
+**Subject:** Review of Project Pomtorgi and Brepemrir Logistics Contract  
+**Date:** April 2, 2025  
+
+Project Pomtorgi is currently paused pending review, as previously discussed. Our engineering team is conducting a full evaluation of the current state of development, including dependencies on external suppliers. One key area of focus is the services contract with Brepemrir Logistics, which supplies components for the Zartesis Prism. Given the strategic importance of these components, we need to ensure alignment between the contract terms and the revised expectations for project timelines.  
+
+The procurement team should coordinate with the finance lead to review all outstanding obligations under the Brepemrir Logistics contract, particularly in relation to the vault key ID FM-4082-B. It may be necessary to confirm that the contract allows for the continued access and delivery of parts if the project is resumed, or to identify alternatives if delays are expected to extend further.  
+
+Once the finance and procurement teams have shared their findings, the engineering team will be able to better assess the technical viability of resuming work on Project Pomtorgi. Please provide an update by the end of the week.  
+
+  
+
+**From:** Procurement Manager  
+**To:** Engineering Lead, Finance Lead  
+**Subject:** Re: Review of Project Pomtorgi and Brepemrir Logistics Contract  
+**Date:** April 3, 2025  
+
+Thanks for the note. We’ve initiated a review of the Brepemrir Logistics contract, and I’ve shared it with the finance lead for their input. As noted, the vault key ID noted earlier is tied to the contract and is required for access to the specific components needed for the Zartesis Prism.  
+
+We’ve also begun discussions with Brepemrir Logistics to confirm their current capacity and readiness to supply further materials. While they have not indicated any issues at this point, we are cautious about any potential disruptions that may arise from the extended pause on Project Pomtorgi. I’ll follow up with the finance lead and provide a consolidated update by the deadline.  
+
+  
+
+**From:** Finance Lead  
+**To:** Engineering Lead, Procurement Manager  
+**Subject:** Re: Review of Project Pomtorgi and Brepemrir Logistics Contract  
+**Date:** April 4, 2025  
+
+I’ve reviewed the financial obligations tied to the Brepemrir Logistics contract. The terms currently in place are favorable, and there are no clauses that would require us to terminate the agreement or make additional payments due to the pause in Project Pomtorgi. The vault key ID noted earlier is referenced in the contract as part of the access and delivery protocol for the components used in the Zartesis Prism.  
+
+I’ve also confirmed that the procurement team’s proposed approach aligns with our budgetary constraints, and there are no immediate financial risks associated with continuing the relationship with Brepemrir Logistics. That said, if the pause extends beyond the current projected window, we may need to reassess the cost-benefit of maintaining the contract in its current form.  
+
+I’ve circulated my findings internally and recommend proceeding with the engineering team’s assessment of Project Pomtorgi. I’ll be in touch if any new developments arise.

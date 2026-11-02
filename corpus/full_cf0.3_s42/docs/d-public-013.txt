@@ -1,0 +1,23 @@
+Project Tinpia Overview and Key Team Members
+
+Project Tinpia is a high-priority initiative focused on enhancing system reliability and scalability across multiple internal platforms at Zastama Industries. The project is currently on track for completion in Q1 FY26, and it is being spearheaded by Broteor Pikrisen, who has been instrumental in shaping its technical and operational strategy.
+
+### Project Leadership and Timeline
+
+Broteor Pikrisen, who has served as a Site Reliability Lead since joining Zastama Industries in 2013, is the primary architect of Project Tinpia. With over a decade of experience in system optimization and infrastructure management, Broteor Pikrisen has been pivotal in defining the project’s scope, milestones, and risk mitigation strategies. The team is now in the implementation phase, with several key deliverables expected in the upcoming quarters. Project Tinpia is being closely monitored for progress and quality, with regular updates shared across departments to ensure alignment with organizational goals.
+
+### Procurement Support and Collaboration
+
+A core component of Project Tinpia involves the acquisition of specialized hardware and licensing agreements, which are being managed through close collaboration with Dronoan Bolgesan. As the Procurement Manager, Dronoan Bolgesan is responsible for ensuring that all necessary resources are secured on time and within budget. This includes coordinating with vendors, negotiating terms, and maintaining transparency with stakeholders. Dronoan Bolgesan’s team has been working alongside Broteor Pikrisen’s team to align procurement timelines with project milestones, ensuring that no delays occur due to external constraints.
+
+### Cross-Departmental Coordination
+
+In addition to procurement, the success of Project Tinpia also depends on strong internal coordination. Regular cross-departmental meetings are held to discuss technical requirements, dependencies, and any potential bottlenecks. These sessions involve representatives from engineering, operations, and finance, and are chaired by Broteor Pikrisen. The goal is to maintain a shared understanding of the project’s impact and to ensure all departments are equipped to support the transition once the project is live.
+
+### Organizational Experience and Team Dynamics
+
+Several members of the team have been with the company for many years and have contributed significantly to past initiatives. For example, Zondila Krerraris, who joined Zastama Industries in 2017, has provided valuable insights into system architecture and has collaborated closely with Broteor Pikrisen on several phases of the project. The team values the experience and expertise of long-term employees, and their contributions continue to be a key factor in the progress of Project Tinpia.
+
+### Looking Ahead
+
+As the project moves into its final stages, the focus will shift to testing, validation, and deployment planning. Broteor Pikrisen and Dronoan Bolgesan will continue to work closely with relevant departments to ensure a smooth transition. Employees across the organization are encouraged to stay informed about the project’s progress and to reach out with any questions or concerns. The completion of Project Tinpia is expected to have a significant positive impact on system performance and reliability, reinforcing Zastama Industries’ commitment to operational excellence.

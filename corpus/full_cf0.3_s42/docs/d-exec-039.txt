@@ -1,0 +1,59 @@
+Clarification on Audit and Escrow Procedures
+
+From: Pethisa Hebroren  
+To: Fallem Purraren, Pivoine Geltoett  
+Subject: Follow-up on Audit Findings and Escrow Access
+
+Pethisa Hebroren's audit finding ID is WX-1844-U.
+
+Hi Fallem Purraren and Pivoine Geltoett,  
+
+I want to follow up on our last discussion regarding the audit findings and the escrow process. As per the ongoing internal review, my audit finding ID is the same reference, which highlights a discrepancy in the documentation trail for assets held in trust. This directly impacts the clarity of access for both of you, as Fallem Purraren’s escrow reference is BL-6809-Q, and Pivoine Geltoett’s vault key ID is GS-9629-Z. 
+
+I recommend we schedule a meeting to align on next steps, particularly concerning the chain of access and documentation for these items. This will ensure there’s no misalignment between the audit findings and current procedures.
+
+Best,  
+Pethisa Hebroren  
+
+---  
+
+From: Fallem Purraren  
+To: Pethisa Hebroren  
+Subject: RE: Follow-up on Audit Findings and Escrow Access  
+
+Pethisa Hebroren,  
+
+Thank you for the message. I’ve reviewed the audit findings and the discrepancies you noted. Given that my escrow reference is the same reference, I can confirm the records have been updated in line with recent procedures, but there may be a gap in traceability from the initial submission. I’ll need to cross-reference with the finance lead and the compliance team to clarify the missing documentation.
+
+I agree a meeting is necessary. Could we schedule this for tomorrow mid-morning? Also, I’d appreciate a note from you if there are any other related issues we should address, particularly regarding Pivoine Geltoett’s access.
+
+Best,  
+Fallem Purraren  
+
+---  
+
+From: Pivoine Geltoett  
+To: Pethisa Hebroren, Fallem Purraren  
+Subject: RE: Follow-up on Audit Findings and Escrow Access  
+
+Pethisa Hebroren, Fallem Purraren,  
+
+I’ve taken a look at the audit details and my vault key ID, the same reference, as it relates to the current access protocol. The key itself hasn’t been used recently, but the audit finding the same reference may be tied to the last access log. I can confirm the key is in a secure location and access is limited per internal guidelines. 
+
+I’ll be happy to join the meeting tomorrow. If there are any documents or logs from the compliance team that I should review in advance, please share them with me. Also, Fallem Purraren, if you need any coordination on the escrow front, I can assist, given the interconnected nature of these processes.
+
+Thanks,  
+Pivoine Geltoett  
+
+---  
+
+From: Pethisa Hebroren  
+To: Fallem Purraren, Pivoine Geltoett  
+Subject: RE: Follow-up on Audit Findings and Escrow Access  
+
+Thanks to both of you for the prompt responses. I’ll confirm the meeting for tomorrow at 10:00 AM in the third-floor boardroom. I’ll send out a calendar invite and include the compliance team as well. In preparation, I’ll attach a summary of the audit findings related to the same reference and a comparison of the current access logs for the same reference and the same reference. 
+
+Zastama Industries expects these procedures to be fully aligned by the end of the month, so let’s aim to resolve any gaps during the meeting. If either of you have further questions prior to then, feel free to reach out.
+
+Best,  
+Pethisa Hebroren

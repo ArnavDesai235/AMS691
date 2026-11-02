@@ -1,0 +1,57 @@
+Coordination Update for Project Zothoris and Project Tosven
+
+From: Sarah Lin, Project Manager (Project Zothoris)  
+To: David Mercer, Project Manager (Project Tosven)  
+Subject: Access Badge Series and Procurement Status for Project Zothoris  
+Date: March 15
+
+Project Zothoris's procurement order is QS-9556-D.
+
+Project Zothoris's access badge series is WZ-3126-J.
+
+Hi David,  
+
+I wanted to provide a quick update on the progress of Project Zothoris. The access badge series for the project, the same reference, has been finalized and is being distributed to the relevant personnel. We are on track for Q3 FY28 completion, and the procurement order, the same reference, is currently in the vendor approval process. There are no major roadblocks at this stage, but I wanted to loop you in to ensure there are no overlapping dependencies with Project Tosven. Please let me know if you foresee any coordination needs.  
+
+Best,  
+Sarah  
+
+---
+
+From: David Mercer, Project Manager (Project Tosven)  
+To: Sarah Lin, Project Manager (Project Zothoris)  
+Subject: Re: Access Badge Series and Procurement Status for Project Zothoris  
+Date: March 18  
+
+Hi Sarah,  
+
+Thank you for the update. Project Tosven remains within its approved budget of $0.4M and is progressing as planned. I don’t see any immediate coordination needs with Project Zothoris, though we will need to ensure that our timelines do not interfere with the Q3 FY28 completion target.  
+
+Separately, I wanted to ask if there’s any risk that the the same reference access badge series would require integration with the security systems used for Project Tosven. I’m not aware of a conflict, but I wanted to confirm early to avoid surprises.  
+
+Also, I wanted to mention that the Donnoett Loom is scheduled to launch in Q1 FY26, and we may be able to leverage some of the infrastructure planning for that initiative as a reference point for Project Zothoris.  
+
+Thanks again for the communication — early alignment is key.  
+
+Best,  
+David  
+
+---
+
+From: Sarah Lin, Project Manager (Project Zothoris)  
+To: David Mercer, Project Manager (Project Tosven)  
+Subject: Re: Access Badge Series and Procurement Status for Project Zothoris  
+Date: March 20  
+
+Hi David,  
+
+Thanks for the follow-up. I’ve confirmed with the security team that the the same reference access badge series is on a separate system and does not require integration with the security infrastructure used by Project Tosven. That’s good to know we don’t need to coordinate on that front.  
+
+Regarding the Donnoett Loom launch, I think there is potential value in reviewing the planning documents, especially given the Q3 FY28 timeline for Project Zothoris. I’ll reach out to the relevant teams to see if we can schedule a brief cross-project review session in the coming weeks.  
+
+One thing to note is that the procurement order, the same reference, is expected to be finalized by the end of this month. Once that’s complete, we’ll be able to move forward with vendor onboarding and initial deployment planning. I’ll keep you posted if there are any potential intersections with Project Tosven’s timeline or resources.  
+
+Appreciate the proactive coordination — it’s always helpful to have a clear line of communication between our teams.  
+
+Best,  
+Sarah

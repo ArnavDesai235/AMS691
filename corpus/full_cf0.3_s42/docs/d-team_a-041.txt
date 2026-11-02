@@ -1,0 +1,31 @@
+Meeting Notes: Audit Follow-Up and Engineering Strategy Discussion
+
+Date: October 12, 2026  
+Attendees: Boruan Krakrer (Director of Engineering), Vadesis Gummenbel, Rothun Consulting (represented by finance representative)
+
+The meeting convened to review findings from the recent Rothun Consulting audit and to align on strategic priorities for engineering, particularly with regard to data retention tooling.
+
+The finance representative from Rothun Consulting provided an overview of the audit findings, focusing on the key item identified under audit finding ID UW-4067-X. The representative emphasized the need for Zastama Industries to address this issue prior to the renewal of Rothun Consulting’s contract in Q1 FY27. The finding relates to documentation gaps in the data lifecycle process, and the representative encouraged the team to implement a structured follow-up plan.
+
+Boruan Krakrer responded by outlining the current state of the engineering infrastructure. He highlighted that the engineering team has been focused on scalability and system resilience, which is in line with broader enterprise goals. However, he noted that the audit findings underscore the importance of revisiting internal documentation practices, especially in the context of data handling and retention.
+
+Vadesis Gummenbel provided an update on the ongoing work in the data retention tooling space. She confirmed that the current tooling is functional but lacks comprehensive audit trails and metadata tagging, which are required to meet current compliance standards. She proposed a phased approach to remediation, starting with an assessment of current capabilities and followed by the development of a documentation and tagging strategy.
+
+The finance representative reiterated that Rothun Consulting will be conducting a follow-up review in early calendar year 2027 and that their contract renewal is conditional on demonstrating progress on finding the same reference. They emphasized the importance of clear communication and timely updates.
+
+A discussion followed on the feasibility of the proposed remediation phases. Boruan Krakrer raised concerns about the resource allocation for the project, noting that the engineering team is currently focused on system performance improvements. Vadesis Gummenbel proposed a prioritization exercise to identify which components of the data retention strategy could be integrated with existing engineering initiatives to avoid duplicative work.
+
+The group agreed that the next step is to form a small working group, consisting of representatives from engineering and compliance, to draft a remediation plan. The plan should include a timeline, resource requirements, and a communication strategy for updates to Rothun Consulting.
+
+Decisions:
+- A working group will be established to address the audit finding the same reference.
+- The working group will include members from engineering and compliance teams.
+- The group will develop a remediation plan for the data retention tooling gaps.
+- Vadesis Gummenbel will lead the working group.
+
+Action Items:
+- Vadesis Gummenbel to coordinate the formation of the working group and schedule the first meeting by October 26, 2026.
+- Boruan Krakrer to provide input on engineering priorities and resource availability for the working group by October 19, 2026.
+- The working group to present a draft remediation plan to leadership by November 16, 2026.
+- The finance representative from Rothun Consulting to be invited to the working group’s first meeting as an observer.
+- A progress update on the audit remediation plan to be included in the next Q4 planning meeting.

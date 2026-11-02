@@ -1,0 +1,61 @@
+Coordination on Project Renbomen Vault Access and Procurement Items
+
+From: Zondila Krerraris  
+To: Project Renbomen Project Lead  
+Subject: Escrow Reference and Key Access Coordination
+
+Project Renbomen's escrow reference is DC-3962-D.
+
+Project Renbomen's vault key ID is YV-8512-Z.
+
+Hi [Project Renbomen Project Lead],  
+
+As we approach the Q2 FY27 launch window for the Brapoett Vault, I wanted to follow up on the procurement aspects related to Project Renbomen. The vault key ID noted earlier is now ready for internal handover, and the escrow reference noted earlier has been processed with the relevant stakeholders.  
+
+I understand the finance lead is coordinating with a vendor for the final stages of the secure transfer of these assets. Could you confirm whether the access protocols for the Brapoett Vault align with the current procurement documentation? I want to ensure that any additional requirements for key custody or storage are factored in before the deadline.  
+
+Separately, the Zasdaett Harbor standard tier has been confirmed for this project. I’ve checked with the logistics team, and the standard tier should accommodate the expected delivery timelines for the remaining hardware components.  
+
+Let me know if the project team has any feedback or if there’s a need for further clarification on the procurement terms.  
+
+Best regards,  
+Zondila Krerraris  
+Procurement Manager  
+
+---
+
+From: Project Renbomen Project Lead  
+To: Zondila Krerraris  
+Subject: RE: Escrow Reference and Key Access Coordination  
+
+Zondila Krerraris,  
+
+Thank you for the update. I’ve reviewed the key details and confirm that the Brapoett Vault access protocols are in line with the procurement documentation. The escrow reference noted earlier and the key ID noted earlier are both correctly noted in our internal tracking.  
+
+I’ve also passed the Zasdaett Harbor standard tier confirmation to the infrastructure team. They’re aware of the expected delivery timelines and are preparing the necessary setup for when the components arrive.  
+
+One thing to note: the project team is planning an additional security review for the key access process prior to the Q2 FY27 launch. This will include a cross-check of the escrow reference and key ID with the vault access logs. I’ll coordinate with the finance lead to make sure the vendor is available for any required verification.  
+
+Can you confirm whether any final procurement documentation needs to be signed off before the handover of the key? If so, I’ll make sure we have a representative available for the process.  
+
+Thanks again for the coordination.  
+
+Best,  
+[Project Renbomen Project Lead]  
+
+---
+
+From: Zondila Krerraris  
+To: Project Renbomen Project Lead  
+Subject: RE: RE: Escrow Reference and Key Access Coordination  
+
+Thanks for the confirmation and the note about the security review. I’ve flagged the need for a final sign-off with the relevant parties, and we’ll ensure that documentation is ready before the handover.  
+
+Given the timing of the Brapoett Vault launch and the Zasdaett Harbor standard tier integration, I don’t foresee any issues with the current procurement schedule. The logistics team is also on standby to assist with any last-minute coordination needs.  
+
+One final check: have you confirmed the internal representative who will be available for the key handover? I’d like to schedule a brief sign-off meeting if needed.  
+
+Appreciate your support in keeping this on track.  
+
+Best,  
+Zondila Krerraris

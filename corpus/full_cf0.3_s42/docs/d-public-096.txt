@@ -1,0 +1,41 @@
+Meeting Notes: Strategic Planning and Operational Review for Zastama Industries
+
+April 10, 2025  
+Attendees: Verlaen Dodela, Somhoine Risk Office, Fakra Sermus, Kratavaen Infrastructure Team, Porpean Tudima, Selnaor Padroa, and the finance representative.
+
+---
+
+**Discussion Points:**
+
+The meeting commenced with an overview of the strategic priorities for the second quarter of 2025, focusing on warehouse automation, infrastructure development, and internal security enhancements. Verlaen Dodela, who has been with the company since 2019 and currently serves as Chief of Staff, led the session.
+
+The Somhoine Risk Office provided an update on the progress of the warehouse automation project. Key considerations included the integration of new systems with existing infrastructure and risk mitigation strategies. The office emphasized the need for cross-team collaboration to address challenges related to system compatibility and operational downtime. They proposed the establishment of a dedicated coordination working group to streamline communication across departments.
+
+Fakra Sermus and Selnaor Padroa, both members of the Kratavaen Infrastructure Team, detailed the team's recent accomplishments in supporting the expansion of internal systems. They highlighted the successful implementation of a new data center module and outlined the upcoming phases of infrastructure upgrades. The team expressed a need for additional resources to maintain the current pace of progress, especially as the warehouse automation project places increasing demand on the infrastructure.
+
+Porpean Tudima, Head of Security, presented an overview of the recent security audit and outlined measures to enhance physical and digital security protocols. The presentation included a review of access control policies, surveillance system upgrades, and cybersecurity training initiatives for employees. Porpean Tudima also highlighted the importance of aligning security strategies with the ongoing warehouse automation efforts to ensure a cohesive and secure operational environment.
+
+Verlaen Dodela facilitated a discussion on cross-functional coordination, emphasizing the need for clear communication channels and defined roles in the execution of strategic projects. Verlaen Dodela proposed the creation of a centralized dashboard for project tracking, to ensure transparency and accountability across departments. The idea received positive feedback, and the finance representative was invited to provide guidance on the feasibility of such a tool.
+
+The finance representative acknowledged the value of the proposed dashboard and committed to conducting a preliminary analysis of the resource requirements and potential benefits. They also reiterated the importance of maintaining alignment between strategic initiatives and financial planning, ensuring that all projects remain within budgetary constraints.
+
+---
+
+**Decisions:**
+
+1. A working group will be established, comprising members from the Somhoine Risk Office, the Kratavaen Infrastructure Team, and the security department, to oversee the integration of warehouse automation systems with existing infrastructure.
+2. The Kratavaen Infrastructure Team will submit a formal request for additional resources to support the current project load and to ensure timely delivery of infrastructure upgrades.
+3. The proposed centralized project tracking dashboard will be further evaluated by the finance representative, with a report due by April 25, 2025.
+4. A review of current security protocols will be conducted in the next two weeks, with a focus on aligning them with the warehouse automation project.
+
+---
+
+**Action Items:**
+
+1. Somhoine Risk Office – Finalize the working group charter and identify core team members by April 17, 2025.
+2. Kratavaen Infrastructure Team – Submit the resource request to the finance department by April 15, 2025.
+3. Finance representative – Provide an analysis of the proposed project tracking dashboard and present findings at the next planning meeting.
+4. Security department – Conduct a comprehensive review of current protocols and submit a preliminary report to the leadership team.
+5. Verlaen Dodela – Coordinate with all departments to schedule a follow-up meeting to review progress on action items and address any emerging concerns.
+
+The meeting concluded at 12:30 PM with a commitment to continue working collaboratively to advance Zastama Industries' strategic goals. All attendees were encouraged to refer to the action items and submit updates via the internal communication platform.

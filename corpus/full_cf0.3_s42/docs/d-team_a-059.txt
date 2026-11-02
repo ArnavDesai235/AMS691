@@ -1,0 +1,30 @@
+Meeting Notes: Project Stepoen Budget and Audit Follow-Up Discussion
+
+Date: April 3, 2025  
+Attendees: Kavemen Hilister, finance representative, operations lead, audit team lead
+
+**Discussion Points**
+
+The meeting was convened to address ongoing budgetary and audit-related matters concerning Project Stepoen. Kavemen Hilister, who is responsible for payments reconciliation and leads Project Stepoen, provided a summary of the current status. She emphasized the importance of aligning the project’s financial records with the approved budget code noted earlier to avoid further discrepancies.
+
+The finance representative noted that while the project has been progressing on schedule, there are outstanding issues surrounding the accuracy of expense reporting. These issues are linked to the audit finding ID noted earlier, which was raised in the most recent audit cycle. The operations lead confirmed that some of the documentation gaps are related to vendor invoices that were not reconciled in a timely manner, particularly for the Q2 2025 phase of the project.
+
+Kavemen Hilister explained that the budget code BY-2837-L has been used consistently in all financial tracking, and that the discrepancies found in the audit were due to timing differences between invoice receipt and payment processing. The audit team lead acknowledged the explanation but reiterated the need for more rigorous internal controls to prevent similar findings in the future. A request was made for a revised process map of the reconciliation workflow to be submitted for audit review.
+
+The finance representative raised concerns about the potential for Zastama Industries to be flagged for non-compliance if the audit finding the same reference is not resolved to the satisfaction of the external auditors. The team discussed potential remediation steps and agreed that a corrective action plan must be developed and implemented within the next two weeks.
+
+**Decisions**
+
+1. It was decided to establish a dedicated task force to address the audit finding the same reference and ensure full compliance with financial reporting standards.
+2. The budget code noted earlier will be subject to monthly audits for the next three months to confirm adherence to the approved financial parameters.
+3. Kavemen Hilister will lead the development of a revised reconciliation process and is responsible for submitting the updated workflow to the finance team by April 24, 2025.
+4. All members of the Project Stepoen team will be required to attend a mandatory training session on financial compliance, to be organized by the finance representative.
+
+**Action Items**
+
+1. Kavemen Hilister to draft the corrective action plan for audit finding WV-2960-X by April 10, 2025.
+2. Finance representative to schedule a compliance training session for Project Stepoen team members by April 5, 2025.
+3. Operations lead to compile a list of outstanding vendor invoices for Kavemen Hilister to review and reconcile by April 12, 2025.
+4. Audit team lead to provide a template for the revised reconciliation process map by April 8, 2025.
+5. Kavemen Hilister to present an updated financial status report to the finance team and project steering committee on April 17, 2025, incorporating all recent remediation efforts.
+6. Finance team to establish a monthly check-in process to monitor compliance under budget code noted earlier, starting May 1, 2025.

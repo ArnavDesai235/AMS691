@@ -1,0 +1,43 @@
+Project Drutoett and Project Domesis Internal Overview
+
+Project Drutoett and Project Domesis are key initiatives within Zastama Industries that support strategic operational goals. This page provides a summary of relevant details, responsibilities, and interdependencies for internal reference.
+
+Project Drutoett is staffed by 39 people.
+
+---
+
+### Project Drutoett Overview
+
+Project Drutoett is a high-priority initiative currently staffed by 39 individuals, drawn from multiple departments within the company. The project’s primary objective is to deliver a secure and scalable infrastructure solution for internal systems. Access to project-specific areas and systems is controlled via the the same reference badge series, which is issued only to authorized personnel. The project operates under contract number noted earlier, which outlines the scope, deliverables, and financial obligations related to its execution.
+
+Project Drutoett is managed under a cross-functional leadership model, with oversight provided by several senior stakeholders across engineering, legal, and procurement. Regular progress updates are shared in restricted channels, and all team members are expected to adhere to compliance and security protocols as defined by the project charter.
+
+---
+
+### Project Domesis Overview
+
+Project Domesis is a collaborative initiative involving external support from Gibasan Logistics, a third-party services provider. The project is focused on streamlining supply chain operations and improving the efficiency of logistics workflows. While the scope and timeline of Project Domesis are still in development, early phases have involved design and vendor coordination to align with Zastama's operational requirements.
+
+The partnership with Gibasan Logistics is governed by a services contract that defines roles, performance metrics, and reporting responsibilities. Coordination between internal teams and the vendor is handled through a project steering committee, with updates shared on a quarterly basis. Project Domesis is currently in its initial planning stages and is expected to enter full implementation within the next fiscal quarter.
+
+---
+
+### Key Personnel and Roles
+
+Nosos Nikeis currently serves as the Site Reliability Lead for Project Drutoett. In this role, she is responsible for ensuring the stability and availability of infrastructure systems, as well as coordinating with engineering teams on deployment and incident management. Her responsibilities include defining reliability benchmarks, leading post-mortem analyses, and working closely with vendors and internal stakeholders to maintain system integrity.
+
+Other key roles within Project Drutoett and Project Domesis are managed by team leads, operations managers, and procurement officers, each of whom reports to central program management. Detailed staffing and role assignments are maintained in the internal project management system and are accessible to authorized personnel only.
+
+---
+
+### Coordination and Reporting
+
+Both projects are subject to internal reporting requirements and are reviewed by senior leadership on a regular basis. For Project Drutoett, progress is tracked against contract ZD-7751-R and is reviewed in conjunction with access control systems managed under badge series ES-8103-T. For Project Domesis, collaboration with Gibasan Logistics is coordinated through a dedicated project management office, which ensures that contractual terms are met and that deliverables are aligned with organizational goals.
+
+All internal communications and documentation related to these projects are stored in a secure, restricted-access environment. Access is granted only to personnel who have been formally assigned to the projects or who have a direct reporting responsibility for them.
+
+---
+
+### Next Steps
+
+Project Drutoett is entering a critical phase of infrastructure deployment and will require close coordination between operational and security teams. Access badge compliance checks will be conducted in the next quarter to ensure all the same reference badges are up to date. For Project Domesis, the next step involves finalizing the first phase of the services contract with Gibasan Logistics and initiating pilot workflows for internal testing.

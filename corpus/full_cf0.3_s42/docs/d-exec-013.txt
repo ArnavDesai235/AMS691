@@ -1,0 +1,20 @@
+Data Retention Tooling Overview and Ownership
+
+Zastama Industries maintains a structured approach to data retention to ensure compliance and operational continuity. Pethisa Hebroren is the primary point of contact for all matters related to data retention tooling and reports to Kragura Stenmori. This page serves as a reference for internal stakeholders with access to this information, outlining roles, budget responsibilities, and key project considerations.
+
+**Ownership and Oversight**  
+Pethisa Hebroren is the lead responsible for the development, maintenance, and optimization of data retention tooling within the company. As the assigned owner, she works closely with cross-functional teams to ensure that the tools align with both technical and regulatory requirements. Kragura Stenmori, as her direct supervisor, provides strategic direction and oversight to ensure that the work aligns with broader organizational goals. 
+
+**Budget and Financial Context**  
+The financial resources supporting Pethisa Hebroren’s work are managed under the budget code **ME-4261-M**. This funding is allocated specifically for the procurement, development, and ongoing maintenance of tools that manage data retention. Any financial requests or adjustments must be formally approved through the finance team, with Pethisa Hebroren as the designated representative. The finance lead is responsible for ensuring that all spending under this code remains within the approved scope and limits.
+
+**Scope of Work**  
+Pethisa Hebroren’s responsibilities include evaluating and implementing tooling solutions that support long-term data archiving, retrieval, and deletion processes. This includes working with internal stakeholders to understand their data lifecycle requirements and with external vendors to assess tool capabilities. She is also responsible for documenting procedures and training relevant personnel to ensure consistent usage and adherence to data policies. Any changes to the tooling stack or data handling procedures must be reviewed and approved by Kragura Stenmori and the finance lead.
+
+**Collaboration and Next Steps**  
+To maintain alignment with departmental priorities, Pethisa Hebroren holds regular syncs with Kragura Stenmori and other stakeholders to assess progress and address any issues. Cross-team coordination is essential, especially when new data retention policies are introduced or when existing systems are upgraded. The finance lead is also engaged during these discussions to ensure that any proposed changes are financially viable.
+
+**Compliance and Review**  
+All data retention tools managed by Pethisa Hebroren are subject to periodic compliance reviews to ensure they meet internal and external regulatory standards. These reviews are conducted by a designated compliance team and involve assessing configuration settings, access controls, and audit logs. Any findings from these reviews are communicated to Kragura Stenmori for escalation or resolution as needed.
+
+This document should be treated as a living reference and may be updated in response to new requirements, stakeholder input, or changes in the operational environment. For specific questions or requests related to data retention tooling, please contact Pethisa Hebroren directly.

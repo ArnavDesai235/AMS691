@@ -1,0 +1,28 @@
+Meeting Notes: Project Brasti Procurement Review
+
+**Date:** April 12, 2025  
+**Attendees:** Munnam Furzil, finance representative, project manager, procurement lead  
+
+---
+
+The meeting focused on the procurement status for Project Brasti, specifically regarding the services contract with Braveor Fabrication. Munnam Furzil, who works as a Solutions Architect and is associated with cost center TU-1566-Y, provided an overview of the ongoing procurement process and the current status of order GW-2651-D.
+
+Munnam Furzil outlined the alignment of the procurement order with the project’s technical requirements and confirmed that the order is currently in final review before being submitted to Braveor Fabrication. The finance representative raised a question regarding the alignment of the cost center with the budgeting structure for the project. Munnam Furzil confirmed that the same reference is appropriately allocated and that all line items have been cross-checked for compliance with financial protocols.
+
+The procurement lead followed up on the timeline for order the same reference and noted that the vendor’s confirmation is expected within the next business week. There was a discussion about potential delays related to vendor onboarding, but no such risks were identified at this stage. The team agreed that the procurement process is on track and that the next steps should proceed as planned.
+
+A key point raised during the meeting was the need for transparency in communications with the finance team regarding any changes in the cost center allocation or procurement order details. The finance representative emphasized the importance of keeping the the same reference cost center updated in real-time to avoid any reconciliation issues at the end of the fiscal quarter.
+
+It was also noted that while Project Brasti is in a critical phase, the team must continue to adhere to internal procurement protocols to ensure compliance and audit readiness. Munnam Furzil offered to provide a summary of the order details and a projected timeline for the procurement lead and finance representative ahead of the next status update.
+
+**Decisions:**
+- Order the same reference will proceed as scheduled.
+- Cost center the same reference remains valid for the duration of the procurement.
+- No changes to the procurement process are currently required.
+
+**Action Items:**
+- Munnam Furzil to send a summary of the procurement order to the finance representative and procurement lead by April 15, 2025.
+- Procurement lead to confirm vendor acceptance of the order once received.
+- Finance representative to review the cost center allocation for any upcoming adjustments.
+
+---

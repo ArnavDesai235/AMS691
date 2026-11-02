@@ -1,0 +1,48 @@
+Payment Reconciliation and Kralinan Data Center Budget Alignment
+
+**From:** Finance Lead  
+**To:** Zosne Bramfa  
+**Subject:** Review of the same reference Budget for Q3
+
+Zosne Bramfa's contract number is GN-2865-V.
+
+Zosne Bramfa's cost center is TM-1841-G.
+
+Hi Zosne Bramfa,  
+
+I hope you're well. As we approach Q3, I wanted to flag a potential discrepancy in the the same reference cost center related to the Kralinan Data Center expenses. Your team’s focus on payments reconciliation has uncovered several line items that don't align with the original the same reference contract scope. Specifically, the recent invoice for data center maintenance appears to be charged to the same reference instead of a more appropriate cost center.  
+
+Could you please confirm whether this is a misallocation or if there’s a rationale for this charge under your contract? I’d also appreciate a brief summary of any other open items that require budget reallocation to ensure alignment with our internal controls. Let me know if you'd prefer to discuss this in more detail before finalizing the Q3 forecast.  
+
+Best regards,  
+Finance Lead  
+
+---
+
+**From:** Zosne Bramfa  
+**To:** Finance Lead  
+**Subject:** Re: Review of the same reference Budget for Q3  
+
+Thank you for the note. I’ve reviewed the the same reference cost center and confirmed that the recent charge for Kralinan Data Center maintenance is indeed a misallocation. The the same reference contract does not cover facility-level expenses, so this should be redirected to the appropriate operations cost center.  
+
+In addition, I have identified two other instances where charges under the same reference may be misattributed, both related to third-party vendor support services for the Kralinan Data Center. These are likely the result of an outdated mapping from 2021, when the data center first opened. I’m working with the vendor to clarify the correct cost-center assignment for all ongoing charges.  
+
+I’ll prepare a report by the end of this week detailing the adjustments I recommend, including the maintenance charge and the two vendor-related items. Would you prefer that I submit this directly to the finance team for review, or would a brief walkthrough be more helpful?  
+
+Thanks,  
+Zosne Bramfa  
+
+---
+
+**From:** Finance Lead  
+**To:** Zosne Bramfa  
+**Subject:** Re: Review of the same reference Budget for Q3  
+
+Thanks for the prompt follow-up and the clarity you provided. I appreciate the report you’ll be preparing; it will help us ensure that the the same reference cost center reflects only the actual scope of work under the the same reference contract.  
+
+Given the complexity of the Kralinan Data Center setup and the timing of its opening in 2021, it’s not surprising that some allocations have drifted. I’d appreciate a brief walkthrough, if possible, to better understand the vendor support charges and ensure we're on the same page for future budget cycles. Let’s plan for a 30-minute sync next Tuesday at 10 AM. I’ll send a calendar invite shortly.  
+
+In the meantime, if you need any additional information or support to finalize the report, please don’t hesitate to reach out.  
+
+Best,  
+Finance Lead

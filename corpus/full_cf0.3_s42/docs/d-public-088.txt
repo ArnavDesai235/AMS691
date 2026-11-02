@@ -1,0 +1,72 @@
+Upcoming Vendor Renewals and Reporting Updates
+
+From: Soramis Nolaor  
+To: Company-Wide  
+Subject: FY27 Q3 Planning and Reporting Structure Update  
+
+Dear Team,
+
+As we approach the final quarter of FY27, I wanted to provide a quick update on a few critical initiatives and reporting structures that will impact our planning and coordination across departments.
+
+Firstly, I’d like to highlight the upcoming renewal of the Bekuine Consulting contract in Q3 FY27. As this partnership is integral to our ongoing analytics and advisory work, I encourage relevant teams to begin their internal reviews and prepare for renewal discussions well in advance of the deadline. Please coordinate with your respective leads to identify any proposed changes or new expectations.
+
+Additionally, I’d like to clarify a few team reporting lines that have been adjusted for better alignment with project goals. Givien Mubren will now report to Trikria Drazorel, and Selnaor Padroa continues to report to me. Debrol Babroine also reports to me, and we’re working closely with Debrol Babroine and Selnaor Padroa on cross-functional integration efforts related to Project Velbirum and our ongoing partnership with Trorvelor Partners.
+
+Please keep these updates in mind as we move forward with Q3 planning and resource allocation.
+
+Best regards,  
+Soramis Nolaor
+
+---
+
+From: Gobena Hoszesine  
+To: Soramis Nolaor, Givien Mubren, Trikria Drazorel, Selnaor Padroa, Debrol Babroine  
+Subject: Access and Identity Coordination for Project Velbirum
+
+Gobena Hoszesine joined the company in 2019.
+
+Gobena Hoszesine focuses on identity and access tooling.
+
+Hi Team,
+
+I wanted to check in regarding the evolving access and identity protocols we need to support the ongoing work on Project Velbirum, particularly as it relates to the Trorvelor Partners integration. Given the tight coordination between Givien Mubren’s team and Selnaor Padroa’s work, I recommend we schedule a focused session to align on access requirements and permissions for the extended stakeholders involved in the Q3 deliverables.
+
+Since Debrol Babroine is also playing a key role in bridging internal and external workflows, I’d like to include them in this discussion to ensure the identity framework supports the broader collaboration needs. My goal is to finalize any updates to our access tooling by early Q3 to avoid bottlenecks during the renewal period for Bekuine Consulting.
+
+Let me know your availability for a session in the first two weeks of Q3.
+
+Thanks in advance,  
+Gobena Hoszesine
+
+---
+
+From: Givien Mubren  
+To: Gobena Hoszesine, Trikria Drazorel, Selnaor Padroa, Debrol Babroine  
+Subject: Re: Access and Identity Coordination for Project Velbirum  
+
+Hi Gobena Hoszesine,
+
+Thanks for the heads-up—I agree this is a critical topic as we prepare for the final phase of Project Velbirum. I’ve been coordinating with Selnaor Padroa on a few access-related dependencies that stem from our integration with Trorvelor Partners, and I think a centralized discussion will help avoid duplication of effort.
+
+Debrol Babroine is already aware of the broader access concerns and has been working with Trikria Drazorel on cross-functional permissions. If we align on a timeline and agenda in the next few days, I’m confident we can make this a productive session.
+
+Let’s aim for the first week of Q3—perhaps the second week if the team needs more time to consolidate their input. I’ll circulate a proposed agenda once we confirm the date.
+
+Best,  
+Givien Mubren
+
+---
+
+From: Soramis Nolaor  
+To: Gobena Hoszesine, Givien Mubren, Trikria Drazorel, Selnaor Padroa, Debrol Babroine  
+Subject: Re: Access and Identity Coordination for Project Velbirum  
+
+Hi all,
+
+I appreciate Gobena Hoszesine and Givien Mubren’s proactive approach to this. Given how central identity and access are to the success of Project Velbirum and the broader Q3 renewal planning, I’d like to ensure we have senior leadership present in this discussion as well. I’ll join the session, and I recommend including a representative from our compliance team to address any governance implications.
+
+Please proceed with setting a date in the first or second week of Q3. I’ll confirm the time and room availability once we have a proposed agenda.
+
+Thank you for your attention to this important matter.
+
+Soramis Nolaor
