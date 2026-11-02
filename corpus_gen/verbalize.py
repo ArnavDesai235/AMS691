@@ -257,11 +257,17 @@ def check_doc(cfg: Config, ft: FactTable, d: DocPlan, title: str, body: str,
 
     # length
     n_words = len(body.split())
-    lo = max(cfg.docs.words_min * 0.9, d.target_words * LEN_TOL[0])
-    hi = min(cfg.docs.words_max * 1.1, d.target_words * LEN_TOL[1])
+    lo, hi = _len_bounds(cfg, d)
     if not lo <= n_words <= hi:
         v.append(f"length {n_words} words; target about {d.target_words} (allowed {int(lo)}-{int(hi)})")
     return v
+
+
+def _len_bounds(cfg: Config, d: DocPlan) -> tuple[int, int]:
+    """Whole-word bounds, so the check agrees with the "allowed lo-hi" it reports."""
+    lo = max(cfg.docs.words_min * 0.9, d.target_words * LEN_TOL[0])
+    hi = min(cfg.docs.words_max * 1.1, d.target_words * LEN_TOL[1])
+    return int(lo), int(hi)
 
 
 def _distinctive(e: Entity) -> str:
@@ -333,7 +339,8 @@ def verbalize_doc(cfg: Config, ft: FactTable, d: DocPlan, llm: LLM) -> DocResult
     res = DocResult(d.doc_id, False)
     prompt, draft = base, ""
     for attempt in range(1, MAX_DOC_ATTEMPTS + 1):
-        out = llm.complete(SYSTEM, prompt)
+        # attempts past 4 are fresh samples (salted), not cache replays of the same prompt
+        out = llm.complete(SYSTEM, prompt, salt=f"attempt{attempt}" if attempt > 4 else "")
         res.cost_usd += out.cost_usd
         res.attempts = attempt
         draft = out.text
@@ -349,7 +356,12 @@ def verbalize_doc(cfg: Config, ft: FactTable, d: DocPlan, llm: LLM) -> DocResult
         if not viol:
             res.ok, res.title, res.text = True, parsed[0], f"{parsed[0]}\n\n{parsed[1]}\n"
             return res
-        prompt = build_fix_prompt(base, draft, viol)
+        if attempt >= 4 and any(v.startswith("length") for v in viol):
+            # fix-ups keep landing a few words short: start over from the base prompt
+            lo, _ = _len_bounds(cfg, d)
+            prompt = base + f"\n\nLENGTH: write at least {lo} words (aim for about {d.target_words})."
+        else:
+            prompt = build_fix_prompt(base, draft, viol)
     return res
 
 

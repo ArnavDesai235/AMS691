@@ -125,3 +125,10 @@ def test_missing_code_inserted():
 def test_anchored_code_untouched():
     body = "Maneor Tismean holds key EP-8854-N."
     assert anchor_codes("T", body, ANCHOR) == ("T", body, [])
+
+
+def test_len_bounds_are_whole_words():
+    from types import SimpleNamespace as NS
+    from corpus_gen.verbalize import _len_bounds
+    cfg = NS(docs=NS(words_min=300, words_max=1200))
+    assert _len_bounds(cfg, NS(target_words=591)) == (443, 797)   # 443.25 -> 443
