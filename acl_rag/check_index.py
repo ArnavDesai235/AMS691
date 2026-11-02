@@ -82,11 +82,20 @@ def check(corpus: Path, wd: Path, hub_threshold: int = 8) -> dict:
     node_labels = {n: labels(ds) for n, ds in node_docs.items()}
 
     planned = {e["canonical_name"]: e for e in facts["entities"]}
+    # Same planned-hub definition as ingest_report: plan.json's predicted_regime.
+    # facts.json's `hub` flag is only enforced for cross-tier entities (restricted-only
+    # ones can carry hub=True while being planned into the concatenated regime).
+    plan_file = corpus / "plan.json"
+    predicted = json.loads(plan_file.read_text()).get("predicted_regime", {}) if plan_file.is_file() else {}
+
+    def planned_hub(e: dict) -> bool:
+        regime = predicted.get(e["entity_id"])
+        return regime == "summarized" if regime else bool(e.get("hub"))
     lower = {n.lower(): n for n in nodes}
     entities, missing = [], []
     for name, e in planned.items():
         found = name in nodes
-        row = {"name": name, "cls": e["cls"], "planned_hub": bool(e.get("hub")), "found": found}
+        row = {"name": name, "cls": e["cls"], "planned_hub": planned_hub(e), "found": found}
         if found:
             row["n_source_chunks"] = len(node_docs[name])
             row["n_docs"] = len(set(node_docs[name]))
@@ -113,7 +122,7 @@ def check(corpus: Path, wd: Path, hub_threshold: int = 8) -> dict:
     # ---- hubs
     hubs = sorted((n for n in nodes if len(node_docs[n]) >= hub_threshold),
                   key=lambda n: -len(node_docs[n]))
-    planned_hubs = [n for n, e in planned.items() if e.get("hub")]
+    planned_hubs = [n for n, e in planned.items() if planned_hub(e)]
 
     # ---- canaries
     edges = [(s, t, dict(d)) for s, t, d in g.edges(data=True)]
