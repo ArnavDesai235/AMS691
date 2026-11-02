@@ -87,3 +87,17 @@ def test_fix_prompt_gives_exact_length_shortfall():
     assert "524 words" in p and "at least 571" in p and "about 238 words" in p
     p = build_fix_prompt("BASE", "DRAFT", ["length 1100 words; target about 762 (allowed 571-1028)"])
     assert "at most 1028" in p
+
+
+def test_repair_gold_expands_names_and_appends_missing_fact():
+    from types import SimpleNamespace as NS
+    from corpus_gen.queries import repair_gold
+    annex = NS(entity_id="e1", canonical_name="Tegurine Annex", type="site")
+    ft = NS(entities=[annex])
+    fact = NS(mentions=["e1"], object={"literal": "480 seats"},
+              sentence="The Tegurine Annex has capacity for 480 seats.")
+    out = repair_gold(ft, [fact], "Tegurine holds a 480-seat capacity.")
+    assert out == ("Tegurine Annex holds a 480-seat capacity. "
+                   "The Tegurine Annex has capacity for 480 seats.")
+    ok = "The Tegurine Annex has capacity for 480 seats."
+    assert repair_gold(ft, [fact], ok) == ok

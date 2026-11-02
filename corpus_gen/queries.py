@@ -34,6 +34,7 @@ from .config import Config, load_config, rng_for
 from .facts import Entity, Fact, FactTable, User, build_fact_table, ref
 from .llm import LLM, check_provider
 from .plan import build_plan
+from .repair import expand_names
 from .verbalize import _distinctive, yaml_value
 
 NOT_AVAILABLE = "not available"
@@ -202,6 +203,25 @@ def check_gold(ft: FactTable, u: User, eid: str, facts: list[Fact], answer: str)
     return v
 
 
+def repair_gold(ft: FactTable, facts: list[Fact], answer: str) -> str:
+    """Same deterministic repairs as for docs (see repair.py): expand shortened names of
+    the facts' entities, then append the planned sentence of any fact whose literal
+    value is missing. Every appended sentence is one of the authorized facts."""
+    em = {e.entity_id: e for e in ft.entities}
+    names = {}
+    for x in {m for f in facts for m in f.mentions}:
+        e = em[x]
+        toks = ([e.canonical_name.split()[0]] if e.type == "person" else []) + [_distinctive(e)]
+        names[e.canonical_name] = list(dict.fromkeys(toks))
+    answer, _ = expand_names(answer, names)
+    for f in facts:
+        lit = f.object.get("literal")
+        core = re.sub(r"^(about|the)\s+", "", lit or "", flags=re.I)
+        if lit and core.lower() not in answer.lower():
+            answer = answer.rstrip() + " " + f.sentence
+    return answer
+
+
 def gold_for(ft: FactTable, llm: LLM, q: Query, u: User) -> tuple[str, str, list[str], int]:
     facts = authorized_facts(ft, u, q.target_entity)
     if not facts:
@@ -209,7 +229,7 @@ def gold_for(ft: FactTable, llm: LLM, q: Query, u: User) -> tuple[str, str, list
     base = build_gold_prompt(q, facts)
     prompt = base
     for attempt in range(1, MAX_GOLD_ATTEMPTS + 1):
-        ans = llm.complete(GOLD_SYSTEM, prompt).text.strip()
+        ans = repair_gold(ft, facts, llm.complete(GOLD_SYSTEM, prompt).text.strip())
         viol = check_gold(ft, u, q.target_entity, facts, ans)
         if not viol:
             return ans, "facts", [f.fact_id for f in facts], attempt
