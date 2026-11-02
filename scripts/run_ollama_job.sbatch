@@ -30,7 +30,7 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate "$ENV_NAME"
 nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
 # qwen3:32b-q8_0 (35 GB) + KV cache for 4 x 32k contexts (~32 GB) needs ~67 GB.
-gpu_mem=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | head -1)
+gpu_mem=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | awk 'NR==1')   # awk reads all input: head -1 + pipefail can die of SIGPIPE with 2+ GPUs
 if (( gpu_mem < ${MIN_GPU_MEM_MIB:-70000} )); then
   echo "GPU has ${gpu_mem} MiB; need >= ${MIN_GPU_MEM_MIB:-70000}. Wrong node? (submit with --nodelist=h100)"; exit 2
 fi
