@@ -28,6 +28,13 @@ output-token cap (Ollama ``done_reason == "length"``); it only records this in
 ``doc_status.metadata.llm_truncation``. Those docs are listed as
 ``truncated_docs`` and fail the run, since their graph may be missing records.
 
+Docs that fail every round usually fail deterministically: extraction runs at
+temperature 0 with a fixed seed, so a chunk that sends qwen3 into a repetition
+loop does so on every retry. ``--retry-temperature T`` makes every round that
+only retries docs (no fresh inserts) sample at temperature T with a new seed per
+round. Only those docs' extraction (and the merge summaries they trigger) are
+sampled; the setting is recorded per round in ingest_report.json. Ollama only.
+
 The LLM cache key covers role and model only, not num_predict / temperature /
 seed: after changing those options, re-ingest into a fresh working_dir.
 """
@@ -42,6 +49,7 @@ from pathlib import Path
 from .acl import split_source_ids
 
 LLM_TRUNCATION_METADATA_KEY = "llm_truncation"  # lightrag.utils, 1.5.7
+from . import rag_factory
 from .rag_factory import build_rag, load_config
 
 log = logging.getLogger("acl_rag.ingest")
@@ -95,10 +103,22 @@ async def prepare_resume(rag, ids: list[str], *, retry_truncated: bool = False) 
     return todo, info
 
 
-async def ingest(cfg: dict, *, retry_truncated: bool = False, rounds: int = 1) -> dict:
+def retry_sampling(cfg: dict, todo: list[str], retried: list[str], rnd: int,
+                   temperature: float | None) -> dict:
+    """Sampling override for one insert round: only when the round retries docs and nothing else."""
+    if temperature is None or not todo or not set(todo) <= set(retried):
+        return {}
+    base = int(cfg.get("backend", {}).get("ollama_seed") or 0)
+    return {"temperature": float(temperature), "seed": base + 1000 + rnd}
+
+
+async def ingest(cfg: dict, *, retry_truncated: bool = False, rounds: int = 1,
+                 retry_temperature: float | None = None) -> dict:
     """Insert the corpus. With rounds > 1, failed and truncated docs are retried
     in the same process (Ollama's batched decoding is not bit-deterministic, so a
     runaway generation usually does not recur on the next attempt)."""
+    if retry_temperature is not None and cfg.get("backend", {}).get("llm") == "openai":
+        raise ValueError("--retry-temperature passes Ollama options; not supported for backend.llm=openai")
     corpus: Path = cfg["corpus"]
     ids, texts = read_docs(corpus)
     text_of = dict(zip(ids, texts))
@@ -107,6 +127,10 @@ async def ingest(cfg: dict, *, retry_truncated: bool = False, rounds: int = 1) -
         attempts = []
         for rnd in range(max(1, rounds)):
             todo, resume = await prepare_resume(rag, ids, retry_truncated=retry_truncated or rnd > 0)
+            sampling = retry_sampling(cfg, todo, resume["retried_failed"], rnd, retry_temperature)
+            rag_factory.RETRY_SAMPLING.clear()
+            rag_factory.RETRY_SAMPLING.update(sampling)
+            resume["sampling"] = sampling or None
             log.info("round %d resume: %s", rnd + 1, resume)
             attempts.append(resume)
             if not todo:
@@ -179,6 +203,7 @@ async def ingest(cfg: dict, *, retry_truncated: bool = False, rounds: int = 1) -
         (wd / "ingest_report.json").write_text(json.dumps(report, indent=1))
         return report
     finally:
+        rag_factory.RETRY_SAMPLING.clear()
         await rag.finalize_storages()
 
 
@@ -189,10 +214,12 @@ def main() -> None:
                     help="delete and re-insert docs whose extraction hit the output-token cap")
     ap.add_argument("--rounds", type=int, default=1,
                     help="retry failed/truncated docs up to this many insert rounds (default 1)")
+    ap.add_argument("--retry-temperature", type=float, default=None,
+                    help="sample rounds that only retry docs at this temperature (new seed per round)")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     r = asyncio.run(ingest(load_config(args.rag_config), retry_truncated=args.retry_truncated,
-                             rounds=args.rounds))
+                             rounds=args.rounds, retry_temperature=args.retry_temperature))
     print(json.dumps({k: v for k, v in r.items() if k != "entities"}, indent=1))
     if r["failed_docs"] or r["truncated_docs"] or r["chunks_with_wrong_parent"]:
         raise SystemExit("ingest finished with errors (see above)")

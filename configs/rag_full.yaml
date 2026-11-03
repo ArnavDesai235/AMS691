@@ -21,7 +21,9 @@ backend:
                               # rebuilds are reproducible only through the LLM cache (keep it with the index)
   ollama_seed: 42
   ollama_embed_num_ctx: 8192  # embedding context window (bge-m3 max)
-  ollama_timeout: 600         # seconds per request; also LightRAG's LLM timeout (its worker limit is 2x this)
+  ollama_timeout: 1200        # full corpus: 1200 (rag.yaml 600). On quadro2 (2x RTX 8000) a 6144-token runaway
+                              # outlasted 600s and failed as ReadTimeout (11 docs) instead of truncating. Also
+                              # LightRAG's LLM timeout (its worker limit is 2x this).
   ollama_num_predict: 6144    # max output tokens per call. Normal dev extractions are <= ~3k tokens
                               # (<= 10.7k chars); runaways ran past 16k tokens and hit the 600s timeout.
                               # A tight cap makes a runaway end as "truncated" in minutes; ingest

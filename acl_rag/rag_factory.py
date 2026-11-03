@@ -1,6 +1,7 @@
 """Config loading and LightRAG construction shared by ingest / run / metrics."""
 from __future__ import annotations
 
+import functools
 from functools import partial
 from pathlib import Path
 from typing import Any
@@ -49,6 +50,21 @@ def _llm_and_embedding(b: dict[str, Any]):
     return llm, emb
 
 
+# Sampling override for ingest retry rounds (ingest --retry-temperature). Applied per call
+# by the wrapper below, because LightRAG copies llm_model_kwargs in some code paths, so
+# mutating them after construction is not reliable. Empty = no override.
+RETRY_SAMPLING: dict[str, Any] = {}
+
+
+def _with_retry_sampling(llm):
+    @functools.wraps(llm)
+    async def wrapped(*args, **kw):
+        if RETRY_SAMPLING:
+            kw["options"] = {**(kw.get("options") or {}), **RETRY_SAMPLING}
+        return await llm(*args, **kw)
+    return wrapped
+
+
 def ollama_llm_kwargs(b: dict[str, Any]) -> dict[str, Any]:
     """Kwargs LightRAG forwards to ollama.AsyncClient.chat().
 
@@ -81,7 +97,7 @@ async def build_rag(cfg: dict[str, Any], *, capture_fragments: bool = False):
     cfg["working_dir"].mkdir(parents=True, exist_ok=True)
     kwargs: dict[str, Any] = dict(
         working_dir=str(cfg["working_dir"]),
-        llm_model_func=llm,
+        llm_model_func=_with_retry_sampling(llm),
         llm_model_name=b["llm_model"],
         llm_model_max_async=b.get("llm_max_async", 4),
         embedding_func=emb,

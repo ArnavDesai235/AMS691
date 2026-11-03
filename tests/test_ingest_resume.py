@@ -236,3 +236,34 @@ def test_rounds_retry_a_transient_runaway(tmp_path, monkeypatch):
     assert [r["inserted"] for r in report["resume"]["rounds"]] == [2, 1, 0]
     assert report["resume"]["rounds"][1]["retried_failed"] == ["DOC_B"]
     assert report["entities"][0]["n_source_chunks"] == 2
+
+
+def test_retry_sampling_only_for_retry_only_rounds():
+    from acl_rag.ingest import retry_sampling
+    cfg = {"backend": {"ollama_seed": 42}}
+    assert retry_sampling(cfg, ["A"], ["A"], 0, None) == {}
+    assert retry_sampling(cfg, ["A", "B"], ["A"], 0, 0.3) == {}      # B is a fresh insert
+    assert retry_sampling(cfg, [], [], 1, 0.3) == {}
+    assert retry_sampling(cfg, ["A"], ["A", "B"], 2, 0.3) == {"temperature": 0.3, "seed": 1044}
+
+
+def test_retry_sampling_override_reaches_llm_options():
+    from acl_rag.rag_factory import RETRY_SAMPLING, _with_retry_sampling
+    seen = []
+
+    async def llm(prompt, **kw):
+        seen.append(kw.get("options"))
+        return "ok"
+
+    wrapped = _with_retry_sampling(llm)
+    base = {"num_ctx": 32768, "temperature": 0.0, "seed": 42}
+    asyncio.run(wrapped("p", options=base))
+    RETRY_SAMPLING.update(temperature=0.3, seed=1043)
+    try:
+        asyncio.run(wrapped("p", options=base))
+    finally:
+        RETRY_SAMPLING.clear()
+    asyncio.run(wrapped("p", options=base))
+    assert seen[0] == seen[2] == base
+    assert seen[1] == {"num_ctx": 32768, "temperature": 0.3, "seed": 1043}
+    assert base["temperature"] == 0.0  # the configured options are never mutated
