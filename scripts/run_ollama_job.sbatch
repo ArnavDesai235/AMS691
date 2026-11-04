@@ -14,6 +14,8 @@
 #   STEPS="C1 C2 C3 C4 metrics leakage" sbatch scripts/run_ollama_job.sbatch
 #   (check, metrics and leakage need no GPU and can also run on the login node)
 #   INGEST_ARGS="--retry-truncated --rounds 3" sbatch scripts/run_ollama_job.sbatch
+#   OLLAMA_NUM_PARALLEL=1 OLLAMA_KV_CACHE_TYPE=q8_0 MIN_GPU_MEM_MIB=45000 \
+#     sbatch --nodelist=quadro1 --gres=gpu:1 scripts/run_ollama_job.sbatch   # one 48 GB card
 #   STEPS=corpus sbatch scripts/run_ollama_job.sbatch            # generate configs/full.yaml's corpus locally
 # Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS,
 #   CORPUS_CONFIG (configs/full.yaml)
@@ -38,9 +40,11 @@ fi
 # Free port so jobs sharing a node don't collide on 11434.
 port=$(python -c 'import socket;s=socket.socket();s.bind(("",0));print(s.getsockname()[1])')
 export OLLAMA_HOST=127.0.0.1:$port
-export OLLAMA_NUM_PARALLEL=4         # matches llm_max_async in rag.yaml
+export OLLAMA_NUM_PARALLEL=${OLLAMA_NUM_PARALLEL:-4}   # llm_max_async in the job config is set to match
 export OLLAMA_KEEP_ALIVE=-1          # keep the model loaded for the whole job
 export OLLAMA_FLASH_ATTENTION=1      # smaller KV cache at num_ctx 32768
+# Single 48 GB GPU: OLLAMA_NUM_PARALLEL=1 OLLAMA_KV_CACHE_TYPE=q8_0 (35 GB model + ~4 GB KV + bge-m3)
+[ -n "${OLLAMA_KV_CACHE_TYPE:-}" ] && export OLLAMA_KV_CACHE_TYPE
 export HF_HUB_OFFLINE=1
 
 ollama serve >"logs/ollama-$SLURM_JOB_ID.log" 2>&1 & srv=$!
@@ -50,8 +54,9 @@ ollama list
 
 # Same config, but pointed at this job's port.
 cfg=$(mktemp --suffix=.yaml)
-sed "s#^\(\s*ollama_host:\).*#\1 http://$OLLAMA_HOST#" "$RAG_CONFIG" > "$cfg"
-grep ollama_host "$cfg"
+sed -e "s#^\(\s*ollama_host:\).*#\1 http://$OLLAMA_HOST#" \
+    -e "s#^\(\s*llm_max_async:\).*#\1 $OLLAMA_NUM_PARALLEL#" "$RAG_CONFIG" > "$cfg"
+grep -E "ollama_host|llm_max_async" "$cfg"
 
 # Load the model onto the GPU once and confirm it is on the GPU, not CPU.
 llm=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1]))['backend']['llm_model'])" "$cfg")
