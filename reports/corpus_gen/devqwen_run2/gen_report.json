@@ -1,0 +1,194 @@
+{
+  "n_docs_planned": 50,
+  "n_docs_ok": 46,
+  "failed": [
+    "d-public-009",
+    "d-public-017",
+    "d-team_a-001",
+    "d-public-019"
+  ],
+  "attempts_hist": {
+    "1": 24,
+    "2": 20,
+    "3": 1,
+    "4": 5
+  },
+  "n_docs_repaired": 25,
+  "repairs": {
+    "d-public-005": [
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\""
+    ],
+    "d-public-006": [
+      "attempt 1: name \"Stebril\" -> \"Project Stebril\"",
+      "attempt 1: name \"Stebril\" -> \"Project Stebril\"",
+      "attempt 1: name \"Stebril\" -> \"Project Stebril\""
+    ],
+    "d-public-004": [
+      "attempt 1: name \"Pivoine\" -> \"Pivoine Geltoett\""
+    ],
+    "d-public-002": [
+      "attempt 1: name \"Leroror\" -> \"Leroror Lukaine\"",
+      "attempt 1: name \"Leroror\" -> \"Leroror Lukaine\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\""
+    ],
+    "d-public-014": [
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\""
+    ],
+    "d-public-015": [
+      "attempt 1: name \"Givien\" -> \"Givien Mubren\"",
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\"",
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\""
+    ],
+    "d-public-010": [
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: name \"Givien\" -> \"Givien Mubren\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\""
+    ],
+    "d-team_a-000": [
+      "attempt 1: code TM-1841-G: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-004": [
+      "attempt 1: name \"Nolaor\" -> \"Project Nolaor\"",
+      "attempt 1: name \"Soramis\" -> \"Project Soramis\"",
+      "attempt 1: code BL-6809-Q: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-003": [
+      "attempt 1: name \"Nolaor\" -> \"Project Nolaor\"",
+      "attempt 1: name \"Soramis\" -> \"Project Soramis\"",
+      "attempt 1: name \"Liluan\" -> \"Liluan Nemlurel\""
+    ],
+    "d-team_a-006": [
+      "attempt 1: code HE-6807-Y: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-007": [
+      "attempt 1: code SP-9062-V: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-005": [
+      "attempt 1: name \"Nolaor\" -> \"Project Nolaor\"",
+      "attempt 1: name \"Soramis\" -> \"Project Soramis\"",
+      "attempt 1: name \"Soramis\" -> \"Project Soramis\"",
+      "attempt 1: name \"Soramis\" -> \"Project Soramis\"",
+      "attempt 1: name \"Soramis\" -> \"Project Soramis\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\""
+    ],
+    "d-team_a-009": [
+      "attempt 1: code WX-1844-U: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-001": [
+      "attempt 1: code DJ-7108-L: kept 1 of 3 occurrences",
+      "attempt 2: code DJ-7108-L: kept 1 of 3 occurrences",
+      "attempt 3: code DJ-7108-L: kept 1 of 3 occurrences",
+      "attempt 4: code DJ-7108-L: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-000": [
+      "attempt 2: code GS-9629-Z: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-003": [
+      "attempt 1: code TU-1566-Y: kept 1 of 4 occurrences"
+    ],
+    "d-team_a-008": [
+      "attempt 1: code JD-4128-T: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-004": [
+      "attempt 1: name \"Siduris\" -> \"Project Siduris\""
+    ],
+    "d-team_b-007": [
+      "attempt 1: code BT-9828-L: kept 1 of 3 occurrences",
+      "attempt 2: code BT-9828-L: kept 1 of 2 occurrences"
+    ],
+    "d-exec-001": [
+      "attempt 1: code DV-1700-A: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-008": [
+      "attempt 1: code GW-2651-D: kept 1 of 2 occurrences"
+    ],
+    "d-exec-003": [
+      "attempt 1: code HL-9938-U: kept 1 of 2 occurrences"
+    ],
+    "d-exec-005": [
+      "attempt 1: code GT-9400-E: kept 1 of 4 occurrences"
+    ],
+    "d-exec-000": [
+      "attempt 1: name \"Rishalen Integration\" -> \"Rishalen Integration Team\""
+    ],
+    "d-exec-008": [
+      "attempt 1: code FT-7497-A: kept 1 of 3 occurrences",
+      "attempt 2: code FT-7497-A: kept 1 of 3 occurrences"
+    ]
+  },
+  "first_try_violation_types": {
+    "names": 1,
+    "values": 14,
+    "length": 13,
+    "canary": 4
+  },
+  "cost_usd_this_run": 0.0,
+  "plan_stats": {
+    "docs_per_tier": {
+      "public": 20,
+      "team_a": 10,
+      "team_b": 10,
+      "exec": 10
+    },
+    "facts_per_doc": {
+      "public": 7.7,
+      "team_a": 4.4,
+      "team_b": 3.2,
+      "exec": 2.8
+    },
+    "entities_per_doc": {
+      "public": 7.25,
+      "team_a": 3.4,
+      "team_b": 2.5,
+      "exec": 2.2
+    },
+    "words_total": 32577,
+    "cross_regime": {
+      "hub_summarized": 3,
+      "hub_not_summarized": 0,
+      "nonhub_concatenated": 5,
+      "nonhub_summarized": 0
+    },
+    "n_shortfalls": 0
+  },
+  "fact_stats": {
+    "n_entities": 55,
+    "n_by_class": {
+      "public_only": 28,
+      "cross_tier": 8,
+      "restricted_only": 19
+    },
+    "n_restricted_pool": 27,
+    "n_qc_clean": 8,
+    "cross_tier_fraction_config": 0.3,
+    "cross_tier_fraction_realized": 0.2963,
+    "n_cross_hub": 3,
+    "n_cross_sibling": 3,
+    "n_facts_by_role": {
+      "public": 87,
+      "lower": 16,
+      "restricted": 43,
+      "canary": 27
+    },
+    "n_canaries_by_kind": {
+      "contamination": 8,
+      "structural": 19
+    },
+    "n_restricted_only_with_cross_neighbor": 7,
+    "excluded_from_accounting": [
+      "Zastama Industries"
+    ]
+  }
+}

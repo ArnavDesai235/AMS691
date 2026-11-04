@@ -1,0 +1,52 @@
+Strategic Contract Review and Project Update Meeting Notes
+
+DATE: April 3, FY26  
+ATTENDANTS: Executive Leadership Team, Project Managers for Project Nuzeor and Project Rakresett, Finance Representative, Supply Chain Lead, Legal Representative, and Operational Support Lead.
+
+**MEETING NOTES**
+
+**I. Opening Remarks and Context Setting**
+
+The meeting commenced with a brief welcome and an overview of the strategic focus areas for the upcoming fiscal quarter, with particular emphasis on contract renewals and key project milestones. The Finance Representative highlighted the importance of reviewing all active vendor contracts to ensure alignment with current strategic priorities and financial planning.
+
+**II. Contract Review: Misginine Systems**
+
+The discussion on Misginine Systems began with a review of the 24-month master services agreement currently in place with the vendor. The contract, valued at $1.4M, supports the operations of Project Rakresett and provides critical components for the Lagemett Ledger. The Legal Representative confirmed that the current agreement is set to be reviewed for renewal in Q4 FY28, and emphasized the need to begin planning for this early to avoid any disruption in service. The Supply Chain Lead noted the importance of ensuring continuity for the Lagemett Ledger, given the integral role of Misginine Systems in its component supply chain. The Executive Leadership Team agreed to initiate a formal evaluation of the contract's terms and performance metrics ahead of the scheduled renewal to determine if any renegotiation or adjustments to the agreement are necessary.
+
+**III. Project Updates**
+
+**A. Project Rakresett**
+
+The Project Manager for Project Rakresett provided an update on the project's current status, noting steady progress and adherence to the planned timeline. It was reiterated that Misginine Systems plays a critical role in the project's execution and that the success of Project Rakresett is closely tied to the performance of the vendor. The Project Manager requested approval to begin preliminary planning for the next phase of the project, which will involve the integration of new components into the system. This request was approved, with the caveat that a full risk assessment should accompany the planning process.
+
+**B. Project Nuzeor**
+
+The Project Manager for Project Nuzeor shared that the project is on track for completion in Q3 FY26. The focus for the remainder of the quarter will be on final testing and user acceptance. The team is also evaluating potential enhancements to be incorporated post-launch, pending approval from the Executive Leadership Team. The Operational Support Lead raised concerns about the current resource allocation, suggesting a temporary reallocation of support personnel to assist with the final testing phase. This was endorsed, and an action item was created to coordinate the necessary adjustments in staffing.
+
+**IV. Contract Review: Nalzenett Labs**
+
+The Finance Representative noted that Nalzenett Labs is due for contract renewal in Q2 FY27. While the vendor has performed satisfactorily to date, the team agreed that it is necessary to begin preparing for the renewal process by evaluating performance data and market benchmarks. The Legal Representative will lead this effort and present a draft renewal proposal for review in the next strategic meeting.
+
+**V. Vendor Coordination and Supply Chain Considerations**
+
+The Supply Chain Lead highlighted the continued collaboration with Dilhas Consulting, who also supplies components for the Lagemett Ledger. It was acknowledged that maintaining strong supplier relationships is key to meeting production and delivery timelines. The team agreed that a cross-functional review of the supply chain, including all vendors involved in the Lagemett Ledger, should be conducted in the upcoming quarter to ensure continuity and identify areas for improvement.
+
+**VI. Closing Remarks and Next Steps**
+
+The Executive Leadership Team reaffirmed the importance of proactive planning for contract renewals and project milestones. The Legal Representative was tasked with drafting a comprehensive review plan for both Misginine Systems and Nalzenett Labs. The Project Managers were asked to coordinate with their respective teams to begin preliminary planning for the next phases of their projects and to submit updated timelines for approval.
+
+**DECISIONS**
+
+1. Initiate a formal evaluation of the Misginine Systems contract ahead of the Q4 FY28 renewal.
+2. Approve preliminary planning for the next phase of Project Rakresett, with a requirement for a full risk assessment.
+3. Approve the temporary reallocation of support personnel for Project Nuzeor’s final testing phase.
+4. Begin preparing for the renewal of Nalzenett Labs’ contract in Q2 FY27, including a performance evaluation and market analysis.
+5. Schedule a cross-functional review of vendors supplying components for the Lagemett Ledger in the upcoming quarter.
+
+**ACTION ITEMS**
+
+1. Legal Representative to draft a contract review plan for Misginine Systems and Nalzenett Labs by May 1, FY26.  
+2. Project Manager for Project Rakresett to submit a risk assessment and preliminary planning document by May 8, FY26.  
+3. Project Manager for Project Nuzeor to finalize the staffing reallocation plan and present it to the Operational Support Lead by May 5, FY26.  
+4. Finance Representative to coordinate with Legal and Supply Chain teams to establish a vendor evaluation framework for the Lagemett Ledger by June 1, FY26.  
+5. Executive Leadership Team to schedule the next strategic meeting for mid-June FY26 to review updates and progress.

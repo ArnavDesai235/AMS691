@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "n_errors": 0,
+  "errors": [],
+  "warnings": [
+    "review: rare Titlecase words (possible invented names): Delarue(3), Resubmitting(1)"
+  ],
+  "counts": {
+    "docs": 300,
+    "canaries": 300,
+    "query_rows": 1120,
+    "cross_tier": 45,
+    "restricted_pool": 150,
+    "cross_tier_fraction_realized": 0.3
+  }
+}

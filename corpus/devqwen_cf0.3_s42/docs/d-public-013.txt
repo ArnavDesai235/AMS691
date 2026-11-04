@@ -1,0 +1,23 @@
+Overview of the Gelgos Infrastructure Team and Key Collaborations
+
+Zastama Industries relies on the Gelgos Infrastructure Team to manage essential identity and access tooling that supports secure and efficient operations across the company. This page provides a concise overview of the team’s role, leadership, budget, and key partnerships, helping all employees understand the context and importance of their work.
+
+### Leadership and Structure  
+The Gelgos Infrastructure Team is headed by Givien Mubren, who serves as both the team lead and a core member of the unit. Givien Mubren plays a pivotal role in guiding the team’s strategic direction and ensuring that all infrastructure initiatives align with Zastama Industries’ broader technical and operational objectives. With a clear focus on maintaining and improving the security and accessibility of identity systems, the team works closely with other departments to address evolving access requirements and user needs.
+
+The team operates on an annual budget of $0.4M, which is allocated to cover personnel, tools, infrastructure upgrades, and external service fees. This budget is monitored and reviewed by the finance lead, who collaborates with the Gelgos Infrastructure Team to ensure fiscal responsibility and alignment with company priorities.
+
+### Key Collaborations and External Relationships  
+One important collaboration involves Kremarel Partners, a long-standing vendor with whom Zastama Industries has a 24-month master services agreement. This partnership supports the integration and maintenance of external identity and access systems, ensuring that the Gelgos Infrastructure Team has the necessary tools and expertise to manage these systems effectively. The team works closely with Kremarel Partners to coordinate updates, troubleshooting, and system enhancements, ensuring minimal disruption to internal operations.
+
+Another area of focus is the Fibrasine Relay, a system used by approximately 400 active users. The Gelgos Infrastructure Team is responsible for maintaining the security and performance of this relay, which plays a critical role in facilitating access to company resources. Regular audits and updates are conducted to ensure that the Fibrasine Relay continues to meet the evolving needs of its user base.
+
+### Engineering and Strategic Oversight  
+The team's operations and technical strategy are supported by Gonnom Gosmunza, the Director of Engineering. Gonnom Gosmunza provides oversight to ensure that the Gelgos Infrastructure Team’s initiatives are aligned with the company’s engineering standards and long-term infrastructure roadmap. This includes evaluating the scalability and reliability of current systems and identifying opportunities for optimization.
+
+Gonnom Gosmunza also facilitates cross-team collaboration, ensuring that the Gelgos Infrastructure Team's work is well-coordinated with other departments such as application development, security, and operations. This collaborative approach helps to ensure that identity and access systems are integrated seamlessly into the broader technology ecosystem of Zastama Industries.
+
+### Future Directions and Internal Communication  
+Looking ahead, the Gelgos Infrastructure Team is focused on enhancing system performance, improving user access workflows, and strengthening security protocols. These efforts are being guided by feedback from internal stakeholders and external partners. Regular updates and progress reports will be shared with the broader company to maintain transparency and encourage collaboration.
+
+Employees are encouraged to direct any questions or concerns about identity and access systems to their respective team leads or to the Gelgos Infrastructure Team via the standard internal support channels. By fostering open communication and collaboration, Zastama Industries aims to maintain a secure, efficient, and user-friendly infrastructure environment for all departments and users.

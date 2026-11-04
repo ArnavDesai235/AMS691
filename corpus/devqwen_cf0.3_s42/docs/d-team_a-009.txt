@@ -1,0 +1,32 @@
+Vadesis Gummenbel and Liluan Nemlurel Status Update for Q3
+
+Zosne Bramfa,
+
+Attached is a summary of the status of Vadesis Gummenbel and Liluan Nemlurel as of the end of the third quarter. The focus for both projects remains strong, with several key developments and challenges noted.
+
+**Summary**
+
+Vadesis Gummenbel, which focuses on data retention tooling and has the escrow reference WX-1844-U, is progressing steadily toward the mid-stage milestones. The team has completed the first phase of integration testing and is preparing for the next round of user validation. Liluan Nemlurel, focused on demand forecasting models, is also on track with its current timeline, though some delays in model tuning have been observed.
+
+**Progress**
+
+Vadesis Gummenbel has successfully finalized its initial deployment on the test environment and has begun the escrow submission process under reference noted earlier. The team has conducted multiple internal audits and is finalizing documentation for the next phase. The data retention framework is showing good performance under simulated load conditions.
+
+Liluan Nemlurel has completed the foundational architecture for the forecasting algorithms and is now in the calibration phase. A small team is working closely with the operations lead to ensure the models align with current business processes. The team has begun to see early signs of improved prediction accuracy compared to legacy systems.
+
+**Risks**
+
+For Vadesis Gummenbel, the primary risk remains the timely completion of the escrow process. While the team has met all technical milestones, external dependencies may delay the final submission. Additional resources may be required to meet the Q4 release window.
+
+With Liluan Nemlurel, the current risk is the model's sensitivity to external market fluctuations. The team is working to refine the algorithms to better account for unpredictability in raw input data. This could affect the timing of the final deployment phase.
+
+**Next Steps**
+
+For Vadesis Gummenbel, the next steps include finalizing the user validation plan, conducting cross-departmental reviews of the tooling framework, and preparing the final escrow submission. A follow-up meeting with the compliance team is scheduled for the first week of Q4 to confirm all requirements are met.
+
+For Liluan Nemlurel, the next phase involves a series of calibration tests under various scenarios, followed by a pilot deployment in a controlled environment. The team will also begin preparing a training module for end users.
+
+Both Vadesis Gummenbel and Liluan Nemlurel remain key initiatives for Zastama Industries and will be closely monitored in the coming months.
+
+Best regards,  
+[Internal Reporting Team]

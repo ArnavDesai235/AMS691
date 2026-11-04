@@ -1,0 +1,3110 @@
+{
+ "corpus": "corpus/full_cf0.3_s42",
+ "n_docs": 300,
+ "resume": {
+  "already_processed": 288,
+  "retried_failed": [
+   "d-public-004",
+   "d-public-034",
+   "d-public-036",
+   "d-public-037",
+   "d-public-047",
+   "d-public-070",
+   "d-public-082",
+   "d-public-099",
+   "d-team_a-055",
+   "d-team_b-010",
+   "d-team_b-023",
+   "d-team_b-039"
+  ],
+  "retry_truncated": true,
+  "removed_duplicate_rows": 0,
+  "inserted": 12,
+  "sampling": {
+   "temperature": 0.3,
+   "seed": 1042
+  },
+  "rounds": [
+   {
+    "already_processed": 288,
+    "retried_failed": [
+     "d-public-004",
+     "d-public-034",
+     "d-public-036",
+     "d-public-037",
+     "d-public-047",
+     "d-public-070",
+     "d-public-082",
+     "d-public-099",
+     "d-team_a-055",
+     "d-team_b-010",
+     "d-team_b-023",
+     "d-team_b-039"
+    ],
+    "retry_truncated": true,
+    "removed_duplicate_rows": 0,
+    "inserted": 12,
+    "sampling": {
+     "temperature": 0.3,
+     "seed": 1042
+    }
+   },
+   {
+    "already_processed": 298,
+    "retried_failed": [
+     "d-public-034",
+     "d-public-099"
+    ],
+    "retry_truncated": true,
+    "removed_duplicate_rows": 0,
+    "inserted": 2,
+    "sampling": {
+     "temperature": 0.3,
+     "seed": 1043
+    }
+   },
+   {
+    "already_processed": 299,
+    "retried_failed": [
+     "d-public-099"
+    ],
+    "retry_truncated": true,
+    "removed_duplicate_rows": 0,
+    "inserted": 1,
+    "sampling": {
+     "temperature": 0.3,
+     "seed": 1044
+    }
+   }
+  ]
+ },
+ "failed_docs": [],
+ "truncated_docs": [
+  {
+   "doc_id": "d-public-099",
+   "events": 1,
+   "affected": 1,
+   "stages": {
+    "initial": 1
+   },
+   "samples": [
+    "d-public-099-chunk-000"
+   ]
+  }
+ ],
+ "n_chunks": 302,
+ "chunks_with_wrong_parent": [],
+ "entities_found": 300,
+ "entities_total": 300,
+ "entities_missing": [],
+ "realized_hubs": 26,
+ "hub_prediction_mismatches": [],
+ "entities": [
+  {
+   "entity_id": "E000",
+   "name": "Leroror Lukaine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E001",
+   "name": "Munnam Furzil",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E002",
+   "name": "Megea Fosaine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E003",
+   "name": "Berruan Zenresan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E004",
+   "name": "Pethisa Hebroren",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E005",
+   "name": "Milsean Trusases",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E006",
+   "name": "Drikres Tikrais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E007",
+   "name": "Nasgo Kesloren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E008",
+   "name": "Zosu Kistos",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E009",
+   "name": "Stethe Birnaen",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E010",
+   "name": "Thikama Harlurine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E011",
+   "name": "Fallem Purraren",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E012",
+   "name": "Givien Mubren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E013",
+   "name": "Krilfia Mukela",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E014",
+   "name": "Gonnom Gosmunza",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E015",
+   "name": "Liluan Nemlurel",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E016",
+   "name": "Getaine Hebruen",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E017",
+   "name": "Vadesis Gummenbel",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E018",
+   "name": "Pivoine Geltoett",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E019",
+   "name": "Thokro Pobris",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E020",
+   "name": "Bedras Sarkua",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E021",
+   "name": "Zosne Bramfa",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E022",
+   "name": "Desgua Stebela",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E023",
+   "name": "Pinduen Gersolel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E024",
+   "name": "Siduris Pirpoan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E025",
+   "name": "Hethe Potannuel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E026",
+   "name": "Staski Rakresett",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E027",
+   "name": "Pinhan Bilfael",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E028",
+   "name": "Soramis Nolaor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E029",
+   "name": "Gehoel Karherel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E030",
+   "name": "Balpoen Drinvamor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E031",
+   "name": "Bitelor Brorisa",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E032",
+   "name": "Leveine Brarpil",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E033",
+   "name": "Foltala Dankenor",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E034",
+   "name": "Fonathe Drirum",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E035",
+   "name": "Maneor Tismean",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E036",
+   "name": "Drestoa Hasgaor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E037",
+   "name": "Toperel Brirdoan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E038",
+   "name": "Tolmael Zespereor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E039",
+   "name": "Zerfuan Thasdaett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E040",
+   "name": "Losmais Zoslesine",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E041",
+   "name": "Fakra Sermus",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E042",
+   "name": "Pelron Loshoan",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E043",
+   "name": "Fofemis Balzirka",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E044",
+   "name": "Dretho Stopasel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E045",
+   "name": "Fovaen Zomvesor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E046",
+   "name": "Fozuen Runpaor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E047",
+   "name": "Gobena Hoszesine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E048",
+   "name": "Kradeor Nanmerel",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E049",
+   "name": "Zevus Lokramel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E050",
+   "name": "Rinu Gesolen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 8,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E051",
+   "name": "Verlaen Dodela",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E052",
+   "name": "Kagais Betrelan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E053",
+   "name": "Nerpia Sironel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E054",
+   "name": "Remfom Minfufoa",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E055",
+   "name": "Nesoror Dramkolor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E056",
+   "name": "Kelhupi Rabralor",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E057",
+   "name": "Tamzoa Nargoett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E058",
+   "name": "Talgal Trozien",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E059",
+   "name": "Thegen Zilkanett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E060",
+   "name": "Zondila Krerraris",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E061",
+   "name": "Pobraor Tosaett",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E062",
+   "name": "Kiguror Veldala",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E063",
+   "name": "Megen Tissefam",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E064",
+   "name": "Mukima Bobrior",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E065",
+   "name": "Rerge Tumolan",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E066",
+   "name": "Zokruis Kulvamett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E067",
+   "name": "Sesoa Bokrelis",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E068",
+   "name": "Dronoan Bolgesan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E069",
+   "name": "Gidrais Gormem",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E070",
+   "name": "Nasomel Sonmerett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E071",
+   "name": "Rimoett Dozeine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E072",
+   "name": "Lithen Brisisel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E073",
+   "name": "Buthia Norven",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E074",
+   "name": "Trageor Vimpur",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E075",
+   "name": "Pedusel Ruloett",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E076",
+   "name": "Geszea Tonzamnel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E077",
+   "name": "Garhoel Thaterona",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E078",
+   "name": "Demse Dofama",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E079",
+   "name": "Lenhoa Trakrean",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E080",
+   "name": "Nufeis Rangoen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E081",
+   "name": "Nosos Nikeis",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 14,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E082",
+   "name": "Sotroa Veriris",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E083",
+   "name": "Zunhu Kusasteis",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E084",
+   "name": "Holol Kareman",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E085",
+   "name": "Nammian Bahoine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E086",
+   "name": "Vullaor Troporett",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E087",
+   "name": "Dreto Zampusrar",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 12,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E088",
+   "name": "Linle Vunnarett",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E089",
+   "name": "Gudrosa Ganema",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E090",
+   "name": "Kestoen Pismiett",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E091",
+   "name": "Benvuze Vonumanor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E092",
+   "name": "Hoha Stebremen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E093",
+   "name": "Vosaett Neldelis",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E094",
+   "name": "Broteor Pikrisen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E095",
+   "name": "Kragura Stenmori",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E096",
+   "name": "Liha Medrorel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E097",
+   "name": "Vambi Herganen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 9,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E098",
+   "name": "Rekuen Telnelen",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E099",
+   "name": "Kavemen Hilister",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 11,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E100",
+   "name": "Fongois Bakemdia",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E101",
+   "name": "Selnaor Padroa",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E102",
+   "name": "Hafaen Sunfoine",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E103",
+   "name": "Nilbapo Fivasor",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E104",
+   "name": "Zonvor Dirnasor",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E105",
+   "name": "Debrol Babroine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E106",
+   "name": "Porpean Tudima",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E107",
+   "name": "Krodaor Thaborine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E108",
+   "name": "Mominen Dosalen",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E109",
+   "name": "Hindas Brukruan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E110",
+   "name": "Burteor Vudiren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E111",
+   "name": "Foga Nunpunor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E112",
+   "name": "Zelpean Henfurel",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E113",
+   "name": "Mareror Zulpol",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E114",
+   "name": "Kidasa Branilen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E115",
+   "name": "Rozor Habanis",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E116",
+   "name": "Pikera Tasfeis",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E117",
+   "name": "Dopusa Varesett",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E118",
+   "name": "Fuvaine Palnoine",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E119",
+   "name": "Boruan Krakrer",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E120",
+   "name": "Votirmi Tresbior",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E121",
+   "name": "Niparor Tamsola",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E122",
+   "name": "Ronembu Kestazel",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E123",
+   "name": "Zodoine Vemdaen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E124",
+   "name": "Mesgum Sestim",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E125",
+   "name": "Kesonan Mufashua",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E126",
+   "name": "Konalis Thisfol",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E127",
+   "name": "Relhael Thunmam",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E128",
+   "name": "Talnia Pobenhoen",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E129",
+   "name": "Gunpa Kemtois",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E130",
+   "name": "Bonosun Torpesan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E131",
+   "name": "Ragos Drosporel",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E132",
+   "name": "Zenam Tremais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E133",
+   "name": "Krosso Velfosan",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E134",
+   "name": "Dambune Panarnoel",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E135",
+   "name": "Trikria Drazorel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E136",
+   "name": "Momoma Gegarruel",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E137",
+   "name": "Krernem Femmomine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E138",
+   "name": "Thuszus Kustoen",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E139",
+   "name": "Sosbuel Nervoen",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E140",
+   "name": "Nogem Lorgaett",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E141",
+   "name": "Tevuel Rinael",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E142",
+   "name": "Tanla Terlusvi",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E143",
+   "name": "Pezuor Sarlenen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E144",
+   "name": "Gisnos Gehomosis",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E145",
+   "name": "Novoran Trabrelor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E146",
+   "name": "Pelzoan Gemefe",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E147",
+   "name": "Dastona Tiheor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E148",
+   "name": "Restael Rasporis",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E149",
+   "name": "Drisfer Ganlanis",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E150",
+   "name": "Project Sankonen",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 13,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E151",
+   "name": "Project Lathonel",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E152",
+   "name": "Project Minkegais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E153",
+   "name": "Project Tinpia",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E154",
+   "name": "Project Ruzonine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E155",
+   "name": "Project Dramen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E156",
+   "name": "Project Stepoen",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E157",
+   "name": "Project Porkuine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E158",
+   "name": "Project Stahilett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E159",
+   "name": "Project Thedraman",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E160",
+   "name": "Project Pomtorgi",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 12,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E161",
+   "name": "Project Krindais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E162",
+   "name": "Project Komsonor",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E163",
+   "name": "Project Velbirum",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E164",
+   "name": "Project Kifevoett",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E165",
+   "name": "Project Binroine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E166",
+   "name": "Project Krabinel",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E167",
+   "name": "Project Vatuen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E168",
+   "name": "Project Zothoris",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E169",
+   "name": "Project Dernelnar",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E170",
+   "name": "Project Nondaran",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E171",
+   "name": "Project Dremtona",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E172",
+   "name": "Project Tosven",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E173",
+   "name": "Project Statugoan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E174",
+   "name": "Project Drannen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E175",
+   "name": "Project Thibelan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E176",
+   "name": "Project Drezen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E177",
+   "name": "Project Mennamett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E178",
+   "name": "Project Daslalett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E179",
+   "name": "Project Tukrama",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E180",
+   "name": "Project Krabehien",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E181",
+   "name": "Project Drosvais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E182",
+   "name": "Project Hemvon",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E183",
+   "name": "Project Vomkolel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E184",
+   "name": "Project Kanponan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E185",
+   "name": "Project Tholgu",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E186",
+   "name": "Project Brasti",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E187",
+   "name": "Project Drutoett",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E188",
+   "name": "Project Ralamel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E189",
+   "name": "Project Drugilett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E190",
+   "name": "Project Tremenine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E191",
+   "name": "Project Renbomen",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E192",
+   "name": "Project Zelpan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E193",
+   "name": "Project Medeis",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E194",
+   "name": "Project Kososett",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E195",
+   "name": "Project Barkil",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E196",
+   "name": "Project Stukoett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E197",
+   "name": "Project Vumzosa",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E198",
+   "name": "Project Serinen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E199",
+   "name": "Project Laguran",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E200",
+   "name": "Project Domesis",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E201",
+   "name": "Project Loloman",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E202",
+   "name": "Project Hinzosine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E203",
+   "name": "Project Zasmemine",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E204",
+   "name": "Project Laboel",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E205",
+   "name": "Project Monnoheor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E206",
+   "name": "Project Golgoett",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E207",
+   "name": "Project Lovulett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E208",
+   "name": "Project Hamuis",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E209",
+   "name": "Project Gadramor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E210",
+   "name": "Lozenor Lattice",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E211",
+   "name": "Zasdaett Harbor",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E212",
+   "name": "Nunvaine Lattice",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E213",
+   "name": "Brenian Console",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E214",
+   "name": "Femfasel Vault",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E215",
+   "name": "Nomzamel Lattice",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E216",
+   "name": "Samopunel Beacon",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E217",
+   "name": "Vesterge Ledger",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E218",
+   "name": "Zathunel Beacon",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E219",
+   "name": "Tanumett Relay",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E220",
+   "name": "Bankis Compass",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E221",
+   "name": "Sallama Lattice",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E222",
+   "name": "Tusgagiel Ledger",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E223",
+   "name": "Hunbenan Beacon",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E224",
+   "name": "Temgumel Prism",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E225",
+   "name": "Lorhia Loom",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E226",
+   "name": "Petoine Console",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E227",
+   "name": "Brapoett Vault",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 12,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E228",
+   "name": "Dronmeman Beacon",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E229",
+   "name": "Broltala Loom",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E230",
+   "name": "Ketemram Vault",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 9,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E231",
+   "name": "Kusbosine Console",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E232",
+   "name": "Bozilron Ledger",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E233",
+   "name": "Natrala Relay",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E234",
+   "name": "Maslarine Compass",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E235",
+   "name": "Garelor Relay",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E236",
+   "name": "Krorhitra Console",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E237",
+   "name": "Sestan Loom",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E238",
+   "name": "Donnoett Loom",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 9,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E239",
+   "name": "Vonnusett Lattice",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E240",
+   "name": "Mumteror Prism",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E241",
+   "name": "Zartesis Prism",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E242",
+   "name": "Gekreine Applied Research Lab",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E243",
+   "name": "Thanfuan Applied Research Lab",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E244",
+   "name": "Zizadal Infrastructure Team",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E245",
+   "name": "Kratavaen Infrastructure Team",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E246",
+   "name": "Zugula Infrastructure Team",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 12,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E247",
+   "name": "Genfinel Platform Group",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E248",
+   "name": "Thellusen Applied Research Lab",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E249",
+   "name": "Lozeine Applied Research Lab",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 13,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E250",
+   "name": "Nomfotesa Risk Office",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E251",
+   "name": "Somhoine Risk Office",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E252",
+   "name": "Daslaor Applied Research Lab",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 9,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E253",
+   "name": "Drurlomis Integration Team",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 11,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E254",
+   "name": "Fozola Applied Research Lab",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 9,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E255",
+   "name": "Drugoan Platform Group",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E256",
+   "name": "Zetrais Analytics Unit",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E257",
+   "name": "Trehaett Applied Research Lab",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E258",
+   "name": "Sabrinett Analytics Unit",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E259",
+   "name": "Bomekraen Infrastructure Team",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E260",
+   "name": "Krodroan Infrastructure Team",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E261",
+   "name": "Stonfe Analytics Unit",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E262",
+   "name": "Rothun Consulting",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E263",
+   "name": "Stivois Partners",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E264",
+   "name": "Nusnila Systems",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E265",
+   "name": "Nilverine Fabrication",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E266",
+   "name": "Nazuel Systems",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E267",
+   "name": "Brepemrir Logistics",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E268",
+   "name": "Bekuine Consulting",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 14,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E269",
+   "name": "Puzeris Systems",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E270",
+   "name": "Gibasan Logistics",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E271",
+   "name": "Mortalis Consulting",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E272",
+   "name": "Brimumor Labs",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E273",
+   "name": "Zitrien Partners",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E274",
+   "name": "Kavafa Systems",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E275",
+   "name": "Pengamine Consulting",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E276",
+   "name": "Stevosdim Partners",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E277",
+   "name": "Dapoan Consulting",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E278",
+   "name": "Braveor Fabrication",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E279",
+   "name": "Nedroran Fabrication",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E280",
+   "name": "Hurpuman Partners",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E281",
+   "name": "Nerasan Labs",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E282",
+   "name": "Halrurine Logistics",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E283",
+   "name": "Mepoen Consulting",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E284",
+   "name": "Trorvelor Partners",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E285",
+   "name": "Radesan Consulting",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E286",
+   "name": "Kosnaren Systems",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E287",
+   "name": "Krolpumen Labs",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E288",
+   "name": "Lelosis Field Office",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E289",
+   "name": "Thamhuor Campus",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 11,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E290",
+   "name": "Zoluna Data Center",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E291",
+   "name": "Tupalhasa Field Office",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E292",
+   "name": "Lardoel Campus",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 19,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E293",
+   "name": "Brokamis Campus",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E294",
+   "name": "Krafuline Field Office",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E295",
+   "name": "Gahikron Campus",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E296",
+   "name": "Vurlekri Annex",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 13,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E297",
+   "name": "Riguen Annex",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E298",
+   "name": "Kralinan Data Center",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E299",
+   "name": "Pozoine Campus",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 13,
+   "realized_regime": "hub"
+  }
+ ],
+ "c4_provenance": {
+  "chunks": 302,
+  "fragments": 13935,
+  "manifest_sha": "1d1750c7778d6579e7aaaf549b5f76188321648c52d1ea65350bb0c7d51d3d4d",
+  "fingerprint": "eaf09fde7110c986de56b2ad3776238131852ec93f06198e5149b720f0ee2ba3"
+ }
+}

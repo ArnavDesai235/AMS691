@@ -1,0 +1,40 @@
+Q3 Strategic Review and Operational Planning Meeting Notes
+
+Date: November 2, 2023  
+Attendees: Desgua Stebela, Drikres Tikrais, Leroror Lukaine, Givien Mubren, finance representative, operations lead, product lead, HR representative  
+
+The Q3 Strategic Review and Operational Planning meeting was held on November 2, 2023, to assess progress on current projects, review team performance, and align on next steps for the remainder of the year.
+
+**Discussion Points**
+
+1. **Project Rakresett Update**  
+   The finance representative provided an overview of the current status of Project Rakresett, which is under a services contract with Misginine Systems. The project is on schedule and within budget, but the representative highlighted the need for improved communication with the client to ensure clarity on deliverables. Givien Mubren, who is based at the Kimmoine Annex and has been closely managing this engagement, noted that coordination challenges have arisen due to conflicting priorities from the client side. The team is working to realign timelines and adjust expectations accordingly.
+
+2. **Dankenor Analytics Unit Performance**  
+   Desgua Stebela, who has been with the company since 2012, led a review of the Dankenor Analytics Unit’s contributions to the company’s strategic goals. Drikres Tikrais, who joined the company in 2017 and works as a UX Researcher, provided an update on recent research initiatives. Drikres Tikrais emphasized the importance of incorporating user feedback into the development of new tools and workflows. Leroror Lukaine, also a member of the Dankenor Analytics Unit, highlighted the unit’s successful analysis of internal user behavior patterns, which have informed product decisions and improved user satisfaction.
+
+3. **Team Collaboration and Cross-Functional Integration**  
+   There was a discussion on the need for stronger cross-functional collaboration across departments. The operations lead noted that siloed decision-making had occasionally led to inefficiencies, particularly in larger projects like Project Rakresett. The team acknowledged the importance of structured interdepartmental check-ins and proposed a new coordination framework for future initiatives. The HR representative added that ongoing training on cross-departmental communication would be beneficial.
+
+4. **Future Research and Development Priorities**  
+   Drikres Tikrais and Leroror Lukaine presented a proposal for a new research initiative focused on predictive analytics for user engagement. The initiative aims to enhance product development timelines and improve customer retention. Desgua Stebela expressed support for the initiative and encouraged the team to begin drafting a detailed proposal for review by the leadership team.
+
+5. **Employee Engagement and Retention**  
+   The HR representative provided an overview of the current employee engagement survey results. While the overall morale remains positive, there were concerns about burnout in high-performing teams, particularly those involved in long-term projects. The representative recommended the implementation of a more flexible workload management system and the introduction of quarterly wellness check-ins for all employees. Desgua Stebela and the operations lead agreed that this would help maintain productivity and job satisfaction.
+
+**Decisions**
+
+- Project Rakresett will continue under the current timeline, but additional communication checkpoints with Misginine Systems will be established.
+- The Dankenor Analytics Unit’s proposed predictive analytics research initiative will move forward, with a formal proposal to be submitted by December 1, 2023.
+- A new cross-functional coordination framework will be drafted and shared with all relevant teams by November 15, 2023.
+- Employee wellness check-ins will be introduced as part of the quarterly performance review process, starting in Q1 2024.
+
+**Action Items**
+
+- Givien Mubren will coordinate with the client to finalize revised timelines for Project Rakresett.
+- Drikres Tikrais and Leroror Lukaine will lead the development of the predictive analytics research proposal and submit it for review.
+- The operations lead will work with the HR representative to design and implement the cross-functional coordination framework.
+- The HR representative will draft a plan for employee wellness check-ins and present it to the leadership team for approval.
+- The finance representative will monitor the budget impact of all new initiatives and provide monthly updates.
+
+These steps are intended to ensure that Zastama Industries remains agile, innovative, and aligned with the evolving needs of its clients and employees.

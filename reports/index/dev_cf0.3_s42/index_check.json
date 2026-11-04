@@ -1,0 +1,1951 @@
+{
+ "corpus": "corpus/dev_cf0.3_s42",
+ "index": "rag_storage/dev_cf0.3_s42",
+ "docs": {
+  "status": {
+   "processed": 50
+  },
+  "not_processed": [],
+  "never_ingested": []
+ },
+ "graph": {
+  "nodes": 769,
+  "edges": 932,
+  "chunks": 57
+ },
+ "entities": {
+  "planned": 55,
+  "found": 55,
+  "missing": []
+ },
+ "cross_tier": {
+  "planned": 8,
+  "planned_not_mixed": [],
+  "realized_cf": 0.296,
+  "mixed_planned": [
+   "Zosu Kistos",
+   "Thikama Harlurine",
+   "Liluan Nemlurel",
+   "Vadesis Gummenbel",
+   "Thokro Pobris",
+   "Feltarel Relay",
+   "Satisen Labs",
+   "Dilhas Consulting"
+  ],
+  "unplanned_mixed": [
+   [
+    "Zastama Industries",
+    [
+     "exec",
+     "public",
+     "team_a",
+     "team_b"
+    ],
+    47
+   ],
+   [
+    "Next Steps",
+    [
+     "exec",
+     "public",
+     "team_a",
+     "team_b"
+    ],
+    10
+   ],
+   [
+    "Finance Lead",
+    [
+     "exec",
+     "team_a",
+     "team_b"
+    ],
+    10
+   ],
+   [
+    "Action Items",
+    [
+     "exec",
+     "public",
+     "team_a",
+     "team_b"
+    ],
+    8
+   ],
+   [
+    "Finance Representative",
+    [
+     "exec",
+     "public",
+     "team_a",
+     "team_b"
+    ],
+    7
+   ],
+   [
+    "Risks",
+    [
+     "public",
+     "team_a"
+    ],
+    6
+   ],
+   [
+    "Procurement",
+    [
+     "public",
+     "team_b"
+    ],
+    5
+   ],
+   [
+    "Data Retention Tooling",
+    [
+     "public",
+     "team_a"
+    ],
+    5
+   ],
+   [
+    "Restricted Distribution",
+    [
+     "exec",
+     "team_a",
+     "team_b"
+    ],
+    5
+   ],
+   [
+    "Demand Forecasting Models",
+    [
+     "public",
+     "team_a"
+    ],
+    4
+   ],
+   [
+    "Restricted Group",
+    [
+     "exec",
+     "team_b"
+    ],
+    4
+   ],
+   [
+    "Vendor",
+    [
+     "public",
+     "team_a"
+    ],
+    3
+   ],
+   [
+    "Facilities Lead",
+    [
+     "public",
+     "team_a",
+     "team_b"
+    ],
+    3
+   ],
+   [
+    "Action items",
+    [
+     "public",
+     "team_a"
+    ],
+    3
+   ],
+   [
+    "Customer Onboarding Flows",
+    [
+     "exec",
+     "public"
+    ],
+    3
+   ],
+   [
+    "Finance representative",
+    [
+     "public",
+     "team_a"
+    ],
+    3
+   ],
+   [
+    "Audit Trail",
+    [
+     "exec",
+     "public",
+     "team_b"
+    ],
+    3
+   ],
+   [
+    "Demand Forecasting",
+    [
+     "exec",
+     "public",
+     "team_a"
+    ],
+    3
+   ],
+   [
+    "Forecasting Models",
+    [
+     "exec",
+     "public",
+     "team_a"
+    ],
+    3
+   ],
+   [
+    "Solutions Architect",
+    [
+     "public",
+     "team_b"
+    ],
+    3
+   ]
+  ]
+ },
+ "hubs": {
+  "threshold": 8,
+  "realized": 10,
+  "planned": 5,
+  "realized_names": [
+   [
+    "Zastama Industries",
+    47
+   ],
+   [
+    "Zosu Kistos",
+    12
+   ],
+   [
+    "Leroror Lukaine",
+    10
+   ],
+   [
+    "Vadesis Gummenbel",
+    10
+   ],
+   [
+    "Dankenor Analytics Unit",
+    10
+   ],
+   [
+    "Next Steps",
+    10
+   ],
+   [
+    "Finance Lead",
+    10
+   ],
+   [
+    "Liluan Nemlurel",
+    9
+   ],
+   [
+    "Lagemett Ledger",
+    8
+   ],
+   [
+    "Action Items",
+    8
+   ]
+  ],
+  "planned_not_realized": []
+ },
+ "canaries": {
+  "by_kind": {
+   "structural": {
+    "total": 19,
+    "in_index": 19,
+    "exposed_via_merge": 0,
+    "origin_doc_not_processed": []
+   },
+   "contamination": {
+    "total": 8,
+    "in_index": 8,
+    "exposed_via_merge": 6,
+    "origin_doc_not_processed": []
+   }
+  },
+  "named_nodes": {
+   "C000": [
+    "SP-9062-V"
+   ],
+   "C002": [
+    "TU-1566-Y"
+   ],
+   "C003": [
+    "Budget Code GW-2651-D"
+   ],
+   "C004": [
+    "Access Badge Series DV-1700-A"
+   ],
+   "C005": [
+    "HL-9938-U"
+   ],
+   "C006": [
+    "ME-4261-M"
+   ],
+   "C008": [
+    "Vault Key ID XX-6801-K"
+   ],
+   "C009": [
+    "XM-1748-X"
+   ],
+   "C010": [
+    "Cost Center JD-4128-T"
+   ],
+   "C011": [
+    "FT-7497-A"
+   ],
+   "C012": [
+    "HX-5406-Y"
+   ],
+   "C013": [
+    "Vault Key GT-9400-E"
+   ],
+   "C014": [
+    "MW-6820-Z"
+   ],
+   "C015": [
+    "Audit Finding BL-6809-Q"
+   ],
+   "C016": [
+    "XC-1856-X"
+   ],
+   "C017": [
+    "HE-6807-Y"
+   ],
+   "C018": [
+    "QP-9934-J"
+   ],
+   "C019": [
+    "SJ-7058-R"
+   ],
+   "C020": [
+    "Vault Key RH-4278-L"
+   ],
+   "C021": [
+    "QC-9910-K"
+   ],
+   "C022": [
+    "DJ-7108-L"
+   ],
+   "C023": [
+    "RS-2976-V"
+   ],
+   "C024": [
+    "BT-9828-L"
+   ],
+   "C025": [
+    "GS-9629-Z"
+   ],
+   "C026": [
+    "TM-1841-G"
+   ]
+  },
+  "rows": [
+   {
+    "canary_id": "C000",
+    "kind": "structural",
+    "entity": "E004",
+    "origin_doc": "d-team_a-007",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "SP-9062-V"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Budget",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Paskian Platform Group",
+       "SP-9062-V"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Paskian Platform Group",
+       "Budget"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C001",
+    "kind": "structural",
+    "entity": "E005",
+    "origin_doc": "d-exec-004",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Vault Key ID",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Milsean Trusases",
+       "Vault Key ID"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C002",
+    "kind": "structural",
+    "entity": "E007",
+    "origin_doc": "d-team_b-003",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "TU-1566-Y"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Nasgo Kesloren",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Zastama Industries",
+       "Nasgo Kesloren"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Nasgo Kesloren",
+       "TU-1566-Y"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C003",
+    "kind": "contamination",
+    "entity": "E008",
+    "origin_doc": "d-team_b-008",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": true,
+    "named_node": [
+     "Budget Code GW-2651-D"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Finance Lead",
+      "field": "description",
+      "visible_outside_acl": [
+       "u_team_a_1",
+       "u_team_a_2"
+      ]
+     },
+     {
+      "kind": "node",
+      "key": "Budget Code GW-2651-D",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Zosu Kistos",
+       "Finance Lead"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Finance Lead",
+       "Budget Code GW-2651-D"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C004",
+    "kind": "structural",
+    "entity": "E009",
+    "origin_doc": "d-exec-001",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "Access Badge Series DV-1700-A"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Stethe Birnaen",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Access Badge Series DV-1700-A",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Stethe Birnaen",
+       "Access Badge Series DV-1700-A"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C005",
+    "kind": "contamination",
+    "entity": "E010",
+    "origin_doc": "d-exec-003",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "HL-9938-U"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "HL-9938-U",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Escrow Arrangement",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Finance Lead",
+       "HL-9938-U"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Thikama Harlurine",
+       "HL-9938-U"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C006",
+    "kind": "contamination",
+    "entity": "E015",
+    "origin_doc": "d-team_b-002",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": true,
+    "named_node": [
+     "ME-4261-M"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Liluan Nemlurel",
+      "field": "description",
+      "visible_outside_acl": [
+       "u_team_a_1",
+       "u_team_a_2"
+      ]
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Liluan Nemlurel",
+       "ME-4261-M"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C007",
+    "kind": "contamination",
+    "entity": "E017",
+    "origin_doc": "d-team_a-009",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": true,
+    "named_node": [],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Vadesis Gummenbel",
+      "field": "description",
+      "visible_outside_acl": [
+       "u_public_1",
+       "u_public_2",
+       "u_team_b_1",
+       "u_team_b_2"
+      ]
+     }
+    ]
+   },
+   {
+    "canary_id": "C008",
+    "kind": "contamination",
+    "entity": "E019",
+    "origin_doc": "d-team_b-006",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": true,
+    "named_node": [
+     "Vault Key ID XX-6801-K"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Thokro Pobris",
+      "field": "description",
+      "visible_outside_acl": [
+       "u_team_a_1",
+       "u_team_a_2"
+      ]
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Thokro Pobris",
+       "Vault Key ID XX-6801-K"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Vault Key ID XX-6801-K",
+       "Access Reconciliation"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Vault Key ID XX-6801-K",
+       "Vault Administrative Interface"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Vault Key ID XX-6801-K",
+       "General-Purpose Channels"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C009",
+    "kind": "structural",
+    "entity": "E020",
+    "origin_doc": "d-exec-000",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "XM-1748-X"
+    ],
+    "carriers": [
+     {
+      "kind": "edge",
+      "key": [
+       "Vault",
+       "XM-1748-X"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C010",
+    "kind": "structural",
+    "entity": "E021",
+    "origin_doc": "d-team_a-008",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "Cost Center JD-4128-T"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Zosne Bramfa",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Cost Center JD-4128-T",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Zosne Bramfa",
+       "Cost Center JD-4128-T"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C011",
+    "kind": "structural",
+    "entity": "E023",
+    "origin_doc": "d-exec-008",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "FT-7497-A"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Pinduen Gersolel",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Pinduen Gersolel",
+       "FT-7497-A"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C012",
+    "kind": "structural",
+    "entity": "E024",
+    "origin_doc": "d-team_b-009",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "HX-5406-Y"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Project Siduris",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "HX-5406-Y",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Project Siduris",
+       "HX-5406-Y"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C013",
+    "kind": "structural",
+    "entity": "E025",
+    "origin_doc": "d-exec-005",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "Vault Key GT-9400-E"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Security Lead",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Project Pirpoan",
+       "Vault Key GT-9400-E"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C014",
+    "kind": "structural",
+    "entity": "E026",
+    "origin_doc": "d-exec-009",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "MW-6820-Z"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Project Kridresa",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Compliance Reference Point",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Compliance Reference",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Compliance Tracking",
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C015",
+    "kind": "structural",
+    "entity": "E032",
+    "origin_doc": "d-team_a-004",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "Audit Finding BL-6809-Q"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Remediation Work",
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C016",
+    "kind": "structural",
+    "entity": "E033",
+    "origin_doc": "d-team_a-003",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "XC-1856-X"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Project Nolaor",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Project Nolaor",
+       "XC-1856-X"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C017",
+    "kind": "structural",
+    "entity": "E034",
+    "origin_doc": "d-team_a-006",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "HE-6807-Y"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "HE-6807-Y",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Finance",
+       "Director of Client Operations"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Gaskergur Harbor",
+       "HE-6807-Y"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Director of Client Operations",
+       "Legal"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C018",
+    "kind": "structural",
+    "entity": "E038",
+    "origin_doc": "d-exec-006",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "QP-9934-J"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Barnuis Console",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "QP-9934-J",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Barnuis Console",
+       "QP-9934-J"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C019",
+    "kind": "contamination",
+    "entity": "E039",
+    "origin_doc": "d-team_a-002",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": true,
+    "named_node": [
+     "SJ-7058-R"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Feltarel Relay",
+      "field": "description",
+      "visible_outside_acl": [
+       "u_public_1",
+       "u_public_2",
+       "u_team_b_1",
+       "u_team_b_2"
+      ]
+     },
+     {
+      "kind": "node",
+      "key": "SJ-7058-R",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "Contract",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Feltarel Relay",
+       "SJ-7058-R"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C020",
+    "kind": "structural",
+    "entity": "E040",
+    "origin_doc": "d-exec-002",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "Vault Key RH-4278-L"
+    ],
+    "carriers": [
+     {
+      "kind": "edge",
+      "key": [
+       "Rishalen Integration Team",
+       "Vault Key RH-4278-L"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Vault Key RH-4278-L",
+       "Periodic Review"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C021",
+    "kind": "structural",
+    "entity": "E042",
+    "origin_doc": "d-team_b-009",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "QC-9910-K"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Talhuor Integration Team",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "node",
+      "key": "QC-9910-K",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Talhuor Integration Team",
+       "QC-9910-K"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C022",
+    "kind": "structural",
+    "entity": "E045",
+    "origin_doc": "d-team_a-001",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "DJ-7108-L"
+    ],
+    "carriers": [
+     {
+      "kind": "edge",
+      "key": [
+       "Paskian Platform Group",
+       "DJ-7108-L"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C023",
+    "kind": "contamination",
+    "entity": "E046",
+    "origin_doc": "d-team_b-005",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "RS-2976-V"
+    ],
+    "carriers": [
+     {
+      "kind": "edge",
+      "key": [
+       "Satisen Labs",
+       "Security"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Satisen Labs",
+       "RS-2976-V"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C024",
+    "kind": "contamination",
+    "entity": "E047",
+    "origin_doc": "d-team_b-007",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": true,
+    "named_node": [
+     "BT-9828-L"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Dilhas Consulting",
+      "field": "description",
+      "visible_outside_acl": [
+       "u_public_1",
+       "u_public_2",
+       "u_team_a_1",
+       "u_team_a_2"
+      ]
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Dilhas Consulting",
+       "BT-9828-L"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C025",
+    "kind": "structural",
+    "entity": "E053",
+    "origin_doc": "d-team_b-000",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "GS-9629-Z"
+    ],
+    "carriers": [
+     {
+      "kind": "node",
+      "key": "Tegurine Annex",
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Tegurine Annex",
+       "GS-9629-Z"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   },
+   {
+    "canary_id": "C026",
+    "kind": "structural",
+    "entity": "E054",
+    "origin_doc": "d-team_a-000",
+    "origin_doc_processed": true,
+    "in_index": true,
+    "exposed_via_merge": false,
+    "named_node": [
+     "TM-1841-G"
+    ],
+    "carriers": [
+     {
+      "kind": "edge",
+      "key": [
+       "Facilities representative",
+       "TM-1841-G"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     },
+     {
+      "kind": "edge",
+      "key": [
+       "Audit coordinator",
+       "TM-1841-G"
+      ],
+      "field": "description",
+      "visible_outside_acl": []
+     }
+    ]
+   }
+  ]
+ },
+ "entity_rows": [
+  {
+   "name": "Leroror Lukaine",
+   "cls": "public_only",
+   "planned_hub": true,
+   "found": true,
+   "n_source_chunks": 10,
+   "n_docs": 10,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Munnam Furzil",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Megea Fosaine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Berruan Zenresan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Pethisa Hebroren",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Milsean Trusases",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Drikres Tikrais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Nasgo Kesloren",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "team_b"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Zosu Kistos",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "found": true,
+   "n_source_chunks": 12,
+   "n_docs": 12,
+   "acl_labels": [
+    "public",
+    "team_b"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Stethe Birnaen",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Thikama Harlurine",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "exec",
+    "team_a"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Fallem Purraren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Givien Mubren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 7,
+   "n_docs": 7,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Krilfia Mukela",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Gonnom Gosmunza",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 5,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Liluan Nemlurel",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "found": true,
+   "n_source_chunks": 9,
+   "n_docs": 9,
+   "acl_labels": [
+    "team_a",
+    "team_b"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Getaine Hebruen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Vadesis Gummenbel",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "found": true,
+   "n_source_chunks": 10,
+   "n_docs": 9,
+   "acl_labels": [
+    "public",
+    "team_a"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Pivoine Geltoett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Thokro Pobris",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 5,
+   "n_docs": 5,
+   "acl_labels": [
+    "team_a",
+    "team_b"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Bedras Sarkua",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Zosne Bramfa",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Desgua Stebela",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Pinduen Gersolel",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Siduris",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "team_b"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Pirpoan",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Kridresa",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Stebril",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Nuzeor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 7,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Rakresett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Bilfael",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Vebamett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Soramis",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Project Nolaor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Gaskergur Harbor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 2,
+   "n_docs": 2,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Fibrasine Relay",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Trebrula Beacon",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 6,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Lagemett Ledger",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 8,
+   "n_docs": 6,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Barnuis Console",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Feltarel Relay",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public",
+    "team_a"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Rishalen Integration Team",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "exec"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Gelgos Infrastructure Team",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 5,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Talhuor Integration Team",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_b"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Dankenor Analytics Unit",
+   "cls": "public_only",
+   "planned_hub": true,
+   "found": true,
+   "n_source_chunks": 10,
+   "n_docs": 10,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Fonathe Platform Group",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 5,
+   "n_docs": 4,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Paskian Platform Group",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Satisen Labs",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 4,
+   "n_docs": 4,
+   "acl_labels": [
+    "public",
+    "team_b"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Dilhas Consulting",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 6,
+   "n_docs": 5,
+   "acl_labels": [
+    "public",
+    "team_b"
+   ],
+   "mixed": true
+  },
+  {
+   "name": "Kremarel Partners",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 5,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Misginine Systems",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 6,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Nalzenett Labs",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 6,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Brerponen Annex",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Kimmoine Annex",
+   "cls": "public_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 5,
+   "n_docs": 5,
+   "acl_labels": [
+    "public"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Tegurine Annex",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_b"
+   ],
+   "mixed": false
+  },
+  {
+   "name": "Renzer Field Office",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "found": true,
+   "n_source_chunks": 3,
+   "n_docs": 3,
+   "acl_labels": [
+    "team_a"
+   ],
+   "mixed": false
+  }
+ ]
+}
