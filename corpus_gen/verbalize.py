@@ -35,8 +35,9 @@ from .facts import Entity, Fact, FactTable, build_fact_table, write_fact_table
 from .llm import LLM, check_provider
 from .names import _DICTIONARY, CODE_REGEX, word_frequency
 from .plan import DocPlan, Plan, build_plan, write_plan
+from .repair import anchor_codes, dedupe_codes, expand_names, insert_facts
 
-MAX_DOC_ATTEMPTS = 4
+MAX_DOC_ATTEMPTS = 6  # 4 -> 6: the full qwen3 build's last failures were length misses on attempt 4
 LEN_TOL = (0.75, 1.35)
 
 SYSTEM = ("You write realistic internal business documents for a fictional company. "
@@ -67,6 +68,11 @@ _BRANDS = {"Jira", "Slack", "Zoom", "Confluence", "Salesforce", "Workday", "Micr
            "Snowflake", "Okta", "Servicenow", "ServiceNow", "Github", "GitHub", "Gitlab",
            "Trello", "Monday", "Smartsheet", "Sharepoint", "SharePoint", "Oracle", "Webex",
            "Datadog", "Splunk", "Looker", "Figma", "Miro", "Dropbox", "Box", "Gmail"}
+# Invented people ("Sarah M. Delarue", "David Moreau") slip past the single-word check: the
+# given name is a common word and real surnames often score just above MIN_COMMON_ZIPF.
+_PERSON_RE = re.compile(r"\b([A-Z][a-z]+)\s+(?:[A-Z]\.\s+)?([A-Z][a-z]{2,})\b")
+_NAME_LIKE_TERMS = {"Onboarding", "Offboarding", "Attendee", "Attendees"}
+SURNAME_ZIPF = 3.0
 MIN_COMMON_ZIPF = 1.5  # Titlecase words rarer than this (and not in the wordlist) are flagged
 
 
@@ -78,6 +84,7 @@ class DocResult:
     text: str = ""
     attempts: int = 0
     violations: list[list[str]] = field(default_factory=list)  # per attempt
+    repairs: list[str] = field(default_factory=list)           # deterministic fixes applied
     cost_usd: float = 0.0
 
 
@@ -121,10 +128,37 @@ def build_prompt(cfg: Config, ft: FactTable, d: DocPlan) -> str:
 
 
 def build_fix_prompt(base: str, draft: str, violations: list[str]) -> str:
-    return (base + "\n\nYour previous draft is below. It violated these rules:\n"
+    # Violations go AFTER the draft so they are the last thing the model reads, and the
+    # model is asked for minimal edits: full rewrites reintroduce the same habits.
+    return (base + "\n\nPREVIOUS DRAFT:\n" + draft
+            + "\n\nThe previous draft broke these rules:\n"
             + "\n".join(f"- {v}" for v in violations)
-            + "\n\nReturn the complete corrected document (same format, starting with TITLE:)."
-            + "\n\nPREVIOUS DRAFT:\n" + draft)
+            + "\n\nFix ONLY these problems with the smallest possible edits and keep every other "
+              "sentence word for word. Write each reference code once only: never repeat it in a "
+              "summary, action item, attendee line, or sign-off. If a value is missing, add one "
+              "sentence stating it. If the draft is too short, add a paragraph of generic context "
+              "that names no new people, places, numbers, or codes."
+            + _length_guidance(violations)
+            + "\n\nReturn the complete corrected document (same format, starting with TITLE:).")
+
+
+_LEN_RE = re.compile(r"length (\d+) words; target about (\d+) \(allowed (\d+)-(\d+)\)")
+
+
+def _length_guidance(violations: list[str]) -> str:
+    """Exact word counts for a length violation; qwen ignores a vague "too short"."""
+    for v in violations:
+        m = _LEN_RE.match(v)
+        if not m:
+            continue
+        n, target, lo, hi = map(int, m.groups())
+        if n < lo:
+            return (f"\n\nLENGTH: the draft is {n} words but must be at least {lo}. Add about "
+                    f"{target - n} words as one or two new paragraphs of generic context (process, "
+                    f"risks, next steps). Do not remove or shorten anything.")
+        return (f"\n\nLENGTH: the draft is {n} words but must be at most {hi}. Cut about "
+                f"{n - target} words of generic context; keep every fact, name, value and code.")
+    return ""
 
 
 # ------------------------------------------------------------------- checks
@@ -223,16 +257,36 @@ def check_doc(cfg: Config, ft: FactTable, d: DocPlan, title: str, body: str,
             if w in _ALLOWED_TITLECASE or _in_dictionary(w) or word_frequency(w) >= MIN_COMMON_ZIPF:
                 continue
             invented.add(w)
+    invented |= _person_names(text, allowed_tokens)
     if invented:
         v.append("invented or real-world proper nouns not allowed: " + ", ".join(sorted(invented)))
 
     # length
     n_words = len(body.split())
-    lo = max(cfg.docs.words_min * 0.9, d.target_words * LEN_TOL[0])
-    hi = min(cfg.docs.words_max * 1.1, d.target_words * LEN_TOL[1])
+    lo, hi = _len_bounds(cfg, d)
     if not lo <= n_words <= hi:
         v.append(f"length {n_words} words; target about {d.target_words} (allowed {int(lo)}-{int(hi)})")
     return v
+
+
+def _person_names(text: str, allowed: set[str]) -> set[str]:
+    """Given-name + rare-surname pairs that are not planned names (e.g. "Sarah M. Delarue")."""
+    hits = set()
+    for m in _PERSON_RE.finditer(text):
+        first, last = m.group(1), m.group(2)
+        if first in allowed or last in allowed or last in _NAME_LIKE_TERMS or last in _ALLOWED_TITLECASE:
+            continue
+        if _in_dictionary(last) or word_frequency(last) >= SURNAME_ZIPF or word_frequency(first) < SURNAME_ZIPF:
+            continue
+        hits.add(m.group(0))
+    return hits
+
+
+def _len_bounds(cfg: Config, d: DocPlan) -> tuple[int, int]:
+    """Whole-word bounds, so the check agrees with the "allowed lo-hi" it reports."""
+    lo = max(cfg.docs.words_min * 0.9, d.target_words * LEN_TOL[0])
+    hi = min(cfg.docs.words_max * 1.1, d.target_words * LEN_TOL[1])
+    return int(lo), int(hi)
 
 
 def _distinctive(e: Entity) -> str:
@@ -265,6 +319,38 @@ def _allowed_tokens(ft: FactTable, d: DocPlan) -> set[str]:
     return toks
 
 
+# ---------------------------------------------------------------- repairs
+def repair_doc(ft: FactTable, d: DocPlan, title: str, body: str) -> tuple[str, str, list[str]]:
+    """Expand shortened planned names and drop duplicate canary codes (see repair.py)."""
+    em = {e.entity_id: e for e in ft.entities}
+    cm = {c.canary_id: c for c in ft.canaries}
+    names = {}
+    for eid in d.entities:
+        e = em[eid]
+        toks = ([e.canonical_name.split()[0]] if e.type == "person" else []) + [_distinctive(e)]
+        names[e.canonical_name] = list(dict.fromkeys(toks))
+    title, log_t = expand_names(title, names)
+    body, log_b = expand_names(body, names)
+    codes = {cm[c].exact: em[cm[c].entity_id].canonical_name for c in d.canary_ids}
+    title, body, log_c = dedupe_codes(title, body, codes)
+    fm = {f.fact_id: f for f in ft.facts}
+    canary_sentence = {fm[x].object["literal"]: fm[x].sentence for x in d.fact_ids if fm[x].is_canary}
+    title, body, log_a = anchor_codes(title, body, {c: (n, canary_sentence[c]) for c, n in codes.items()
+                                                    if c in canary_sentence})
+    log_c += log_a
+    # missing literal values: insert the planned fact sentence verbatim (same test as check_doc)
+    text = f"{title}\n\n{body}".lower()
+    missing = []
+    for fid in d.fact_ids:
+        f = fm[fid]
+        lit = f.object.get("literal")
+        core = re.sub(r"^(about|the)\s+", "", lit or "", flags=re.I)
+        if lit and not f.is_canary and core.lower() not in text:
+            missing.append((f.sentence, em[f.subject].canonical_name))
+    body, log_v = insert_facts(body, missing)
+    return title, body, log_t + log_b + log_c + log_v
+
+
 # ---------------------------------------------------------------- generation
 def verbalize_doc(cfg: Config, ft: FactTable, d: DocPlan, llm: LLM) -> DocResult:
     base = build_prompt(cfg, ft, d)
@@ -272,18 +358,29 @@ def verbalize_doc(cfg: Config, ft: FactTable, d: DocPlan, llm: LLM) -> DocResult
     res = DocResult(d.doc_id, False)
     prompt, draft = base, ""
     for attempt in range(1, MAX_DOC_ATTEMPTS + 1):
-        out = llm.complete(SYSTEM, prompt)
+        # attempts past 4 are fresh samples (salted), not cache replays of the same prompt
+        out = llm.complete(SYSTEM, prompt, salt=f"attempt{attempt}" if attempt > 4 else "")
         res.cost_usd += out.cost_usd
         res.attempts = attempt
         draft = out.text
         parsed = parse_draft(draft)
+        if parsed is not None:
+            title, body, fixes = repair_doc(ft, d, *parsed)
+            if fixes:
+                parsed, draft = (title, body), f"TITLE: {title}\n\n{body}"
+                res.repairs.extend(f"attempt {attempt}: {x}" for x in fixes)
         viol = ["missing the first line `TITLE: ...`"] if parsed is None else \
             check_doc(cfg, ft, d, parsed[0], parsed[1], allowed)
         res.violations.append(viol)
         if not viol:
             res.ok, res.title, res.text = True, parsed[0], f"{parsed[0]}\n\n{parsed[1]}\n"
             return res
-        prompt = build_fix_prompt(base, draft, viol)
+        if attempt >= 4 and any(v.startswith("length") for v in viol):
+            # fix-ups keep landing a few words short: start over from the base prompt
+            lo, _ = _len_bounds(cfg, d)
+            prompt = base + f"\n\nLENGTH: write at least {lo} words (aim for about {d.target_words})."
+        else:
+            prompt = build_fix_prompt(base, draft, viol)
     return res
 
 
@@ -342,6 +439,8 @@ def write_corpus(cfg: Config, ft: FactTable, plan: Plan, results: dict[str, DocR
         "n_docs_ok": sum(r.ok for r in results.values()),
         "failed": [r.doc_id for r in results.values() if not r.ok],
         "attempts_hist": _hist([r.attempts for r in results.values()]),
+        "n_docs_repaired": sum(1 for r in results.values() if r.ok and r.repairs),
+        "repairs": {r.doc_id: r.repairs for r in results.values() if r.repairs},
         "first_try_violation_types": _violation_types([r.violations[0] for r in results.values() if r.violations]),
         "cost_usd_this_run": round(sum(r.cost_usd for r in results.values()), 4),
         "plan_stats": plan.stats, "fact_stats": ft.stats,

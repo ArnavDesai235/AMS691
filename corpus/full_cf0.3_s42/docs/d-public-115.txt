@@ -1,0 +1,82 @@
+Update on Project Minkegais and Project Drugilett for All Staff
+
+From: Vadesis Gummenbel  
+To: All Employees  
+Subject: Project Minkegais and Project Drugilett Status Update  
+Date: April 5, 2025
+
+Project Minkegais is currently in early design.
+
+I hope this message finds you well. I wanted to provide a brief update on the status of two of our most critical initiatives at Zastama Industries: **Project Minkegais** and **Project Drugilett**.
+
+**Project Minkegais** is currently in the early design phase and remains on track within its approved budget of $5.1M. As the project lead, I am working closely with our cross-functional teams to ensure that we maintain alignment with our strategic goals. This includes early coordination with **Porpean Tudima**, who is focusing on how customer onboarding flows will integrate with the broader system once the design and implementation phases begin. We will be holding a cross-departmental workshop in the next few weeks to solidify design priorities and address any early-stage risks.
+
+On the other hand, I want to be transparent about the status of **Project Drugilett**, which is currently at risk. **Fozuen Runpaor**, the lead of **Project Drugilett**, has been working closely with the **Lozeine Applied Research Lab**, particularly with **Vambi Herganen**, to assess the root causes of the current challenges and explore mitigation strategies. We are in active discussions with internal stakeholders to determine whether adjustments to scope, resources, or timelines are necessary to bring the project back on track. I will provide a more detailed update on this matter in the coming days as we finalize our approach.
+
+We understand that uncertainty around any project can create concern, and we are committed to keeping the entire organization informed as we navigate these developments. If you have questions about how these initiatives may impact your work, please reach out to your team lead or to me directly.
+
+Thank you for your continued dedication and collaboration.
+
+Best regards,  
+Vadesis Gummenbel
+
+---
+
+From: Fozuen Runpaor  
+To: Vadesis Gummenbel, Porpean Tudima, Vambi Herganen  
+Subject: Re: Project Minkegais and Project Drugilett Status Update  
+Date: April 6, 2025
+
+Thank you for your message, Vadesis Gummenbel. I appreciate the opportunity to provide a bit more clarity on **Project Drugilett** for our broader team.
+
+As I’m sure you’re aware, the challenges we’re facing with **Project Drugilett** are primarily related to the integration of third-party systems and a delay in receiving final documentation from a vendor. These issues have had a compounding effect on our timeline and have impacted several key milestones. However, the **Lozeine Applied Research Lab**, under the leadership of **Vambi Herganen**, has been instrumental in identifying alternative pathways and providing technical insights that could help us recover some of the lost time.
+
+**Vambi Herganen** and I have already begun drafting a revised timeline and contingency plan, which we will present to the executive team for review by the end of the week. We are also exploring options for reallocating internal resources to address the most critical bottlenecks. I understand the interdependencies with other initiatives, and I will make sure to communicate any changes to our team's capacity to other project leads, including **Porpean Tudima**, as needed.
+
+In the meantime, I want to acknowledge the hard work and flexibility of the **Project Drugilett** team as we work through these challenges. Your commitment is essential to turning this project around.
+
+Please let me know if there’s anything else you’d like me to address in the broader update.
+
+Best regards,  
+Fozuen Runpaor
+
+---
+
+From: Porpean Tudima  
+To: Fozuen Runpaor, Vadesis Gummenbel  
+Subject: Re: Project Minkegais and Project Drugilett Status Update  
+Date: April 7, 2025
+
+Fozuen Runpaor, thank you for the additional context on **Project Drugilett**. I appreciate the transparency and the proactive steps being taken to address the challenges.
+
+From **Project Minkegais**, I wanted to mention that my team and I are already reviewing potential overlaps in customer onboarding flows with **Project Drugilett**. Given the current status of the latter, we will be preparing for various scenarios to ensure that **Project Minkegais** is not impacted in terms of its early design phase or its integration with customer-facing systems.
+
+I also want to express my support for the **Lozeine Applied Research Lab**’s continued involvement in this matter. Their technical insight has been invaluable in the past, and I’m confident that their collaboration will help identify sustainable solutions for **Project Drugilett**.
+
+Please let me know if there are any specific timelines or dependencies I should be aware of as we continue to plan for the onboarding components of **Project Minkegais**.
+
+Thanks again for keeping the team looped in.
+
+Warm regards,  
+Porpean Tudima
+
+---
+
+From: Vadesis Gummenbel  
+To: All Employees  
+Subject: Final Update on Projects Project Minkegais and Project Drugilett  
+Date: April 8, 2025
+
+Thank you to **Porpean Tudima** and **Fozuen Runpaor** for their thoughtful responses and continued leadership.
+
+As promised, here are the next steps we are taking to address the current situation:
+
+- **Project Minkegais** remains a top priority and is progressing smoothly. The cross-functional workshop will be held on April 12, and all relevant stakeholders have been invited. We encourage anyone with insights into customer onboarding workflows to attend.
+- **Project Drugilett** will be reviewed in detail at the executive level by the end of this week. A revised plan is in development and will be shared with all impacted teams once finalized. We are committed to minimizing the impact on downstream efforts, including those related to **Project Minkegais**.
+
+In the coming days, more specific communications will go out from **Fozuen Runpaor** and his team regarding next steps for **Project Drugilett**, and from me regarding the ongoing progress of **Project Minkegais**.
+
+Thank you again for your continued support and collaboration.
+
+Best regards,  
+Vadesis Gummenbel

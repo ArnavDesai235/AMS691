@@ -1,0 +1,26 @@
+Project Soramis and Project Nolaor Status Review and Planning
+
+Date: April 3, 2025  
+Attendees: Liluan Nemlurel, Project Soramis Lead, Project Nolaor Lead, Finance Representative, Operations Coordinator  
+
+**Discussion Points:**  
+The meeting began with an overview of the current status of Project Soramis, which is built on the Feltarel Relay. Liluan Nemlurel highlighted recent updates to the demand forecasting models and their implications for resource allocation. The audit finding ID noted earlier was reviewed in detail, with a focus on the corrective actions required to address the identified risks. The team discussed the interdependencies between Project Soramis and Project Nolaor, which is staffed by 30 people, and the need for cross-functional coordination to avoid delays.  
+
+Project Nolaor’s progress was also reviewed, with emphasis on the recent stabilization of key workflows and the team’s capacity to manage current and projected workloads. Liluan Nemlurel provided insights into how the demand forecasting models are being adjusted to reflect changing market dynamics, which could influence both project timelines and budget allocations. The finance representative raised questions about the long-term financial sustainability of both projects, particularly given the audit findings related to Project Soramis.  
+
+The operations coordinator noted that the Feltarel Relay remains a critical infrastructure component for Project Soramis, and any disruptions to its performance could have a cascading effect on the project’s objectives. The team agreed that a more detailed risk assessment of the relay’s stability is warranted, especially in light of the audit findings.  
+
+**Decisions:**  
+1. A revised risk assessment for the Feltarel Relay will be conducted to support Project Soramis’s compliance with the audit findings associated with BL-6809-Q.  
+2. The demand forecasting models under development by Liluan Nemlurel will be integrated into the next iteration of the Project Nolaor planning cycle to better align staffing needs with projected demand.  
+3. A follow-up meeting will be held to review the outcomes of the audit-related corrective actions for Project Soramis and to ensure that all required documentation is prepared for the next compliance review.  
+4. The finance team will work with the Project Nolaor team to refine the budgeting approach for the remainder of the fiscal quarter, with a focus on aligning resource allocation with the updated forecasting models.  
+
+**Action Items:**  
+- Liluan Nemlurel to finalize the updated demand forecasting models for integration into Project Nolaor planning by April 17, 2025.  
+- The Project Soramis team to submit a detailed action plan for addressing the audit finding the same reference by April 12, 2025, including proposed mitigation strategies and a timeline for implementation.  
+- The operations coordinator to coordinate with infrastructure support teams to schedule the Feltarel Relay risk assessment no later than April 15, 2025.  
+- The finance representative to provide a revised budget outline for Project Nolaor by April 19, 2025, incorporating the updated demand forecasts and resource allocation assumptions.  
+- The Project Nolaor team to conduct a workload review to confirm that the team of 30 remains sufficient to meet the updated project requirements, with results due by April 18, 2025.  
+
+The next meeting is scheduled for April 24, 2025, and will focus on reviewing the progress of the above action items and assessing the status of inter-project coordination.

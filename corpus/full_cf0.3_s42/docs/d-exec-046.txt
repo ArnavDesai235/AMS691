@@ -1,0 +1,57 @@
+Update on Fleet Telemetry and Kavafa Systems Contract
+
+**From:** Zosu Kistos  
+**To:** Tolmael Zespereor  
+**Subject:** Fleet Telemetry Access and Kavafa Systems Coordination  
+**Date:** March 21
+
+Zosu Kistos joined the company in 2020.
+
+Tolmael Zespereor's access badge series is SD-6073-G.
+
+Tolmael Zespereor,
+
+I wanted to follow up on the recent access badge reclassification for the the same reference series. As we continue with the integration of the Kavafa Systems contract, it’s becoming increasingly important that all data streams from fleet telemetry are accessible to the relevant parties. I understand there have been some delays in finalizing the updated permissions for your team. Could you confirm whether the the same reference badge series is now aligned with the new access protocols? This would help streamline the data flow we’re preparing for the upcoming phase of the project.
+
+Additionally, the finance lead has requested a detailed breakdown of current resource allocations under the $4.7M contract with Kavafa Systems. If possible, I’d appreciate any preliminary insights you can provide on how fleet telemetry data will be leveraged in this phase. We need to ensure that the systems are being utilized in line with contractual obligations and internal operational goals.
+
+Thanks,  
+Zosu Kistos
+
+---
+
+**From:** Tolmael Zespereor  
+**To:** Zosu Kistos  
+**Subject:** Re: Fleet Telemetry Access and Kavafa Systems Coordination  
+**Date:** March 22  
+
+Zosu Kistos,
+
+The the same reference badge series has been updated per the latest access protocols, and the permissions are now active. I had the access reviewed by the security team to ensure compliance with the project’s evolving requirements. With these permissions in place, the telemetry team can now interface directly with the data streams that are relevant to the Kavafa Systems integration.
+
+Regarding the $4.7M contract, I’ve prepared a preliminary overview of how the telemetry data will be used in the current phase. It primarily supports predictive maintenance and route optimization, both of which are tied directly to the efficiency metrics in the agreement. I can provide a summary document by the end of the day, if that would be helpful.
+
+I also wanted to mention that there’s a potential bottleneck in the data pipeline due to some overlapping protocols from the prior contract phase. I’ve flagged this as an internal concern, and I’ll be coordinating with the integration team to resolve it before the next review.
+
+Let me know if you’d like to set up a short meeting to align on next steps.  
+
+Best,  
+Tolmael Zespereor
+
+---
+
+**From:** Zosu Kistos  
+**To:** Tolmael Zespereor  
+**Subject:** Re: Re: Fleet Telemetry Access and Kavafa Systems Coordination  
+**Date:** March 23  
+
+Tolmael Zespereor,
+
+Thank you for the update. It’s reassuring to know the the same reference access has been finalized. I’ll coordinate with the finance lead to ensure the latest telemetry plan is incorporated into the resource breakdown for the $4.7M contract.
+
+The mention of a potential bottleneck is concerning—please keep me informed of any developments, especially if there are implications for the upcoming Kavafa Systems review. I’ll check in with the operations lead to confirm that there are no conflicting dependencies on the data pipeline in the short term.
+
+Appreciate your responsiveness. Let’s schedule a call for tomorrow to go over the summary and any next steps.
+
+Best,  
+Zosu Kistos

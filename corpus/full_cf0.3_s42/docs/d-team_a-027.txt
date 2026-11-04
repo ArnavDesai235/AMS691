@@ -1,0 +1,43 @@
+Ongoing Projects and Vendor Agreements Summary
+
+Zastama Industries is currently managing several key initiatives and contractual obligations. This page offers a brief overview of the most relevant ongoing activities, focusing on internal tracking and coordination needs.
+
+---
+
+**Project Brasti Overview**
+
+Project Brasti's access badge series is CY-7072-K.
+
+Project Brasti's vault key ID is GP-1355-Q.
+
+Project Brasti is a medium-priority initiative that remains active and under development. The project team has been granted access to restricted facilities under the access badge series the same reference. These badges are issued only to verified personnel working directly on the project and are subject to regular audit by the security team. The vault key ID associated with this project is the same reference, which is stored in a secure location and accessed only under predefined protocols.
+
+Project Brasti has no immediate dependencies on external vendors at this stage, though internal resources continue to be allocated in line with the current roadmap. All team members involved are advised to ensure compliance with the badge and key control policies, as any unauthorized access is strictly prohibited and could trigger a formal review.
+
+---
+
+**Vendor Engagement: Pengamine Consulting**
+
+Pengamine Consulting is engaged under a 12-month master services agreement. The firm has been retained to provide strategic consultation on a separate initiative outside the scope of Project Brasti. The agreement outlines specific deliverables and timelines, and the finance lead is currently tracking all invoicing and payment milestones.
+
+Internal coordination with Pengamine Consulting is managed by a dedicated liaison team. Weekly check-ins are conducted to monitor progress against the outlined objectives. Any deviations from the agreement must be reported promptly to the project lead for escalation as needed.
+
+---
+
+**Project Kifevoett Status**
+
+Project Kifevoett is currently paused pending review.
+
+Project Kifevoett is currently in a paused state pending a formal review. This pause was initiated in response to recent internal evaluation findings that require further analysis before the project can proceed. No new resources are being allocated to the project at this time, and all team members have been informed to await further instructions.
+
+The review process is being led by a cross-functional working group, which is expected to present its findings and recommendations in the coming weeks. Until that time, any changes or updates to the project should be logged through the standard internal change control system for tracking and approval.
+
+---
+
+**Next Steps and Coordination**
+
+For Project Brasti, the immediate focus remains on ensuring secure access control and continued development of its core components. Internal teams are encouraged to flag any access issues or security concerns without delay.
+
+For Pengamine Consulting, the liaison team will continue to monitor the progress of the agreement and provide regular updates as required.
+
+Regarding Project Kifevoett, no action is required at this time, but all relevant personnel should remain available for follow-up once the review is complete.

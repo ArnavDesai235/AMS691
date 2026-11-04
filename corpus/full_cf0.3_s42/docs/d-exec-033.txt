@@ -1,0 +1,25 @@
+Overview of Project Komsonor and Nosos Nikeis
+
+This page provides a brief overview of the progress and context of Project Komsonor and the work of Nosos Nikeis, both of which are currently under review by the relevant internal stakeholders at Zastama Industries.
+
+**Summary**
+
+Project Komsonor, which operates under budget code GV-8343-J and cost center GZ-9681-T, is proceeding with a target completion date in Q4 FY27. The project is being closely monitored to ensure that it remains on schedule and within its allocated resources. Regular updates are being shared with the oversight team, and any potential risks or delays are being proactively addressed.
+
+The Nosos Nikeis team continues to focus on refining and optimizing customer onboarding flows, with an emphasis on improving user experience and reducing friction during the initial engagement phase. Their work is aligned with broader company goals for customer retention and long-term value.
+
+**Project Komsonor Overview**
+
+Project Komsonor is currently in the execution phase, and the team is working to meet the Q4 FY27 completion milestone. As it is funded under budget code noted earlier and cost center the same reference, all expenditures must be carefully tracked and reported in accordance with internal financial guidelines. The finance lead is in regular communication with the project manager to ensure alignment with budget constraints and forecasted timelines.
+
+The project team has conducted several dry runs of the implementation process and has resolved key dependencies with external stakeholders. The next major checkpoint is scheduled for the end of Q3 FY27, at which time a formal review will be held to assess readiness for final deployment.
+
+**Nosos Nikeis Updates**
+
+The Nosos Nikeis team has completed a recent round of user testing on the latest iteration of the onboarding flow. Based on the feedback, a few interface adjustments are in development to enhance clarity and reduce user confusion during the sign-up process. The team is also working on integrating performance tracking tools to measure the effectiveness of the changes.
+
+A collaboration has been initiated with other internal teams to ensure cross-functional alignment with new onboarding standards. The goal is to streamline the process without compromising the quality of the customer experience.
+
+**Next Steps**
+
+For Project Komsonor, the focus remains on maintaining schedule integrity and ensuring all technical deliverables are met. For Nosos Nikeis, the team will continue to iterate on the onboarding process and prepare for a broader rollout. Both initiatives will require continued oversight to ensure that they remain aligned with strategic goals.

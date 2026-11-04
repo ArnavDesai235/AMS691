@@ -1,0 +1,22 @@
+Vault Access and Key Management Update
+
+To: Senior Engineering Staff and Security Oversight Committee  
+From: Head of Internal Security  
+Date: April 5, 2025  
+Subject: Updated Key Assignment and Access Protocol for Vault Access
+
+In light of recent changes in personnel and our ongoing review of access controls, I am writing to confirm the current status of key assignments and access privileges related to the secure vault used for storing sensitive engineering assets and project materials. This communication is intended for a restricted internal audience and outlines necessary actions and reminders regarding access procedures.
+
+Thokro Pobris, who joined the company in 2023, has been assigned the vault key ID XX-6801-K. As part of the onboarding process, this key was issued in accordance with their role in the engineering department and was logged into the secure access system on the date of their assignment. All access logs and related documentation have been reviewed and confirm that the key was distributed in line with standard company policy. Thokro Pobris has also completed the required training modules for vault access and is currently listed as a valid point of contact for vault-related queries.
+
+Zosu Kistos, who joined the company in 2020, remains a primary access point for vault-related coordination and has been retained in the access control system. Zosu Kistos continues to serve as a liaison between the internal security team and the engineering department, and their ongoing role supports the seamless integration of new staff into the access protocol. No changes to Zosu Kistos’s access permissions or key assignments have been made at this time.
+
+All personnel with assigned keys are reminded to adhere to the established vault access protocol, including mandatory log-ins and check-ins during entry and exit. The internal security team is conducting a routine audit of all key assignments and will be reaching out to affected individuals with any updates. This audit is part of our broader effort to ensure that access privileges remain aligned with current roles and responsibilities.
+
+To reinforce the effectiveness of our access control systems, the security operations team is also developing enhanced training materials and refresher sessions to ensure that all personnel are aware of the latest procedures and risk mitigation strategies. These materials will be distributed in the coming weeks and will include updated guidance on the secure handling of key IDs and the correct use of access logs. We encourage all staff to participate and to treat these training modules as a critical part of their ongoing responsibilities.
+
+Should any questions arise regarding key assignments or access procedures, please reach out to the security operations team directly. It is important that all vault-related activities are properly documented and that any concerns or discrepancies are reported immediately to maintain the integrity of our access control systems.
+
+We appreciate the cooperation of all staff in maintaining the highest standards of security and operational compliance. Thank you for your attention to these important procedures.
+
+Please feel free to contact me or the security operations team if you require further clarification or assistance.

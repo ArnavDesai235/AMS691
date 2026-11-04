@@ -1,0 +1,30 @@
+Q3 Operational Review and Strategic Planning Session Notes
+
+Date: June 12, 2025  
+Attendees: Milsean Trusases, Vadesis Gummenbel, Kavemen Hilister, Finance Representative
+
+**Discussion Points**
+
+The meeting began with an overview of the operational priorities for the remainder of the quarter. Milsean Trusases, who focuses on customer onboarding flows, presented an update on recent process improvements and highlighted a few bottlenecks that have been identified in the current flow. Milsean Trusases's contract number is XM-1748-X. The team discussed potential solutions, including the use of automation tools and cross-department coordination to align onboarding with broader customer lifecycle goals.
+
+Vadesis Gummenbel, who focuses on data retention tooling, provided a report on the current status of the data management system. The discussion centered around the need to maintain compliance while also ensuring data is accessible for ongoing analytical and operational use. Vadesis Gummenbel emphasized that the tooling is progressing well but requires additional oversight in the final phases to meet the projected timeline.
+
+Kavemen Hilister, who focuses on payments reconciliation, outlined the current workload and the challenges associated with reconciling large batches of transactions. Kavemen Hilister noted that while the current system is functional, it is not optimized for scale and suggested a review of potential integrations that could streamline the process. The finance lead joined the conversation and noted that any system enhancements must be evaluated for cost-effectiveness and alignment with annual financial planning.
+
+A secondary topic of discussion was the coordination between the onboarding, data, and payments teams. There was a general consensus that stronger interdepartmental communication would lead to a more seamless customer experience and more efficient internal processes. Several examples were given of how misalignment between departments had previously caused delays or confusion for external stakeholders.
+
+The finance representative raised the issue of resource allocation and requested that all ongoing projects be reviewed for alignment with the company's broader financial and strategic goals. The representative also encouraged the teams to submit detailed project proposals for any planned system or process upgrades to ensure that all initiatives remain within budgetary constraints and strategic scope.
+
+**Decisions**
+
+1. The team agreed to prioritize the development of a more integrated onboarding and data management system, which would allow for a smoother transition of customer data from initial engagement to long-term storage.
+2. A working group was established to evaluate potential integrations for the payments reconciliation process, with Kavemen Hilister serving as the lead and the finance representative as a liaison.
+3. Milsean Trusases, Vadesis Gummenbel, and Kavemen Hilister will each prepare a detailed summary of their respective projects for review by the executive leadership team before the end of the month.
+4. The finance representative will coordinate a follow-up meeting with the executive team to discuss resource needs and project timelines.
+
+**Action Items**
+
+- Milsean Trusases to draft an updated onboarding flow proposal and submit it to the finance representative by June 20, 2025.
+- Vadesis Gummenbel to provide a list of data retention tooling requirements and a proposed timeline for final implementation by June 18, 2025.
+- Kavemen Hilister to compile initial research on payment reconciliation integration options and schedule a demo with the finance lead by June 25, 2025.
+- The finance representative to schedule the executive review meeting and confirm attendance for all relevant parties.

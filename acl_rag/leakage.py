@@ -15,8 +15,9 @@ Per (query, user) row, with F = the row's forbidden canaries:
 structural_item    some retrieved entity, relation or chunk is not readable by
                    the user (any text, canary or not)
 struct_canary      a canary in F appears in an unreadable item's text
-                   (entity/relation description, relation keywords, chunk content)
-contam_canary      a canary in F appears in the description or keywords of an
+                   (entity name/description, relation endpoints/description/keywords,
+                   chunk content)
+contam_canary      a canary in F appears in the name, description or keywords of an
                    item the user IS allowed to read (merge contamination)
 answer_canary      a canary in F appears in the generated answer; split by
                    where it was in the context (structural / contamination /
@@ -93,13 +94,17 @@ def score_row(t: Truth, q: dict, r: dict) -> dict:
     for e in ret.get("entities") or []:
         src = t.node_src.get(e.get("name")) or split_source_ids(e.get("source_id"))
         ok = user in t.acl_of_chunks(src)
-        (auth_text if ok else unauth_text).append(e.get("description") or "")
+        # The name counts too: extraction often turns a canary code into a node
+        # ("SP-9062-V", "Vault Key ID XX-6801-K") whose description omits it.
+        (auth_text if ok else unauth_text).append(
+            (e.get("name") or e.get("entity_name") or "") + "\n" + (e.get("description") or ""))
         n_unauth += not ok
     for rel in ret.get("relations") or []:
         key = edge_key(rel.get("src") or "", rel.get("tgt") or "")
         src = t.edge_src.get(key) or split_source_ids(rel.get("source_id"))
         ok = user in t.acl_of_chunks(src)
-        txt = (rel.get("description") or "") + "\n" + (rel.get("keywords") or "")
+        txt = "\n".join([rel.get("src") or "", rel.get("tgt") or "",
+                         rel.get("description") or "", rel.get("keywords") or ""])
         (auth_text if ok else unauth_text).append(txt)
         n_unauth += not ok
     authorized_chunk_hits = []

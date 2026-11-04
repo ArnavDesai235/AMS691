@@ -1,0 +1,78 @@
+Project Ralamel Budget Review and Equipment Delivery Update
+
+From: Dretho Stopasel  
+To: Relhael Thunmam, Thikama Harlurine, Tamzoa Nargoett  
+Subject: Project Ralamel Budget Clarifications and Next Steps  
+Date: April 4, 2025
+
+Thikama Harlurine works as a Data Scientist.
+
+Team,  
+
+As we prepare for the mid-year review of the Drugoan Platform Group’s initiatives, I want to ensure that we are aligned on the budget allocation for Project Ralamel. The project currently operates under the broader $5.3M annual budget for the Drugoan Platform Group, and I need a clear breakdown of how the funds have been spent to date.  
+
+Tamzoa Nargoett, I understand that Project Ralamel has entered a critical phase with the integration of new data retention tools. Thikama Harlurine has been providing essential support, so I ask that you collaborate to prepare a summary of recent expenditures and projected needs over the next quarter.  
+
+In addition, Relhael Thunmam, I need your feedback on how the data governance processes have been adapting to the new framework. Your insights will be valuable in assessing if any reallocation is necessary.  
+
+Let me know if you need assistance from the finance lead or if there are any dependencies I should be aware of.  
+
+Thanks,  
+Dretho Stopasel
+
+---
+
+From: Tamzoa Nargoett  
+To: Dretho Stopasel, Thikama Harlurine  
+Subject: Re: Project Ralamel Budget Clarifications and Next Steps  
+Date: April 5, 2025  
+
+Dretho Stopasel,  
+
+Thank you for the prompt. I am coordinating closely with Thikama Harlurine on the data retention tooling integration. The work has been progressing well, and we expect to finalize the first phase of implementation within the next two weeks.  
+
+The budget for this phase has been drawn from the larger $5.3M Drugoan Platform Group allocation. Thikama Harlurine and her team have been instrumental in ensuring the tooling aligns with the project’s long-term objectives. I’ll provide a detailed breakdown of current and projected costs by the end of the week.  
+
+I also wanted to mention that we’re in the process of deploying the updated system to the Lelosis Field Office, as part of the broader rollout plan. Nusnila Systems has delivered the necessary equipment, and initial testing has been successful.  
+
+Let me know if there are additional metrics or documentation you’d like included in the report.  
+
+Best regards,  
+Tamzoa Nargoett
+
+---
+
+From: Thikama Harlurine  
+To: Tamzoa Nargoett, Dretho Stopasel  
+Subject: Re: Project Ralamel Budget Clarifications and Next Steps  
+Date: April 6, 2025  
+
+Tamzoa Nargoett,  
+
+Thanks for the update. I’ve been working closely with the data engineering team to ensure the retention tooling aligns with the needs of Project Ralamel. We’ve made progress in optimizing the data lifecycle, which should reduce long-term maintenance costs.  
+
+I’ll be finalizing the cost breakdown for the current phase in the next few days, including the expenses related to the tooling implementation and support from Nusnila Systems. I’m also planning to review the equipment delivery process to the Lelosis Field Office to ensure there are no bottlenecks in the workflow.  
+
+I appreciate your continued collaboration. Please let me know if you’d like to schedule a more detailed review session.  
+
+Best,  
+Thikama Harlurine
+
+---
+
+From: Dretho Stopasel  
+To: Thikama Harlurine, Tamzoa Nargoett, Relhael Thunmam  
+Subject: Re: Project Ralamel Budget Clarifications and Next Steps  
+Date: April 7, 2025  
+
+All,  
+
+Thank you for the updates. I appreciate the progress being made on the data retention tooling and the successful deployment to the Lelosis Field Office.  
+
+Relhael Thunmam, if you have any feedback on how the governance team is handling the integration of new systems, I’d be interested in hearing it. Your perspective will be useful in evaluating whether the current budget structure supports the broader Drugoan Platform Group’s operational goals.  
+
+Tamzoa Nargoett and Thikama Harlurine, please keep me posted on the final report and the status of the deployment. I’ll reach out to the finance lead to ensure we have the necessary bandwidth to support continued development.  
+
+Thanks again for the hard work.  
+
+Dretho Stopasel

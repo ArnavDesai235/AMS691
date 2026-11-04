@@ -1,0 +1,37 @@
+Internal Strategy Review: Zizadal Infrastructure Team and Key Projects Update
+
+DATE: April 3, 2025
+
+ATTENDEES: Finance Representative, Head of Infrastructure, Director of Operations, Project Manager for Project Nondaran, Head of Product for Lorhia Loom, IT Security Lead
+
+DISCUSSION POINTS:
+
+1. **Zizadal Infrastructure Team Update**: The Head of Infrastructure provided an overview of the Zizadal Infrastructure Team’s current status. The team, which operates under budget code noted earlier, has maintained a stable headcount of 32 people. The Finance Representative confirmed that the team’s budget remains aligned with its current operational objectives. IT Security Lead noted that the team’s vault key ID, the same reference, has been securely managed and no breaches have been reported. The team continues to support core infrastructure needs across internal systems and project platforms.
+
+The Zizadal Infrastructure Team's vault key ID is TK-5903-R.
+
+2. **Project Nondaran Timeline Review**: The Project Manager for Project Nondaran confirmed that all current milestones remain on track for a Q3 FY26 completion target. Resource allocation from the Zizadal Infrastructure Team has been secured and is supporting key system integrations. Discussion focused on potential risks related to external dependencies and vendor coordination. The Director of Operations raised concerns about potential delays in third-party software licensing, but no immediate action is required at this time.
+
+3. **Lorhia Loom Usage and Growth**: The Head of Product for Lorhia Loom reported that the platform currently has about 8,900 active users. The team is monitoring user engagement and has initiated a phased expansion of features in response to user feedback. Infrastructure planning for future user growth was discussed, including a review of capacity projections and potential upgrades to the current architecture. The Zizadal Infrastructure Team is being consulted for a long-term scalability review.
+
+4. **Cross-Team Coordination**: The Finance Representative emphasized the importance of maintaining alignment between infrastructure planning and financial reporting cycles. All teams were encouraged to submit updated forecasts by April 10. It was noted that the Zizadal Infrastructure Team’s budget code will be reviewed in the upcoming fiscal planning phase.
+
+DECISIONS:
+
+- The Zizadal Infrastructure Team will proceed with a long-term scalability review for the Lorhia Loom platform. The review will be led by the team’s senior systems architect in collaboration with the Lorhia Loom product team.
+
+- The timeline for Project Nondaran will remain unchanged at Q3 FY26, pending continued vendor and internal alignment. A contingency plan will be drafted for high-risk dependencies.
+
+- The Finance Representative will coordinate with the Zizadal Infrastructure Team to schedule a formal review of the team’s budget code (XG-2588-P) for the next fiscal cycle.
+
+ACTION ITEMS:
+
+- The Zizadal Infrastructure Team will provide a draft scalability review for the Lorhia Loom platform by April 15.
+
+- The Project Manager for Project Nondaran will submit a revised risk assessment plan by April 12, including vendor coordination status and any proposed contingency measures.
+
+- The Finance Representative will schedule a meeting with the Zizadal Infrastructure Team to review budget code noted earlier and long-term resource planning.
+
+- The IT Security Lead will ensure that access to vault key ID noted earlier is reviewed quarterly, with documentation submitted to internal audit by April 17.
+
+- The Head of Product for Lorhia Loom will report progress on user feature rollouts at the next weekly team sync on April 8.

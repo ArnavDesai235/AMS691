@@ -1,0 +1,58 @@
+Project Barkil Security Access and Onboarding Coordination
+
+From: Rerge Tumolan  
+To: Megea Fosaine  
+Subject: Vault Key Access for Project Barkil Documentation
+
+Rerge Tumolan's vault key ID is AC-3705-J.
+
+Megea Fosaine,  
+
+I wanted to follow up regarding the onboarding documentation for Project Barkil that your team has been preparing. As the Head of Security, I need to ensure all sensitive documentation related to the project is securely stored and accessible only to the appropriate personnel.  
+
+Given your focus on customer onboarding flows, I believe you'll be the point of contact for any new team members who need access to the secure vault where the project’s internal documentation is stored. I’ve been coordinating with the finance lead to adjust access for new hires, and I’ll need your input on who should be granted read-only access for the onboarding phase.  
+
+I have the vault key ID noted earlier, and if you or anyone from your team needs temporary access, I can provide a physical copy or coordinate with a vendor to set up a shared access point. Let me know the names of the individuals who will require access and their roles in the onboarding process.  
+
+Thanks for your help—keeping security tight is a shared responsibility, especially with a project as high-priority as this one.  
+
+Best regards,  
+Rerge Tumolan  
+
+---  
+
+From: Megea Fosaine  
+To: Rerge Tumolan  
+Subject: RE: Vault Key Access for Project Barkil Documentation  
+
+Rerge Tumolan,  
+
+Thank you for the message. I agree that maintaining secure access to Project Barkil documentation is critical, especially as we bring on new contributors.  
+
+I can confirm that two individuals on my team will require read-only access for the next two weeks. Their roles are supporting the initial customer onboarding flows, and they’ll be handling internal setup documentation. I’ve shared this with the appropriate internal team and will follow up with their names by the end of the day.  
+
+I also wanted to clarify if there is a process for logging access to the vault when we’re using physical key copies? I understand from a past meeting that we’re working toward a digital access solution, but for now, I’d like to make sure we’re following the most up-to-date protocols.  
+
+Thanks again for your support—knowing that Project Barkil is on track is a relief and allows us to maintain steady progress.  
+
+Best,  
+Megea Fosaine  
+
+---  
+
+From: Rerge Tumolan  
+To: Megea Fosaine  
+Subject: RE: Vault Key Access for Project Barkil Documentation  
+
+Megea Fosaine,  
+
+Yes, there is a logging process for physical key access—each time the same reference is handed out, a record is kept in the internal security log, noting the date, recipient, and expected return date. I’ll make sure to document this when I provide the key copy.  
+
+Once I have the names of the individuals who need access, I’ll prepare the log entry and coordinate with a vendor for the temporary handoff. I’ll also update the digital access list for the vault so that their access is reflected in both systems.  
+
+I appreciate your diligence—this helps keep Zastama Industries' internal processes secure and aligned with compliance standards.  
+
+Looking forward to the names, and as always, if you have any other security concerns or questions about Project Barkil, don’t hesitate to reach out.  
+
+Best,  
+Rerge Tumolan

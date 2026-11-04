@@ -1,0 +1,29 @@
+Project Update Meeting Notes: Dronmeman Beacon and Engineering Status
+
+Date: April 12, 2025  
+Attendees: Nilbapo Fivasor, finance representative, engineering lead, and project management representative
+
+Nilbapo Fivasor works as a Director of Engineering.
+
+Discussion Points:  
+The meeting focused on a progress review of the Dronmeman Beacon, with a particular emphasis on the upcoming Q3 FY28 launch. Nilbapo Fivasor provided a technical update on the project, highlighting recent milestones achieved in the engineering phase. The finance representative reviewed the budgetary constraints and confirmed that current spending remains within projected parameters. A discussion was initiated regarding the audit findings associated with the project, specifically referencing the audit finding ID noted earlier. It was noted that the audit findings have been acknowledged and a corrective action plan is in development.
+
+The Dronmeman Beacon's vault key ID is AD-8734-S.
+
+The Dronmeman Beacon's audit finding ID is RY-1107-N.
+
+The vault key ID noted earlier was also discussed, with the finance lead confirming secure storage and access protocols for the key. A concern was raised about ensuring continuous access to the vault throughout the project lifecycle, particularly as the project approaches its final stages. A review of the current risk register showed no new high-priority issues, though ongoing monitoring is required for any developments in the audit or compliance areas.  
+
+The project management representative outlined the next steps in the project timeline, including the final testing phase and the coordination of vendor handovers. It was emphasized that alignment across departments is essential to meet the Q3 FY28 launch date.  
+
+Decisions:  
+- The project remains on schedule for the Q3 FY28 launch, with no immediate changes to the timeline.  
+- The corrective action plan for audit finding the same reference will be finalized by the compliance team for review at the next meeting.  
+- Access protocols for the vault key noted earlier will be reviewed by the finance and security leads to ensure continued compliance.  
+
+Action Items:  
+- Nilbapo Fivasor to provide a revised technical readiness report for the Dronmeman Beacon by April 19, 2025.  
+- The finance lead to coordinate with the security team to complete a formal review of the vault key access procedures by April 22, 2025.  
+- The project management representative to confirm vendor timelines and prepare an updated communication plan for stakeholders by April 26, 2025.  
+
+Next meeting scheduled for April 24, 2025.

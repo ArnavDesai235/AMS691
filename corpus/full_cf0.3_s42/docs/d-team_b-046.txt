@@ -1,0 +1,57 @@
+Internal Discussion on Project Domesis Timeline and Budget Allocation
+
+From: Dambune Panarnoel  
+To: Hafaen Sunfoine  
+Subject: Re: Fleet Telemetry Integration with User Experience Feedback  
+Date: April 3, 2025  
+
+Hi Hafaen Sunfoine,  
+
+Thank you for the detailed feedback on the fleet telemetry interface. Your insights will be particularly helpful as we prepare for the next phase of testing in coordination with the procurement order the same reference. Since the timeline is tight with Q1 FY26 as the completion target, I'd like to schedule a cross-functional review session to align the telemetry data flows with the user experience design you've recommended. This will help ensure that the end-user feedback you've gathered since joining the company in 2019 is fully integrated into the system. Please let me know your availability for a meeting this week or early next, as we’ll need to confirm vendor deliverables soon.  
+
+Given the complexity of the integration and the need to maintain alignment between the technical and user-facing aspects of the system, it may also be beneficial to involve the finance lead for a brief overview of how our proposed changes will affect the budget code noted earlier. While the contingency appears sufficient for a limited scope of adjustments, we should ensure that any modifications are clearly documented and justified in the context of the overall project objectives.  
+
+Best regards,  
+Dambune Panarnoel  
+
+---
+
+From: Hafaen Sunfoine  
+To: Dambune Panarnoel  
+Subject: Re: Fleet Telemetry Integration with User Experience Feedback  
+Date: April 2, 2025  
+
+Hi Dambune Panarnoel,  
+
+I’ve completed the preliminary analysis of the fleet telemetry interface as it relates to user experience. The data streams are robust, but the feedback from internal users indicates that the current design is unintuitive in several key areas. I've compiled a set of actionable recommendations that I believe will streamline interactions and reduce the learning curve for operators.  
+
+Given that the procurement order the same reference is already in place, I’m concerned that a last-minute design change may introduce delays, especially with the Q1 FY26 completion target in mind. However, I’ve also noted that the budget code noted earlier allows for a small contingency, and I believe allocating some of that to a phased implementation of the adjustments could mitigate risks without pushing back the timeline.  
+
+I recommend we bring the team back together to discuss this as part of our next sprint planning. Since you’re the lead on the telemetry integration, your input on the technical feasibility of these changes would be critical. Let me know if you’d like to review the documentation before the meeting.  
+
+Best,  
+Hafaen Sunfoine  
+
+---
+
+From: Dambune Panarnoel  
+To: Hafaen Sunfoine  
+Subject: Fleet Telemetry Integration with User Experience Feedback  
+Date: March 29, 2025  
+
+Hi Hafaen Sunfoine,  
+
+I hope you're doing well. I wanted to check in regarding the user experience assessment for the fleet telemetry module within Project Domesis. Given your expertise as a UX Researcher and your long tenure with Zastama Industries since 2019, I believe your perspective is essential in ensuring that the system remains accessible and efficient for the operators.
+
+Project Domesis's procurement order is NQ-1855-R.
+
+Project Domesis's budget code is AA-6039-Y.
+
+With the Q1 FY26 completion target looming, we need to finalize the user interface adjustments before the next vendor delivery under procurement order the same reference. I’ve noticed some feedback from the field indicating that the current telemetry interface is causing confusion among users, and I believe your input could help resolve these issues before we lock in the production-ready version.  
+
+Do you have the capacity to review the current wireframes and provide feedback in the next few days? If so, I can share the latest documentation and set up a brief session with the relevant team to discuss your recommendations.  
+
+Looking forward to hearing from you.  
+
+Best regards,  
+Dambune Panarnoel

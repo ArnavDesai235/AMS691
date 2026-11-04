@@ -73,3 +73,16 @@ def test_detects_renames_canary_nodes_failed_docs_and_leaks(tmp_path):
     c000 = next(x for x in r["canaries"]["rows"] if x["canary_id"] == "C000")
     assert not c000["origin_doc_processed"] and c000["exposed_via_merge"]
     assert "u_public_1" in next(x for x in c000["carriers"] if x["key"] == public)["visible_outside_acl"]
+
+
+def test_planned_hubs_follow_plan_predicted_regime(tmp_path):
+    """facts.json's hub flag overstates hubs; check_index must use plan.json like ingest."""
+    wd = tmp_path / "idx"
+    write_index(wd)
+    r = check(CORPUS, wd)
+    plan = json.loads((CORPUS / "plan.json").read_text())["predicted_regime"]
+    names = {e["entity_id"]: e["canonical_name"]
+             for e in json.loads((CORPUS / "facts.json").read_text())["entities"]}
+    assert r["hubs"]["planned"] == sum(v == "summarized" for v in plan.values())
+    assert {row["name"] for row in r["entity_rows"] if row["planned_hub"]} == \
+        {names[k] for k, v in plan.items() if v == "summarized"}

@@ -1,0 +1,25 @@
+Project Pirpoan Budget Review and Logistics Coordination
+
+Zastama Industries  
+Meeting Notes  
+Date: April 3, 2025  
+Attendees: Stethe Birnaen, finance representative, logistics lead, security lead  
+
+**Discussion Points**  
+The meeting was called to review the approved budget for Project Pirpoan and to align on logistics for the warehouse automation components managed by Stethe Birnaen. The finance lead provided an overview of the $5.5M budget, emphasizing the need for strict adherence to the approved allocation. The security lead confirmed the vault key ID assigned to the project, the same reference, and outlined the access protocols for the secured storage facilities. The logistics lead discussed the phased delivery of automation equipment and the coordination with internal stakeholders to minimize warehouse downtime. Stethe Birnaen noted that the focus on warehouse automation requires careful integration with existing systems and urged for early-stage alignment with vendor teams.  
+
+The team reviewed the timeline for equipment deployment and discussed contingency measures for potential delays. There was a brief exchange on budget flexibility for unforeseen logistical challenges, and the finance lead reiterated the process for submitting change requests.  
+
+Stethe Birnaen also highlighted the importance of maintaining clear communication between the automation team and security personnel to ensure that access to sensitive components remains controlled. The security lead confirmed that all access logs for the same reference will be reported weekly.  
+
+**Decisions**  
+1. The budget for Project Pirpoan remains at $5.5M, with no immediate changes planned.  
+2. All access to the secured vault for Project Pirpoan will be logged using the key ID GT-9400-E, and access will be limited to project team leads and security personnel.  
+3. The logistics lead will coordinate with the automation team to finalize the delivery schedule by the end of the week.  
+4. Weekly updates on budget usage and security access will be provided to the finance and security leads.  
+
+**Action Items**  
+- The logistics lead will draft a finalized delivery plan for the warehouse automation components and circulate it by April 8, 2025.  
+- The security lead will provide a written confirmation of the access protocols for the same reference by April 5, 2025.  
+- Stethe Birnaen will coordinate with vendor representatives to ensure compatibility of automation systems with existing infrastructure and report back by April 10, 2025.  
+- The finance lead will prepare a budget usage summary for the next review meeting, scheduled for April 12, 2025.

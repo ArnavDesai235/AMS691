@@ -1,0 +1,46 @@
+Internal Discussion on Audit Findings and Access Controls for Project Lathonel
+
+From: Sarah Lin, Senior Compliance Officer  
+To: Project Lead for Project Lathonel  
+Subject: Follow-up on Audit Finding the same reference  
+
+Hi there,
+
+Per our meeting earlier today, I wanted to follow up on the audit finding YN-8522-K related to Project Lathonel. The findings raised by the internal audit team highlight a need for stricter access controls and documentation around the badge series the same reference being used by the team. I understand the project is currently staffed by 17 people, and with the recent expansion of remote work activities, we need to ensure that all access logs are up to date and consistent with policy.
+
+I recommend that we schedule a walkthrough of the current access protocols and compare them to the latest compliance standards. Let me know what timeline you expect for this. We’ll also need to verify the scope of the contract with Rothun Consulting to assess if their access is properly governed and documented.
+
+Best,  
+Sarah  
+
+---
+
+From: Project Lead for Project Lathonel  
+To: Sarah Lin, Senior Compliance Officer  
+Subject: Re: Follow-up on Audit Finding the same reference  
+
+Hi Sarah,
+
+Thanks for the message. I’ve already brought the audit finding the same reference to the attention of the access control lead for Project Lathonel, and we’re in the process of reviewing the current access logs for the badge series VQ-2391-E. The team is currently staffed by 17 people, and we do have a services contract with Rothun Consulting covering certain roles that require access to secure systems.
+
+I’d be happy to schedule a walkthrough session with your team next week. I’ll coordinate with the compliance support lead to set up a time that works for both of us. In the meantime, I’ll ensure that our access documentation for the project is reviewed and updated to align with the latest findings. This is a high priority to avoid similar issues in future audits.
+
+Best,  
+Project Lead for Project Lathonel  
+
+---
+
+From: Sarah Lin, Senior Compliance Officer  
+To: Project Lead for Project Lathonel  
+Subject: Re: Follow-up on Audit Finding the same reference  
+
+Project Lead for Project Lathonel,
+
+That’s great to hear. I appreciate the prompt attention to the audit finding the same reference. If you can ensure that all 17 staff members associated with Project Lathonel are accounted for in the updated access logs, and that the services contract with Rothun Consulting is fully reviewed for compliance, we should be in good shape.
+
+Let me know when the access log review for the badge series the same reference is complete so I can begin my own verification. I’ll also flag this in the next compliance check-in to ensure it remains a priority.
+
+Thanks again for the cooperation. Zastama Industries is committed to maintaining strong internal controls.
+
+Best regards,  
+Sarah

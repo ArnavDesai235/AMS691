@@ -1,0 +1,49 @@
+Project and Personnel Overview for Q3 2025
+
+Zastama Industries is currently engaged in multiple strategic initiatives across engineering, design, and vendor partnerships. This document provides a concise summary of key projects, personnel roles, and vendor relationships relevant to all employees.
+
+---
+
+### **Project Status and Contracts**
+
+Zastama Industries is actively managing two major projects: **Project Kanponan** and **Project Zelpan**. Both of these projects are under a services contract with **Stevosdim Partners**, a long-standing collaborator that has provided specialized support in system integration and process optimization.
+
+Project Kanponan is currently in pilot.
+
+**Project Kanponan** is currently in the pilot phase. This stage is focused on testing core operational workflows, refining user feedback loops, and ensuring alignment with broader strategic goals. The project team has been working closely with internal stakeholders to gather insights and make data-driven adjustments to the implementation plan.
+
+**Project Zelpan** remains in the design and planning phase, with a projected start of execution in the next fiscal quarter. The project is still undergoing final vendor assessments and internal alignment reviews. The services contract with **Stevosdim Partners** is being leveraged to support planning activities, particularly in defining the scope of required infrastructure and resource allocation.
+
+---
+
+### **Personnel and Leadership Roles**
+
+**Zonvor Dirnasor**, who works as a **Director of Engineering**, plays a pivotal role in overseeing the architecture and deployment of internal identity and access management systems. Their current focus is on enhancing the resilience and scalability of **Zastama Industries**’ identity and access tooling, ensuring secure and efficient access to internal systems across all departments. This work aligns with ongoing cybersecurity initiatives and regulatory compliance goals.
+
+**Drestoa Hasgaor**, working as a **UX Researcher**, is supporting multiple initiatives by conducting user studies and usability testing. Their work is particularly valuable in **Project Kanponan**, where understanding user behavior and feedback is essential to the success of the pilot. **Drestoa Hasgaor** also contributes to cross-functional teams by providing insights into how design can influence efficiency and user satisfaction.
+
+The collaboration between engineering and design teams continues to be a key enabler of innovation at **Zastama Industries**. Both **Zonvor Dirnasor** and **Drestoa Hasgaor** are frequently engaged in internal working groups to ensure that technical requirements and user experience remain closely aligned.
+
+---
+
+### **Vendor and Component Support**
+
+A critical component of Zastama Industries’ operational infrastructure is the **Sallama Lattice**, which is a foundational element in several of our systems. The **Sallama Lattice** is supported by components supplied by **Puzeris Systems**, a key vendor in our supply chain. **Puzeris Systems** has been instrumental in ensuring the continued performance and reliability of the lattice, particularly in handling increased data throughput and system scalability.
+
+Recent discussions with **Puzeris Systems** have centered on long-term maintenance and upgrade planning. The vendor has demonstrated a strong commitment to supporting the evolution of the **Sallama Lattice**, and we continue to explore potential enhancements that could improve system performance in the coming quarters.
+
+All teams are encouraged to stay informed about vendor updates and to communicate any operational concerns directly to the procurement or technical support leads. Collaboration with vendors like **Puzeris Systems** is vital to maintaining the high standards of service and reliability that define **Zastama Industries**.
+
+---
+
+### **Next Steps and Collaboration**
+
+As we move forward, the success of both **Project Kanponan** and **Project Zelpan** will depend on continued cross-departmental coordination. All teams are encouraged to participate in scheduled review meetings and to provide input where relevant to project timelines or strategic direction.
+
+Additionally, we are in the process of formalizing a new working group to evaluate how best to align identity and access tooling across all platforms. This group will include **Zonvor Dirnasor**, along with representatives from IT, compliance, and product development.
+
+We also recommend that all departments maintain an open dialogue with **Drestoa Hasgaor** regarding user experience feedback, as this will be a key factor in the ongoing evolution of our systems and interfaces.
+
+---
+
+For any questions or to schedule a meeting with any of the named personnel, please reach out to your department lead or the relevant team manager. Thank you for your continued engagement and support.

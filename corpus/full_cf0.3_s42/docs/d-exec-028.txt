@@ -1,0 +1,25 @@
+Meeting Notes: Project Sankonen Update and Access Control Review
+
+Date: April 12, 2025  
+Attendees: Ronembu Kestazel, Liluan Nemlurel, Finance Representative
+
+Liluan Nemlurel works as a Solutions Architect.
+
+**Discussion Points**  
+1. **Project Sankonen Status**: Ronembu Kestazel provided an overview of the current status of Project Sankonen. She emphasized that the team is on schedule for the upcoming phase, with key deliverables expected to align with the revised timeline. Liluan Nemlurel raised a concern about potential integration risks with the new solution architecture, suggesting a deeper review of compatibility before the next deployment window.  
+
+2. **Access Control Review**: The group discussed recent access control audits. Ronembu Kestazel noted that her access badge series QX-7619-A has been flagged for an update due to system-wide security enhancements. This will require administrative support to transition to the new standard by the end of Q2.  
+
+3. **Budget and Resource Allocation**: The Finance Representative confirmed that no new budget lines are available for Project Sankonen at this time. Resources must be prioritized based on the current plan. Ronembu Kestazel requested a follow-up with the finance team to explore options for contingency funding if delays occur.
+
+4. **Process and Risk Review**: A brief discussion was held on internal processes governing project milestones and risk escalation. It was noted that while Project Sankonen is progressing as planned, the team should remain cautious of external dependencies, particularly with third-party vendors. A review of communication protocols was recommended to ensure timely escalation of risks across departments.
+
+**Decisions**  
+- The team agreed to proceed with the current timeline for Project Sankonen but will schedule a dedicated session for architecture testing to address Liluan Nemlurel’s concerns.  
+- Ronembu Kestazel will coordinate with the security team to finalize the transition for her access badge series by May 31.  
+
+**Action Items**  
+- Ronembu Kestazel to lead a meeting with the architecture team to review integration risks, with a summary due by April 22.  
+- Liluan Nemlurel to draft a compatibility report for the next phase of Project Sankonen, to be reviewed in the next team meeting.  
+- The Finance Representative will circulate updated guidance for resource allocation by April 15.  
+- A follow-up meeting is scheduled for May 6 to assess progress on security updates and budget constraints.

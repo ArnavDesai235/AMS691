@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "n_errors": 0,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "docs": 50,
+    "canaries": 27,
+    "query_rows": 224,
+    "cross_tier": 8,
+    "restricted_pool": 27,
+    "cross_tier_fraction_realized": 0.2963
+  }
+}

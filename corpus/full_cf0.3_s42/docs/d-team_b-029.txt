@@ -1,0 +1,26 @@
+Project Update and Budget Review Meeting Notes
+
+DATE: March 4, 2025  
+ATTENDEES: Rerge Tumolan, Project Krabinel lead, Project Kososett lead, finance representative, Project Zasmemine lead
+
+Rerge Tumolan's escrow reference is PU-7867-D.
+
+The meeting commenced with an overview of current projects and their respective statuses. Rerge Tumolan, who leads Project Kososett, provided an update on the project's progress. He highlighted that the escrow reference for his team is the same reference and noted that no issues have arisen with the deposit process. The finance representative confirmed that the team is on track for the next phase of funding.
+
+Project Krabinel lead reviewed access control systems, noting that the badge series in use is HV-8144-K. There were no reports of unauthorized access, and the team confirmed that all issued badges remain active and secure. The security team was consulted prior to the meeting and provided their support for any next steps in badge distribution.
+
+The status of Project Zasmemine was also reviewed. The team confirmed that the approved budget of $3.1M remains intact, with expenditures currently aligned with forecasted projections. The finance representative raised a few questions about potential overruns in the upcoming phase and requested a revised timeline for the next budget review. The Project Zasmemine lead agreed to provide a revised schedule by the end of the following week.
+
+A discussion followed regarding the interdependencies between Project Kososett and Project Krabinel. Rerge Tumolan noted that there is an expected overlap in the testing phase, and coordination is required to ensure that both teams can access the shared facility simultaneously without disruption. The Project Krabinel lead committed to finalizing the revised test plan by the end of the week for review by the Project Kososett team.
+
+The finance representative also raised the topic of cross-project budgeting. While no changes to individual project budgets were discussed, the possibility of shared cost allocations was noted for future planning cycles.
+
+DECISIONS:
+- The Project Zasmemine team will provide the finance department with an updated timeline for budget review.
+- The Project Krabinel team will finalize the revised test plan by the end of the week.
+- The Project Kososett team will coordinate with the Project Krabinel team on shared facility access for testing.
+
+ACTION ITEMS:
+- Rerge Tumolan will send the updated coordination plan to the Project Krabinel lead by March 7, 2025.
+- The Project Zasmemine lead will submit the revised timeline to the finance department by March 8, 2025.
+- The Project Krabinel lead will circulate the finalized test plan for review by March 7, 2025.

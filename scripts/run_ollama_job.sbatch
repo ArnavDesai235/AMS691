@@ -13,12 +13,18 @@
 #   sbatch scripts/run_ollama_job.sbatch                       # ingest only
 #   STEPS="C1 C2 C3 C4 metrics leakage" sbatch scripts/run_ollama_job.sbatch
 #   (check, metrics and leakage need no GPU and can also run on the login node)
-# Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml)
+#   INGEST_ARGS="--retry-truncated --rounds 3" sbatch scripts/run_ollama_job.sbatch
+#   OLLAMA_NUM_PARALLEL=1 OLLAMA_KV_CACHE_TYPE=q8_0 MIN_GPU_MEM_MIB=45000 \
+#     sbatch --nodelist=quadro1 --gres=gpu:1 scripts/run_ollama_job.sbatch   # one 48 GB card
+#   STEPS=corpus sbatch scripts/run_ollama_job.sbatch            # generate configs/full.yaml's corpus locally
+# Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS,
+#   CORPUS_CONFIG (configs/full.yaml)
 set -euo pipefail
 
 ENV_NAME=${ENV_NAME:-AMS691}
 STEPS=${STEPS:-ingest}
 RAG_CONFIG=${RAG_CONFIG:-configs/rag.yaml}
+CORPUS_CONFIG=${CORPUS_CONFIG:-configs/full.yaml}
 cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p logs
 
@@ -26,7 +32,7 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate "$ENV_NAME"
 nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
 # qwen3:32b-q8_0 (35 GB) + KV cache for 4 x 32k contexts (~32 GB) needs ~67 GB.
-gpu_mem=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | head -1)
+gpu_mem=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | awk 'NR==1')   # awk reads all input: head -1 + pipefail can die of SIGPIPE with 2+ GPUs
 if (( gpu_mem < ${MIN_GPU_MEM_MIB:-70000} )); then
   echo "GPU has ${gpu_mem} MiB; need >= ${MIN_GPU_MEM_MIB:-70000}. Wrong node? (submit with --nodelist=h100)"; exit 2
 fi
@@ -34,9 +40,11 @@ fi
 # Free port so jobs sharing a node don't collide on 11434.
 port=$(python -c 'import socket;s=socket.socket();s.bind(("",0));print(s.getsockname()[1])')
 export OLLAMA_HOST=127.0.0.1:$port
-export OLLAMA_NUM_PARALLEL=4         # matches llm_max_async in rag.yaml
+export OLLAMA_NUM_PARALLEL=${OLLAMA_NUM_PARALLEL:-4}   # llm_max_async in the job config is set to match
 export OLLAMA_KEEP_ALIVE=-1          # keep the model loaded for the whole job
 export OLLAMA_FLASH_ATTENTION=1      # smaller KV cache at num_ctx 32768
+# Single 48 GB GPU: OLLAMA_NUM_PARALLEL=1 OLLAMA_KV_CACHE_TYPE=q8_0 (35 GB model + ~4 GB KV + bge-m3)
+[ -n "${OLLAMA_KV_CACHE_TYPE:-}" ] && export OLLAMA_KV_CACHE_TYPE
 export HF_HUB_OFFLINE=1
 
 ollama serve >"logs/ollama-$SLURM_JOB_ID.log" 2>&1 & srv=$!
@@ -46,8 +54,9 @@ ollama list
 
 # Same config, but pointed at this job's port.
 cfg=$(mktemp --suffix=.yaml)
-sed "s#^\(\s*ollama_host:\).*#\1 http://$OLLAMA_HOST#" "$RAG_CONFIG" > "$cfg"
-grep ollama_host "$cfg"
+sed -e "s#^\(\s*ollama_host:\).*#\1 http://$OLLAMA_HOST#" \
+    -e "s#^\(\s*llm_max_async:\).*#\1 $OLLAMA_NUM_PARALLEL#" "$RAG_CONFIG" > "$cfg"
+grep -E "ollama_host|llm_max_async" "$cfg"
 
 # Load the model onto the GPU once and confirm it is on the GPU, not CPU.
 llm=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1]))['backend']['llm_model'])" "$cfg")
@@ -57,7 +66,8 @@ ollama ps
 for step in $STEPS; do
   echo "=== $step $(date)"
   case $step in
-    ingest)  python -m acl_rag.ingest  --rag-config "$cfg" ;;
+    corpus)  python -m corpus_gen.run --config "$CORPUS_CONFIG" --set "llm.host=http://$OLLAMA_HOST" ;;
+    ingest)  python -m acl_rag.ingest  --rag-config "$cfg" ${INGEST_ARGS:-} ;;
     metrics) python -m acl_rag.metrics --rag-config "$cfg" ;;
     leakage) python -m acl_rag.leakage --rag-config "$cfg" ;;
     check)   python -m acl_rag.check_index --rag-config "$cfg" ;;

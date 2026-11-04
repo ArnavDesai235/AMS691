@@ -1,0 +1,86 @@
+{
+  "d-team_a-015": [
+    "code EP-8854-N must be in the same sentence as \"Maneor Tismean\""
+  ],
+  "d-team_a-013": [
+    "code LP-3408-A must appear exactly once (found 2)",
+    "code LP-3408-A must be in the same sentence as \"Dopusa Varesett\""
+  ],
+  "d-team_a-020": [
+    "length 427 words; target about 574 (allowed 430-774)"
+  ],
+  "d-team_a-024": [
+    "code FU-5296-P must be in the same sentence as \"Leroror Lukaine\""
+  ],
+  "d-team_a-046": [
+    "code JF-9451-G must appear exactly once (found 5)",
+    "code JF-9451-G must be in the same sentence as \"Kradeor Nanmerel\"",
+    "code YJ-1410-Z must appear exactly once (found 4)",
+    "code YJ-1410-Z must be in the same sentence as \"Kradeor Nanmerel\""
+  ],
+  "d-team_b-000": [
+    "code AP-5807-Z must be in the same sentence as \"Megen Tissefam\"",
+    "code UR-7664-C must be in the same sentence as \"Megen Tissefam\""
+  ],
+  "d-team_b-012": [
+    "code HZ-4965-G must appear exactly once (found 3)",
+    "code HZ-4965-G must be in the same sentence as \"Zondila Krerraris\"",
+    "code BJ-6641-R must appear exactly once (found 6)",
+    "code BJ-6641-R must be in the same sentence as \"Zondila Krerraris\"",
+    "code WW-9470-U must appear exactly once (found 2)",
+    "code WW-9470-U must be in the same sentence as \"Thuszus Kustoen\""
+  ],
+  "d-team_b-016": [
+    "code TJ-4829-H must appear exactly once (found 2)",
+    "code TJ-4829-H must be in the same sentence as \"Kesonan Mufashua\"",
+    "code DR-2125-J must appear exactly once (found 3)",
+    "code DR-2125-J must be in the same sentence as \"Kesonan Mufashua\""
+  ],
+  "d-team_b-028": [
+    "code AV-6538-G must be in the same sentence as \"Zunhu Kusasteis\"",
+    "length 435 words; target about 591 (allowed 443-797)"
+  ],
+  "d-team_b-026": [
+    "code HL-9938-U must appear exactly once (found 2)",
+    "code HL-9938-U must be in the same sentence as \"Megea Fosaine\"",
+    "code DV-1700-A must appear exactly once (found 2)",
+    "code DV-1700-A must be in the same sentence as \"Megea Fosaine\"",
+    "length 402 words; target about 590 (allowed 442-796)"
+  ],
+  "d-team_b-042": [
+    "code TK-5903-R must appear exactly once (found 2)",
+    "code TK-5903-R must be in the same sentence as \"Zizadal Infrastructure Team\""
+  ],
+  "d-team_b-056": [
+    "code WE-9875-H must be in the same sentence as \"Mukima Bobrior\"",
+    "code VL-9125-X must be in the same sentence as \"Mukima Bobrior\""
+  ],
+  "d-exec-010": [
+    "code BT-9828-L must be in the same sentence as \"Pivoine Geltoett\""
+  ],
+  "d-exec-018": [
+    "code XJ-3204-E must appear exactly once (found 2)",
+    "code XJ-3204-E must be in the same sentence as \"Fofemis Balzirka\"",
+    "code SY-2864-X must appear exactly once (found 2)",
+    "code SY-2864-X must be in the same sentence as \"Hafaen Sunfoine\"",
+    "code PT-5529-K must appear exactly once (found 2)",
+    "code PT-5529-K must be in the same sentence as \"Hafaen Sunfoine\""
+  ],
+  "d-exec-023": [
+    "code LV-2846-K must appear exactly once (found 3)",
+    "code LV-2846-K must be in the same sentence as \"Mortalis Consulting\""
+  ],
+  "d-exec-024": [
+    "code HN-9529-R must appear exactly once (found 3)",
+    "code HN-9529-R must be in the same sentence as \"Kragura Stenmori\"",
+    "code LZ-2341-J must appear exactly once (found 3)",
+    "code LZ-2341-J must be in the same sentence as \"Kragura Stenmori\""
+  ],
+  "d-exec-038": [
+    "code SN-1642-J must be in the same sentence as \"Zetrais Analytics Unit\""
+  ],
+  "d-exec-039": [
+    "code WX-1844-U must appear exactly once (found 2)",
+    "code WX-1844-U must be in the same sentence as \"Pethisa Hebroren\""
+  ]
+}

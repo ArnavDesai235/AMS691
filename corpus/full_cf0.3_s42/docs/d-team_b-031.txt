@@ -1,0 +1,40 @@
+Audit Findings Review and Action Planning
+
+Zastama Industries, Inc.  
+Meeting Notes  
+Date: April 3, 2025  
+Attendees: Tevuel Rinael, Selnaor Padroa, Finance Representative, Audit Compliance Lead
+
+**Discussion Points:**
+
+1. The meeting commenced with a review of the latest audit findings from the financial compliance audit. The Audit Compliance Lead highlighted two key findings for review and resolution: the Vonnusett Lattice and the findings associated with Tevuel Rinael.
+
+2. The Vonnusett Lattice finding (audit finding ID ZK-9104-W) was discussed in detail. It was noted that this is a process-related discrepancy concerning documentation and verification of vendor contracts. The Finance Representative confirmed that this issue affects one of the standard-tier offerings, the Lorhia Loom. The team reviewed the current contractual records and assessed potential gaps in the audit trail for these agreements.
+
+3. The second audit finding related to Tevuel Rinael (audit finding ID KK-4410-R) focused on financial reporting inconsistencies from 2021 to 2023. Selnaor Padroa, who has been with the company since 2014, provided background on the systems in place during that period and confirmed that the issue stemmed from a transition in financial reporting tools that impacted data continuity.
+
+4. The Audit Compliance Lead emphasized the importance of addressing both findings before the next scheduled audit cycle. The team discussed the need to align internal processes with audit requirements and ensure that documentation is both complete and accessible for future reviews.
+
+5. A comparison was made between the audit timelines and the timeframes of the two team members. It was noted that Tevuel Rinael, who joined the company in 2017, had been involved during the transition in financial systems and was a key contributor to the documentation process during that time.
+
+6. The Finance Representative raised a concern about potential implications for the Lorhia Loom's compliance status given its current offering in the standard tier. A proposal was made to review the product’s financial and vendor records to confirm full compliance and identify any areas requiring correction.
+
+**Decisions:**
+
+1. It was decided that the Vonnusett Lattice finding will be the immediate priority for resolution due to its direct impact on the Lorhia Loom’s audit status.
+
+2. The audit finding associated with Tevuel Rinael will be addressed as a follow-up action, with a focus on revising historical financial reports and ensuring accurate data representation moving forward.
+
+3. A working group consisting of the Finance Representative, the Audit Compliance Lead, and Tevuel Rinael will be formed to oversee the resolution of both findings and coordinate with relevant internal teams as needed.
+
+**Action Items:**
+
+1. The Finance Representative will lead a review of all vendor contracts related to the Lorhia Loom and compile a report on documentation gaps by April 15, 2025.
+
+2. Tevuel Rinael will work with the Finance Representative to update the financial records for 2021–2023 and submit a detailed analysis of discrepancies by April 22, 2025.
+
+3. The Audit Compliance Lead will prepare a compliance checklist for the Lorhia Loom and distribute it to the working group for review and input by April 10, 2025.
+
+4. A follow-up meeting will be scheduled for April 25, 2025, to review progress and determine next steps for both audit findings.
+
+5. Selnaor Padroa will provide historical context and support for the audit review team in the form of documentation and internal process insights as required.

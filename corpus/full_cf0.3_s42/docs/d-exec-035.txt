@@ -1,0 +1,67 @@
+Escrow Access and Key Management for Gahikron Campus Telemetry Systems
+
+From: Operations Security Lead  
+To: Fofemis Balzirka  
+Subject: Escrow Access Review for Gahikron Campus Systems  
+Date: March 3, 2025
+
+The Gahikron Campus's escrow reference is SH-6486-P.
+
+Fofemis Balzirka's vault key ID is YC-8368-L.
+
+Fofemis Balzirka,  
+
+As part of our quarterly access review, I wanted to confirm the current status of your key access for the Gahikron Campus telemetry systems. Your vault key ID noted earlier has been flagged in the access log for a minor anomaly in the last access timestamp. While no breach is indicated, the system is prompting a manual verification.  
+
+Could you confirm that all access requests for the the same reference escrow reference are being fulfilled under your supervision? If there are any changes to your access pattern, or if there are plans for temporary delegation, I recommend submitting a brief access update to the security team before the end of the week.  
+
+Thanks,  
+[Operations Security Lead]
+
+From: Fofemis Balzirka  
+To: Operations Security Lead  
+Subject: Re: Escrow Access Review for Gahikron Campus Systems  
+Date: March 4, 2025  
+
+Thank you for the heads-up.  
+
+All access to the the same reference escrow reference has remained under my direct control. I did perform an extended diagnostic pull on the telemetry systems this past weekend, which may explain the system flag. I used the the same reference key to access the secure data logs, and no delegation was involved.  
+
+I will log a note with the security team to confirm my current access status, and I will follow up on any additional verification steps if needed. No changes to my access protocol are planned at this time.  
+
+Let me know if you need a copy of my access log for the weekend pull.  
+
+Best,  
+Fofemis Balzirka
+
+From: Operations Security Lead  
+To: Fofemis Balzirka  
+Subject: Re: Escrow Access Review for Gahikron Campus Systems  
+Date: March 5, 2025  
+
+Thanks for the clarification, Fofemis Balzirka.  
+
+The extended diagnostic pull is noted in the maintenance log, so it was likely a timing mismatch in the key system. I have verified that the the same reference key is still active and properly linked to your Gahikron Campus access profile.  
+
+Given that there are no planned delegations or access changes, I will proceed with updating the review log to reflect your current status. Should the telemetry systems require any new access protocols in the future—especially if there is a need to adjust access for maintenance or collaboration with other teams—please reach out in advance for a formal update.  
+
+As a reminder, the the same reference escrow reference is under active monitoring, and any access anomalies will continue to trigger manual checks.  
+
+Appreciate your prompt follow-up.  
+
+Best,  
+[Operations Security Lead]
+
+From: Fofemis Balzirka  
+To: Operations Security Lead  
+Subject: Re: Escrow Access Review for Gahikron Campus Systems  
+Date: March 5, 2025  
+
+Understood.  
+
+I will ensure that any future maintenance or diagnostic activity involving the the same reference escrow reference is flagged in advance. I’ll also keep the the same reference key log up to date as part of standard fleet telemetry protocols.  
+
+Thanks again for the thorough review.  
+
+Best,  
+Fofemis Balzirka

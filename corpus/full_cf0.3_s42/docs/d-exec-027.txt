@@ -1,0 +1,24 @@
+Regional Operations Review: Gahikron Campus Update
+
+**Date:** April 10, 2025  
+**Attendees:** Foltala Dankenor, regional operations lead (Gahikron Campus), finance representative, eastern region compliance officer, IT infrastructure lead (Petoine Console).  
+
+**Discussion Points:**  
+The meeting focused on a recent audit finding related to Foltala Dankenor’s responsibilities at the Gahikron Campus. The compliance officer presented the finding under audit ID noted earlier, which relates to a procedural oversight in the maintenance tracking of high-availability systems. The finance representative noted that while the issue does not currently impact budget forecasts, addressing it is a priority to maintain audit readiness.  
+
+The IT infrastructure lead for the Petoine Console provided an overview of the system’s current status, noting that no disruptions have occurred as a result of the procedural gap. There were questions from the compliance officer regarding whether the issue had been reported in prior internal audits for the Gahikron Campus. The IT lead confirmed that this is the first time the concern has arisen in the audit process, though it has been flagged for review in previous internal reviews.  
+
+Foltala Dankenor acknowledged the finding and stated that the Gahikron Campus team is already implementing corrective actions. She emphasized that the campus has a strong track record of compliance and that the issue stems from a recent shift in maintenance protocols rather than an ongoing problem. The finance representative asked if there would be any budget implications for the corrective actions, but Foltala Dankenor indicated that the necessary resources are already allocated within the current fiscal plan for the eastern region.  
+
+The group discussed potential system-wide implications for similar maintenance procedures across the region, but it was agreed that the issue appears to be localized to the Gahikron Campus. The IT lead for the Petoine Console raised the possibility of integrating the updated maintenance tracking procedures into the broader infrastructure management framework to prevent similar findings in the future.  
+
+**Decisions:**  
+1. The corrective action plan for the procedural issue under audit ID UJ-1516-F will be finalized by Foltala Dankenor’s team by April 24, 2025.  
+2. The IT infrastructure lead will begin drafting a region-wide review of maintenance protocols, with a focus on aligning procedures used at the Gahikron Campus with those in other locations.  
+3. The compliance officer will schedule a follow-up review session for May 15, 2025 to assess the implementation of the corrective actions.  
+
+**Action Items:**  
+- Foltala Dankenor to submit a detailed corrective action report by April 24, 2025, including any process changes for the Gahikron Campus.  
+- IT infrastructure lead to draft a proposal for system-wide maintenance protocol alignment by May 1, 2025.  
+- Finance representative to confirm no new budget line items are required for the corrective actions, with a summary to be shared by April 18, 2025.  
+- Compliance officer to circulate the meeting notes and follow-up schedule to all attendees and relevant stakeholders by April 12, 2025.

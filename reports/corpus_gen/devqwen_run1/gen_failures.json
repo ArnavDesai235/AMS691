@@ -1,0 +1,59 @@
+{
+  "d-public-002": [
+    "shortened or altered name \"Leroror\" (always write \"Leroror Lukaine\")",
+    "shortened or altered name \"Vadesis\" (always write \"Vadesis Gummenbel\")",
+    "missing value \"2019\" (from: Getaine Hebruen joined the company in 2019.)"
+  ],
+  "d-public-005": [
+    "shortened or altered name \"Krilfia\" (always write \"Krilfia Mukela\")",
+    "shortened or altered name \"Megea\" (always write \"Megea Fosaine\")",
+    "shortened or altered name \"Vadesis\" (always write \"Vadesis Gummenbel\")"
+  ],
+  "d-public-010": [
+    "shortened or altered name \"Megea\" (always write \"Megea Fosaine\")",
+    "shortened or altered name \"Givien\" (always write \"Givien Mubren\")",
+    "shortened or altered name \"Vadesis\" (always write \"Vadesis Gummenbel\")"
+  ],
+  "d-team_a-000": [
+    "code TM-1841-G must appear exactly once (found 2)"
+  ],
+  "d-team_a-001": [
+    "code DJ-7108-L must appear exactly once (found 3)"
+  ],
+  "d-team_a-003": [
+    "shortened or altered name \"Liluan\" (always write \"Liluan Nemlurel\")"
+  ],
+  "d-team_a-005": [
+    "shortened or altered name \"Vadesis\" (always write \"Vadesis Gummenbel\")",
+    "shortened or altered name \"Nolaor\" (always write \"Project Nolaor\")",
+    "shortened or altered name \"Thokro\" (always write \"Thokro Pobris\")",
+    "missing value \"240 seats\" (from: The Renzer Field Office has capacity for 240 seats.)"
+  ],
+  "d-team_a-004": [
+    "shortened or altered name \"Nolaor\" (always write \"Project Nolaor\")",
+    "code BL-6809-Q must appear exactly once (found 4)"
+  ],
+  "d-team_b-000": [
+    "code GS-9629-Z must appear exactly once (found 2)",
+    "missing value \"Solutions Architect\" (from: Liluan Nemlurel works as a Solutions Architect.)"
+  ],
+  "d-team_b-007": [
+    "code BT-9828-L must appear exactly once (found 3)"
+  ],
+  "d-team_b-009": [
+    "length 364 words; target about 490 (allowed 367-661)"
+  ],
+  "d-exec-000": [
+    "shortened or altered name \"Rishalen\" (always write \"Rishalen Integration Team\")"
+  ],
+  "d-exec-001": [
+    "code DV-1700-A must appear exactly once (found 3)"
+  ],
+  "d-exec-005": [
+    "code GT-9400-E must appear exactly once (found 5)",
+    "length 355 words; target about 476 (allowed 357-642)"
+  ],
+  "d-exec-009": [
+    "code MW-6820-Z must appear exactly once (found 2)"
+  ]
+}

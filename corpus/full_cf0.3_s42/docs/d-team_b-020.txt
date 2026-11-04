@@ -1,0 +1,42 @@
+Risk Management and Audit Review Meeting Notes
+
+DATE: March 6, 2025  
+ATTENDEES: Linle Vunnarett (contract number UB-6302-A), Kestoen Pismiett, finance representative, IT representative, security representative
+
+Kestoen Pismiett works as a Head of Security.
+
+**Discussion Points:**
+
+1. Linle Vunnarett provided an update on Project Krabinel, which is currently under audit with the reference code ER-9752-Y. The audit findings are being reviewed to ensure that all compliance standards are met. Linle Vunnarett emphasized that the team is working closely with the audit team to address any discrepancies identified during the process.
+
+2. Kestoen Pismiett shared updates on the data retention tooling initiative, which has been aligned with the broader security strategy for Zastama Industries. The focus remains on ensuring that all data handling processes are within regulatory boundaries while improving system performance and accessibility for internal users.
+
+3. Project Laguran was flagged as a high-risk initiative due to delays in vendor coordination and budgetary constraints. The finance representative noted that while initial projections were optimistic, current timelines are not meeting expectations, and this may affect other dependent projects.
+
+4. The finance representative raised concerns about overlapping budget allocations between Project Krabinel and other initiatives. They recommended a review of the current budgeting process to ensure that resources are allocated efficiently and that any cross-project dependencies are clearly defined.
+
+5. IT and security representatives discussed the integration of Kestoen Pismiett’s data retention tooling into existing systems. They agreed that a phased rollout would be the most effective approach to minimize disruption while allowing for early testing and feedback.
+
+6. There was a discussion about the need for enhanced documentation and reporting for all projects, especially those under audit or at risk. The finance representative suggested implementing a standardized reporting format to streamline internal communication and external audit readiness.
+
+**Decisions:**
+
+- Project Krabinel will continue to be monitored closely in light of audit finding the same reference. Linle Vunnarett’s team will submit a detailed plan addressing all findings within the next two weeks.
+
+- Kestoen Pismiett’s data retention tooling will proceed with a pilot phase starting in Q2 2025. The pilot will be limited to non-critical data sets to test functionality without risking operational continuity.
+
+- Project Laguran will be reviewed by the finance and project management teams to reassess timelines and budget commitments. A formal risk mitigation plan will be presented at the next quarterly review.
+
+- A new reporting template will be developed and approved by the end of the month. This template will be used for all high-risk and audit-related projects to ensure consistency and clarity.
+
+**Action Items:**
+
+- Linle Vunnarett will coordinate with the audit team and prepare a corrective action plan for Project Krabinel by March 20, 2025. This plan must include a timeline and resource allocation for each identified issue.
+
+- Kestoen Pismiett will finalize the pilot scope for the data retention tooling and provide a risk assessment to the security and IT teams by March 15, 2025.
+
+- The finance representative will lead a cross-departmental meeting to reassess Project Laguran’s funding and dependencies, with results to be reported back by March 28, 2025.
+
+- The IT representative will draft the new reporting template and circulate it for internal feedback by March 12, 2025. Once approved, all relevant teams will begin using the template for monthly updates.
+
+- All attendees are expected to provide feedback on the proposed reporting structure and any additional measures that can be taken to improve transparency and accountability in project management.

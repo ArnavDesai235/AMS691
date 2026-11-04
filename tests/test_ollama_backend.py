@@ -12,7 +12,7 @@ CFG = yaml.safe_load((Path(__file__).resolve().parents[1] / "configs" / "rag.yam
 def test_config_options_forwarded():
     kw = ollama_llm_kwargs(CFG["backend"])
     assert kw["options"] == {"num_ctx": 32768, "think": False, "temperature": 0.0, "seed": 42,
-                             "num_predict": 4096}
+                             "num_predict": 6144}
     assert kw["host"] == CFG["backend"]["ollama_host"]
 
 
@@ -56,7 +56,7 @@ def test_lightrag_passes_options_and_think_to_chat(monkeypatch):
     # Our configured num_predict is an explicit option, so it takes precedence over a
     # per-call max_tokens in 1.5.7's adapter. operate.py never passes max_tokens, so
     # in practice the configured cap is the only output limit.
-    assert seen["chat"]["options"] == {"num_ctx": 32768, "temperature": 0.0, "seed": 42, "num_predict": 4096}
+    assert seen["chat"]["options"] == {"num_ctx": 32768, "temperature": 0.0, "seed": 42, "num_predict": 6144}
 
 
 def test_lightrag_llm_timeout_follows_config(tmp_path, monkeypatch):

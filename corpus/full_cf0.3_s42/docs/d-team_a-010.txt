@@ -1,0 +1,65 @@
+Review of Stivois Partners Procurement and Access Management
+
+**From:** Maneor Tismean  
+**To:** Kradeor Nanmerel  
+**Subject:** Clarification on the Stivois Partners Procurement and Stivois Partners Access  
+**Date:** [Date]
+
+Maneor Tismean works as a Compliance Officer.
+
+Hi Kradeor Nanmerel,
+
+I wanted to follow up on the compliance review of the Stivois Partners procurement order, SC-6029-M, and their associated access badge series, RB-8721-A. While reviewing the current access logs, I noticed that there is no documented justification for the elevated access level assigned to this badge series. 
+
+Given the nature of the procurement and the sensitive information involved in the project, I recommend we align the access permissions with the procurement’s intended scope. I’d appreciate your insights on whether the incident response tooling currently in place can flag or track unauthorized access attempts with this badge. Additionally, do you foresee any operational disruptions if we reduce access levels or add additional audit logging?
+
+Best,  
+Maneor Tismean
+
+---
+
+**From:** Kradeor Nanmerel  
+**To:** Maneor Tismean  
+**Subject:** RE: Clarification on the Stivois Partners Procurement and Stivois Partners Access  
+**Date:** [Date]
+
+Hi Maneor Tismean,
+
+Thanks for the note. I’ve reviewed the Stivois Partners access profiles and cross-checked them against the Stivois Partners procurement documentation. The tooling can indeed flag any access attempts outside the permitted scope of the procurement, but there are no active alerts triggered at the moment. That said, the access level assigned is one tier above what’s required for the project phase.
+
+I suggest we maintain the current access for now, but with increased logging. I can adjust the incident response configuration to generate a daily summary of all the Stivois Partners access events, which would help in future audits. I’ll also work with the relevant team to ensure access permissions are adjusted if the procurement scope changes.
+
+I’ll provide the updated incident response protocol by EOD.
+
+KR
+
+---
+
+**From:** Maneor Tismean  
+**To:** Kradeor Nanmerel  
+**Subject:** RE: Clarification on the Stivois Partners Procurement and Stivois Partners Access  
+**Date:** [Date]
+
+That’s a solid approach. I’ll update the compliance log to reflect the increased logging and the proposed daily summaries. I’ll also note that access levels for Stivois Partners should remain under review, given the nature of the procurement and the access series assigned.
+
+Let’s make sure the finance lead is aware that any changes to access levels may require revalidation from the procurement team. I’ll coordinate a quick call with them if needed.
+
+Thanks again.
+
+Best,  
+Maneor Tismean
+
+---
+
+**From:** Kradeor Nanmerel  
+**To:** Maneor Tismean  
+**Subject:** RE: Clarification on the Stivois Partners Procurement and Stivois Partners Access  
+**Date:** [Date]
+
+Appreciate the feedback. In addition to the daily summaries, I’ll also implement a secondary layer of access verification for the Stivois Partners badge series to ensure that all entries are logged and cross-referenced in real time with the the same reference procurement documentation. This will help prevent any potential drift between the access permissions and the procurement scope.
+
+On the incident response side, I’ve also scheduled a routine evaluation to ensure the the same reference badge series is not overrepresented in the access logs relative to other vendors. If there are any anomalies, we can adjust the thresholds before the next audit period.
+
+Let’s plan to revisit this after the next procurement cycle to confirm alignment with our risk management protocols.
+
+KR

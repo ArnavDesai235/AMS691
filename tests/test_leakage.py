@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -78,3 +79,21 @@ def test_configs_order_as_designed(tmp_path):
     assert lo <= rate("C3", "contam_canary") <= hi
     assert set(res["C1"]["summary"]["by_regime"]) <= {"hub", "non_hub", "absent"}
     print(table(res))
+
+
+def test_canary_in_entity_or_relation_name_counts():
+    """A node named after a canary leaks it even when its description does not repeat it."""
+    from types import SimpleNamespace as NS
+    from acl_rag.leakage import score_row
+    code = "SP-9062-V"
+    t = NS(canaries={"C0": {"kind": "structural"}}, canary_re={"C0": re.compile(code)},
+           node_src={code: ["ch-r"]}, edge_src={}, doc_users={}, chunk_doc={},
+           acl_of_chunks=lambda src: frozenset({"exec_1"}) if "ch-r" in src else frozenset({"pub_1"}),
+           regime=lambda name: "non_hub")
+    q = {"qid": "q", "user_id": "pub_1", "forbidden_canary_ids": ["C0"], "target_canary_ids": ["C0"],
+         "user_tier": "public", "type": "a", "eval_role": "probe", "target_name": "X"}
+    ent = {"retrieved": {"entities": [{"name": code, "description": "a budget code", "source_id": "ch-r"}]}}
+    assert score_row(t, q, ent)["struct_canary"]
+    rel = {"retrieved": {"relations": [{"src": "Pethisa Hebroren", "tgt": code, "description": "holds",
+                                        "keywords": "", "source_id": "ch-r"}]}}
+    assert score_row(t, q, rel)["struct_canary"]

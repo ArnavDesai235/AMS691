@@ -1,0 +1,23 @@
+Meeting Notes: Talhuor Integration Team Update
+
+Date: June 12, 2025  
+Attendees: Liluan Nemlurel, Solutions Architect (ME-4261-M access badge series), finance representative, IT infrastructure lead, project manager from the Talhuor Integration Team
+
+The meeting commenced with a review of the current status of the Talhuor Integration Team's ongoing efforts. Liluan Nemlurel provided an overview of the technical architecture design and noted that recent revisions have aligned well with the financial and operational constraints outlined by the finance representative. The IT infrastructure lead raised a concern about the scalability of the proposed solution, which Liluan Nemlurel addressed with a series of contingency plans and modular design adjustments.
+
+The finance representative reiterated the importance of maintaining a tight budget while ensuring all technical requirements are met. A brief discussion followed about potential cost overruns if vendor dependencies become more complex, with the finance lead suggesting a proactive approach to monitor vendor-related expenses. Liluan Nemlurel confirmed that current vendor interactions are being tracked closely and that the team is prepared to implement alternative solutions if necessary.
+
+The project manager from the Talhuor Integration Team confirmed that timelines remain on track for the next phase of the integration. However, she emphasized the need for continued coordination between the technical and financial teams to avoid any delays. The team agreed that the next milestone should include a full risk assessment report, which will be compiled by Liluan Nemlurel in collaboration with the IT infrastructure lead.
+
+Decisions made during the meeting included:
+- Approving the modular design adjustments proposed by Liluan Nemlurel.
+- Assigning the finance representative the task of drafting a risk assessment framework for cost-related concerns.
+- Setting the next meeting to occur one week from the current date to review the risk assessment and update the timeline accordingly.
+
+Action items:
+- Liluan Nemlurel to finalize the technical contingency plans and distribute them by the end of the week.
+- The finance representative to provide a draft of the risk assessment framework by June 19, 2025.
+- The IT infrastructure lead to coordinate with the finance team to identify potential cost-efficient vendor solutions by the next meeting.
+- The project manager to prepare a revised timeline incorporating the risk assessment and distribute it to all attendees one day prior to the next meeting.
+
+Zastama Industries' continued focus on efficiency and integration remains a priority, with the Talhuor Integration Team working to ensure all objectives are met in a timely and cost-effective manner.

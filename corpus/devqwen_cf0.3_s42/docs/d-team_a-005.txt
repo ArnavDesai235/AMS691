@@ -1,0 +1,73 @@
+Project Soramis and Project Nolaor Staffing Discussions
+
+From: Thokro Pobris  
+To: Vadesis Gummenbel  
+Subject: Project Soramis Timeline and Tooling Needs  
+
+Hi Vadesis Gummenbel,  
+
+I hope you're doing well. I wanted to check in with you regarding the data retention tooling for Project Soramis. With the target completion date set for Q3 FY26, it’s important we align on the timeline for finalizing the tooling strategy.  
+
+I know your team is heavily focused on data retention tooling, and I'm wondering if there are any dependencies or constraints that might affect the integration with the broader Project Soramis project. Thokro Pobris is working closely with the architecture team to ensure that the data layer can support the project's evolving requirements.  
+
+Let me know your thoughts, and if you'd like to schedule a session to walk through any specific aspects of the tooling design.  
+
+Thanks,  
+Thokro Pobris  
+
+---  
+
+From: Vadesis Gummenbel  
+To: Thokro Pobris  
+Subject: Re: Project Soramis Timeline and Tooling Needs  
+
+Hi Thokro Pobris,  
+
+Thanks for the message. I appreciate the heads-up about the Q3 FY26 target. Our team is indeed focused on data retention tooling, and we’re finalizing the core architecture for that part of the project.  
+
+I’ve also been made aware of the staffing details for Project Nolaor, which is staffed by 30 people. While that team has a different focus, we’re still coordinating on shared infrastructure needs. Thokro Pobris, if you or the architecture team require any input from us as the Solutions Architect, please don’t hesitate to reach out.  
+
+One thing I wanted to mention is the capacity at the Renzer Field Office. With its 240-seat capacity, we’ve been considering whether any of the Project Soramis team might need space there, depending on how the project scales. I’ll flag this with our facility manager to keep it in the conversation.
+
+The Renzer Field Office has capacity for 240 seats.
+
+Looking forward to your team’s feedback on the data tooling approach.  
+
+Best,  
+Vadesis Gummenbel  
+
+---  
+
+From: Thokro Pobris  
+To: Vadesis Gummenbel  
+Subject: Re: Project Soramis Timeline and Tooling Needs  
+
+Hi Vadesis Gummenbel,  
+
+Thanks for the detailed response. I appreciate the update on the tooling progress — it sounds like you’re making solid forward momentum.  
+
+I’ve also noted the mention of the Renzer Field Office’s capacity. That’s a good point — I’ll loop in the Project Soramis project lead to see if there’s any need to reassess where we might need to seat the team.  
+
+As for the data retention tooling, I’ll share the latest from the architecture team with you this week, and schedule a session with you and Thokro Pobris to walk through the integration plan.  
+
+Thanks again for the alignment. I’ll follow up once we have the draft in hand.  
+
+Best,  
+Thokro Pobris  
+
+---  
+
+From: Vadesis Gummenbel  
+To: Thokro Pobris  
+Subject: Re: Project Soramis Timeline and Tooling Needs  
+
+Hi Thokro Pobris,  
+
+You're welcome. I'll keep an eye out for the architecture team’s draft.  
+
+One quick note: if the Project Soramis team needs any additional resources or temporary workspace, we’ll need to evaluate whether the Renzer Field Office is the best fit based on current utilization. I’ll follow up with the facilities team to get a clearer picture of what’s available.  
+
+Let’s ensure we don’t lose sight of the Q3 FY26 target — if there are any risks to the timeline from a data tooling perspective, we need to flag them early.  
+
+Talk soon,  
+Vadesis Gummenbel

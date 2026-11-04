@@ -1,0 +1,38 @@
+Meeting Notes: Procurement Review and Engineering Coordination
+
+DATE: April 12, 2025  
+ATTENDEES: Thuszus Kustoen, Zosne Bramfa, Finance Representative, IT Procurement Lead  
+
+DISCUSSION POINTS:  
+- Thuszus Kustoen provided an overview of the procurement order ED-6940-B, which is currently under review. The order pertains to identity and access tooling, a critical need for ongoing infrastructure upgrades at the Brokamis Campus. The Finance Representative raised questions regarding the alignment of the requested items with the current fiscal year’s allocated budget for identity management solutions. Thuszus Kustoen outlined the anticipated timeline for deployment and the integration process with existing systems.  
+
+- Zosne Bramfa, who has been with the company since 2013, offered technical insights into the compatibility of the proposed tools with existing authentication protocols. As a Staff Engineer, she emphasized the importance of ensuring that any new tooling supports both the current and future scalability needs of the Brokamis Campus. Her feedback highlighted the need for close collaboration between the procurement team and IT engineering to avoid delays during implementation.  
+
+- The IT Procurement Lead noted that the same reference is currently awaiting final sign-off and that the vendor has confirmed readiness to ship upon approval. The Finance Representative reiterated the need to verify all cost components and ensure that no additional licensing or support fees are unaccounted for.  
+
+- A discussion followed regarding the potential impact of the same reference on other pending procurements for the Brokamis Campus. It was agreed that the procurement team should flag this order as high priority due to its strategic relevance to security infrastructure.  
+
+- Zosne Bramfa also raised a concern about the potential need for staff training on the new identity and access tools, particularly for teams that interact with the Brokamis Campus systems on a daily basis. She suggested that any onboarding plans should be coordinated with the rollout schedule to ensure a smooth transition.  
+
+- The Finance Representative raised the possibility of deferring a portion of the procurement if the full amount exceeds current projections. However, Thuszus Kustoen emphasized the importance of full procurement at this stage to avoid disruptions in deployment schedules.  
+
+- A request was made for a detailed breakdown of the vendor’s service-level agreements (SLAs) for the tools included in the same reference. The Procurement Lead indicated that such documentation is being compiled and should be available by the end of the week.  
+
+- Zosne Bramfa suggested that a follow-up meeting be scheduled to review the technical integration plan, particularly if there are any changes to the tooling’s functionality after review. She noted that the engineering team needs to be prepared for potential adjustments based on the final vendor deliverables.  
+
+- The Finance Representative confirmed that the final budget verification will be completed by April 18, 2025, and that the procurement team should be prepared for a rapid approval process if no issues are identified.  
+
+- Thuszus Kustoen reiterated that the Brokamis Campus is a key focus for identity and access modernization in the coming months, and that the same reference represents a foundational step toward meeting those objectives.  
+
+DECISIONS:  
+- the same reference will be prioritized for final approval, pending the Finance Representative’s budget confirmation.  
+- A technical review of the proposed tools, led by Zosne Bramfa, will be scheduled for the week of April 21 to ensure compatibility and scalability.  
+- The procurement team will coordinate with the Brokamis Campus engineering lead to schedule a training plan for staff who will be using the new identity and access tools.  
+- The Procurement Lead will provide the SLA breakdown by April 19, 2025, for review by the meeting attendees.  
+
+ACTION ITEMS:  
+- Finance Representative: Final budget verification for the same reference by April 18, 2025.  
+- Procurement Lead: Provide SLA documentation for the same reference by April 19, 2025.  
+- Zosne Bramfa: Coordinate with the Brokamis Campus engineering lead to prepare an initial integration plan for review on April 22, 2025.  
+- Thuszus Kustoen: Confirm vendor shipping readiness and final delivery schedule upon approval of the same reference.  
+- Procurement Team: Schedule follow-up meeting with engineering and finance leads on April 24 to review next steps and address any concerns.

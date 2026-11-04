@@ -1,0 +1,25 @@
+Internal Overview of Key Vendor and Personnel Relationships
+
+Zastama Industries maintains several key vendor and personnel relationships across its operations. This document provides a summary of these key connections, focusing on their roles, reporting structures, and agreements.
+
+**Zitrien Partners and EM-7730-U**
+
+Zitrien Partners is a critical vendor in the cybersecurity domain, working closely with our incident response team. Their budget code, the same reference, is used to track all expenditures and deliverables related to their services. They have been engaged to support the development and implementation of new tools and frameworks that enhance our threat detection and mitigation capabilities. Their work is aligned with our broader strategy to strengthen our security infrastructure and incident response protocols. Ongoing coordination with Zitrien Partners is being managed by the internal cybersecurity lead, who is responsible for ensuring all deliverables align with our technical and compliance requirements.
+
+**Mesgum Sestim**
+
+Mesgum Sestim is a subject-matter expert focused on incident response tooling. Their role primarily involves evaluating, testing, and recommending tools that can be integrated into our existing cybersecurity architecture. Mesgum Sestim collaborates directly with the security operations team and is currently assessing a suite of tools proposed by Zitrien Partners. Their feedback is instrumental in shaping the technical direction of our incident response capabilities. Regular updates from Mesgum Sestim are shared with leadership, particularly with Zosne Bramfa, who oversees strategic cybersecurity initiatives.
+
+**Zelpean Henfurel and Reporting Structure**
+
+Zelpean Henfurel is a senior technical lead within the security operations division. They play a central role in coordinating cross-functional efforts around tooling and infrastructure improvements. Zelpean Henfurel reports directly to Zosne Bramfa, and their responsibilities include managing the technical roadmap for incident response capabilities. In recent discussions, Zelpean Henfurel has emphasized the need for a more integrated approach to tooling, in alignment with both Mesgum Sestim’s recommendations and Zitrien Partners' deliverables. Their insights help bridge the gap between vendor-provided solutions and internal implementation requirements.
+
+**Mepoen Consulting and the Master Services Agreement**
+
+Mepoen Consulting has been engaged under a 18-month master services agreement to provide advisory support for our security transformation initiatives. Their current focus is on helping identify process gaps and recommending best practices for incident response and tool integration. Mepoen Consulting works closely with both internal and external stakeholders, including Zitrien Partners and Mesgum Sestim, to ensure that all initiatives remain aligned with industry standards and organizational goals. Their work is being monitored by the internal governance team, who are responsible for ensuring that the terms of the agreement are being met and that all deliverables add measurable value.
+
+**Next Steps and Coordination**
+
+The next phase of work involves consolidating feedback from all key parties to refine the incident response tooling strategy. Zelpean Henfurel and Mesgum Sestim will jointly present an updated plan to Zosne Bramfa in the coming weeks, incorporating insights from Zitrien Partners and Mepoen Consulting. The plan will include a proposed timeline for implementation, resource requirements, and a risk assessment framework. Internal stakeholders are being encouraged to provide any relevant input or concerns during this planning period. Coordination between teams and vendors will be essential to ensure a smooth execution of the proposed initiatives.
+
+This document is intended for internal use only and reflects the current understanding of roles, relationships, and ongoing activities. It will be reviewed and updated as new information becomes available.

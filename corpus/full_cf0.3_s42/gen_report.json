@@ -1,0 +1,1251 @@
+{
+  "n_docs_planned": 300,
+  "n_docs_ok": 300,
+  "failed": [],
+  "attempts_hist": {
+    "1": 228,
+    "2": 63,
+    "3": 8,
+    "5": 1
+  },
+  "n_docs_repaired": 233,
+  "repairs": {
+    "d-public-000": [
+      "attempt 1: inserted fact: Nedroran Fabrication holds a 24-month master services agreement."
+    ],
+    "d-public-002": [
+      "attempt 1: name \"Hindas\" -> \"Hindas Brukruan\"",
+      "attempt 1: name \"Hindas\" -> \"Hindas Brukruan\"",
+      "attempt 1: name \"Garhoel\" -> \"Garhoel Thaterona\"",
+      "attempt 1: name \"Garhoel\" -> \"Garhoel Thaterona\"",
+      "attempt 1: name \"Vosaett\" -> \"Vosaett Neldelis\"",
+      "attempt 1: inserted fact: Garhoel Thaterona works as a Procurement Manager."
+    ],
+    "d-public-010": [
+      "attempt 1: name \"Zevus\" -> \"Zevus Lokramel\"",
+      "attempt 1: name \"Fongois\" -> \"Fongois Bakemdia\"",
+      "attempt 1: name \"Fongois\" -> \"Fongois Bakemdia\"",
+      "attempt 1: name \"Kragura\" -> \"Kragura Stenmori\"",
+      "attempt 1: name \"Kragura\" -> \"Kragura Stenmori\"",
+      "attempt 1: name \"Kragura\" -> \"Kragura Stenmori\"",
+      "attempt 1: inserted fact: The Lardoel Campus has capacity for 320 seats."
+    ],
+    "d-public-008": [
+      "attempt 1: inserted fact: Desgua Stebela focuses on incident response tooling."
+    ],
+    "d-public-011": [
+      "attempt 1: inserted fact: Mareror Zulpol works as a Legal Counsel."
+    ],
+    "d-public-013": [
+      "attempt 1: name \"Broteor\" -> \"Broteor Pikrisen\"",
+      "attempt 1: name \"Broteor\" -> \"Broteor Pikrisen\"",
+      "attempt 1: name \"Broteor\" -> \"Broteor Pikrisen\"",
+      "attempt 1: name \"Dronoan\" -> \"Dronoan Bolgesan\"",
+      "attempt 1: name \"Dronoan\" -> \"Dronoan Bolgesan\""
+    ],
+    "d-public-015": [
+      "attempt 1: inserted fact: The Thellusen Applied Research Lab has 21 people.",
+      "attempt 1: inserted fact: Kavemen Hilister works as a Chief of Staff."
+    ],
+    "d-public-012": [
+      "attempt 1: name \"Gonnom\" -> \"Gonnom Gosmunza\""
+    ],
+    "d-public-009": [
+      "attempt 1: name \"Drurlomis Integration\" -> \"Drurlomis Integration Team\""
+    ],
+    "d-public-017": [
+      "attempt 1: inserted fact: Project Dramen is currently in early design."
+    ],
+    "d-public-019": [
+      "attempt 1: inserted fact: Project Sankonen is staffed by 16 people."
+    ],
+    "d-public-018": [
+      "attempt 1: inserted fact: The Zugula Infrastructure Team has 38 people."
+    ],
+    "d-public-021": [
+      "attempt 1: inserted fact: The Krodroan Infrastructure Team has 4 people."
+    ],
+    "d-public-022": [
+      "attempt 1: name \"Lithen\" -> \"Lithen Brisisel\"",
+      "attempt 1: name \"Berruan\" -> \"Berruan Zenresan\"",
+      "attempt 1: name \"Bedras\" -> \"Bedras Sarkua\"",
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\"",
+      "attempt 1: inserted fact: Project Thibelan is currently paused pending review."
+    ],
+    "d-public-020": [
+      "attempt 1: name \"Fozuen\" -> \"Fozuen Runpaor\"",
+      "attempt 1: name \"Fovaen\" -> \"Fovaen Zomvesor\"",
+      "attempt 1: name \"Fovaen\" -> \"Fovaen Zomvesor\"",
+      "attempt 1: name \"Fakra\" -> \"Fakra Sermus\""
+    ],
+    "d-public-024": [
+      "attempt 1: name \"Ralamel\" -> \"Project Ralamel\"",
+      "attempt 1: inserted fact: Project Ralamel is staffed by 5 people."
+    ],
+    "d-public-026": [
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Fonathe\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Demse\" -> \"Demse Dofama\""
+    ],
+    "d-public-030": [
+      "attempt 1: inserted fact: Pinduen Gersolel joined the company in 2017.",
+      "attempt 1: inserted fact: Gonnom Gosmunza works as a Director of Engineering.",
+      "attempt 1: inserted fact: Zonvor Dirnasor works as a Director of Engineering."
+    ],
+    "d-public-027": [
+      "attempt 1: inserted fact: Siduris Pirpoan focuses on customer onboarding flows."
+    ],
+    "d-public-029": [
+      "attempt 1: name \"Pethisa\" -> \"Pethisa Hebroren\"",
+      "attempt 1: name \"Pethisa\" -> \"Pethisa Hebroren\""
+    ],
+    "d-public-033": [
+      "attempt 1: name \"Givien\" -> \"Givien Mubren\"",
+      "attempt 1: name \"Bedras\" -> \"Bedras Sarkua\"",
+      "attempt 1: name \"Kavemen\" -> \"Kavemen Hilister\"",
+      "attempt 1: inserted fact: Givien Mubren works as a Product Manager."
+    ],
+    "d-public-031": [
+      "attempt 1: inserted fact: Project Laboel is staffed by 32 people.",
+      "attempt 2: inserted fact: Project Laboel is staffed by 32 people."
+    ],
+    "d-public-035": [
+      "attempt 1: name \"Tikrais\" -> \"Drikres Tikrais\"",
+      "attempt 1: name \"Drinvamor\" -> \"Balpoen Drinvamor\"",
+      "attempt 1: name \"Tremais\" -> \"Zenam Tremais\""
+    ],
+    "d-public-039": [
+      "attempt 1: name \"Zevus\" -> \"Zevus Lokramel\"",
+      "attempt 1: inserted fact: Mareror Zulpol works as a Legal Counsel.",
+      "attempt 1: inserted fact: Zevus Lokramel works as a Product Manager.",
+      "attempt 1: inserted fact: Kavemen Hilister works as a Chief of Staff."
+    ],
+    "d-public-038": [
+      "attempt 1: inserted fact: Project Serinen is staffed by 40 people.",
+      "attempt 1: inserted fact: Project Medeis is staffed by 25 people."
+    ],
+    "d-public-042": [
+      "attempt 1: name \"Krodaor\" -> \"Krodaor Thaborine\"",
+      "attempt 1: name \"Toperel\" -> \"Toperel Brirdoan\"",
+      "attempt 1: inserted fact: Project Medeis is currently in pilot."
+    ],
+    "d-public-045": [
+      "attempt 1: name \"Remfom\" -> \"Remfom Minfufoa\"",
+      "attempt 1: name \"Zevus\" -> \"Zevus Lokramel\"",
+      "attempt 1: name \"Zevus\" -> \"Zevus Lokramel\"",
+      "attempt 1: name \"Fongois\" -> \"Fongois Bakemdia\"",
+      "attempt 1: name \"Garhoel\" -> \"Garhoel Thaterona\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\""
+    ],
+    "d-public-044": [
+      "attempt 1: name \"Rimoett\" -> \"Rimoett Dozeine\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\""
+    ],
+    "d-public-046": [
+      "attempt 2: name \"Lardoel\" -> \"Lardoel Campus\""
+    ],
+    "d-public-048": [
+      "attempt 1: inserted fact: Project Drannen is currently paused pending review."
+    ],
+    "d-public-050": [
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\""
+    ],
+    "d-public-051": [
+      "attempt 1: inserted fact: Project Kanponan is currently in pilot."
+    ],
+    "d-public-049": [
+      "attempt 1: name \"Demse\" -> \"Demse Dofama\"",
+      "attempt 1: name \"Demse\" -> \"Demse Dofama\"",
+      "attempt 1: name \"Rinu\" -> \"Rinu Gesolen\"",
+      "attempt 1: name \"Novoran\" -> \"Novoran Trabrelor\"",
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\""
+    ],
+    "d-public-052": [
+      "attempt 1: name \"Leveine\" -> \"Leveine Brarpil\"",
+      "attempt 1: name \"Leveine\" -> \"Leveine Brarpil\"",
+      "attempt 1: name \"Statugoan\" -> \"Project Statugoan\"",
+      "attempt 1: name \"Debrol\" -> \"Debrol Babroine\"",
+      "attempt 1: name \"Soramis\" -> \"Soramis Nolaor\"",
+      "attempt 1: name \"Soramis\" -> \"Soramis Nolaor\""
+    ],
+    "d-public-056": [
+      "attempt 1: name \"Mubren\" -> \"Givien Mubren\"",
+      "attempt 1: inserted fact: The Tanumett Relay has about 900 active users."
+    ],
+    "d-public-055": [
+      "attempt 1: name \"Nammian\" -> \"Nammian Bahoine\"",
+      "attempt 1: name \"Nammian\" -> \"Nammian Bahoine\"",
+      "attempt 1: name \"Nammian\" -> \"Nammian Bahoine\"",
+      "attempt 1: name \"Nammian\" -> \"Nammian Bahoine\"",
+      "attempt 1: name \"Nammian\" -> \"Nammian Bahoine\"",
+      "attempt 1: name \"Gonnom\" -> \"Gonnom Gosmunza\"",
+      "attempt 1: name \"Gonnom\" -> \"Gonnom Gosmunza\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Thokro\" -> \"Thokro Pobris\"",
+      "attempt 1: name \"Nasomel\" -> \"Nasomel Sonmerett\"",
+      "attempt 1: name \"Nasomel\" -> \"Nasomel Sonmerett\"",
+      "attempt 1: name \"Nasomel\" -> \"Nasomel Sonmerett\"",
+      "attempt 1: name \"Nasomel\" -> \"Nasomel Sonmerett\""
+    ],
+    "d-public-053": [
+      "attempt 1: inserted fact: Project Lovulett is staffed by 6 people."
+    ],
+    "d-public-058": [
+      "attempt 1: name \"Kosnaren\" -> \"Kosnaren Systems\"",
+      "attempt 1: name \"Zerfuan\" -> \"Zerfuan Thasdaett\"",
+      "attempt 1: name \"Zerfuan\" -> \"Zerfuan Thasdaett\"",
+      "attempt 1: name \"Givien\" -> \"Givien Mubren\""
+    ],
+    "d-public-059": [
+      "attempt 1: inserted fact: Drestoa Hasgaor works as an UX Researcher."
+    ],
+    "d-public-060": [
+      "attempt 1: name \"Fozuen\" -> \"Fozuen Runpaor\"",
+      "attempt 1: name \"Tamzoa\" -> \"Tamzoa Nargoett\"",
+      "attempt 1: name \"Tamzoa\" -> \"Tamzoa Nargoett\""
+    ],
+    "d-public-061": [
+      "attempt 1: inserted fact: The Vurlekri Annex has capacity for 360 seats."
+    ],
+    "d-public-067": [
+      "attempt 1: name \"Remfom\" -> \"Remfom Minfufoa\"",
+      "attempt 1: name \"Zerfuan\" -> \"Zerfuan Thasdaett\"",
+      "attempt 1: name \"Givien\" -> \"Givien Mubren\"",
+      "attempt 1: name \"Kavemen\" -> \"Kavemen Hilister\"",
+      "attempt 1: name \"Kavemen\" -> \"Kavemen Hilister\""
+    ],
+    "d-public-070": [
+      "attempt 1: name \"Vomkolel\" -> \"Project Vomkolel\""
+    ],
+    "d-public-065": [
+      "attempt 1: name \"Tanla\" -> \"Tanla Terlusvi\""
+    ],
+    "d-public-066": [
+      "attempt 1: name \"Zugula team\" -> \"Zugula Infrastructure Team\"",
+      "attempt 1: inserted fact: Gobena Hoszesine focuses on identity and access tooling."
+    ],
+    "d-public-074": [
+      "attempt 1: name \"Hethe\" -> \"Hethe Potannuel\"",
+      "attempt 1: name \"Sotroa\" -> \"Sotroa Veriris\""
+    ],
+    "d-public-071": [
+      "attempt 1: name \"Nerpia\" -> \"Nerpia Sironel\"",
+      "attempt 1: name \"Nerpia\" -> \"Nerpia Sironel\"",
+      "attempt 1: name \"Fakra\" -> \"Fakra Sermus\""
+    ],
+    "d-public-079": [
+      "attempt 1: name \"Relhael\" -> \"Relhael Thunmam\"",
+      "attempt 1: name \"Dretho\" -> \"Dretho Stopasel\"",
+      "attempt 1: name \"Dretho\" -> \"Dretho Stopasel\"",
+      "attempt 1: name \"Dretho\" -> \"Dretho Stopasel\"",
+      "attempt 1: name \"Thikama\" -> \"Thikama Harlurine\"",
+      "attempt 1: name \"Thikama\" -> \"Thikama Harlurine\"",
+      "attempt 1: name \"Thikama\" -> \"Thikama Harlurine\"",
+      "attempt 1: name \"Tamzoa\" -> \"Tamzoa Nargoett\"",
+      "attempt 1: name \"Tamzoa\" -> \"Tamzoa Nargoett\"",
+      "attempt 1: name \"Tamzoa\" -> \"Tamzoa Nargoett\"",
+      "attempt 1: inserted fact: Thikama Harlurine works as a Data Scientist."
+    ],
+    "d-public-081": [
+      "attempt 1: name \"Hamuis\" -> \"Project Hamuis\""
+    ],
+    "d-public-080": [
+      "attempt 1: name \"Gudrosa\" -> \"Gudrosa Ganema\"",
+      "attempt 1: name \"Gudrosa\" -> \"Gudrosa Ganema\""
+    ],
+    "d-public-078": [
+      "attempt 1: name \"Fovaen\" -> \"Fovaen Zomvesor\"",
+      "attempt 1: name \"Fovaen\" -> \"Fovaen Zomvesor\"",
+      "attempt 1: name \"Drisfer\" -> \"Drisfer Ganlanis\"",
+      "attempt 1: name \"Hindas\" -> \"Hindas Brukruan\"",
+      "attempt 1: name \"Votirmi\" -> \"Votirmi Tresbior\""
+    ],
+    "d-public-083": [
+      "attempt 1: name \"Zokruis\" -> \"Zokruis Kulvamett\"",
+      "attempt 1: name \"Gobena\" -> \"Gobena Hoszesine\"",
+      "attempt 1: name \"Tanla\" -> \"Tanla Terlusvi\"",
+      "attempt 1: name \"Tanla\" -> \"Tanla Terlusvi\""
+    ],
+    "d-public-082": [
+      "attempt 1: name \"Holol\" -> \"Holol Kareman\"",
+      "attempt 1: name \"Thegen\" -> \"Thegen Zilkanett\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\"",
+      "attempt 1: name \"Dreto\" -> \"Dreto Zampusrar\"",
+      "attempt 1: inserted fact: The Trehaett Applied Research Lab has 16 people."
+    ],
+    "d-public-087": [
+      "attempt 1: name \"Talgal\" -> \"Talgal Trozien\"",
+      "attempt 1: name \"Debrol\" -> \"Debrol Babroine\"",
+      "attempt 1: name \"Debrol\" -> \"Debrol Babroine\"",
+      "attempt 1: name \"Berruan\" -> \"Berruan Zenresan\"",
+      "attempt 1: name \"Hindas\" -> \"Hindas Brukruan\"",
+      "attempt 1: name \"Hindas\" -> \"Hindas Brukruan\"",
+      "attempt 1: inserted fact: Project Pomtorgi is staffed by 22 people."
+    ],
+    "d-public-088": [
+      "attempt 1: name \"Gobena\" -> \"Gobena Hoszesine\"",
+      "attempt 1: name \"Gobena\" -> \"Gobena Hoszesine\"",
+      "attempt 1: name \"Debrol\" -> \"Debrol Babroine\"",
+      "attempt 1: name \"Givien\" -> \"Givien Mubren\"",
+      "attempt 1: name \"Selnaor\" -> \"Selnaor Padroa\"",
+      "attempt 1: inserted fact: Gobena Hoszesine focuses on identity and access tooling.",
+      "attempt 1: inserted fact: Gobena Hoszesine joined the company in 2019."
+    ],
+    "d-public-090": [
+      "attempt 1: inserted fact: Project Lovulett is staffed by 6 people."
+    ],
+    "d-public-089": [
+      "attempt 1: name \"Velbirum\" -> \"Project Velbirum\"",
+      "attempt 1: inserted fact: Vambi Herganen works as a Chief of Staff.",
+      "attempt 1: inserted fact: Mominen Dosalen works as a Chief of Staff."
+    ],
+    "d-public-092": [
+      "attempt 1: inserted fact: Zodoine Vemdaen joined the company in 2012.",
+      "attempt 1: inserted fact: Nasgo Kesloren works as a Research Lead."
+    ],
+    "d-public-093": [
+      "attempt 1: inserted fact: Thokro Pobris focuses on fleet telemetry.",
+      "attempt 1: inserted fact: Trikria Drazorel focuses on incident response tooling."
+    ],
+    "d-public-095": [
+      "attempt 1: name \"Daslalett\" -> \"Project Daslalett\""
+    ],
+    "d-public-096": [
+      "attempt 1: name \"Dodela\" -> \"Verlaen Dodela\"",
+      "attempt 1: name \"Tudima\" -> \"Porpean Tudima\""
+    ],
+    "d-public-094": [
+      "attempt 1: name \"Burteor\" -> \"Burteor Vudiren\"",
+      "attempt 1: name \"Burteor\" -> \"Burteor Vudiren\"",
+      "attempt 1: name \"Vosaett\" -> \"Vosaett Neldelis\"",
+      "attempt 1: name \"Vosaett\" -> \"Vosaett Neldelis\"",
+      "attempt 1: name \"Vosaett\" -> \"Vosaett Neldelis\""
+    ],
+    "d-public-099": [
+      "attempt 1: inserted fact: The Bankis Compass is offered in the partner tier."
+    ],
+    "d-public-098": [
+      "attempt 1: inserted fact: The Genfinel Platform Group has 7 people."
+    ],
+    "d-public-101": [
+      "attempt 1: name \"Zokruis\" -> \"Zokruis Kulvamett\"",
+      "attempt 1: name \"Zonvor\" -> \"Zonvor Dirnasor\""
+    ],
+    "d-public-105": [
+      "attempt 1: inserted fact: Project Kanponan is currently in pilot."
+    ],
+    "d-public-106": [
+      "attempt 1: name \"Dretho\" -> \"Dretho Stopasel\"",
+      "attempt 1: name \"Nerpia\" -> \"Nerpia Sironel\"",
+      "attempt 1: name \"Nerpia\" -> \"Nerpia Sironel\"",
+      "attempt 1: name \"Kavemen\" -> \"Kavemen Hilister\"",
+      "attempt 1: name \"Kavemen\" -> \"Kavemen Hilister\""
+    ],
+    "d-public-104": [
+      "attempt 1: name \"Pinduen\" -> \"Pinduen Gersolel\"",
+      "attempt 1: name \"Vosaett\" -> \"Vosaett Neldelis\"",
+      "attempt 1: name \"Vosaett\" -> \"Vosaett Neldelis\""
+    ],
+    "d-public-103": [
+      "attempt 1: inserted fact: Project Serinen is staffed by 40 people."
+    ],
+    "d-public-107": [
+      "attempt 1: name \"Gehoel\" -> \"Gehoel Karherel\"",
+      "attempt 1: name \"Gehoel\" -> \"Gehoel Karherel\"",
+      "attempt 1: name \"Nerpia\" -> \"Nerpia Sironel\"",
+      "attempt 1: name \"Nerpia\" -> \"Nerpia Sironel\"",
+      "attempt 1: name \"Vambi\" -> \"Vambi Herganen\""
+    ],
+    "d-public-108": [
+      "attempt 1: name \"Hoha\" -> \"Hoha Stebremen\"",
+      "attempt 1: name \"Hoha\" -> \"Hoha Stebremen\"",
+      "attempt 1: name \"Nufeis\" -> \"Nufeis Rangoen\"",
+      "attempt 1: name \"Nufeis\" -> \"Nufeis Rangoen\"",
+      "attempt 1: name \"Drestoa\" -> \"Drestoa Hasgaor\"",
+      "attempt 1: name \"Drestoa\" -> \"Drestoa Hasgaor\"",
+      "attempt 1: inserted fact: Drestoa Hasgaor focuses on demand forecasting models."
+    ],
+    "d-public-109": [
+      "attempt 1: inserted fact: Liha Medrorel works as a Site Reliability Lead.",
+      "attempt 1: inserted fact: Geszea Tonzamnel focuses on customer onboarding flows.",
+      "attempt 1: inserted fact: Project Sankonen is staffed by 16 people."
+    ],
+    "d-public-111": [
+      "attempt 1: inserted fact: Pikera Tasfeis works as a Product Manager."
+    ],
+    "d-public-114": [
+      "attempt 1: inserted fact: The Drurlomis Integration Team has 25 people."
+    ],
+    "d-public-112": [
+      "attempt 1: inserted fact: Project Vatuen is staffed by 5 people.",
+      "attempt 1: inserted fact: Project Sankonen is staffed by 16 people."
+    ],
+    "d-public-115": [
+      "attempt 1: name \"Minkegais\" -> \"Project Minkegais\"",
+      "attempt 1: name \"Drugilett\" -> \"Project Drugilett\"",
+      "attempt 1: name \"Fozuen\" -> \"Fozuen Runpaor\"",
+      "attempt 1: name \"Vadesis\" -> \"Vadesis Gummenbel\"",
+      "attempt 1: inserted fact: Project Minkegais is currently in early design."
+    ],
+    "d-public-113": [
+      "attempt 1: name \"Kelhupi\" -> \"Kelhupi Rabralor\""
+    ],
+    "d-public-119": [
+      "attempt 1: name \"Drirum\" -> \"Fonathe Drirum\"",
+      "attempt 1: name \"Branilen\" -> \"Kidasa Branilen\""
+    ],
+    "d-team_a-002": [
+      "attempt 1: code GU-4932-D: kept 1 of 3 occurrences",
+      "attempt 1: code QC-9910-K: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-001": [
+      "attempt 1: code PW-7857-J: re-anchored with planned sentence"
+    ],
+    "d-team_a-006": [
+      "attempt 1: code QK-5662-N: kept 1 of 4 occurrences",
+      "attempt 1: code GL-5822-U: re-anchored with planned sentence"
+    ],
+    "d-team_a-004": [
+      "attempt 1: name \"Momoma\" -> \"Momoma Gegarruel\"",
+      "attempt 1: code AK-9715-Y: re-anchored with planned sentence",
+      "attempt 1: code JR-9775-E: re-anchored with planned sentence"
+    ],
+    "d-team_a-005": [
+      "attempt 1: name \"Kestoen\" -> \"Kestoen Pismiett\"",
+      "attempt 1: name \"Getaine\" -> \"Getaine Hebruen\"",
+      "attempt 1: name \"Getaine\" -> \"Getaine Hebruen\"",
+      "attempt 1: code ZC-5356-V: kept 1 of 2 occurrences",
+      "attempt 1: code YL-9987-M: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-003": [
+      "attempt 1: inserted fact: Project Brasti is currently in early design.",
+      "attempt 1: inserted fact: Project Dremtona is staffed by 24 people."
+    ],
+    "d-team_a-009": [
+      "attempt 1: code HF-4564-S: kept 1 of 2 occurrences",
+      "attempt 1: code JZ-6764-D: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-007": [
+      "attempt 1: code BC-2450-Q: kept 1 of 2 occurrences",
+      "attempt 1: code YG-2546-M: re-anchored with planned sentence"
+    ],
+    "d-team_a-011": [
+      "attempt 1: code TM-1841-G: re-anchored with planned sentence",
+      "attempt 1: code GN-2865-V: re-anchored with planned sentence"
+    ],
+    "d-team_a-010": [
+      "attempt 1: name \"Maneor\" -> \"Maneor Tismean\"",
+      "attempt 1: name \"Maneor\" -> \"Maneor Tismean\"",
+      "attempt 1: name \"Maneor\" -> \"Maneor Tismean\"",
+      "attempt 1: name \"Kradeor\" -> \"Kradeor Nanmerel\"",
+      "attempt 1: code SC-6029-M: kept 1 of 5 occurrences",
+      "attempt 1: code RB-8721-A: kept 1 of 6 occurrences",
+      "attempt 1: inserted fact: Maneor Tismean works as a Compliance Officer.",
+      "attempt 2: code SC-6029-M: kept 1 of 2 occurrences",
+      "attempt 2: code RB-8721-A: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-014": [
+      "attempt 1: code EM-7730-U: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-012": [
+      "attempt 1: name \"Pelron\" -> \"Pelron Loshoan\"",
+      "attempt 1: name \"Pelron\" -> \"Pelron Loshoan\"",
+      "attempt 1: name \"Mesgum\" -> \"Mesgum Sestim\"",
+      "attempt 1: name \"Mesgum\" -> \"Mesgum Sestim\"",
+      "attempt 1: name \"Mesgum\" -> \"Mesgum Sestim\"",
+      "attempt 1: code VN-6054-P: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Pelron Loshoan works as a Compliance Officer."
+    ],
+    "d-team_a-013": [
+      "attempt 1: code QZ-7654-Q: kept 1 of 2 occurrences",
+      "attempt 1: code LP-3408-A: re-anchored with planned sentence",
+      "attempt 2: code QZ-7654-Q: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-017": [
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zosne\" -> \"Zosne Bramfa\"",
+      "attempt 1: name \"Zosne\" -> \"Zosne Bramfa\"",
+      "attempt 1: name \"Zosne\" -> \"Zosne Bramfa\"",
+      "attempt 1: name \"Zosne\" -> \"Zosne Bramfa\"",
+      "attempt 1: code WQ-7916-D: kept 1 of 4 occurrences",
+      "attempt 1: inserted fact: Staski Rakresett works as a Finance Lead."
+    ],
+    "d-team_a-015": [
+      "attempt 1: name \"Maneor\" -> \"Maneor Tismean\"",
+      "attempt 1: name \"Maneor\" -> \"Maneor Tismean\"",
+      "attempt 1: code EP-8854-N: re-anchored with planned sentence"
+    ],
+    "d-team_a-016": [
+      "attempt 1: code YW-7708-V: kept 1 of 5 occurrences",
+      "attempt 1: code LF-8203-Z: kept 1 of 3 occurrences",
+      "attempt 1: code PH-6385-V: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-019": [
+      "attempt 1: code QF-4395-B: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-018": [
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: name \"Zelpean\" -> \"Zelpean Henfurel\"",
+      "attempt 1: code YR-7306-C: kept 1 of 5 occurrences",
+      "attempt 1: code FK-4504-X: kept 1 of 6 occurrences",
+      "attempt 1: inserted fact: Zelpean Henfurel focuses on payments reconciliation."
+    ],
+    "d-team_a-021": [
+      "attempt 1: code BR-3283-T: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-024": [
+      "attempt 1: code SP-9062-V: kept 1 of 3 occurrences",
+      "attempt 1: code FU-5296-P: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Niparor Tamsola works as an Operations Manager."
+    ],
+    "d-team_a-022": [
+      "attempt 1: name \"Pobraor\" -> \"Pobraor Tosaett\"",
+      "attempt 1: code GD-5981-E: re-anchored with planned sentence"
+    ],
+    "d-team_a-023": [
+      "attempt 1: code XN-5759-X: kept 1 of 2 occurrences",
+      "attempt 1: code QB-3134-X: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-027": [
+      "attempt 1: code GP-1355-Q: re-anchored with planned sentence",
+      "attempt 1: code CY-7072-K: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Project Kifevoett is currently paused pending review."
+    ],
+    "d-team_a-025": [
+      "attempt 1: code LG-3425-W: kept 1 of 4 occurrences",
+      "attempt 1: inserted fact: Staski Rakresett works as a Finance Lead."
+    ],
+    "d-team_a-028": [
+      "attempt 1: code NZ-9077-R: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-026": [
+      "attempt 1: code DQ-2145-X: kept 1 of 2 occurrences",
+      "attempt 1: code FE-3085-V: kept 1 of 3 occurrences",
+      "attempt 2: code DQ-2145-X: kept 1 of 2 occurrences",
+      "attempt 2: code FE-3085-V: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-029": [
+      "attempt 1: code NC-6764-U: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-032": [
+      "attempt 1: code MU-7229-M: kept 1 of 2 occurrences",
+      "attempt 1: code HA-6151-Q: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-020": [
+      "attempt 1: code QS-9556-D: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Project Tosven has an approved budget of $0.4M.",
+      "attempt 1: inserted fact: The Donnoett Loom is scheduled to launch in Q1 FY26.",
+      "attempt 2: code QS-9556-D: kept 1 of 2 occurrences",
+      "attempt 3: code QS-9556-D: kept 1 of 2 occurrences",
+      "attempt 4: code QS-9556-D: kept 1 of 2 occurrences",
+      "attempt 5: code WZ-3126-J: re-anchored with planned sentence",
+      "attempt 5: code QS-9556-D: re-anchored with planned sentence"
+    ],
+    "d-team_a-030": [
+      "attempt 1: name \"Krernem\" -> \"Krernem Femmomine\"",
+      "attempt 1: name \"Krernem\" -> \"Krernem Femmomine\"",
+      "attempt 1: code NN-9340-N: re-anchored with planned sentence",
+      "attempt 1: code LD-8744-S: re-anchored with planned sentence"
+    ],
+    "d-team_a-031": [
+      "attempt 1: code FJ-1478-C: kept 1 of 3 occurrences",
+      "attempt 1: code ZP-3417-M: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-036": [
+      "attempt 1: code XA-2814-T: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-033": [
+      "attempt 1: code KU-9802-C: kept 1 of 4 occurrences",
+      "attempt 1: code CK-8867-C: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Vullaor Troporett works as a Solutions Architect."
+    ],
+    "d-team_a-034": [
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Staski\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Dopusa\" -> \"Dopusa Varesett\"",
+      "attempt 1: name \"Dopusa\" -> \"Dopusa Varesett\"",
+      "attempt 1: name \"Dopusa\" -> \"Dopusa Varesett\"",
+      "attempt 1: name \"Dopusa\" -> \"Dopusa Varesett\"",
+      "attempt 1: code SX-3345-S: kept 1 of 2 occurrences",
+      "attempt 1: code CX-5634-J: re-anchored with planned sentence"
+    ],
+    "d-team_a-038": [
+      "attempt 1: code CL-9764-L: kept 1 of 3 occurrences",
+      "attempt 1: code DU-5061-D: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-035": [
+      "attempt 1: code XX-6801-K: kept 1 of 2 occurrences",
+      "attempt 1: code PS-2577-A: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-039": [
+      "attempt 1: code DJ-7108-L: kept 1 of 2 occurrences",
+      "attempt 1: code CP-4865-H: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-040": [
+      "attempt 1: code TU-1566-Y: kept 1 of 4 occurrences",
+      "attempt 1: code GW-2651-D: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-041": [
+      "attempt 1: code UW-4067-X: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-043": [
+      "attempt 1: name \"Leroror\" -> \"Leroror Lukaine\"",
+      "attempt 1: name \"Leroror\" -> \"Leroror Lukaine\"",
+      "attempt 1: name \"Tukrama\" -> \"Project Tukrama\"",
+      "attempt 1: code WL-2632-A: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Leroror Lukaine focuses on warehouse automation."
+    ],
+    "d-team_a-045": [
+      "attempt 1: code TE-1756-V: kept 1 of 7 occurrences",
+      "attempt 1: code GC-9642-F: re-anchored with planned sentence"
+    ],
+    "d-team_a-047": [
+      "attempt 1: code SE-6217-U: kept 1 of 2 occurrences",
+      "attempt 1: code RN-9130-P: kept 1 of 2 occurrences"
+    ],
+    "d-team_a-048": [
+      "attempt 1: code UA-1088-X: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Project Lathonel is staffed by 17 people."
+    ],
+    "d-team_a-046": [
+      "attempt 1: name \"Kradeor\" -> \"Kradeor Nanmerel\"",
+      "attempt 1: name \"Vullaor\" -> \"Vullaor Troporett\"",
+      "attempt 1: code JF-9451-G: re-anchored with planned sentence",
+      "attempt 1: code YJ-1410-Z: re-anchored with planned sentence"
+    ],
+    "d-team_a-051": [
+      "attempt 1: name \"Boruan\" -> \"Boruan Krakrer\"",
+      "attempt 1: name \"Boruan\" -> \"Boruan Krakrer\"",
+      "attempt 1: name \"Kradeor\" -> \"Kradeor Nanmerel\"",
+      "attempt 1: name \"Kradeor\" -> \"Kradeor Nanmerel\"",
+      "attempt 1: code HP-9139-C: re-anchored with planned sentence",
+      "attempt 1: code CS-2284-W: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Boruan Krakrer works as a Director of Engineering."
+    ],
+    "d-team_a-049": [
+      "attempt 1: code KV-3765-J: kept 1 of 2 occurrences",
+      "attempt 1: code RH-4278-L: re-anchored with planned sentence"
+    ],
+    "d-team_a-052": [
+      "attempt 1: name \"Vullaor\" -> \"Vullaor Troporett\"",
+      "attempt 1: name \"Vullaor\" -> \"Vullaor Troporett\"",
+      "attempt 1: code CB-2686-N: kept 1 of 3 occurrences",
+      "attempt 1: code VA-7611-P: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-054": [
+      "attempt 1: code NM-2868-E: re-anchored with planned sentence",
+      "attempt 1: code GE-7471-V: re-anchored with planned sentence"
+    ],
+    "d-team_a-055": [
+      "attempt 1: name \"Rakresett\" -> \"Staski Rakresett\"",
+      "attempt 1: name \"Gegarruel\" -> \"Momoma Gegarruel\"",
+      "attempt 1: code ZN-6297-G: kept 1 of 4 occurrences",
+      "attempt 1: code UN-5424-G: kept 1 of 4 occurrences"
+    ],
+    "d-team_a-059": [
+      "attempt 1: code BY-2837-L: kept 1 of 4 occurrences",
+      "attempt 1: code WV-2960-X: kept 1 of 4 occurrences"
+    ],
+    "d-team_a-058": [
+      "attempt 1: name \"Dopusa\" -> \"Dopusa Varesett\"",
+      "attempt 1: name \"Dopusa\" -> \"Dopusa Varesett\"",
+      "attempt 1: code DM-8568-P: kept 1 of 6 occurrences",
+      "attempt 1: code XR-4232-L: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Project Stepoen is currently in early design."
+    ],
+    "d-team_b-001": [
+      "attempt 1: code AB-8993-C: kept 1 of 2 occurrences",
+      "attempt 1: code DH-8967-J: kept 1 of 2 occurrences",
+      "attempt 2: code AB-8993-C: kept 1 of 2 occurrences",
+      "attempt 2: code DH-8967-J: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-000": [
+      "attempt 1: code AP-5807-Z: re-anchored with planned sentence",
+      "attempt 1: code UR-7664-C: re-anchored with planned sentence",
+      "attempt 2: code AP-5807-Z: kept 1 of 2 occurrences",
+      "attempt 2: code UR-7664-C: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-003": [
+      "attempt 1: code UC-9813-H: kept 1 of 3 occurrences",
+      "attempt 1: inserted fact: Project Dernelnar is currently paused pending review."
+    ],
+    "d-team_b-002": [
+      "attempt 1: code NT-1724-G: re-anchored with planned sentence"
+    ],
+    "d-team_b-005": [
+      "attempt 1: code MN-8713-X: re-anchored with planned sentence",
+      "attempt 1: code EY-4267-K: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Project Golgoett is staffed by 10 people."
+    ],
+    "d-team_b-004": [
+      "attempt 1: code YH-1135-P: kept 1 of 2 occurrences",
+      "attempt 1: code RR-9578-Q: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Rozor Habanis focuses on payments reconciliation."
+    ],
+    "d-team_b-008": [
+      "attempt 1: name \"Renbomen\" -> \"Project Renbomen\"",
+      "attempt 1: name \"Renbomen\" -> \"Project Renbomen\"",
+      "attempt 1: name \"Renbomen\" -> \"Project Renbomen\"",
+      "attempt 1: name \"Renbomen\" -> \"Project Renbomen\"",
+      "attempt 1: name \"Renbomen\" -> \"Project Renbomen\"",
+      "attempt 1: name \"Zondila\" -> \"Zondila Krerraris\"",
+      "attempt 1: code YV-8512-Z: re-anchored with planned sentence",
+      "attempt 1: code DC-3962-D: re-anchored with planned sentence"
+    ],
+    "d-team_b-007": [
+      "attempt 1: name \"Zonvor\" -> \"Zonvor Dirnasor\"",
+      "attempt 1: name \"Zonvor\" -> \"Zonvor Dirnasor\"",
+      "attempt 1: name \"Zonvor\" -> \"Zonvor Dirnasor\"",
+      "attempt 1: name \"Nosos\" -> \"Nosos Nikeis\"",
+      "attempt 1: name \"Nosos\" -> \"Nosos Nikeis\"",
+      "attempt 1: name \"Nosos\" -> \"Nosos Nikeis\"",
+      "attempt 1: code VR-4757-J: re-anchored with planned sentence",
+      "attempt 1: code VU-5130-Q: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Nosos Nikeis works as a Site Reliability Lead."
+    ],
+    "d-team_b-009": [
+      "attempt 1: code ZJ-5104-K: re-anchored with planned sentence"
+    ],
+    "d-team_b-010": [
+      "attempt 1: code CN-9430-U: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-011": [
+      "attempt 1: name \"Gormem\" -> \"Gidrais Gormem\"",
+      "attempt 1: code GF-7944-E: kept 1 of 2 occurrences",
+      "attempt 2: code GF-7944-E: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-012": [
+      "attempt 1: name \"Zondila\" -> \"Zondila Krerraris\"",
+      "attempt 1: name \"Zondila\" -> \"Zondila Krerraris\"",
+      "attempt 1: name \"Zondila\" -> \"Zondila Krerraris\"",
+      "attempt 1: name \"Thuszus\" -> \"Thuszus Kustoen\"",
+      "attempt 1: name \"Thuszus\" -> \"Thuszus Kustoen\"",
+      "attempt 1: name \"Thuszus\" -> \"Thuszus Kustoen\"",
+      "attempt 1: code HZ-4965-G: re-anchored with planned sentence",
+      "attempt 1: code BJ-6641-R: re-anchored with planned sentence",
+      "attempt 1: code WW-9470-U: re-anchored with planned sentence"
+    ],
+    "d-team_b-013": [
+      "attempt 1: code NE-1266-K: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-014": [
+      "attempt 1: code ES-8103-T: kept 1 of 3 occurrences",
+      "attempt 1: code ZD-7751-R: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Project Drutoett is staffed by 39 people."
+    ],
+    "d-team_b-015": [
+      "attempt 1: code QQ-2972-Z: re-anchored with planned sentence",
+      "attempt 1: inserted fact: The Zasdaett Harbor is offered in the standard tier."
+    ],
+    "d-team_b-016": [
+      "attempt 1: name \"Kesonan\" -> \"Kesonan Mufashua\"",
+      "attempt 1: name \"Kesonan\" -> \"Kesonan Mufashua\"",
+      "attempt 1: name \"Kesonan\" -> \"Kesonan Mufashua\"",
+      "attempt 1: name \"Tevuel\" -> \"Tevuel Rinael\"",
+      "attempt 1: name \"Tevuel\" -> \"Tevuel Rinael\"",
+      "attempt 1: name \"Tevuel\" -> \"Tevuel Rinael\"",
+      "attempt 1: code TJ-4829-H: re-anchored with planned sentence",
+      "attempt 1: code DR-2125-J: re-anchored with planned sentence"
+    ],
+    "d-team_b-018": [
+      "attempt 1: code SK-8117-D: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-020": [
+      "attempt 1: code ER-9752-Y: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Kestoen Pismiett works as a Head of Security."
+    ],
+    "d-team_b-021": [
+      "attempt 1: code JA-7356-H: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-023": [
+      "attempt 1: code TH-7214-L: kept 1 of 3 occurrences",
+      "attempt 1: inserted fact: Krosso Velfosan focuses on payments reconciliation."
+    ],
+    "d-team_b-024": [
+      "attempt 1: code AF-9545-G: kept 1 of 3 occurrences",
+      "attempt 1: code PY-3090-J: kept 1 of 2 occurrences",
+      "attempt 1: code MA-4275-V: re-anchored with planned sentence"
+    ],
+    "d-team_b-025": [
+      "attempt 1: code AR-1355-J: kept 1 of 2 occurrences",
+      "attempt 1: code KW-3705-D: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-027": [
+      "attempt 1: code LC-5945-K: kept 1 of 3 occurrences",
+      "attempt 1: code RG-6614-B: kept 1 of 4 occurrences"
+    ],
+    "d-team_b-028": [
+      "attempt 1: name \"Zunhu\" -> \"Zunhu Kusasteis\"",
+      "attempt 1: name \"Zunhu\" -> \"Zunhu Kusasteis\"",
+      "attempt 1: name \"Zunhu\" -> \"Zunhu Kusasteis\"",
+      "attempt 1: name \"Hafaen\" -> \"Hafaen Sunfoine\"",
+      "attempt 1: name \"Hafaen\" -> \"Hafaen Sunfoine\"",
+      "attempt 1: name \"Hafaen\" -> \"Hafaen Sunfoine\"",
+      "attempt 1: code AV-6538-G: re-anchored with planned sentence"
+    ],
+    "d-team_b-026": [
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: code HL-9938-U: re-anchored with planned sentence",
+      "attempt 1: code DV-1700-A: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Project Barkil is currently on track."
+    ],
+    "d-team_b-029": [
+      "attempt 1: code PU-7867-D: re-anchored with planned sentence"
+    ],
+    "d-team_b-030": [
+      "attempt 1: code VB-3081-T: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-031": [
+      "attempt 1: code ZK-9104-W: kept 1 of 2 occurrences",
+      "attempt 1: code KK-4410-R: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-032": [
+      "attempt 1: code ED-6940-B: kept 1 of 9 occurrences"
+    ],
+    "d-team_b-034": [
+      "attempt 1: name \"Mufashua\" -> \"Kesonan Mufashua\"",
+      "attempt 1: name \"Mufashua\" -> \"Kesonan Mufashua\"",
+      "attempt 1: name \"Mufashua\" -> \"Kesonan Mufashua\"",
+      "attempt 1: name \"Neldelis\" -> \"Vosaett Neldelis\"",
+      "attempt 1: name \"Neldelis\" -> \"Vosaett Neldelis\"",
+      "attempt 1: name \"Neldelis\" -> \"Vosaett Neldelis\"",
+      "attempt 1: code TC-7832-A: kept 1 of 2 occurrences",
+      "attempt 1: code YY-9419-Y: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-033": [
+      "attempt 1: code ND-3097-F: kept 1 of 5 occurrences",
+      "attempt 1: code MC-3400-A: kept 1 of 4 occurrences",
+      "attempt 1: inserted fact: Rekuen Telnelen works as a Product Manager."
+    ],
+    "d-team_b-036": [
+      "attempt 1: code EE-6918-B: re-anchored with planned sentence"
+    ],
+    "d-team_b-035": [
+      "attempt 1: name \"Tupalhasa\" -> \"Tupalhasa Field Office\"",
+      "attempt 1: code TW-2110-D: kept 1 of 3 occurrences",
+      "attempt 1: code ZY-7926-N: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-038": [
+      "attempt 1: code VY-4310-C: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-037": [
+      "attempt 1: code JK-3480-U: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-040": [
+      "attempt 1: name \"Linle\" -> \"Linle Vunnarett\"",
+      "attempt 1: name \"Nosos\" -> \"Nosos Nikeis\"",
+      "attempt 1: code NH-1041-V: kept 1 of 7 occurrences",
+      "attempt 1: code XY-6421-C: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-039": [
+      "attempt 1: code RW-1502-J: kept 1 of 2 occurrences",
+      "attempt 2: code RW-1502-J: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-042": [
+      "attempt 1: code XG-2588-P: kept 1 of 3 occurrences",
+      "attempt 1: code TK-5903-R: re-anchored with planned sentence"
+    ],
+    "d-team_b-045": [
+      "attempt 1: code EQ-5615-M: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-047": [
+      "attempt 1: code XV-9688-S: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Project Ruzonine is staffed by 39 people."
+    ],
+    "d-team_b-048": [
+      "attempt 1: code VE-6820-R: kept 1 of 2 occurrences",
+      "attempt 1: code BB-7455-X: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: The Nunvaine Lattice has about 5,000 active users."
+    ],
+    "d-team_b-046": [
+      "attempt 1: name \"Dambune\" -> \"Dambune Panarnoel\"",
+      "attempt 1: name \"Dambune\" -> \"Dambune Panarnoel\"",
+      "attempt 1: name \"Dambune\" -> \"Dambune Panarnoel\"",
+      "attempt 1: name \"Hafaen\" -> \"Hafaen Sunfoine\"",
+      "attempt 1: name \"Hafaen\" -> \"Hafaen Sunfoine\"",
+      "attempt 1: name \"Hafaen\" -> \"Hafaen Sunfoine\"",
+      "attempt 1: code AA-6039-Y: re-anchored with planned sentence",
+      "attempt 1: code NQ-1855-R: re-anchored with planned sentence"
+    ],
+    "d-team_b-050": [
+      "attempt 1: name \"Drosporel\" -> \"Ragos Drosporel\"",
+      "attempt 1: name \"Drosporel\" -> \"Ragos Drosporel\"",
+      "attempt 1: name \"Drosporel\" -> \"Ragos Drosporel\"",
+      "attempt 1: name \"Drosporel\" -> \"Ragos Drosporel\"",
+      "attempt 1: name \"Drosporel\" -> \"Ragos Drosporel\"",
+      "attempt 1: code CW-4581-M: kept 1 of 4 occurrences",
+      "attempt 1: code HK-2924-K: re-anchored with planned sentence"
+    ],
+    "d-team_b-049": [
+      "attempt 1: code FM-4082-B: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-053": [
+      "attempt 1: code RD-3902-M: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-054": [
+      "attempt 1: code XK-4148-Y: kept 1 of 2 occurrences",
+      "attempt 1: code YU-1808-C: kept 1 of 2 occurrences"
+    ],
+    "d-team_b-055": [
+      "attempt 1: name \"Losmais\" -> \"Losmais Zoslesine\"",
+      "attempt 1: code ZS-5188-S: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Project Pomtorgi is currently paused pending review."
+    ],
+    "d-team_b-056": [
+      "attempt 1: code WE-9875-H: re-anchored with planned sentence",
+      "attempt 1: code VL-9125-X: re-anchored with planned sentence"
+    ],
+    "d-team_b-057": [
+      "attempt 1: name \"Tupalhasa\" -> \"Tupalhasa Field Office\"",
+      "attempt 1: name \"Tupalhasa\" -> \"Tupalhasa Field Office\"",
+      "attempt 1: code QH-5573-B: kept 1 of 4 occurrences"
+    ],
+    "d-team_b-058": [
+      "attempt 1: code YZ-2494-U: kept 1 of 3 occurrences",
+      "attempt 1: code GR-8390-Y: kept 1 of 3 occurrences"
+    ],
+    "d-team_b-059": [
+      "attempt 1: name \"Rerge\" -> \"Rerge Tumolan\"",
+      "attempt 1: name \"Rerge\" -> \"Rerge Tumolan\"",
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: name \"Megea\" -> \"Megea Fosaine\"",
+      "attempt 1: code AC-3705-J: re-anchored with planned sentence"
+    ],
+    "d-exec-000": [
+      "attempt 1: code SM-9617-Y: re-anchored with planned sentence",
+      "attempt 1: code PJ-7231-R: re-anchored with planned sentence"
+    ],
+    "d-exec-002": [
+      "attempt 1: code BK-1355-K: kept 1 of 4 occurrences"
+    ],
+    "d-exec-005": [
+      "attempt 1: code GA-2854-Y: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Dastona Tiheor joined the company in 2023."
+    ],
+    "d-exec-004": [
+      "attempt 1: inserted fact: Nosos Nikeis focuses on customer onboarding flows."
+    ],
+    "d-exec-007": [
+      "attempt 1: code QG-5178-X: kept 1 of 3 occurrences",
+      "attempt 1: code UD-3581-Y: re-anchored with planned sentence"
+    ],
+    "d-exec-008": [
+      "attempt 1: code TA-2421-E: re-anchored with planned sentence"
+    ],
+    "d-exec-010": [
+      "attempt 1: name \"Pivoine\" -> \"Pivoine Geltoett\"",
+      "attempt 1: name \"Pivoine\" -> \"Pivoine Geltoett\"",
+      "attempt 1: name \"Pivoine\" -> \"Pivoine Geltoett\"",
+      "attempt 1: name \"Bitelor\" -> \"Bitelor Brorisa\"",
+      "attempt 1: name \"Bitelor\" -> \"Bitelor Brorisa\"",
+      "attempt 1: name \"Bitelor\" -> \"Bitelor Brorisa\"",
+      "attempt 1: code BT-9828-L: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Bitelor Brorisa joined the company in 2016."
+    ],
+    "d-exec-011": [
+      "attempt 1: code MP-4143-H: kept 1 of 2 occurrences"
+    ],
+    "d-exec-012": [
+      "attempt 1: code WH-9735-D: re-anchored with planned sentence",
+      "attempt 1: code FG-9239-Q: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Project Tremenine is currently in pilot."
+    ],
+    "d-exec-015": [
+      "attempt 1: code JX-1663-G: kept 1 of 2 occurrences",
+      "attempt 1: code UF-9207-E: kept 1 of 2 occurrences"
+    ],
+    "d-exec-014": [
+      "attempt 1: code TY-9880-L: kept 1 of 2 occurrences",
+      "attempt 2: code TY-9880-L: kept 1 of 2 occurrences"
+    ],
+    "d-exec-016": [
+      "attempt 1: code BG-8698-R: kept 1 of 2 occurrences",
+      "attempt 1: code SJ-7058-R: kept 1 of 2 occurrences"
+    ],
+    "d-exec-019": [
+      "attempt 1: name \"Kestazel\" -> \"Ronembu Kestazel\"",
+      "attempt 1: name \"Kestazel\" -> \"Ronembu Kestazel\"",
+      "attempt 1: name \"Zespereor\" -> \"Tolmael Zespereor\""
+    ],
+    "d-exec-018": [
+      "attempt 1: name \"Fofemis\" -> \"Fofemis Balzirka\"",
+      "attempt 1: code XJ-3204-E: re-anchored with planned sentence",
+      "attempt 1: code SY-2864-X: re-anchored with planned sentence",
+      "attempt 1: code PT-5529-K: re-anchored with planned sentence"
+    ],
+    "d-exec-020": [
+      "attempt 1: inserted fact: The Gekreine Applied Research Lab is responsible for identity and access tooling."
+    ],
+    "d-exec-023": [
+      "attempt 1: code RP-2446-T: kept 1 of 4 occurrences",
+      "attempt 1: code LV-2846-K: re-anchored with planned sentence"
+    ],
+    "d-exec-024": [
+      "attempt 1: name \"Kragura\" -> \"Kragura Stenmori\"",
+      "attempt 1: name \"Kragura\" -> \"Kragura Stenmori\"",
+      "attempt 1: name \"Kragura\" -> \"Kragura Stenmori\"",
+      "attempt 1: name \"Nilbapo\" -> \"Nilbapo Fivasor\"",
+      "attempt 1: name \"Nilbapo\" -> \"Nilbapo Fivasor\"",
+      "attempt 1: name \"Nilbapo\" -> \"Nilbapo Fivasor\"",
+      "attempt 1: code HN-9529-R: re-anchored with planned sentence",
+      "attempt 1: code LZ-2341-J: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Nilbapo Fivasor works as a Director of Engineering."
+    ],
+    "d-exec-025": [
+      "attempt 1: code AW-7613-E: kept 1 of 3 occurrences",
+      "attempt 2: code AW-7613-E: kept 1 of 3 occurrences"
+    ],
+    "d-exec-027": [
+      "attempt 1: code UJ-1516-F: kept 1 of 2 occurrences"
+    ],
+    "d-exec-026": [
+      "attempt 1: code UE-8581-F: kept 1 of 3 occurrences"
+    ],
+    "d-exec-029": [
+      "attempt 1: code AX-5337-W: kept 1 of 3 occurrences",
+      "attempt 1: code DG-1356-A: kept 1 of 4 occurrences",
+      "attempt 1: inserted fact: Project Sankonen is currently paused pending review."
+    ],
+    "d-exec-028": [
+      "attempt 1: code QX-7619-A: kept 1 of 2 occurrences",
+      "attempt 1: inserted fact: Liluan Nemlurel works as a Solutions Architect."
+    ],
+    "d-exec-030": [
+      "attempt 1: code BU-5516-N: kept 1 of 2 occurrences"
+    ],
+    "d-exec-031": [
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: name \"Sesoa\" -> \"Sesoa Bokrelis\"",
+      "attempt 1: name \"Sesoa\" -> \"Sesoa Bokrelis\"",
+      "attempt 1: name \"Sesoa\" -> \"Sesoa Bokrelis\"",
+      "attempt 1: code JD-4128-T: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Sesoa Bokrelis joined the company in 2014."
+    ],
+    "d-exec-032": [
+      "attempt 1: code NA-1899-C: kept 1 of 3 occurrences",
+      "attempt 1: code VT-3736-E: re-anchored with planned sentence"
+    ],
+    "d-exec-033": [
+      "attempt 1: code GV-8343-J: kept 1 of 2 occurrences",
+      "attempt 1: code GZ-9681-T: kept 1 of 2 occurrences"
+    ],
+    "d-exec-034": [
+      "attempt 1: code EF-8013-Q: kept 1 of 2 occurrences",
+      "attempt 1: code MW-6820-Z: kept 1 of 2 occurrences",
+      "attempt 1: code XE-3025-F: kept 1 of 2 occurrences"
+    ],
+    "d-exec-035": [
+      "attempt 1: name \"Fofemis\" -> \"Fofemis Balzirka\"",
+      "attempt 1: name \"Fofemis\" -> \"Fofemis Balzirka\"",
+      "attempt 1: code YC-8368-L: re-anchored with planned sentence",
+      "attempt 1: code SH-6486-P: re-anchored with planned sentence"
+    ],
+    "d-exec-036": [
+      "attempt 1: code BD-7304-N: kept 1 of 2 occurrences",
+      "attempt 1: code WT-7622-S: kept 1 of 2 occurrences"
+    ],
+    "d-exec-037": [
+      "attempt 1: code PX-2682-W: kept 1 of 3 occurrences",
+      "attempt 1: code HE-6807-Y: kept 1 of 3 occurrences"
+    ],
+    "d-exec-038": [
+      "attempt 1: code DY-6581-E: re-anchored with planned sentence",
+      "attempt 1: code SN-1642-J: re-anchored with planned sentence",
+      "attempt 1: inserted fact: The Zetrais Analytics Unit has 32 people."
+    ],
+    "d-exec-039": [
+      "attempt 1: name \"Pivoine\" -> \"Pivoine Geltoett\"",
+      "attempt 1: name \"Pivoine\" -> \"Pivoine Geltoett\"",
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\"",
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\"",
+      "attempt 1: name \"Fallem\" -> \"Fallem Purraren\"",
+      "attempt 1: name \"Pethisa\" -> \"Pethisa Hebroren\"",
+      "attempt 1: name \"Pethisa\" -> \"Pethisa Hebroren\"",
+      "attempt 1: code GS-9629-Z: kept 1 of 3 occurrences",
+      "attempt 1: code BL-6809-Q: kept 1 of 3 occurrences",
+      "attempt 1: code WX-1844-U: re-anchored with planned sentence"
+    ],
+    "d-exec-040": [
+      "attempt 1: inserted fact: Project Tremenine is currently in pilot."
+    ],
+    "d-exec-041": [
+      "attempt 1: code RY-1107-N: re-anchored with planned sentence",
+      "attempt 1: code AD-8734-S: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Nilbapo Fivasor works as a Director of Engineering."
+    ],
+    "d-exec-043": [
+      "attempt 1: code KM-4391-Q: re-anchored with planned sentence",
+      "attempt 1: code ZQ-3463-W: re-anchored with planned sentence"
+    ],
+    "d-exec-044": [
+      "attempt 1: code AZ-9833-K: kept 1 of 2 occurrences"
+    ],
+    "d-exec-046": [
+      "attempt 1: name \"Tolmael\" -> \"Tolmael Zespereor\"",
+      "attempt 1: name \"Tolmael\" -> \"Tolmael Zespereor\"",
+      "attempt 1: name \"Tolmael\" -> \"Tolmael Zespereor\"",
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: name \"Zosu\" -> \"Zosu Kistos\"",
+      "attempt 1: code SD-6073-G: re-anchored with planned sentence",
+      "attempt 1: inserted fact: Zosu Kistos joined the company in 2020."
+    ],
+    "d-exec-045": [
+      "attempt 1: code YF-7496-R: re-anchored with planned sentence",
+      "attempt 2: code MV-4263-X: kept 1 of 2 occurrences"
+    ],
+    "d-exec-048": [
+      "attempt 1: code SV-3738-K: re-anchored with planned sentence"
+    ],
+    "d-exec-049": [
+      "attempt 1: name \"Krilfia\" -> \"Krilfia Mukela\"",
+      "attempt 1: name \"Gisnos\" -> \"Gisnos Gehomosis\"",
+      "attempt 1: inserted fact: The Vesterge Ledger is scheduled to launch in Q4 FY28."
+    ],
+    "d-exec-047": [
+      "attempt 1: code XC-1856-X: kept 1 of 3 occurrences",
+      "attempt 2: code XC-1856-X: kept 1 of 3 occurrences",
+      "attempt 3: code XC-1856-X: kept 1 of 4 occurrences"
+    ],
+    "d-exec-050": [
+      "attempt 1: code FT-7497-A: kept 1 of 2 occurrences",
+      "attempt 1: code QW-9204-X: re-anchored with planned sentence"
+    ],
+    "d-exec-051": [
+      "attempt 1: code XF-1490-P: kept 1 of 2 occurrences",
+      "attempt 1: code EB-3416-H: kept 1 of 2 occurrences"
+    ],
+    "d-exec-053": [
+      "attempt 1: name \"Tolmael\" -> \"Tolmael Zespereor\"",
+      "attempt 1: name \"Thedraman\" -> \"Project Thedraman\"",
+      "attempt 1: name \"Gisnos\" -> \"Gisnos Gehomosis\"",
+      "attempt 1: code FP-3585-C: kept 1 of 5 occurrences",
+      "attempt 1: code JG-4598-D: kept 1 of 2 occurrences"
+    ],
+    "d-exec-052": [
+      "attempt 1: name \"Brorisa\" -> \"Bitelor Brorisa\"",
+      "attempt 1: name \"Brorisa\" -> \"Bitelor Brorisa\"",
+      "attempt 1: code MK-3589-R: kept 1 of 3 occurrences",
+      "attempt 2: code MK-3589-R: kept 1 of 3 occurrences"
+    ],
+    "d-exec-054": [
+      "attempt 1: code XH-2380-Y: kept 1 of 4 occurrences",
+      "attempt 1: code YE-7950-K: kept 1 of 3 occurrences"
+    ],
+    "d-exec-055": [
+      "attempt 1: code ZW-3307-Q: kept 1 of 3 occurrences"
+    ],
+    "d-exec-057": [
+      "attempt 1: code LH-2640-X: kept 1 of 2 occurrences"
+    ],
+    "d-exec-056": [
+      "attempt 1: code AS-1036-M: kept 1 of 3 occurrences",
+      "attempt 1: code UX-6948-R: kept 1 of 3 occurrences"
+    ],
+    "d-exec-058": [
+      "attempt 1: code SG-4058-P: kept 1 of 3 occurrences"
+    ],
+    "d-exec-059": [
+      "attempt 1: code RX-9315-V: kept 1 of 2 occurrences",
+      "attempt 1: code PV-9128-U: kept 1 of 3 occurrences",
+      "attempt 1: inserted fact: The Kusbosine Console has about 2,700 active users."
+    ],
+    "d-team_a-050": [
+      "attempt 1: code YN-8522-K: kept 1 of 6 occurrences",
+      "attempt 1: code VQ-2391-E: kept 1 of 3 occurrences",
+      "attempt 2: code YN-8522-K: kept 1 of 6 occurrences",
+      "attempt 2: code VQ-2391-E: kept 1 of 3 occurrences"
+    ],
+    "d-team_a-044": [
+      "attempt 1: code WM-1603-F: re-anchored with planned sentence"
+    ]
+  },
+  "first_try_violation_types": {
+    "invented": 3,
+    "length": 67,
+    "names": 2
+  },
+  "cost_usd_this_run": 0.0,
+  "plan_stats": {
+    "docs_per_tier": {
+      "public": 120,
+      "team_a": 60,
+      "team_b": 60,
+      "exec": 60
+    },
+    "facts_per_doc": {
+      "public": 6.47,
+      "team_a": 4.12,
+      "team_b": 4.57,
+      "exec": 3.83
+    },
+    "entities_per_doc": {
+      "public": 6.99,
+      "team_a": 2.72,
+      "team_b": 3.22,
+      "exec": 2.57
+    },
+    "words_total": 194814,
+    "cross_regime": {
+      "hub_summarized": 14,
+      "hub_not_summarized": 0,
+      "nonhub_concatenated": 31,
+      "nonhub_summarized": 0
+    },
+    "n_shortfalls": 0
+  },
+  "fact_stats": {
+    "n_entities": 300,
+    "n_by_class": {
+      "public_only": 150,
+      "cross_tier": 45,
+      "restricted_only": 105
+    },
+    "n_restricted_pool": 150,
+    "n_qc_clean": 45,
+    "cross_tier_fraction_config": 0.3,
+    "cross_tier_fraction_realized": 0.3,
+    "n_cross_hub": 14,
+    "n_cross_sibling": 13,
+    "n_facts_by_role": {
+      "public": 444,
+      "lower": 99,
+      "restricted": 236,
+      "canary": 300
+    },
+    "n_canaries_by_kind": {
+      "contamination": 90,
+      "structural": 210
+    },
+    "n_restricted_only_with_cross_neighbor": 31,
+    "excluded_from_accounting": [
+      "Zastama Industries"
+    ]
+  }
+}

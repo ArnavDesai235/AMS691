@@ -1,0 +1,72 @@
+Internal Communication Regarding Project Golgoett and Access Tooling
+
+```
+From: Gonnom Gosmunza
+To: Nammian Bahoine, Nasomel Sonmerett, Thokro Pobris
+Subject: Project Golgoett - Access Tooling Coordination
+Date: March 2, 2025
+
+Hi Nammian Bahoine, Nasomel Sonmerett, and Thokro Pobris,
+
+I hope this message finds you well. As we continue to refine the integration of identity and access tooling for the upcoming phases of Project Golgoett, I wanted to bring your teams together for a coordinated approach. 
+
+Nammian Bahoine, given your role as a Product Manager and your extensive background since your 2014 start at Zastama Industries, I believe your insights on the product roadmap would be invaluable. Specifically, I’d appreciate your perspective on how our access tooling can align more closely with our end-user expectations and feature set.
+
+Nasomel Sonmerett, I know your team at the Vurlekri Annex has been working closely with Puzeris Systems on the services contract for the project. Could you confirm the current status of the security integration they’ve been tasked with? Ensuring that their deliverables align with our identity management framework is essential for a smooth deployment.
+
+Thokro Pobris, I’ve assigned you the task of preparing a technical assessment of the current access tooling against the new requirements. Your report will be critical to determining the next steps in our development sprints. Please coordinate with both Nammian Bahoine and Nasomel Sonmerett to ensure alignment on technical specifications and timelines.
+
+Let’s aim to have a cross-functional check-in by the end of the week to solidify our next steps. Please feel free to raise any concerns or suggestions you may have before then.
+
+Best regards,  
+Gonnom Gosmunza
+```
+
+```
+From: Nammian Bahoine
+To: Gonnom Gosmunza
+Subject: Re: Project Golgoett - Access Tooling Coordination
+Date: March 3, 2025
+
+Hi Gonnom Gosmunza,
+
+Thanks for the email. I’ve reviewed the current product roadmap and can confirm that we’ve already mapped out a set of access-related features that should align well with the broader goals of Project Golgoett. From a product standpoint, we’re in a good position to provide a seamless integration if we can confirm the technical parameters from the tooling side.
+
+I’ll be happy to coordinate with Thokro Pobris to make sure our expectations are aligned with the proposed technical assessment. I also think it would be helpful to get a summary of the deliverables from Puzeris Systems before finalizing our internal plans.
+
+Looking forward to the cross-functional meeting. Please let me know if you’d like me to draft a high-level overview of the access features we plan to support.
+
+Best,  
+Nammian Bahoine
+```
+
+```
+From: Nasomel Sonmerett
+To: Gonnom Gosmunza
+Subject: Re: Project Golgoett - Access Tooling Coordination
+Date: March 3, 2025
+
+Hi Gonnom Gosmunza,
+
+I’ve just spoken with the team at the Vurlekri Annex, and we’ve received confirmation from Puzeris Systems that they are on track with their security integration deliverables. Their latest update indicates that the tooling should be compatible with our identity and access management framework, though they’ve flagged a few edge cases that may require additional clarification.
+
+We’ve prepared a detailed summary of the deliverables and their current status, which I’ll send to you and the rest of the team by the end of the day. I’ve also noted the need to ensure alignment with both Thokro Pobris’s technical assessment and Nammian Bahoine’s product roadmap. I’ll be reaching out to both of them directly in the next 24 hours to coordinate.
+
+Please let me know if there are any specific areas you’d like us to highlight in the summary.
+
+Best regards,  
+Nasomel Sonmerett
+```
+
+```
+From: Gonnom Gosmunza
+To: Nammian Bahoine, Nasomel Sonmerett, Thokro Pobris
+Subject: Re: Project Golgoett - Access Tooling Coordination
+Date: March 4, 2025
+
+Thanks for the updates, Nasomel Sonmerett, Nammian Bahoine. I’ll review the deliverable summary and share it with the team. Thokro Pobris, I’ll need your technical assessment by Friday at the latest to ensure we have time to adjust our development plans accordingly.
+
+Let’s proceed with the cross-functional meeting as planned. I’ll send out a calendar invite shortly. Please make sure all relevant notes are shared beforehand so we can make the most of our time.
+
+Best,  
+Gonnom Gosmunza

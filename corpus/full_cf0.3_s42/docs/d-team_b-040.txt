@@ -1,0 +1,37 @@
+Clarification on Procurement Order Access
+
+From: Linle Vunnarett  
+To: Tanla Terlusvi, Nosos Nikeis  
+Subject: Access to Procurement Order the same reference  
+
+I’m following up on the status of procurement order NH-1041-V, which was submitted by Tanla Terlusvi. The finance team needs a copy of the finalized invoice and delivery confirmation for audit trail purposes. Could you confirm that the vendor has provided all necessary documentation? If not, can you share when we can expect it?  
+
+Also, I noticed the access to the secure vault for this order is still pending. As the finance lead, I require access to validate the details. My vault key ID is the same reference. Can you check the permissions and confirm when I’ll be able to retrieve the documents?  
+
+Thanks in advance for your assistance.  
+
+From: Tanla Terlusvi  
+To: Linle Vunnarett  
+Subject: RE: Access to Procurement Order the same reference  
+
+Linle Vunnarett, the invoice for procurement order the same reference has been finalized. I’ve uploaded a scanned copy to the procurement portal under the order details. The delivery confirmation is still pending from the vendor, as the shipment is scheduled for next week. I’ll notify you as soon as it’s available.  
+
+Regarding vault access, I’ve passed your request along to the access control team. I believe they process requests within 24 hours, so you should have access by the end of the day. If you don’t see it by then, let me know and I’ll follow up directly.  
+
+Let me know if you need anything else from the procurement side.  
+
+From: Nosos Nikeis  
+To: Linle Vunnarett, Tanla Terlusvi  
+Subject: RE: Access to Procurement Order the same reference  
+
+I just wanted to confirm that the access control system has been updated for Linle Vunnarett with the vault key ID XY-6421-C. You should be able to access the secure vault now.  
+
+If there are any issues retrieving the documents, let me know and I’ll escalate with the access control team. As the site reliability lead, I can assist with internal system access issues.  
+
+From: Linle Vunnarett  
+To: Nosos Nikeis, Tanla Terlusvi  
+Subject: RE: Access to Procurement Order the same reference  
+
+Thank you, Nosos Nikeis. I’ve successfully accessed the vault and retrieved the necessary documents for procurement order the same reference. Everything appears in order for now. I’ll follow up again once the delivery confirmation is uploaded.  
+
+Appreciate your support.

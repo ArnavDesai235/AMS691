@@ -101,6 +101,12 @@ class LLMParams:
     max_retries: int = 4
     concurrency: int = 4
     cache_dir: str = ".llm_cache"
+    # provider: ollama (ignored by other providers; not part of the cache key)
+    host: str = "http://localhost:11434"
+    num_ctx: int = 16384      # prompt + doc; Ollama's default context silently truncates
+    think: bool = False       # Qwen3 reasoning would land in the document text
+    timeout: int = 600        # seconds per request
+    seed: int | None = None   # sampling seed; batched decoding is still not bit-exact
 
 
 @dataclass
