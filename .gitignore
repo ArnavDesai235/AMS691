@@ -3,7 +3,7 @@ corpus/mock_*/
 __pycache__/
 *.pyc
 rag_storage/
-results/
+/results/
 .venv/
 .pytest_cache/
 .env
