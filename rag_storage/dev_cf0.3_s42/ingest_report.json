@@ -1,0 +1,621 @@
+{
+ "corpus": "corpus/dev_cf0.3_s42",
+ "n_docs": 50,
+ "resume": {
+  "already_processed": 47,
+  "retried_failed": [
+   "d-team_a-001",
+   "d-team_a-003",
+   "d-exec-009"
+  ],
+  "retry_truncated": false,
+  "removed_duplicate_rows": 0,
+  "inserted": 3,
+  "rounds": [
+   {
+    "already_processed": 47,
+    "retried_failed": [
+     "d-team_a-001",
+     "d-team_a-003",
+     "d-exec-009"
+    ],
+    "retry_truncated": false,
+    "removed_duplicate_rows": 0,
+    "inserted": 3
+   },
+   {
+    "already_processed": 48,
+    "retried_failed": [
+     "d-team_a-001",
+     "d-team_a-003"
+    ],
+    "retry_truncated": true,
+    "removed_duplicate_rows": 0,
+    "inserted": 2
+   },
+   {
+    "already_processed": 49,
+    "retried_failed": [
+     "d-team_a-001"
+    ],
+    "retry_truncated": true,
+    "removed_duplicate_rows": 0,
+    "inserted": 1
+   }
+  ]
+ },
+ "failed_docs": [],
+ "truncated_docs": [],
+ "n_chunks": 57,
+ "chunks_with_wrong_parent": [],
+ "entities_found": 55,
+ "entities_total": 55,
+ "entities_missing": [],
+ "realized_hubs": 6,
+ "hub_prediction_mismatches": [
+  {
+   "name": "Lagemett Ledger",
+   "cls": "public_only",
+   "predicted": "concatenated",
+   "n_source_chunks": 8
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "E000",
+   "name": "Leroror Lukaine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E001",
+   "name": "Munnam Furzil",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E002",
+   "name": "Megea Fosaine",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E003",
+   "name": "Berruan Zenresan",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E004",
+   "name": "Pethisa Hebroren",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E005",
+   "name": "Milsean Trusases",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E006",
+   "name": "Drikres Tikrais",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E007",
+   "name": "Nasgo Kesloren",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E008",
+   "name": "Zosu Kistos",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 12,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E009",
+   "name": "Stethe Birnaen",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E010",
+   "name": "Thikama Harlurine",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E011",
+   "name": "Fallem Purraren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E012",
+   "name": "Givien Mubren",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E013",
+   "name": "Krilfia Mukela",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E014",
+   "name": "Gonnom Gosmunza",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E015",
+   "name": "Liluan Nemlurel",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 9,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E016",
+   "name": "Getaine Hebruen",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E017",
+   "name": "Vadesis Gummenbel",
+   "cls": "cross_tier",
+   "planned_hub": true,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E018",
+   "name": "Pivoine Geltoett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E019",
+   "name": "Thokro Pobris",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E020",
+   "name": "Bedras Sarkua",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E021",
+   "name": "Zosne Bramfa",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E022",
+   "name": "Desgua Stebela",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E023",
+   "name": "Pinduen Gersolel",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E024",
+   "name": "Project Siduris",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E025",
+   "name": "Project Pirpoan",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E026",
+   "name": "Project Kridresa",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E027",
+   "name": "Project Stebril",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E028",
+   "name": "Project Nuzeor",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 7,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E029",
+   "name": "Project Rakresett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E030",
+   "name": "Project Bilfael",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E031",
+   "name": "Project Vebamett",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E032",
+   "name": "Project Soramis",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E033",
+   "name": "Project Nolaor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E034",
+   "name": "Gaskergur Harbor",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 2,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E035",
+   "name": "Fibrasine Relay",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E036",
+   "name": "Trebrula Beacon",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E037",
+   "name": "Lagemett Ledger",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 8,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E038",
+   "name": "Barnuis Console",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E039",
+   "name": "Feltarel Relay",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E040",
+   "name": "Rishalen Integration Team",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E041",
+   "name": "Gelgos Infrastructure Team",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E042",
+   "name": "Talhuor Integration Team",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E043",
+   "name": "Dankenor Analytics Unit",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "summarized",
+   "found": true,
+   "n_source_chunks": 10,
+   "realized_regime": "hub"
+  },
+  {
+   "entity_id": "E044",
+   "name": "Fonathe Platform Group",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E045",
+   "name": "Paskian Platform Group",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E046",
+   "name": "Satisen Labs",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 4,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E047",
+   "name": "Dilhas Consulting",
+   "cls": "cross_tier",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E048",
+   "name": "Kremarel Partners",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E049",
+   "name": "Misginine Systems",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E050",
+   "name": "Nalzenett Labs",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 6,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E051",
+   "name": "Brerponen Annex",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E052",
+   "name": "Kimmoine Annex",
+   "cls": "public_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 5,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E053",
+   "name": "Tegurine Annex",
+   "cls": "restricted_only",
+   "planned_hub": true,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  },
+  {
+   "entity_id": "E054",
+   "name": "Renzer Field Office",
+   "cls": "restricted_only",
+   "planned_hub": false,
+   "predicted_regime": "concatenated",
+   "found": true,
+   "n_source_chunks": 3,
+   "realized_regime": "non_hub"
+  }
+ ],
+ "c4_provenance": {
+  "chunks": 57,
+  "fragments": 2188,
+  "manifest_sha": "976fef281541abe06c1caade5405f965cb6e1bda45ebe46636e155bb0ee70935",
+  "fingerprint": "556d573c231aa6e77e27916df96ca0022d65dca4508dfddc5d21460fa7e0fb48"
+ }
+}

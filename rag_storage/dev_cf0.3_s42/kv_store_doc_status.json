@@ -1,0 +1,1359 @@
+{
+  "d-public-006": {
+    "status": "processed",
+    "content_summary": "Periodic Status Report: Project Stebril and Trebrula Beacon Readiness\n\n**Summary**\n\nThis report gives all employees a plain-language view of where Project Stebril stands, how it connects to upcoming company launches, and what we are watching over the...",
+    "content_length": 5768,
+    "created_at": "2026-10-30T08:38:57.126021+00:00",
+    "updated_at": "2026-10-30T08:43:25.828536+00:00",
+    "file_path": "d-public-006",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "2ca9f25cf9dcdb162b642c1e57dc9bd6",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349737,
+      "process_end_time": 1793349805,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-006-chunk-000",
+      "d-public-006-chunk-001"
+    ]
+  },
+  "d-public-015": {
+    "status": "processed",
+    "content_summary": "Periodic Status Report: Project Bilfael and Data Retention Work\n\n**Summary**\n\nThis report gives all employees a plain-language view of where things stand across a few connected efforts at Zastama Industries. The headline is steady progress. Project B...",
+    "content_length": 5476,
+    "created_at": "2026-10-30T08:38:57.126082+00:00",
+    "updated_at": "2026-10-30T08:52:13.145105+00:00",
+    "file_path": "d-public-015",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "16d7abe256c1f02101fc21e630dcc79f",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349736,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350212,
+      "process_end_time": 1793350333,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-015-chunk-000"
+    ]
+  },
+  "d-exec-006": {
+    "status": "processed",
+    "content_summary": "Access Badge Provisioning and User Coverage for the Barnuis Console\n\nTO: Security Operations Leads and Platform Access Administrators\nFROM: Director, Internal Systems Governance\nDATE: October 9, 2026\nSUBJECT: Badge Series and Ownership Details for th...",
+    "content_length": 3598,
+    "created_at": "2026-10-30T08:38:57.126279+00:00",
+    "updated_at": "2026-10-30T09:16:15.858163+00:00",
+    "file_path": "d-exec-006",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "65578f3e28a19cde0b52c3a396dce500",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351336,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351729,
+      "process_end_time": 1793351775,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-006-chunk-000"
+    ]
+  },
+  "d-exec-008": {
+    "status": "processed",
+    "content_summary": "Restricted Access Review and Onboarding Workstream Coordination\n\nTO: Security Operations Lead; Facilities Access Coordinator\nFROM: Director, Internal Operations\nDATE: October 9, 2026\nSUBJECT: Badge Records Verification and Onboarding Flow Review (Res...",
+    "content_length": 3073,
+    "created_at": "2026-10-30T08:38:57.126292+00:00",
+    "updated_at": "2026-10-30T09:17:33.534234+00:00",
+    "file_path": "d-exec-008",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "80fec67aeadafd86b31e36a335a6d693",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351417,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351766,
+      "process_end_time": 1793351853,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-008-chunk-000"
+    ]
+  },
+  "d-team_a-007": {
+    "status": "processed",
+    "content_summary": "Data Retention Tooling Status Report for the Paskian Platform Group\n\n**Distribution: Restricted. Please do not forward beyond the named recipients.**\n\n## Summary\n\nThis report covers the current state of data retention tooling work at Zastama Industri...",
+    "content_length": 4276,
+    "created_at": "2026-10-30T08:38:57.126165+00:00",
+    "updated_at": "2026-10-30T09:04:36.780505+00:00",
+    "file_path": "d-team_a-007",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "da0c227a86c44b2383038ee97c0cc285",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350450,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350935,
+      "process_end_time": 1793351076,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-007-chunk-000"
+    ]
+  },
+  "d-team_a-005": {
+    "status": "processed",
+    "content_summary": "Restricted Thread: Planning Alignment for Project Soramis and Project Nolaor Space and Staffing\n\nFrom: Thokro Pobris, Solutions Architect\nTo: Vadesis Gummenbel; Program Management Lead\nSubject: Restricted: Project Soramis timing, retention tooling, a...",
+    "content_length": 5001,
+    "created_at": "2026-10-30T08:38:57.126152+00:00",
+    "updated_at": "2026-10-30T09:02:36.009160+00:00",
+    "file_path": "d-team_a-005",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "6b67e10eb1512a83b7fd6b2c2eeacaed",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350333,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350852,
+      "process_end_time": 1793350956,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-005-chunk-000"
+    ]
+  },
+  "d-team_b-001": {
+    "status": "processed",
+    "content_summary": "Tegurine Annex Equipment Intake and Integration Coordination\n\n**Restricted distribution: please do not forward outside the approved reader list.**\n\n## Summary\n\nThis page describes how equipment reaches the Tegurine Annex and how the people working th...",
+    "content_length": 3754,
+    "created_at": "2026-10-30T08:38:57.126189+00:00",
+    "updated_at": "2026-10-30T09:06:25.023188+00:00",
+    "file_path": "d-team_b-001",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "836a186c4575189d07297757b48f5111",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350643,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351076,
+      "process_end_time": 1793351185,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-001-chunk-000"
+    ]
+  },
+  "d-team_a-000": {
+    "status": "processed",
+    "content_summary": "Restricted Planning Sync: Field Capacity, Audit Follow-up, and Relay Readiness\n\n**Date:** 2026-10-09\n**Attendees:** Operations lead, finance representative, facilities representative, audit coordinator, program manager, Liluan Nemlurel\n**Distribution...",
+    "content_length": 4276,
+    "created_at": "2026-10-30T08:38:57.126120+00:00",
+    "updated_at": "2026-10-30T08:57:55.434105+00:00",
+    "file_path": "d-team_a-000",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "ae324a0d73e989a50646252740e9bb08",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349932,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350525,
+      "process_end_time": 1793350675,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-000-chunk-000"
+    ]
+  },
+  "d-team_a-008": {
+    "status": "processed",
+    "content_summary": "Restricted Working Session Notes on Reconciliation and Forecasting Coordination\n\n**Date:** 9 October 2026\n**Attendees:** Zosne Bramfa, Pethisa Hebroren, Liluan Nemlurel, a finance representative\n**Distribution:** Restricted. Do not forward outside th...",
+    "content_length": 4352,
+    "created_at": "2026-10-30T08:38:57.126171+00:00",
+    "updated_at": "2026-10-30T09:05:36.239197+00:00",
+    "file_path": "d-team_a-008",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "016849757b0c4677e8eec66e3d870a62",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350451,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350956,
+      "process_end_time": 1793351136,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-008-chunk-000"
+    ]
+  },
+  "d-team_b-004": {
+    "status": "processed",
+    "content_summary": "Project Siduris Pilot Status Report – Restricted Distribution\n\n**Distribution:** Restricted. Steering group and named program stakeholders only. Please do not forward beyond this list.\n\n## Summary\n\nThis report covers the current reporting period for ...",
+    "content_length": 3971,
+    "created_at": "2026-10-30T08:38:57.126208+00:00",
+    "updated_at": "2026-10-30T09:08:39.412873+00:00",
+    "file_path": "d-team_b-004",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "55a1955744fa79b93c0df01373ba330e",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350852,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351185,
+      "process_end_time": 1793351319,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-004-chunk-000"
+    ]
+  },
+  "d-team_a-004": {
+    "status": "processed",
+    "content_summary": "Restricted Planning Sync: Platform Dependencies, Audit Follow-Up, and Staffing Review\n\n**Zastama Industries — Restricted Distribution (Not for Company-Wide Circulation)**\n\n**Date:** 2026-10-09\n**Attendees:** Liluan Nemlurel; engineering lead; finance...",
+    "content_length": 4710,
+    "created_at": "2026-10-30T08:38:57.126146+00:00",
+    "updated_at": "2026-10-30T09:01:43.816082+00:00",
+    "file_path": "d-team_a-004",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "b5046263fa0fdbd84d1a83d2569a79e1",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350212,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350815,
+      "process_end_time": 1793350903,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-004-chunk-000"
+    ]
+  },
+  "d-public-004": {
+    "status": "processed",
+    "content_summary": "Zastama Industries Periodic Status Report: Projects, Vendors, and Facilities Update\n\n**Summary**\n\nThis report gives all employees a shared view of where several important efforts stand. It covers two projects, one analytics group, and two external re...",
+    "content_length": 5292,
+    "created_at": "2026-10-30T08:38:57.126009+00:00",
+    "updated_at": "2026-10-30T08:42:34.341147+00:00",
+    "file_path": "d-public-004",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "cbd257bbae2908c43997f93518976eba",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349645,
+      "process_end_time": 1793349754,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-004-chunk-000"
+    ]
+  },
+  "d-team_b-002": {
+    "status": "processed",
+    "content_summary": "Restricted Review: Integration Access and Role Coordination\n\n**Date:** 2026-10-09\n**Attendees:** Liluan Nemlurel; a finance representative; a security representative; a facilities representative; a program manager\n**Distribution:** Restricted. Not fo...",
+    "content_length": 3302,
+    "created_at": "2026-10-30T08:38:57.126195+00:00",
+    "updated_at": "2026-10-30T09:07:23.550349+00:00",
+    "file_path": "d-team_b-002",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "04964673f2045b0899ddcdf86a42c6fc",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350675,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351136,
+      "process_end_time": 1793351243,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-002-chunk-000"
+    ]
+  },
+  "d-public-012": {
+    "status": "processed",
+    "content_summary": "Security and Infrastructure Contacts: Who to Ask and How We Work Together\n\n**Summary**\n\nThis page explains how the security function at Zastama Industries is organized, who the key contacts are for common questions, and how security work connects wit...",
+    "content_length": 5338,
+    "created_at": "2026-10-30T08:38:57.126062+00:00",
+    "updated_at": "2026-10-30T08:48:01.288896+00:00",
+    "file_path": "d-public-012",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "3c1cb5fa7884c3ff2c47ef6589f03ce3",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349640,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350000,
+      "process_end_time": 1793350081,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-012-chunk-000"
+    ]
+  },
+  "d-exec-001": {
+    "status": "processed",
+    "content_summary": "Restricted Distribution Notice: Warehouse Automation Access Coordination\n\nTO: Facilities Security Lead; Warehouse Operations Manager; Systems Integration Lead\nFROM: Director of Operations Planning\nDATE: October 9, 2026\nSUBJECT: Access Coordination fo...",
+    "content_length": 3558,
+    "created_at": "2026-10-30T08:38:57.126249+00:00",
+    "updated_at": "2026-10-30T09:14:12.161206+00:00",
+    "file_path": "d-exec-001",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "74759937cc49d9a20da9287f38b72eb0",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351136,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351515,
+      "process_end_time": 1793351652,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-001-chunk-000"
+    ]
+  },
+  "d-public-009": {
+    "status": "processed",
+    "content_summary": "Kimmoine Annex, Shared Platforms, and Vendor Coverage: A Company-Wide Orientation\n\n**Summary:** This page gives all employees a plain-language overview of a few people, sites, and arrangements that come up often in cross-team conversations. It covers...",
+    "content_length": 5105,
+    "created_at": "2026-10-30T08:38:57.126041+00:00",
+    "updated_at": "2026-10-30T08:44:29.274150+00:00",
+    "file_path": "d-public-009",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "16c9808a291b57d80be294412ee32934",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349822,
+      "process_end_time": 1793349869,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-009-chunk-000"
+    ]
+  },
+  "d-exec-007": {
+    "status": "processed",
+    "content_summary": "Incident Response Tooling Sync – Restricted Attendee Meeting Notes\n\n**Date:** 2026-10-09\n**Attendees:** Pinduen Gersolel; Thikama Harlurine; a finance representative; an engineering manager; a security operations lead\n**Distribution:** Restricted. Pl...",
+    "content_length": 3741,
+    "created_at": "2026-10-30T08:38:57.126286+00:00",
+    "updated_at": "2026-10-30T09:17:36.578138+00:00",
+    "file_path": "d-exec-007",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "8b35b82f176b87a4d1ab02e6a65fb559",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351392,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351766,
+      "process_end_time": 1793351856,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-007-chunk-000"
+    ]
+  },
+  "d-exec-005": {
+    "status": "processed",
+    "content_summary": "Project Pirpoan Restricted Steering Sync Notes\n\n**Zastama Industries – Restricted Distribution**\n\n**Date:** October 9, 2026\n**Attendees:** Stethe Birnaen; finance representative; security lead; operations representative; program coordinator (note-tak...",
+    "content_length": 3251,
+    "created_at": "2026-10-30T08:38:57.126273+00:00",
+    "updated_at": "2026-10-30T09:16:06.770965+00:00",
+    "file_path": "d-exec-005",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "2aabb0716c29a963c71cd64b9e3d682e",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351319,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351693,
+      "process_end_time": 1793351766,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-005-chunk-000"
+    ]
+  },
+  "d-team_b-000": {
+    "status": "processed",
+    "content_summary": "Tegurine Annex Capacity and Architecture Review Notes\n\nMEMO\n\nTo: Facilities Planning Group; Infrastructure Operations Leads\nFrom: Director, Workplace and Infrastructure Planning\nDate: October 9, 2026\nSubject: Tegurine Annex seating capacity and archi...",
+    "content_length": 3076,
+    "created_at": "2026-10-30T08:38:57.126183+00:00",
+    "updated_at": "2026-10-30T09:05:46.210125+00:00",
+    "file_path": "d-team_b-000",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "ff3aa2544dd58729c68a7bc0ac909284",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350591,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351058,
+      "process_end_time": 1793351146,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-000-chunk-000"
+    ]
+  },
+  "d-exec-000": {
+    "status": "processed",
+    "content_summary": "Rishalen Integration Team: Access Handling and Working Notes\n\n**Summary**\n\nThis page is for the small group of people working on the integration effort and for the few reviewers who support them. It is not intended for company-wide circulation at Zas...",
+    "content_length": 3423,
+    "created_at": "2026-10-30T08:38:57.126243+00:00",
+    "updated_at": "2026-10-30T09:13:46.815201+00:00",
+    "file_path": "d-exec-000",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "50344a27a1703532af1399948d611816",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351076,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351487,
+      "process_end_time": 1793351626,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-000-chunk-000"
+    ]
+  },
+  "d-public-017": {
+    "status": "processed",
+    "content_summary": "Dankenor Analytics Unit: Who We Are and How to Work With Us\n\n## Summary\n\nThis page gives everyone at Zastama Industries a plain-language overview of the Dankenor Analytics Unit: who is in it, how reporting lines work, and how colleagues elsewhere in ...",
+    "content_length": 5421,
+    "created_at": "2026-10-30T08:38:57.126101+00:00",
+    "updated_at": "2026-10-30T08:57:23.607726+00:00",
+    "file_path": "d-public-017",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "12e3d050b093f538f1ec97951fe0ad72",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349805,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350450,
+      "process_end_time": 1793350643,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-017-chunk-000",
+      "d-public-017-chunk-001"
+    ]
+  },
+  "d-team_b-009": {
+    "status": "processed",
+    "content_summary": "Restricted Briefing on Audit Closure, Escrow Status, and Vendor Exposure\n\nTO: Program Oversight Committee (restricted distribution)\nFROM: Director, Internal Controls and Vendor Governance\nDATE: October 9, 2026\nSUBJECT: Audit finding, escrow reference...",
+    "content_length": 3261,
+    "created_at": "2026-10-30T08:38:57.126237+00:00",
+    "updated_at": "2026-10-30T09:11:55.009240+00:00",
+    "file_path": "d-team_b-009",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "8135bc7174e8d36da3ed3dd7c3647657",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351058,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351417,
+      "process_end_time": 1793351515,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-009-chunk-000"
+    ]
+  },
+  "d-public-005": {
+    "status": "processed",
+    "content_summary": "Zastama Industries Cross-Functional Program Update: Meeting Notes\n\n**Date:** October 9, 2026\n**Attendees:** Vadesis Gummenbel (Chief of Staff, facilitator), Krilfia Mukela (Solutions Architect), Megea Fosaine, a finance representative, a procurement ...",
+    "content_length": 6571,
+    "created_at": "2026-10-30T08:38:57.126015+00:00",
+    "updated_at": "2026-10-30T08:43:42.713751+00:00",
+    "file_path": "d-public-005",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "5ea5ec979b6d066fddde02c68c90fcc9",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349723,
+      "process_end_time": 1793349822,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-005-chunk-000",
+      "d-public-005-chunk-001"
+    ]
+  },
+  "d-team_a-009": {
+    "status": "processed",
+    "content_summary": "Data and Forecasting Workstream Status Report: Restricted Distribution\n\nDistribution: Restricted. This report is intended for the workstream leads and their direct stakeholders at Zastama Industries and should not be forwarded beyond that group.\n\n**S...",
+    "content_length": 3722,
+    "created_at": "2026-10-30T08:38:57.126177+00:00",
+    "updated_at": "2026-10-30T09:04:18.503194+00:00",
+    "file_path": "d-team_a-009",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "845dec96e1d66e75800c0ffcc6267706",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350525,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350958,
+      "process_end_time": 1793351058,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-009-chunk-000"
+    ]
+  },
+  "d-public-016": {
+    "status": "processed",
+    "content_summary": "Zastama Industries Periodic Status Report: Engineering, Analytics, and Product Access Update\n\n## Summary\n\nThis report gives all employees a plain-language view of where cross-functional work stands this period. Overall, work is progressing steadily. ...",
+    "content_length": 5472,
+    "created_at": "2026-10-30T08:38:57.126095+00:00",
+    "updated_at": "2026-10-30T08:54:10.696346+00:00",
+    "file_path": "d-public-016",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "e586ecfa44d1f56ed0f61c4662dc2965",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349754,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350333,
+      "process_end_time": 1793350450,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-016-chunk-000"
+    ]
+  },
+  "d-team_b-005": {
+    "status": "processed",
+    "content_summary": "Satisen Labs Equipment Delivery and Site Access Briefing\n\n**Restricted distribution: please do not forward outside the approved reader list.**\n\n## Summary\n\nThis page gives the limited group responsible for vendor logistics a single reference for the ...",
+    "content_length": 3696,
+    "created_at": "2026-10-30T08:38:57.126214+00:00",
+    "updated_at": "2026-10-30T09:08:56.775591+00:00",
+    "file_path": "d-team_b-005",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "c4d37be6936244919bd604ed0f9df9f8",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350903,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351243,
+      "process_end_time": 1793351336,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-005-chunk-000"
+    ]
+  },
+  "d-team_b-007": {
+    "status": "processed",
+    "content_summary": "Vendor Onboarding Review – Consulting Engagement Coding and Access\n\nFrom: Finance Operations Lead\nTo: Procurement Manager; Security Access Coordinator\nSubject: Vendor Onboarding Review – Consulting Engagement Coding and Access\n\nHi both,\n\nPlease keep ...",
+    "content_length": 2740,
+    "created_at": "2026-10-30T08:38:57.126226+00:00",
+    "updated_at": "2026-10-30T09:09:52.107116+00:00",
+    "file_path": "d-team_b-007",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "69de6b4b95dc5c1dcc7dd8e8dca72e25",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350956,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351336,
+      "process_end_time": 1793351392,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-007-chunk-000"
+    ]
+  },
+  "d-public-018": {
+    "status": "processed",
+    "content_summary": "Cross-Functional Sync: Analytics Updates and Vendor Services Review\n\n**Date:** October 9, 2026\n**Attendees:** Drikres Tikrais, Leroror Lukaine, Desgua Stebela, Givien Mubren, a finance representative, a procurement representative, an operations lead\n...",
+    "content_length": 5979,
+    "created_at": "2026-10-30T08:38:57.126107+00:00",
+    "updated_at": "2026-10-30T08:56:30.998223+00:00",
+    "file_path": "d-public-018",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "45364710e185424408d7ffbe2c4c63df",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349822,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350450,
+      "process_end_time": 1793350590,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-018-chunk-000",
+      "d-public-018-chunk-001"
+    ]
+  },
+  "d-public-002": {
+    "status": "processed",
+    "content_summary": "Vendor Renewals and Tooling Ownership Update for FY27\n\nFrom: Director of Procurement\nTo: All Employees\nSubject: Upcoming vendor renewals and who to contact in FY27\n\nHello everyone,\n\nAs we plan for the first half of FY27, I want to give the whole comp...",
+    "content_length": 3756,
+    "created_at": "2026-10-30T08:38:57.125996+00:00",
+    "updated_at": "2026-10-30T08:40:40.866590+00:00",
+    "file_path": "d-public-002",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "5a8f725bb48c74a32b15a281f0cb2de6",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349537,
+      "process_end_time": 1793349640,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-002-chunk-000"
+    ]
+  },
+  "d-team_a-002": {
+    "status": "processed",
+    "content_summary": "Seating Readiness and Launch Planning for the Feltarel Relay\n\nTO: Program Leadership Group; Facilities Planning Lead; Workforce Operations Lead\nFROM: Director, Program Operations\nDATE: October 9, 2026\nSUBJECT: Seating Capacity and Launch Coordination...",
+    "content_length": 3592,
+    "created_at": "2026-10-30T08:38:57.126134+00:00",
+    "updated_at": "2026-10-30T09:00:15.545161+00:00",
+    "file_path": "d-team_a-002",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "b6036ea0da0c1cd70648f82010d6be04",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350081,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350643,
+      "process_end_time": 1793350815,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-002-chunk-000"
+    ]
+  },
+  "d-exec-003": {
+    "status": "processed",
+    "content_summary": "Restricted Briefing: Forecasting Workstream and Console Dependencies\n\n**Access note:** This page is for the small group of leads directly involved in the forecasting workstream. Please do not forward it or copy its contents into broader channels. If ...",
+    "content_length": 3972,
+    "created_at": "2026-10-30T08:38:57.126261+00:00",
+    "updated_at": "2026-10-30T09:15:29.082560+00:00",
+    "file_path": "d-exec-003",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "c4a873d475f921075909c8fa45c32698",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351185,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351626,
+      "process_end_time": 1793351729,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-003-chunk-000"
+    ]
+  },
+  "d-public-010": {
+    "status": "processed",
+    "content_summary": "Analytics Funding and Project Ownership Overview – Company-Wide Clarification\n\nFrom: Vadesis Gummenbel, Chief of Staff\nTo: All Employees\nSubject: Clarifying who owns what in our analytics work\n\nHello everyone,\n\nOver the past few weeks, I have receive...",
+    "content_length": 4531,
+    "created_at": "2026-10-30T08:38:57.126049+00:00",
+    "updated_at": "2026-10-30T08:46:40.829192+00:00",
+    "file_path": "d-public-010",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "6915c5830e94af6091075b95b04a6d6e",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349869,
+      "process_end_time": 1793350000,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-010-chunk-000"
+    ]
+  },
+  "d-exec-004": {
+    "status": "processed",
+    "content_summary": "Customer Onboarding Flows Working Session – Restricted Meeting Notes\n\n**Date:** 9 October 2026\n**Attendees:** Milsean Trusases; Bedras Sarkua; a finance representative; a security representative; a product operations representative\n\n**Distribution:**...",
+    "content_length": 3240,
+    "created_at": "2026-10-30T08:38:57.126268+00:00",
+    "updated_at": "2026-10-30T09:16:06.533322+00:00",
+    "file_path": "d-exec-004",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "95094ad78b234bf2559206103b6557c8",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351243,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351652,
+      "process_end_time": 1793351766,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-004-chunk-000"
+    ]
+  },
+  "d-team_b-008": {
+    "status": "processed",
+    "content_summary": "Onboarding Handoff and Budget Coding for Restricted Access Group\n\nFrom: Operations Manager\nTo: Finance Lead; Program Coordinator\nSubject: Handoff notes for the restricted access group\n\nHi both,\n\nBefore we widen this conversation, I want to keep it to...",
+    "content_length": 2609,
+    "created_at": "2026-10-30T08:38:57.126231+00:00",
+    "updated_at": "2026-10-30T09:11:27.298946+00:00",
+    "file_path": "d-team_b-008",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "d8b9d6d4ca88f692d9542e4d1b3b0384",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351392,
+      "process_end_time": 1793351487,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-008-chunk-000"
+    ]
+  },
+  "d-public-001": {
+    "status": "processed",
+    "content_summary": "Company-Wide Operations Status Report: Infrastructure, Platform, and Workplace Update\n\n**Summary**\n\nThis periodic report gives all employees a shared view of how our core platforms, workplace facilities, and supporting teams are doing. Overall, opera...",
+    "content_length": 5733,
+    "created_at": "2026-10-30T08:38:57.125986+00:00",
+    "updated_at": "2026-10-30T08:42:03.643119+00:00",
+    "file_path": "d-public-001",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "3dd739ee677bf2854d70901c12c7d585",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349537,
+      "process_end_time": 1793349723,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-001-chunk-000"
+    ]
+  },
+  "d-public-019": {
+    "status": "processed",
+    "content_summary": "Platform Roadmap and Ownership Snapshot: Telemetry, Beacons, Relays, and Vendor Renewals\n\n**Summary**\n\nThis page gives all employees a plain-language snapshot of who owns what in our fleet data and platform work, which launches and renewals are on th...",
+    "content_length": 5351,
+    "created_at": "2026-10-30T08:38:57.126114+00:00",
+    "updated_at": "2026-10-30T08:55:25.907359+00:00",
+    "file_path": "d-public-019",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "c174b831764e8c1248ed236e2cddd3b2",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349869,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350451,
+      "process_end_time": 1793350525,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-019-chunk-000"
+    ]
+  },
+  "d-team_a-006": {
+    "status": "processed",
+    "content_summary": "Account Oversight and Staffing Alignment for the Gaskergur Harbor Engagement\n\nTO: Account Leadership Group (Restricted Distribution)\nFROM: Director of Client Operations\nDATE: October 9, 2026\nSUBJECT: Oversight, Reporting Lines, and Institutional Know...",
+    "content_length": 4233,
+    "created_at": "2026-10-30T08:38:57.126158+00:00",
+    "updated_at": "2026-10-30T09:02:38.814698+00:00",
+    "file_path": "d-team_a-006",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "64ef7e86a9d47f46e55e003e96b701f7",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793350450,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793350903,
+      "process_end_time": 1793350958,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-006-chunk-000"
+    ]
+  },
+  "d-public-000": {
+    "status": "processed",
+    "content_summary": "Platform Overview: Trebrula Beacon, Lagemett Ledger Suppliers, and Key Contacts\n\n**Summary:** This page gives all employees a plain-language snapshot of the Trebrula Beacon rollout, the vendors behind the Lagemett Ledger, and the people and teams who...",
+    "content_length": 6410,
+    "created_at": "2026-10-30T08:38:57.125958+00:00",
+    "updated_at": "2026-10-30T08:40:45.633534+00:00",
+    "file_path": "d-public-000",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "127e3a038be106d8045ce3762de94cd5",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349537,
+      "process_end_time": 1793349645,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-000-chunk-000",
+      "d-public-000-chunk-001"
+    ]
+  },
+  "d-exec-002": {
+    "status": "processed",
+    "content_summary": "Identity Tooling and Budget Status Report, Restricted Distribution\n\n**Distribution note:** This report is intended for a small group of leads and sponsors at Zastama Industries. Please do not forward it beyond the approved list, as it touches on acce...",
+    "content_length": 4038,
+    "created_at": "2026-10-30T08:38:57.126255+00:00",
+    "updated_at": "2026-10-30T09:14:53.443314+00:00",
+    "file_path": "d-exec-002",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "3a0e9f6e9d3cee33282dc04f7f337bf0",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793351146,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793351564,
+      "process_end_time": 1793351693,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-002-chunk-000"
+    ]
+  },
+  "d-public-003": {
+    "status": "processed",
+    "content_summary": "Company-Wide Operations Status Report: Equipment, Services, and Platform Updates\n\n**Summary**\n\nThis report gives all employees a periodic view of where several active efforts stand at Zastama Industries. Overall, work is moving steadily. Equipment de...",
+    "content_length": 5991,
+    "created_at": "2026-10-30T08:38:57.126002+00:00",
+    "updated_at": "2026-10-30T08:42:16.977006+00:00",
+    "file_path": "d-public-003",
+    "track_id": "insert_20261030_083857_f3b7ef04",
+    "content_hash": "10a8f28573499dc6e0ac47bf63677e03",
+    "metadata": {
+      "parse_start_time": 1793349537,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793349537,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793349640,
+      "process_end_time": 1793349736,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-003-chunk-000",
+      "d-public-003-chunk-001"
+    ]
+  },
+  "d-team_b-006": {
+    "status": "processed",
+    "content_summary": "Restricted Access Review: Vault Credential Records for Long-Tenured and Recent Staff\n\nTO: Director of Security Operations\nFROM: Manager, Access Governance\nDATE: October 9, 2026\nSUBJECT: Vault credential record review for two staff members\n\nThis memo ...",
+    "content_length": 3784,
+    "created_at": "2026-10-30T14:08:40.013003+00:00",
+    "updated_at": "2026-10-30T14:13:54.355700+00:00",
+    "file_path": "d-team_b-006",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "220e7a0365eea0a3398f50661de03bb2",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369513,
+      "process_end_time": 1793369634,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-006-chunk-000"
+    ]
+  },
+  "d-public-008": {
+    "status": "processed",
+    "content_summary": "Vendor Contracts and Renewals Review: Company-Wide Meeting Notes\n\n**Date:** October 9, 2026\n**Attendees:** Procurement lead, finance representative, legal representative, program management lead, engineering lead for the ledger platform, operations r...",
+    "content_length": 6742,
+    "created_at": "2026-10-30T14:08:40.012954+00:00",
+    "updated_at": "2026-10-30T14:08:59.527765+00:00",
+    "file_path": "d-public-008",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "633ce170174ea17d5f6378c0ec0a9556",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369320,
+      "process_end_time": 1793369339,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "d-public-008-chunk-000",
+      "d-public-008-chunk-001"
+    ]
+  },
+  "d-public-007": {
+    "status": "processed",
+    "content_summary": "Cross-Team Status Brief: Key Accounts, Projects, and Ownership\n\n**Summary:** This page gives all employees a shared view of an important upcoming customer renewal, a project that needs attention, and a few ownership details that help people know whom...",
+    "content_length": 4805,
+    "created_at": "2026-10-30T14:08:40.012932+00:00",
+    "updated_at": "2026-10-30T14:09:47.700472+00:00",
+    "file_path": "d-public-007",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "acb99a9959ab53a506c8c8eaef48449b",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369320,
+      "process_end_time": 1793369387,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-007-chunk-000"
+    ]
+  },
+  "d-public-014": {
+    "status": "processed",
+    "content_summary": "Platform Operations Overview: Who Runs Fleet Telemetry, Data Retention, and Relay Hosting\n\nTO: All Employees, Zastama Industries\nFROM: Office of the Chief Operating Officer\nDATE: October 9, 2026\nSUBJECT: Where fleet telemetry, data retention tooling,...",
+    "content_length": 5734,
+    "created_at": "2026-10-30T14:08:40.012978+00:00",
+    "updated_at": "2026-10-30T14:10:36.908138+00:00",
+    "file_path": "d-public-014",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "f1af6a3690675da269274e52c3e42730",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369376,
+      "process_end_time": 1793369436,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-014-chunk-000"
+    ]
+  },
+  "d-public-013": {
+    "status": "processed",
+    "content_summary": "Identity and Access Tooling at Zastama Industries: Ownership, Budget, and Key Contacts\n\n**Summary:** This page explains who owns identity and access tooling, how that work is funded, and where to direct common questions. It also notes a few related f...",
+    "content_length": 4549,
+    "created_at": "2026-10-30T14:08:40.012971+00:00",
+    "updated_at": "2026-10-30T14:09:36.761848+00:00",
+    "file_path": "d-public-013",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "07eb9790e7bbbf2dd3843731e1f9e048",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369339,
+      "process_end_time": 1793369376,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-013-chunk-000"
+    ]
+  },
+  "d-team_b-003": {
+    "status": "processed",
+    "content_summary": "Restricted Access Working Notes: Budget Attribution and Architecture Review Coordination\n\n**Summary**\n\nThis page is a working reference for the small group involved in the current architecture review and its associated budget tracking at Zastama Indu...",
+    "content_length": 3942,
+    "created_at": "2026-10-30T14:08:40.012996+00:00",
+    "updated_at": "2026-10-30T14:11:53.759229+00:00",
+    "file_path": "d-team_b-003",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "39f3d90ed7c963605f116b9b838e9278",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369436,
+      "process_end_time": 1793369513,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_b-003-chunk-000"
+    ]
+  },
+  "d-public-011": {
+    "status": "processed",
+    "content_summary": "Company-Wide Status Report: Lagemett Ledger and Project Nuzeor Update\n\n**Periodic Status Report**\nPrepared for all employees of Zastama Industries\n\n**Summary**\n\nThis report gives everyone a shared view of where our current work stands. The main focus...",
+    "content_length": 5304,
+    "created_at": "2026-10-30T14:08:40.012964+00:00",
+    "updated_at": "2026-10-30T14:10:11.930248+00:00",
+    "file_path": "d-public-011",
+    "track_id": "insert_20261030_140840_04863c32",
+    "content_hash": "f5c37bc8a4211186ad4086e5ccaeed61",
+    "metadata": {
+      "parse_start_time": 1793369320,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793369320,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793369320,
+      "process_end_time": 1793369411,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-public-011-chunk-000"
+    ]
+  },
+  "d-exec-009": {
+    "status": "processed",
+    "content_summary": "Project Kridresa Periodic Status Report – Restricted Distribution\n\n**Distribution:** Restricted internal audience only. Please do not forward beyond the approved reader list.\n\n**Prepared for:** Zastama Industries steering group and workstream leads\n\n...",
+    "content_length": 4109,
+    "created_at": "2026-10-31T17:46:42.201599+00:00",
+    "updated_at": "2026-10-31T17:48:44.110142+00:00",
+    "file_path": "d-exec-009",
+    "track_id": "insert_20261031_174642_d0e7afce",
+    "content_hash": "b9c45a148392625518ae0988d6fe3805",
+    "metadata": {
+      "parse_start_time": 1793468802,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793468802,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793468802,
+      "process_end_time": 1793468924,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-exec-009-chunk-000"
+    ]
+  },
+  "d-team_a-003": {
+    "status": "processed",
+    "content_summary": "Biweekly Status Report: Operations Analytics Initiatives\n\nDistribution: Restricted. Program leads and steering members only. Please do not forward beyond this list.\n\n**Summary**\n\nThis report covers the current reporting period for the analytics and o...",
+    "content_length": 4638,
+    "created_at": "2026-10-31T17:50:42.579371+00:00",
+    "updated_at": "2026-10-31T17:52:46.419151+00:00",
+    "file_path": "d-team_a-003",
+    "track_id": "insert_20261031_175042_75e99bb6",
+    "content_hash": "fbfa0a74b68198d5230abe27e42ebabc",
+    "metadata": {
+      "parse_start_time": 1793469042,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793469042,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793469042,
+      "process_end_time": 1793469166,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-003-chunk-000"
+    ]
+  },
+  "d-team_a-001": {
+    "status": "processed",
+    "content_summary": "Periodic Status Report: Paskian Platform Group and Gaskergur Harbor Workstream\n\n**Distribution:** Restricted. Intended for the program sponsors and workstream leads only. Please do not forward beyond this list.\n\n## Summary\n\nThis report covers the cur...",
+    "content_length": 4966,
+    "created_at": "2026-10-31T17:54:07.148104+00:00",
+    "updated_at": "2026-10-31T17:54:59.403236+00:00",
+    "file_path": "d-team_a-001",
+    "track_id": "insert_20261031_175407_95adae69",
+    "content_hash": "1a26f5fc056b40e2111d2798ad3425ab",
+    "metadata": {
+      "parse_start_time": 1793469247,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1793469247,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1793469247,
+      "process_end_time": 1793469299,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "d-team_a-001-chunk-000"
+    ]
+  }
+}

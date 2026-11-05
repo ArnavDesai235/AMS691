@@ -1,0 +1,4508 @@
+{
+  "d-public-002": {
+    "relation_pairs": [
+      [
+        "Dankenor Analytics Unit",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Director of Procurement",
+        "Getaine Hebruen"
+      ],
+      [
+        "Director of Procurement",
+        "Gonnom Gosmunza"
+      ],
+      [
+        "Director of Procurement",
+        "Head of IT Operations"
+      ],
+      [
+        "Director of Procurement",
+        "Kremarel Partners"
+      ],
+      [
+        "Director of Procurement",
+        "Leroror Lukaine"
+      ],
+      [
+        "Director of Procurement",
+        "Nalzenett Labs"
+      ],
+      [
+        "Director of Procurement",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Getaine Hebruen",
+        "Head of IT Operations"
+      ],
+      [
+        "Getaine Hebruen",
+        "Kremarel Partners"
+      ],
+      [
+        "Getaine Hebruen",
+        "Nalzenett Labs"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Head of IT Operations"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Kremarel Partners"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Nalzenett Labs"
+      ],
+      [
+        "Head of IT Operations",
+        "Leroror Lukaine"
+      ],
+      [
+        "Head of IT Operations",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Kremarel Partners",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Leroror Lukaine",
+        "Project Nuzeor"
+      ],
+      [
+        "Nalzenett Labs",
+        "Vadesis Gummenbel"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793349628,
+    "update_time": 1793349628,
+    "_id": "d-public-002"
+  },
+  "d-public-000": {
+    "relation_pairs": [
+      [
+        "Berruan Zenresan",
+        "Desgua Stebela"
+      ],
+      [
+        "Business Lead",
+        "Zastama Industries"
+      ],
+      [
+        "Business Owner",
+        "Lagemett Ledger"
+      ],
+      [
+        "Company Channels",
+        "Zastama Industries"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Pivoine Geltoett"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Zastama Industries"
+      ],
+      [
+        "Dilhas Consulting",
+        "Lagemett Ledger"
+      ],
+      [
+        "Dilhas Consulting",
+        "Master Services Agreement"
+      ],
+      [
+        "FY27",
+        "Trebrula Beacon"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Givien Mubren"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Standard Intake Process"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Zastama Industries"
+      ],
+      [
+        "Lagemett Ledger",
+        "Misginine Systems"
+      ],
+      [
+        "Lagemett Ledger",
+        "Procurement"
+      ],
+      [
+        "Lagemett Ledger",
+        "Zastama Industries"
+      ],
+      [
+        "Launch Readiness Steps",
+        "Trebrula Beacon"
+      ],
+      [
+        "Owning Team",
+        "Zastama Industries"
+      ],
+      [
+        "Page Maintainer",
+        "Zastama Industries"
+      ],
+      [
+        "Procurement",
+        "Vendor"
+      ],
+      [
+        "Q1 FY27",
+        "Trebrula Beacon"
+      ],
+      [
+        "Team",
+        "Zastama Industries"
+      ],
+      [
+        "Team Contacts",
+        "Zastama Industries"
+      ],
+      [
+        "Trebrula Beacon",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 23,
+    "create_time": 1793349643,
+    "update_time": 1793349643,
+    "_id": "d-public-000"
+  },
+  "d-public-001": {
+    "relation_pairs": [
+      [
+        "$4.1M",
+        "Fonathe Platform Group"
+      ],
+      [
+        "390-seat capacity",
+        "Brerponen Annex"
+      ],
+      [
+        "400 active users",
+        "Fibrasine Relay"
+      ],
+      [
+        "Brerponen Annex",
+        "Gelgos Infrastructure Team"
+      ],
+      [
+        "Brerponen Annex",
+        "Zastama Industries"
+      ],
+      [
+        "Budget and stewardship",
+        "Zastama Industries"
+      ],
+      [
+        "Budget discipline",
+        "Zastama Industries"
+      ],
+      [
+        "Budget review",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Capacity and space planning",
+        "Zastama Industries"
+      ],
+      [
+        "Communication gaps",
+        "Zastama Industries"
+      ],
+      [
+        "Concentrated operational knowledge",
+        "Zastama Industries"
+      ],
+      [
+        "Continuity planning",
+        "Zastama Industries"
+      ],
+      [
+        "Cross-group coordination",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Dependency concentration",
+        "Zastama Industries"
+      ],
+      [
+        "Documentation and cross-training",
+        "Gelgos Infrastructure Team"
+      ],
+      [
+        "Feedback collection",
+        "Zastama Industries"
+      ],
+      [
+        "Fibrasine Relay",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Fibrasine Relay",
+        "Project Bilfael"
+      ],
+      [
+        "Fibrasine Relay",
+        "Zastama Industries"
+      ],
+      [
+        "Fonathe Platform Group",
+        "Zastama Industries"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Routine monitoring and maintenance"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Zastama Industries"
+      ],
+      [
+        "Leadership and reporting",
+        "Zastama Industries"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zastama Industries"
+      ],
+      [
+        "Next Steps",
+        "Zastama Industries"
+      ],
+      [
+        "Project Bilfael",
+        "Regular check-ins"
+      ],
+      [
+        "Project Bilfael",
+        "Zastama Industries"
+      ],
+      [
+        "Project work",
+        "Zastama Industries"
+      ],
+      [
+        "Questions and Feedback",
+        "Zastama Industries"
+      ],
+      [
+        "Risks",
+        "Zastama Industries"
+      ],
+      [
+        "Seating demand review",
+        "Zastama Industries"
+      ],
+      [
+        "Shared platforms",
+        "Zastama Industries"
+      ],
+      [
+        "Vadesis Gummenbel",
+        "Zastama Industries"
+      ],
+      [
+        "Workplace and facilities",
+        "Zastama Industries"
+      ],
+      [
+        "Zastama Industries",
+        "Zosu Kistos"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1793349720,
+    "update_time": 1793349720,
+    "_id": "d-public-001"
+  },
+  "d-public-003": {
+    "relation_pairs": [
+      [
+        "Brerponen Annex",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Coastal Conditions",
+        "Kimmoine Annex"
+      ],
+      [
+        "Cross-Functional Initiative Leadership",
+        "Project Vebamett"
+      ],
+      [
+        "Decision Documentation",
+        "Zastama Industries"
+      ],
+      [
+        "Facilities",
+        "Kimmoine Annex"
+      ],
+      [
+        "Finance",
+        "Project Team"
+      ],
+      [
+        "Fonathe Platform Group",
+        "Shared Technical Foundations"
+      ],
+      [
+        "Fonathe Platform Group",
+        "Zastama Industries"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Zastama Industries"
+      ],
+      [
+        "Kimmoine Annex",
+        "Kremarel Partners"
+      ],
+      [
+        "Kimmoine Annex",
+        "Operations"
+      ],
+      [
+        "Kimmoine Annex",
+        "Zastama Industries"
+      ],
+      [
+        "Kremarel Partners",
+        "Procurement"
+      ],
+      [
+        "Kremarel Partners",
+        "Project Bilfael"
+      ],
+      [
+        "Kremarel Partners",
+        "Zastama Industries"
+      ],
+      [
+        "Megea Fosaine",
+        "Project Vebamett"
+      ],
+      [
+        "Periodic Report",
+        "Progress"
+      ],
+      [
+        "Periodic Report",
+        "Project Lead"
+      ],
+      [
+        "Periodic Report",
+        "Risks"
+      ],
+      [
+        "Procurement",
+        "Project Team"
+      ],
+      [
+        "Project Vebamett",
+        "Zastama Industries"
+      ],
+      [
+        "Status Format Standardization",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1793349734,
+    "update_time": 1793349734,
+    "_id": "d-public-003"
+  },
+  "d-public-004": {
+    "relation_pairs": [
+      [
+        "Dankenor Analytics Unit",
+        "Pivoine Geltoett"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zastama Industries"
+      ],
+      [
+        "Delivery Dependency",
+        "Kimmoine Annex"
+      ],
+      [
+        "Early Communication",
+        "Zastama Industries"
+      ],
+      [
+        "Facilities Lead",
+        "Kimmoine Annex"
+      ],
+      [
+        "Kimmoine Annex",
+        "Kremarel Partners"
+      ],
+      [
+        "Kremarel Partners",
+        "Zastama Industries"
+      ],
+      [
+        "Leroror Lukaine",
+        "Project Nuzeor"
+      ],
+      [
+        "Master Services Agreement",
+        "Zastama Industries"
+      ],
+      [
+        "Next Steps",
+        "Zastama Industries"
+      ],
+      [
+        "Periodic Status Report",
+        "Zastama Industries"
+      ],
+      [
+        "Procurement and Finance Leads",
+        "Zastama Industries"
+      ],
+      [
+        "Project Nuzeor",
+        "Q3 FY26"
+      ],
+      [
+        "Project Nuzeor",
+        "Schedule Risk"
+      ],
+      [
+        "Project Nuzeor",
+        "Zastama Industries"
+      ],
+      [
+        "Project Vebamett",
+        "Risk"
+      ],
+      [
+        "Project Vebamett",
+        "Zastama Industries"
+      ],
+      [
+        "Q2 FY27",
+        "Satisen Labs"
+      ],
+      [
+        "Satisen Labs",
+        "Zastama Industries"
+      ],
+      [
+        "Vendor Dependency",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1793349753,
+    "update_time": 1793349753,
+    "_id": "d-public-004"
+  },
+  "d-public-006": {
+    "relation_pairs": [
+      [
+        "Actions",
+        "Update"
+      ],
+      [
+        "Berruan Zenresan",
+        "Dankenor Analytics Unit"
+      ],
+      [
+        "Berruan Zenresan",
+        "Krilfia Mukela"
+      ],
+      [
+        "Berruan Zenresan",
+        "Project Stebril"
+      ],
+      [
+        "Berruan Zenresan",
+        "Zastama Industries"
+      ],
+      [
+        "Capacity and Focus",
+        "Project Stebril"
+      ],
+      [
+        "Clear Communication",
+        "Zastama Industries"
+      ],
+      [
+        "Communication Gaps",
+        "Project Stebril"
+      ],
+      [
+        "Cross-Team Coordination",
+        "Project Stebril"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Project Stebril"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zastama Industries"
+      ],
+      [
+        "Dependency Timing",
+        "Project Stebril"
+      ],
+      [
+        "Krilfia Mukela",
+        "Project Stebril"
+      ],
+      [
+        "Krilfia Mukela",
+        "Zastama Industries"
+      ],
+      [
+        "Lagemett Ledger",
+        "Project Stebril"
+      ],
+      [
+        "Leroror Lukaine",
+        "Trebrula Beacon"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zastama Industries"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zosu Kistos"
+      ],
+      [
+        "Project Stebril",
+        "Trebrula Beacon"
+      ],
+      [
+        "Project Stebril",
+        "Zastama Industries"
+      ],
+      [
+        "Q1 FY27",
+        "Trebrula Beacon"
+      ],
+      [
+        "Risks",
+        "Update"
+      ],
+      [
+        "Trebrula Beacon",
+        "Zastama Industries"
+      ],
+      [
+        "Trebrula Beacon",
+        "Zosu Kistos"
+      ],
+      [
+        "Update",
+        "Zastama Industries"
+      ],
+      [
+        "Zastama Industries",
+        "Zosu Kistos"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1793349804,
+    "update_time": 1793349804,
+    "_id": "d-public-006"
+  },
+  "d-public-005": {
+    "relation_pairs": [
+      [
+        "Action items",
+        "Cross-functional update"
+      ],
+      [
+        "Budget Tracking",
+        "Project Stebril"
+      ],
+      [
+        "Chief of Staff",
+        "Employees"
+      ],
+      [
+        "Communication Habits",
+        "Cross-Functional Program Update"
+      ],
+      [
+        "Company-Wide Notes",
+        "Plain Language Communication"
+      ],
+      [
+        "Company-Wide Notes",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Cross-Functional Program Update",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Cross-functional update",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Dependency Management",
+        "Project Nuzeor"
+      ],
+      [
+        "Dependency Risk Reporting",
+        "Project Nuzeor"
+      ],
+      [
+        "Employees",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Finance Representative",
+        "Project Stebril"
+      ],
+      [
+        "Finance Representative",
+        "Recurring Spending Reports"
+      ],
+      [
+        "Fleet Telemetry",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Fleet Telemetry",
+        "Telemetry Requests"
+      ],
+      [
+        "Fleet Telemetry Guide",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Fleet telemetry requests",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Fonathe Platform Group",
+        "Krilfia Mukela"
+      ],
+      [
+        "Fonathe Platform Group",
+        "Zastama Industries"
+      ],
+      [
+        "Incident Response Tooling",
+        "Megea Fosaine"
+      ],
+      [
+        "Incident Response Tooling",
+        "Tooling Adaptation"
+      ],
+      [
+        "Incident response",
+        "Megea Fosaine"
+      ],
+      [
+        "Krilfia Mukela",
+        "Project Stebril"
+      ],
+      [
+        "Krilfia Mukela",
+        "Zastama Industries"
+      ],
+      [
+        "Megea Fosaine",
+        "Tooling Needs Input"
+      ],
+      [
+        "Megea Fosaine",
+        "Zastama Industries"
+      ],
+      [
+        "Misginine Systems",
+        "Procurement Representative"
+      ],
+      [
+        "Misginine Systems",
+        "Project Stebril"
+      ],
+      [
+        "Next Cross-Functional Update",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Procurement Representative",
+        "Vendor Coordination"
+      ],
+      [
+        "Program Management Representative",
+        "Project Nuzeor"
+      ],
+      [
+        "Program management representative",
+        "Project Nuzeor"
+      ],
+      [
+        "Program management representative",
+        "Q3 FY26 target"
+      ],
+      [
+        "Project Stebril",
+        "Telemetry Interface Descriptions"
+      ],
+      [
+        "Vadesis Gummenbel",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1793349811,
+    "update_time": 1793349811,
+    "_id": "d-public-005"
+  },
+  "d-public-009": {
+    "relation_pairs": [
+      [
+        "Dankenor Analytics Unit",
+        "Munnam Furzil"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zastama Industries"
+      ],
+      [
+        "Fibrasine Relay",
+        "Kimmoine Annex"
+      ],
+      [
+        "Fibrasine Relay",
+        "Zastama Industries"
+      ],
+      [
+        "Givien Mubren",
+        "Kimmoine Annex"
+      ],
+      [
+        "Kimmoine Annex",
+        "Zastama Industries"
+      ],
+      [
+        "Kremarel Partners",
+        "Zastama Industries"
+      ],
+      [
+        "Lagemett Ledger",
+        "Project Rakresett"
+      ],
+      [
+        "Procurement and Legal Contacts",
+        "Zastama Industries"
+      ],
+      [
+        "Project Rakresett",
+        "Zastama Industries"
+      ],
+      [
+        "Wiki Maintainers",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1793349868,
+    "update_time": 1793349868,
+    "_id": "d-public-009"
+  },
+  "d-public-010": {
+    "relation_pairs": [
+      [
+        "$6.4M Annual Budget",
+        "Dankenor Analytics Unit"
+      ],
+      [
+        "A Finance Lead",
+        "Dankenor Analytics Unit"
+      ],
+      [
+        "A Finance Lead",
+        "Nalzenett Labs"
+      ],
+      [
+        "A Finance Lead",
+        "Project Bilfael"
+      ],
+      [
+        "A Finance Lead",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "All Employees",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Budget Accountability",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Chief of Staff",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Megea Fosaine"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Project Vebamett"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Givien Mubren",
+        "Project Bilfael"
+      ],
+      [
+        "Internal Owner",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Lagemett Ledger",
+        "Nalzenett Labs"
+      ],
+      [
+        "Megea Fosaine",
+        "Project Vebamett"
+      ],
+      [
+        "Megea Fosaine",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Nalzenett Labs",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Planning Templates",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Project Bilfael",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Project Vebamett",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Purchasing",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Vadesis Gummenbel",
+        "Vendor"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1793349998,
+    "update_time": 1793349998,
+    "_id": "d-public-010"
+  },
+  "d-public-012": {
+    "relation_pairs": [
+      [
+        "Berruan Zenresan",
+        "Customer Onboarding Flows"
+      ],
+      [
+        "Berruan Zenresan",
+        "Desgua Stebela"
+      ],
+      [
+        "Berruan Zenresan",
+        "Security Function"
+      ],
+      [
+        "Desgua Stebela",
+        "Incident Response Tooling"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Givien Mubren"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Infrastructure Request Process"
+      ],
+      [
+        "General Help Channel",
+        "Zastama Industries"
+      ],
+      [
+        "Incident Channel",
+        "Security Function"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zosu Kistos"
+      ],
+      [
+        "Security Function",
+        "Security Request Channel"
+      ],
+      [
+        "Security and Infrastructure Contacts",
+        "Zastama Industries"
+      ],
+      [
+        "Wiki Feedback Form",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1793350079,
+    "update_time": 1793350079,
+    "_id": "d-public-012"
+  },
+  "d-public-015": {
+    "relation_pairs": [
+      [
+        "Capacity and Focus",
+        "Leroror Lukaine"
+      ],
+      [
+        "Communication Gaps",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Cross-Functional Work",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Data Retention Tooling",
+        "Fallem Purraren"
+      ],
+      [
+        "Data Retention Tooling",
+        "Next Steps"
+      ],
+      [
+        "Data Retention Tooling",
+        "Periodic Status Report"
+      ],
+      [
+        "Data Retention Tooling",
+        "Project Bilfael"
+      ],
+      [
+        "Data Retention Tooling",
+        "Usability"
+      ],
+      [
+        "Fallem Purraren",
+        "Givien Mubren"
+      ],
+      [
+        "Fallem Purraren",
+        "Leroror Lukaine"
+      ],
+      [
+        "Feedback",
+        "Trebrula Beacon"
+      ],
+      [
+        "Givien Mubren",
+        "Project Bilfael"
+      ],
+      [
+        "Internal-Only Expectations",
+        "Trebrula Beacon"
+      ],
+      [
+        "Internal-Only Tier",
+        "Trebrula Beacon"
+      ],
+      [
+        "Leroror Lukaine",
+        "Next Steps"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zosu Kistos"
+      ],
+      [
+        "Next Steps",
+        "Project Bilfael"
+      ],
+      [
+        "Next Steps",
+        "Trebrula Beacon"
+      ],
+      [
+        "Next Steps",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Periodic Status Report",
+        "Project Bilfael"
+      ],
+      [
+        "Periodic Status Report",
+        "Risks"
+      ],
+      [
+        "Periodic Status Report",
+        "Trebrula Beacon"
+      ],
+      [
+        "Project Bilfael",
+        "Working Agreements"
+      ],
+      [
+        "Shared Decision Record",
+        "Vadesis Gummenbel"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1793350331,
+    "update_time": 1793350331,
+    "_id": "d-public-015"
+  },
+  "d-public-016": {
+    "relation_pairs": [
+      [
+        "Access Review",
+        "Access Sprawl"
+      ],
+      [
+        "Analytics Collaboration",
+        "Dankenor Analytics Unit"
+      ],
+      [
+        "Audit Trail",
+        "Permission Request and Review Flow"
+      ],
+      [
+        "Cross-Team Check-Ins",
+        "Operations and Communication"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Gonnom Gosmunza"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Shared Datasets"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zosu Kistos"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Identity and Access Tooling"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Zastama Industries"
+      ],
+      [
+        "How to Get Involved",
+        "Status Report"
+      ],
+      [
+        "Internal Documentation",
+        "Trebrula Beacon"
+      ],
+      [
+        "Munnam Furzil",
+        "Pivoine Geltoett"
+      ],
+      [
+        "Next Steps",
+        "Status Report"
+      ],
+      [
+        "Reporting Line",
+        "Routing and Ownership Confusion"
+      ],
+      [
+        "Risks",
+        "Status Report"
+      ],
+      [
+        "Status Report",
+        "Zastama Industries"
+      ],
+      [
+        "Trebrula Beacon",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1793350441,
+    "update_time": 1793350441,
+    "_id": "d-public-016"
+  },
+  "d-public-019": {
+    "relation_pairs": [
+      [
+        "Dankenor Analytics Unit",
+        "Getaine Hebruen"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Krilfia Mukela"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zastama Industries"
+      ],
+      [
+        "Engineering Leadership",
+        "Gonnom Gosmunza"
+      ],
+      [
+        "Engineering Leadership",
+        "Zastama Industries"
+      ],
+      [
+        "Feltarel Relay",
+        "Zastama Industries"
+      ],
+      [
+        "Getaine Hebruen",
+        "Krilfia Mukela"
+      ],
+      [
+        "Misginine Systems",
+        "Zastama Industries"
+      ],
+      [
+        "Platform Roadmap and Ownership Snapshot",
+        "Zastama Industries"
+      ],
+      [
+        "Trebrula Beacon",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1793350510,
+    "update_time": 1793350510,
+    "_id": "d-public-019"
+  },
+  "d-public-018": {
+    "relation_pairs": [
+      [
+        "Action items",
+        "Cross-Functional Sync"
+      ],
+      [
+        "Agendas",
+        "Cross-Functional Sync"
+      ],
+      [
+        "Background notes",
+        "Zastama Industries"
+      ],
+      [
+        "Communication practices",
+        "Cross-Functional Sync"
+      ],
+      [
+        "Cross-Functional Sync",
+        "Decision summaries"
+      ],
+      [
+        "Cross-Functional Sync",
+        "Meeting notes"
+      ],
+      [
+        "Cross-Functional Sync",
+        "Next steps"
+      ],
+      [
+        "Cross-Functional Sync",
+        "Zastama Industries"
+      ],
+      [
+        "Cross-functional Sessions",
+        "Zastama Industries"
+      ],
+      [
+        "Cross-functional sessions",
+        "Zastama Industries"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Drikres Tikrais"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Intake approach"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Leroror Lukaine"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Research input"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zastama Industries"
+      ],
+      [
+        "Desgua Stebela",
+        "Zastama Industries"
+      ],
+      [
+        "Drikres Tikrais",
+        "Zastama Industries"
+      ],
+      [
+        "Employees",
+        "Zastama Industries"
+      ],
+      [
+        "Escalation route",
+        "Project Rakresett"
+      ],
+      [
+        "Finance representative",
+        "Zastama Industries"
+      ],
+      [
+        "Givien Mubren",
+        "Kimmoine Annex"
+      ],
+      [
+        "Givien Mubren",
+        "Zastama Industries"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zastama Industries"
+      ],
+      [
+        "Misginine Systems",
+        "Project Rakresett"
+      ],
+      [
+        "Operations Lead",
+        "Zastama Industries"
+      ],
+      [
+        "Operations lead",
+        "Zastama Industries"
+      ],
+      [
+        "Procurement representative",
+        "Zastama Industries"
+      ],
+      [
+        "Project Rakresett",
+        "Single coordination contact"
+      ],
+      [
+        "Project Rakresett",
+        "Vendor services"
+      ],
+      [
+        "Project Rakresett",
+        "Zastama Industries"
+      ],
+      [
+        "Relevant Owner",
+        "Zastama Industries"
+      ],
+      [
+        "Site coordination",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 32,
+    "create_time": 1793350588,
+    "update_time": 1793350588,
+    "_id": "d-public-018"
+  },
+  "d-public-017": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1793350640,
+    "update_time": 1793350640,
+    "_id": "d-public-017"
+  },
+  "d-team_a-000": {
+    "relation_pairs": [
+      [
+        "240-seat figure",
+        "Facilities representative"
+      ],
+      [
+        "240-seat figure",
+        "Finance representative"
+      ],
+      [
+        "240-seat figure",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Action items",
+        "Audit coordinator"
+      ],
+      [
+        "Action items",
+        "Facilities representative"
+      ],
+      [
+        "Action items",
+        "Finance representative"
+      ],
+      [
+        "Action items",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Action items",
+        "Operations lead"
+      ],
+      [
+        "Action items",
+        "Program manager"
+      ],
+      [
+        "Audit coordinator",
+        "Documentation gaps"
+      ],
+      [
+        "Audit coordinator",
+        "Remediation steps"
+      ],
+      [
+        "Audit coordinator",
+        "Restricted distribution"
+      ],
+      [
+        "Audit coordinator",
+        "TM-1841-G"
+      ],
+      [
+        "Combined timeline",
+        "Program manager"
+      ],
+      [
+        "Cost planning",
+        "Finance representative"
+      ],
+      [
+        "Demand forecasting models",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Facilities representative",
+        "Seating plans"
+      ],
+      [
+        "Facilities representative",
+        "TM-1841-G"
+      ],
+      [
+        "False precision",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Feltarel Relay",
+        "Program manager"
+      ],
+      [
+        "Feltarel Relay",
+        "Restricted Planning Sync"
+      ],
+      [
+        "Finance representative",
+        "Q4 FY26"
+      ],
+      [
+        "Finance representative",
+        "Seating plans"
+      ],
+      [
+        "Launch readiness",
+        "Program manager"
+      ],
+      [
+        "Next Steps",
+        "Operations lead"
+      ],
+      [
+        "Next Steps",
+        "Program manager"
+      ],
+      [
+        "Operations lead",
+        "Remediation steps"
+      ],
+      [
+        "Operations lead",
+        "Restricted distribution"
+      ],
+      [
+        "Operations lead",
+        "Seating plans"
+      ],
+      [
+        "Renzer Field Office",
+        "Restricted Planning Sync"
+      ],
+      [
+        "Restricted Planning Sync",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1793350649,
+    "update_time": 1793350649,
+    "_id": "d-team_a-000"
+  },
+  "d-team_a-002": {
+    "relation_pairs": [
+      [
+        "Alternative Arrangements",
+        "Renzer Field Office"
+      ],
+      [
+        "Best Working Assumption",
+        "Program Leadership Group"
+      ],
+      [
+        "Contractors",
+        "Renzer Field Office"
+      ],
+      [
+        "Director, Program Operations",
+        "Facilities Planning Lead"
+      ],
+      [
+        "Director, Program Operations",
+        "Feltarel Relay"
+      ],
+      [
+        "Director, Program Operations",
+        "Planning Review"
+      ],
+      [
+        "Director, Program Operations",
+        "Program Leadership Group"
+      ],
+      [
+        "Director, Program Operations",
+        "Restricted Distribution"
+      ],
+      [
+        "Director, Program Operations",
+        "Seating and Staffing Plan"
+      ],
+      [
+        "Director, Program Operations",
+        "Staffing Planning"
+      ],
+      [
+        "Director, Program Operations",
+        "Workforce Operations Lead"
+      ],
+      [
+        "Director, Program Operations",
+        "Workspace Planning"
+      ],
+      [
+        "Engineering Group",
+        "Paskian Platform Group"
+      ],
+      [
+        "Facilities Planning Lead",
+        "Seating Capacity"
+      ],
+      [
+        "Feltarel Relay",
+        "Launch Period"
+      ],
+      [
+        "Feltarel Relay",
+        "Paskian Platform Group"
+      ],
+      [
+        "Feltarel Relay",
+        "Q4 FY26"
+      ],
+      [
+        "Feltarel Relay",
+        "Renzer Field Office"
+      ],
+      [
+        "Feltarel Relay",
+        "SJ-7058-R"
+      ],
+      [
+        "Feltarel Relay",
+        "Seating and Staffing Plan"
+      ],
+      [
+        "Logistics",
+        "Paskian Platform Group"
+      ],
+      [
+        "Permanent Staff",
+        "Renzer Field Office"
+      ],
+      [
+        "Remote Participation",
+        "Renzer Field Office"
+      ],
+      [
+        "Remote Participation",
+        "Workforce Operations Lead"
+      ],
+      [
+        "Renzer Field Office",
+        "Seating Capacity"
+      ],
+      [
+        "Renzer Field Office",
+        "Staggered Schedules"
+      ],
+      [
+        "Renzer Field Office",
+        "Support Staff"
+      ],
+      [
+        "Renzer Field Office",
+        "Visiting Colleagues"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1793350812,
+    "update_time": 1793350812,
+    "_id": "d-team_a-002"
+  },
+  "d-team_a-004": {
+    "relation_pairs": [
+      [
+        "Action Items",
+        "Audit and Compliance Representative"
+      ],
+      [
+        "Action Items",
+        "Engineering Lead"
+      ],
+      [
+        "Action Items",
+        "Finance Representative"
+      ],
+      [
+        "Action Items",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Action Items",
+        "Program Manager"
+      ],
+      [
+        "Audit Finding BL-6809-Q",
+        "Audit and Compliance Representative"
+      ],
+      [
+        "Audit and Compliance Representative",
+        "Remediation Work"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Effort Distribution",
+        "Program Manager"
+      ],
+      [
+        "Engineering Lead",
+        "Integration Points"
+      ],
+      [
+        "Engineering Lead",
+        "Project Soramis"
+      ],
+      [
+        "Feltarel Relay",
+        "Project Soramis"
+      ],
+      [
+        "Finance Representative",
+        "Remediation Work"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Planning Reviews"
+      ],
+      [
+        "Next Steps",
+        "Restricted Planning Sync"
+      ],
+      [
+        "Program Manager",
+        "Project Nolaor"
+      ],
+      [
+        "Project Nolaor",
+        "Staffing Review"
+      ],
+      [
+        "Restricted Planning Sync",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1793350902,
+    "update_time": 1793350902,
+    "_id": "d-team_a-004"
+  },
+  "d-team_a-005": {
+    "relation_pairs": [
+      [
+        "Architecture Summary",
+        "Thokro Pobris"
+      ],
+      [
+        "Compliance Lead",
+        "Program Management Lead"
+      ],
+      [
+        "Compliance Lead",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Data Retention Tooling",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Facilities Lead",
+        "Program Management Lead"
+      ],
+      [
+        "Program Management Lead",
+        "Project Nolaor"
+      ],
+      [
+        "Program Management Lead",
+        "Project Soramis"
+      ],
+      [
+        "Program Management Lead",
+        "Thokro Pobris"
+      ],
+      [
+        "Program Management Lead",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Project Nolaor",
+        "Renzer Field Office"
+      ],
+      [
+        "Project Nolaor",
+        "Thokro Pobris"
+      ],
+      [
+        "Project Nolaor",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Project Nolaor",
+        "Zastama Industries"
+      ],
+      [
+        "Project Soramis",
+        "Thokro Pobris"
+      ],
+      [
+        "Project Soramis",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Project Soramis",
+        "Zastama Industries"
+      ],
+      [
+        "Shared Rules Document",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Thokro Pobris",
+        "Vadesis Gummenbel"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1793350946,
+    "update_time": 1793350946,
+    "_id": "d-team_a-005"
+  },
+  "d-team_a-006": {
+    "relation_pairs": [
+      [
+        "Account Leadership Group",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Director of Client Operations",
+        "Finance"
+      ],
+      [
+        "Director of Client Operations",
+        "Gaskergur Harbor"
+      ],
+      [
+        "Director of Client Operations",
+        "Legal"
+      ],
+      [
+        "Gaskergur Harbor",
+        "HE-6807-Y"
+      ],
+      [
+        "Gaskergur Harbor",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Vadesis Gummenbel",
+        "Zosne Bramfa"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1793350957,
+    "update_time": 1793350957,
+    "_id": "d-team_a-006"
+  },
+  "d-team_a-009": {
+    "relation_pairs": [
+      [
+        "Data Retention Tooling",
+        "Data and Forecasting Workstream Status Report"
+      ],
+      [
+        "Data Retention Tooling",
+        "Demand Forecasting Models"
+      ],
+      [
+        "Data Retention Tooling",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Demand Forecasting Models"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Escrow Documentation"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Legal Reviewers"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Next Steps"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Planners"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Risks"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Security Reviewers"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Supply Planning Group"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Zastama Industries"
+      ],
+      [
+        "Data and Forecasting Workstream Status Report",
+        "Zosne Bramfa"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Escrow Documentation",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Escrow Documentation",
+        "Zosne Bramfa"
+      ],
+      [
+        "Legal Reviewers",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Planners"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Supply Planning Group"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Security Reviewers",
+        "Vadesis Gummenbel"
+      ],
+      [
+        "Vadesis Gummenbel",
+        "Zosne Bramfa"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1793351056,
+    "update_time": 1793351056,
+    "_id": "d-team_a-009"
+  },
+  "d-team_a-007": {
+    "relation_pairs": [
+      [
+        "Audit Logging",
+        "Paskian Platform Group"
+      ],
+      [
+        "Budget",
+        "Paskian Platform Group"
+      ],
+      [
+        "Capacity",
+        "Paskian Platform Group"
+      ],
+      [
+        "Data Aging",
+        "Thikama Harlurine"
+      ],
+      [
+        "Data Retention Tooling",
+        "Paskian Platform Group"
+      ],
+      [
+        "Data Usage Analysis",
+        "Thikama Harlurine"
+      ],
+      [
+        "Downstream Teams",
+        "Paskian Platform Group"
+      ],
+      [
+        "Edge Cases",
+        "Paskian Platform Group"
+      ],
+      [
+        "Follow-Up Report",
+        "Paskian Platform Group"
+      ],
+      [
+        "Legal and Compliance Contacts",
+        "Paskian Platform Group"
+      ],
+      [
+        "Mixed Retention Requirements",
+        "Paskian Platform Group"
+      ],
+      [
+        "Non-Destructive Mode",
+        "Paskian Platform Group"
+      ],
+      [
+        "Paskian Platform Group",
+        "Pethisa Hebroren"
+      ],
+      [
+        "Paskian Platform Group",
+        "Reporting Period"
+      ],
+      [
+        "Paskian Platform Group",
+        "Resourcing Needs"
+      ],
+      [
+        "Paskian Platform Group",
+        "Restricted Audience"
+      ],
+      [
+        "Paskian Platform Group",
+        "Retention Rules"
+      ],
+      [
+        "Paskian Platform Group",
+        "Review Process"
+      ],
+      [
+        "Paskian Platform Group",
+        "Rollout Sequence"
+      ],
+      [
+        "Paskian Platform Group",
+        "SP-9062-V"
+      ],
+      [
+        "Paskian Platform Group",
+        "Safeguards"
+      ],
+      [
+        "Paskian Platform Group",
+        "Security Reviewer"
+      ],
+      [
+        "Paskian Platform Group",
+        "Test Data"
+      ],
+      [
+        "Paskian Platform Group",
+        "Thikama Harlurine"
+      ],
+      [
+        "Paskian Platform Group",
+        "Zastama Industries"
+      ],
+      [
+        "Retention Categories",
+        "Thikama Harlurine"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1793351073,
+    "update_time": 1793351073,
+    "_id": "d-team_a-007"
+  },
+  "d-team_a-008": {
+    "relation_pairs": [
+      [
+        "Action Items",
+        "Working Group"
+      ],
+      [
+        "Approval Steps",
+        "Finance Controls"
+      ],
+      [
+        "Budget Commitment",
+        "Restricted Working Session"
+      ],
+      [
+        "Cost Center JD-4128-T",
+        "Zosne Bramfa"
+      ],
+      [
+        "Cost Tracking",
+        "Finance Representative"
+      ],
+      [
+        "Data Sharing",
+        "Working Group"
+      ],
+      [
+        "Demand Forecasting",
+        "Forecasting Models"
+      ],
+      [
+        "Demand Forecasting",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Demand Forecasting",
+        "Payments Reconciliation"
+      ],
+      [
+        "Exception Categories",
+        "Reconciliation Workflow"
+      ],
+      [
+        "Finance Controls",
+        "Finance Representative"
+      ],
+      [
+        "Finance Controls",
+        "Ledger Entries"
+      ],
+      [
+        "Forecasting Model Requirements",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Forecasting Models",
+        "Payments Reconciliation"
+      ],
+      [
+        "Forecasting Models",
+        "Timeliness Requirement"
+      ],
+      [
+        "Forecasting Models",
+        "Unresolved Status Signal"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Zosne Bramfa"
+      ],
+      [
+        "Payments Reconciliation",
+        "Pethisa Hebroren"
+      ],
+      [
+        "Payments Reconciliation",
+        "Reconciliation Workflow"
+      ],
+      [
+        "Payments Reconciliation",
+        "Zosne Bramfa"
+      ],
+      [
+        "Pethisa Hebroren",
+        "Standard List of Exception Categories"
+      ],
+      [
+        "Pethisa Hebroren",
+        "Zosne Bramfa"
+      ],
+      [
+        "Reconciliation Workflow",
+        "Unresolved Status Signal"
+      ],
+      [
+        "Restricted Distribution",
+        "Restricted Working Session"
+      ],
+      [
+        "Restricted Session",
+        "Restricted Working Session"
+      ],
+      [
+        "Risk of Inconsistent Labeling",
+        "Working Group"
+      ],
+      [
+        "Risk of Manual Workload",
+        "Working Group"
+      ],
+      [
+        "Standard List of Exception Categories",
+        "Zosne Bramfa"
+      ],
+      [
+        "Trial Phase",
+        "Working Group"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1793351117,
+    "update_time": 1793351117,
+    "_id": "d-team_a-008"
+  },
+  "d-team_b-000": {
+    "relation_pairs": [
+      [
+        "Access",
+        "Tegurine Annex"
+      ],
+      [
+        "Correction",
+        "Director, Workplace and Infrastructure Planning"
+      ],
+      [
+        "Correction",
+        "Discrepancy"
+      ],
+      [
+        "Design",
+        "Tegurine Annex"
+      ],
+      [
+        "Director, Workplace and Infrastructure Planning",
+        "Facilities Planning Group"
+      ],
+      [
+        "Director, Workplace and Infrastructure Planning",
+        "Infrastructure Operations Leads"
+      ],
+      [
+        "Director, Workplace and Infrastructure Planning",
+        "Tegurine Annex"
+      ],
+      [
+        "GS-9629-Z",
+        "Tegurine Annex"
+      ],
+      [
+        "General Planning Decks",
+        "Working Materials"
+      ],
+      [
+        "Integration Plan",
+        "Tegurine Annex"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Solutions Architect"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Tegurine Annex"
+      ],
+      [
+        "Network Proposal",
+        "Tegurine Annex"
+      ],
+      [
+        "Procurement",
+        "Tegurine Annex"
+      ],
+      [
+        "Restricted Group",
+        "Working Materials"
+      ],
+      [
+        "Seating Capacity",
+        "Tegurine Annex"
+      ],
+      [
+        "Tegurine Annex",
+        "Vendor Correspondence"
+      ],
+      [
+        "Tegurine Annex",
+        "Workspace Proposal"
+      ],
+      [
+        "Tegurine Annex",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793351144,
+    "update_time": 1793351144,
+    "_id": "d-team_b-000"
+  },
+  "d-team_b-001": {
+    "relation_pairs": [
+      [
+        "Commercial Terms",
+        "Dilhas Consulting"
+      ],
+      [
+        "Delivery Process",
+        "Document"
+      ],
+      [
+        "Dilhas Consulting",
+        "Document"
+      ],
+      [
+        "Dilhas Consulting",
+        "Program Owner"
+      ],
+      [
+        "Dilhas Consulting",
+        "Shared Checklist"
+      ],
+      [
+        "Dilhas Consulting",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Dilhas Consulting",
+        "Tegurine Annex"
+      ],
+      [
+        "Dilhas Consulting",
+        "Zastama Industries"
+      ],
+      [
+        "Discrepancies",
+        "Program Owner"
+      ],
+      [
+        "Document",
+        "Finance Lead"
+      ],
+      [
+        "Document",
+        "Open Questions"
+      ],
+      [
+        "Document",
+        "Program Owner"
+      ],
+      [
+        "Document",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Document",
+        "Working Document"
+      ],
+      [
+        "Equipment",
+        "Finance Lead"
+      ],
+      [
+        "Equipment",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Finance Lead",
+        "Restricted Reader List"
+      ],
+      [
+        "Integration Work",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Program Owner",
+        "Restricted Reader List"
+      ],
+      [
+        "Program Owner",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Restricted Reader List",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Staging",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Storage Space",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Talhuor Integration Team",
+        "Tegurine Annex"
+      ],
+      [
+        "Talhuor Integration Team",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1793351182,
+    "update_time": 1793351182,
+    "_id": "d-team_b-001"
+  },
+  "d-team_b-002": {
+    "relation_pairs": [
+      [
+        "Access Records",
+        "Reconciliation"
+      ],
+      [
+        "Access Records",
+        "Restricted Review"
+      ],
+      [
+        "Access Records",
+        "Security Representative"
+      ],
+      [
+        "Access Records",
+        "Standardized Records"
+      ],
+      [
+        "Access Request Forms",
+        "Facilities Representative"
+      ],
+      [
+        "Action Items",
+        "Facilities Representative"
+      ],
+      [
+        "Action Items",
+        "Finance Representative"
+      ],
+      [
+        "Action Items",
+        "Program Manager"
+      ],
+      [
+        "Action Items",
+        "Security Representative"
+      ],
+      [
+        "Cost Center",
+        "Finance Representative"
+      ],
+      [
+        "Liluan Nemlurel",
+        "ME-4261-M"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Solutions Architect"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Next Steps",
+        "Security Representative"
+      ],
+      [
+        "Program Manager",
+        "Solutions Architect"
+      ],
+      [
+        "Program Manager",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Reconciliation",
+        "Role Information"
+      ],
+      [
+        "Restricted Notes",
+        "Restricted Review"
+      ],
+      [
+        "Restricted Review",
+        "Role Information"
+      ],
+      [
+        "Restricted Review",
+        "Zastama Industries"
+      ],
+      [
+        "Role Information",
+        "Standardized Records"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1793351234,
+    "update_time": 1793351234,
+    "_id": "d-team_b-002"
+  },
+  "d-team_b-004": {
+    "relation_pairs": [
+      [
+        "Change Requests",
+        "Project Siduris"
+      ],
+      [
+        "Communication Leakage",
+        "Project Siduris"
+      ],
+      [
+        "Contract Exposure",
+        "Project Siduris"
+      ],
+      [
+        "Delivery Concerns",
+        "Project Siduris"
+      ],
+      [
+        "Dilhas Consulting",
+        "Project Siduris"
+      ],
+      [
+        "Dilhas Consulting",
+        "Thokro Pobris"
+      ],
+      [
+        "Evidence Gathering",
+        "Pilot"
+      ],
+      [
+        "Evidence Quality",
+        "Pilot"
+      ],
+      [
+        "Feedback Collection",
+        "Pilot"
+      ],
+      [
+        "Finance Lead",
+        "Thokro Pobris"
+      ],
+      [
+        "Mitigation",
+        "Project Siduris"
+      ],
+      [
+        "Operations Lead",
+        "Thokro Pobris"
+      ],
+      [
+        "Participant Groups",
+        "Pilot"
+      ],
+      [
+        "Pilot",
+        "Project Siduris"
+      ],
+      [
+        "Pilot",
+        "Success Criteria"
+      ],
+      [
+        "Pilot",
+        "Under-Represented Groups"
+      ],
+      [
+        "Pilot Findings",
+        "Project Siduris"
+      ],
+      [
+        "Project Siduris",
+        "Restricted Distribution"
+      ],
+      [
+        "Project Siduris",
+        "Risk Register"
+      ],
+      [
+        "Project Siduris",
+        "Satisen Labs"
+      ],
+      [
+        "Project Siduris",
+        "Scope Drift"
+      ],
+      [
+        "Project Siduris",
+        "Spend Reporting"
+      ],
+      [
+        "Project Siduris",
+        "Standing Coordination Checkpoint"
+      ],
+      [
+        "Project Siduris",
+        "Steering Group"
+      ],
+      [
+        "Project Siduris",
+        "Steering Review"
+      ],
+      [
+        "Project Siduris",
+        "Thokro Pobris"
+      ],
+      [
+        "Project Siduris",
+        "Vendor Coordination"
+      ],
+      [
+        "Project Siduris",
+        "Zastama Industries"
+      ],
+      [
+        "Recommendation Draft",
+        "Thokro Pobris"
+      ],
+      [
+        "Satisen Labs",
+        "Thokro Pobris"
+      ],
+      [
+        "Steering Group",
+        "Thokro Pobris"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1793351316,
+    "update_time": 1793351316,
+    "_id": "d-team_b-004"
+  },
+  "d-team_b-005": {
+    "relation_pairs": [
+      [
+        "Delivery Procedure",
+        "Tegurine Annex"
+      ],
+      [
+        "Facilities Lead",
+        "Tegurine Annex"
+      ],
+      [
+        "Finance Lead",
+        "Procurement Owner"
+      ],
+      [
+        "Finance Lead",
+        "Satisen Labs"
+      ],
+      [
+        "Logistics Meeting",
+        "Zastama Industries"
+      ],
+      [
+        "Procurement Owner",
+        "Receiving Supervisor"
+      ],
+      [
+        "Procurement Owner",
+        "Satisen Labs"
+      ],
+      [
+        "RS-2976-V",
+        "Satisen Labs"
+      ],
+      [
+        "Receiving Supervisor",
+        "Receiving Team"
+      ],
+      [
+        "Receiving Supervisor",
+        "Satisen Labs"
+      ],
+      [
+        "Receiving Team",
+        "Satisen Labs"
+      ],
+      [
+        "Receiving Team",
+        "Tegurine Annex"
+      ],
+      [
+        "Restricted Reader List",
+        "Satisen Labs"
+      ],
+      [
+        "Restricted Reader List",
+        "Zastama Industries"
+      ],
+      [
+        "Satisen Labs",
+        "Security"
+      ],
+      [
+        "Satisen Labs",
+        "Tegurine Annex"
+      ],
+      [
+        "Satisen Labs",
+        "Zastama Industries"
+      ],
+      [
+        "Security",
+        "Security Supervisor"
+      ],
+      [
+        "Security",
+        "Tegurine Annex"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793351335,
+    "update_time": 1793351335,
+    "_id": "d-team_b-005"
+  },
+  "d-team_b-007": {
+    "relation_pairs": [
+      [
+        "BT-9828-L",
+        "Dilhas Consulting"
+      ],
+      [
+        "Dilhas Consulting",
+        "Finance Operations Lead"
+      ],
+      [
+        "Dilhas Consulting",
+        "Nasgo Kesloren"
+      ],
+      [
+        "Dilhas Consulting",
+        "Procurement Manager"
+      ],
+      [
+        "Dilhas Consulting",
+        "Security Access Coordinator"
+      ],
+      [
+        "Dilhas Consulting",
+        "Zastama Industries"
+      ],
+      [
+        "Finance Operations Lead",
+        "Nasgo Kesloren"
+      ],
+      [
+        "Finance Operations Lead",
+        "Procurement Manager"
+      ],
+      [
+        "Finance Operations Lead",
+        "Security Access Coordinator"
+      ],
+      [
+        "Nasgo Kesloren",
+        "Procurement Manager"
+      ],
+      [
+        "Nasgo Kesloren",
+        "Security Access Coordinator"
+      ],
+      [
+        "Procurement Manager",
+        "Zastama Industries"
+      ],
+      [
+        "Security Access Coordinator",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1793351391,
+    "update_time": 1793351391,
+    "_id": "d-team_b-007"
+  },
+  "d-team_b-008": {
+    "relation_pairs": [
+      [
+        "Announcement",
+        "Program Coordinator"
+      ],
+      [
+        "Budget Code GW-2651-D",
+        "Finance Lead"
+      ],
+      [
+        "Duplicate Approvals",
+        "Finance Lead"
+      ],
+      [
+        "Finance Lead",
+        "Gaps"
+      ],
+      [
+        "Finance Lead",
+        "Operations Manager"
+      ],
+      [
+        "Finance Lead",
+        "Review Steps"
+      ],
+      [
+        "Finance Lead",
+        "Thokro Pobris"
+      ],
+      [
+        "Finance Lead",
+        "Zosu Kistos"
+      ],
+      [
+        "Handoff",
+        "Operations Manager"
+      ],
+      [
+        "Handoff",
+        "Program Coordinator"
+      ],
+      [
+        "Institutional Knowledge",
+        "Zosu Kistos"
+      ],
+      [
+        "Notes",
+        "Program Coordinator"
+      ],
+      [
+        "Operations Manager",
+        "Program Coordinator"
+      ],
+      [
+        "Operations Manager",
+        "Thokro Pobris"
+      ],
+      [
+        "Operations Manager",
+        "Zosu Kistos"
+      ],
+      [
+        "Program Coordinator",
+        "Thokro Pobris"
+      ],
+      [
+        "Program Coordinator",
+        "Working Session"
+      ],
+      [
+        "Program Coordinator",
+        "Zosu Kistos"
+      ],
+      [
+        "Questions",
+        "Thokro Pobris"
+      ],
+      [
+        "Recurring Approvals",
+        "Thokro Pobris"
+      ],
+      [
+        "Recurring Approvals",
+        "Zosu Kistos"
+      ],
+      [
+        "Routine Approvals",
+        "Zosu Kistos"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1793351485,
+    "update_time": 1793351485,
+    "_id": "d-team_b-008"
+  },
+  "d-team_b-009": {
+    "relation_pairs": [
+      [
+        "Control Owners",
+        "Project Siduris"
+      ],
+      [
+        "Director, Internal Controls and Vendor Governance",
+        "Program Oversight Committee"
+      ],
+      [
+        "Director, Internal Controls and Vendor Governance",
+        "Project Siduris"
+      ],
+      [
+        "HX-5406-Y",
+        "Project Siduris"
+      ],
+      [
+        "Internal Controls",
+        "Project Siduris"
+      ],
+      [
+        "Legal Team",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Oversight Committee Chair",
+        "Zosu Kistos"
+      ],
+      [
+        "Procurement",
+        "Satisen Labs"
+      ],
+      [
+        "Program Oversight Committee",
+        "Zastama Industries"
+      ],
+      [
+        "Program Oversight Committee",
+        "Zosu Kistos"
+      ],
+      [
+        "QC-9910-K",
+        "Talhuor Integration Team"
+      ],
+      [
+        "Satisen Labs",
+        "Zastama Industries"
+      ],
+      [
+        "Zastama Industries",
+        "Zosu Kistos"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1793351513,
+    "update_time": 1793351513,
+    "_id": "d-team_b-009"
+  },
+  "d-exec-000": {
+    "relation_pairs": [
+      [
+        "Access Approval",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Access List",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Bedras Sarkua",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Comment",
+        "Wiki"
+      ],
+      [
+        "Credential",
+        "Vault"
+      ],
+      [
+        "Dependent System",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Documentation Owner",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Draft Diagram",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Escalation Path",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Finance Lead",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Intake",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Integration Incident",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Milsean Trusases",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Open Item",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Procurement Lead",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Restricted Channel",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Review Cadence",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Security Contact"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Test Data"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Vault"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Wiki"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Working Notes"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Zastama Industries"
+      ],
+      [
+        "Rotation",
+        "Vault"
+      ],
+      [
+        "Vault",
+        "XM-1748-X"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1793351624,
+    "update_time": 1793351624,
+    "_id": "d-exec-000"
+  },
+  "d-exec-001": {
+    "relation_pairs": [
+      [
+        "Access Badge Series DV-1700-A",
+        "Stethe Birnaen"
+      ],
+      [
+        "Access Control System",
+        "Facilities Security Lead"
+      ],
+      [
+        "Control Systems",
+        "Systems Integration Lead"
+      ],
+      [
+        "Coordination",
+        "Director of Operations Planning"
+      ],
+      [
+        "Data Feeds",
+        "Systems Integration Lead"
+      ],
+      [
+        "Designated Delegate",
+        "Director of Operations Planning"
+      ],
+      [
+        "Director of Operations Planning",
+        "Facilities Security Lead"
+      ],
+      [
+        "Director of Operations Planning",
+        "Restricted Distribution Notice"
+      ],
+      [
+        "Director of Operations Planning",
+        "Security Concern"
+      ],
+      [
+        "Director of Operations Planning",
+        "Stethe Birnaen"
+      ],
+      [
+        "Director of Operations Planning",
+        "Systems Integration Lead"
+      ],
+      [
+        "Director of Operations Planning",
+        "Warehouse Operations Manager"
+      ],
+      [
+        "Director of Operations Planning",
+        "Working Session"
+      ],
+      [
+        "Director of Operations Planning",
+        "Written Confirmation"
+      ],
+      [
+        "Network Segments",
+        "Systems Integration Lead"
+      ],
+      [
+        "Operational Continuity",
+        "Warehouse Automation Work"
+      ],
+      [
+        "Operational Continuity",
+        "Warehouse Operations Manager"
+      ],
+      [
+        "Systems Integration Lead",
+        "Written Confirmation"
+      ],
+      [
+        "Warehouse Automation Work",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793351650,
+    "update_time": 1793351650,
+    "_id": "d-exec-001"
+  },
+  "d-exec-002": {
+    "relation_pairs": [
+      [
+        "Access Requests",
+        "Identity Tooling and Budget Status Report"
+      ],
+      [
+        "Budget Discipline",
+        "Project Pirpoan"
+      ],
+      [
+        "Change Process",
+        "Project Pirpoan"
+      ],
+      [
+        "Check-in",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Credential Handling",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Credential Handling Exposure",
+        "Identity Tooling and Budget Status Report"
+      ],
+      [
+        "Dependency Concentration",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Engineering Leads",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Finance Lead",
+        "Project Pirpoan"
+      ],
+      [
+        "Identity Tooling and Budget Status Report",
+        "Operational Procedures"
+      ],
+      [
+        "Identity Tooling and Budget Status Report",
+        "Project Pirpoan"
+      ],
+      [
+        "Identity Tooling and Budget Status Report",
+        "Report Owner"
+      ],
+      [
+        "Identity Tooling and Budget Status Report",
+        "Restricted Group"
+      ],
+      [
+        "Identity Tooling and Budget Status Report",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Identity Tooling and Budget Status Report",
+        "Zastama Industries"
+      ],
+      [
+        "Monthly Alignment",
+        "Project Pirpoan"
+      ],
+      [
+        "Next Periodic Report",
+        "Restricted Group"
+      ],
+      [
+        "Periodic Review",
+        "Vault Key RH-4278-L"
+      ],
+      [
+        "Project Pirpoan",
+        "Vendor Decisions"
+      ],
+      [
+        "Rishalen Integration Team",
+        "Vault Key RH-4278-L"
+      ],
+      [
+        "Vendor Decisions",
+        "Vendor Question Review"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1793351673,
+    "update_time": 1793351673,
+    "_id": "d-exec-002"
+  },
+  "d-exec-003": {
+    "relation_pairs": [
+      [
+        "Barnuis Console",
+        "Console Administrator"
+      ],
+      [
+        "Barnuis Console",
+        "Platform Owner"
+      ],
+      [
+        "Barnuis Console",
+        "Project Kridresa"
+      ],
+      [
+        "Demand Forecasting",
+        "Forecast Accuracy Review"
+      ],
+      [
+        "Demand Forecasting",
+        "Forecasting Models"
+      ],
+      [
+        "Demand Forecasting",
+        "Thikama Harlurine"
+      ],
+      [
+        "Escrow Arrangement",
+        "Restricted Group"
+      ],
+      [
+        "Finance Lead",
+        "HL-9938-U"
+      ],
+      [
+        "Forecasting Models",
+        "Program Owner"
+      ],
+      [
+        "Forecasting Models",
+        "Restricted Channel"
+      ],
+      [
+        "Forecasting Models",
+        "Restricted Group"
+      ],
+      [
+        "Forecasting Models",
+        "Thikama Harlurine"
+      ],
+      [
+        "HL-9938-U",
+        "Thikama Harlurine"
+      ],
+      [
+        "Planning Cycle",
+        "Restricted Group"
+      ],
+      [
+        "Program Owner",
+        "Restricted Group"
+      ],
+      [
+        "Program Owner",
+        "Zastama Industries"
+      ],
+      [
+        "Project Kridresa",
+        "Restricted Group"
+      ],
+      [
+        "Restricted Channel",
+        "Restricted Group"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1793351727,
+    "update_time": 1793351727,
+    "_id": "d-exec-003"
+  },
+  "d-exec-004": {
+    "relation_pairs": [
+      [
+        "Action Items",
+        "Customer Onboarding Flows Working Session"
+      ],
+      [
+        "Bedras Sarkua",
+        "Consolidated Onboarding Process Reference"
+      ],
+      [
+        "Bedras Sarkua",
+        "Customer Onboarding Flows"
+      ],
+      [
+        "Bedras Sarkua",
+        "Customer Onboarding Flows Working Session"
+      ],
+      [
+        "Bedras Sarkua",
+        "Milsean Trusases"
+      ],
+      [
+        "Consolidated Onboarding Process Reference",
+        "Customer Onboarding Flows"
+      ],
+      [
+        "Credential Identifiers",
+        "Security Representative"
+      ],
+      [
+        "Customer Onboarding Flows",
+        "Milsean Trusases"
+      ],
+      [
+        "Customer Onboarding Flows Working Session",
+        "Finance Representative"
+      ],
+      [
+        "Customer Onboarding Flows Working Session",
+        "Milsean Trusases"
+      ],
+      [
+        "Customer Onboarding Flows Working Session",
+        "Next Steps"
+      ],
+      [
+        "Customer Onboarding Flows Working Session",
+        "Product Operations Representative"
+      ],
+      [
+        "Customer Onboarding Flows Working Session",
+        "Security Representative"
+      ],
+      [
+        "Customer Onboarding Flows Working Session",
+        "Zastama Industries"
+      ],
+      [
+        "Finance Representative",
+        "Standard Approval Process"
+      ],
+      [
+        "Milsean Trusases",
+        "Vault Key ID"
+      ],
+      [
+        "Product Operations Representative",
+        "Recurring Check-In"
+      ],
+      [
+        "Restricted Channels",
+        "Security Representative"
+      ],
+      [
+        "Security Representative",
+        "Vault Key ID"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793351738,
+    "update_time": 1793351738,
+    "_id": "d-exec-004"
+  },
+  "d-exec-005": {
+    "relation_pairs": [
+      [
+        "Action Items",
+        "Project Pirpoan"
+      ],
+      [
+        "Automation Priorities Outline",
+        "Project Pirpoan"
+      ],
+      [
+        "Budget of $5.5M",
+        "Project Pirpoan"
+      ],
+      [
+        "Finance Representative",
+        "Project Pirpoan"
+      ],
+      [
+        "Meeting Notes",
+        "Project Pirpoan"
+      ],
+      [
+        "Operations Representative",
+        "Project Pirpoan"
+      ],
+      [
+        "Program Coordinator",
+        "Project Pirpoan"
+      ],
+      [
+        "Project Pirpoan",
+        "Restricted Distribution"
+      ],
+      [
+        "Project Pirpoan",
+        "Risk and Dependency List"
+      ],
+      [
+        "Project Pirpoan",
+        "Security Lead"
+      ],
+      [
+        "Project Pirpoan",
+        "Spending Summary"
+      ],
+      [
+        "Project Pirpoan",
+        "Stethe Birnaen"
+      ],
+      [
+        "Project Pirpoan",
+        "Vault Access List"
+      ],
+      [
+        "Project Pirpoan",
+        "Vault Key GT-9400-E"
+      ],
+      [
+        "Project Pirpoan",
+        "Warehouse Automation"
+      ],
+      [
+        "Project Pirpoan",
+        "Warehouse Constraints List"
+      ],
+      [
+        "Project Pirpoan",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1793351763,
+    "update_time": 1793351763,
+    "_id": "d-exec-005"
+  },
+  "d-exec-006": {
+    "relation_pairs": [
+      [
+        "1,900 Active Users",
+        "Barnuis Console"
+      ],
+      [
+        "Access Administrators",
+        "Barnuis Console"
+      ],
+      [
+        "Access Reviews",
+        "Barnuis Console"
+      ],
+      [
+        "Barnuis Console",
+        "Director, Internal Systems Governance"
+      ],
+      [
+        "Barnuis Console",
+        "Help Desk"
+      ],
+      [
+        "Barnuis Console",
+        "QP-9934-J"
+      ],
+      [
+        "Barnuis Console",
+        "Rishalen Integration Team"
+      ],
+      [
+        "Barnuis Console",
+        "Security Operations Leads"
+      ],
+      [
+        "Barnuis Console",
+        "System Owners"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1793351774,
+    "update_time": 1793351774,
+    "_id": "d-exec-006"
+  },
+  "d-exec-007": {
+    "relation_pairs": [
+      [
+        "Action Items",
+        "Incident Response Tooling Sync"
+      ],
+      [
+        "Decision Records",
+        "Restricted Attendee Meeting Notes"
+      ],
+      [
+        "Engineering Manager",
+        "Project Kridresa"
+      ],
+      [
+        "Finance Representative",
+        "Resourcing Summary"
+      ],
+      [
+        "Incident Response Tooling Sync",
+        "Next Steps"
+      ],
+      [
+        "Incident Response Tooling Sync",
+        "Pinduen Gersolel"
+      ],
+      [
+        "Incident Response Tooling Sync",
+        "Project Kridresa"
+      ],
+      [
+        "Incident Response Tooling Sync",
+        "Zastama Industries"
+      ],
+      [
+        "Pinduen Gersolel",
+        "Resourcing Summary"
+      ],
+      [
+        "Pinduen Gersolel",
+        "Thikama Harlurine"
+      ],
+      [
+        "Resourcing Summary",
+        "Thikama Harlurine"
+      ],
+      [
+        "Responder Training and Communication Needs",
+        "Security Operations Lead"
+      ],
+      [
+        "Responder Training and Communication Needs",
+        "Thikama Harlurine"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1793351846,
+    "update_time": 1793351846,
+    "_id": "d-exec-007"
+  },
+  "d-exec-008": {
+    "relation_pairs": [
+      [
+        "Access Management Records",
+        "Facilities Access Coordinator"
+      ],
+      [
+        "Access Permissions",
+        "Customer Data"
+      ],
+      [
+        "Access Permissions",
+        "Internal Tooling"
+      ],
+      [
+        "Access Permissions",
+        "Security Operations Lead"
+      ],
+      [
+        "Audit Trail",
+        "Restricted Access Review"
+      ],
+      [
+        "Bedras Sarkua",
+        "Customer Onboarding Flows"
+      ],
+      [
+        "Bedras Sarkua",
+        "Director, Internal Operations"
+      ],
+      [
+        "Confidential Communication",
+        "Director, Internal Operations"
+      ],
+      [
+        "Customer Data",
+        "Customer Onboarding Flows"
+      ],
+      [
+        "Customer Onboarding Flows",
+        "Internal Tooling"
+      ],
+      [
+        "Director, Internal Operations",
+        "Facilities Access Coordinator"
+      ],
+      [
+        "Director, Internal Operations",
+        "Pinduen Gersolel"
+      ],
+      [
+        "Director, Internal Operations",
+        "Quarterly Access Review"
+      ],
+      [
+        "Director, Internal Operations",
+        "Restricted Access Review"
+      ],
+      [
+        "Director, Internal Operations",
+        "Security Operations Lead"
+      ],
+      [
+        "FT-7497-A",
+        "Pinduen Gersolel"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1793351851,
+    "update_time": 1793351851,
+    "_id": "d-exec-008"
+  },
+  "d-public-008": {
+    "relation_pairs": [
+      [
+        "Action Items",
+        "Engineering lead"
+      ],
+      [
+        "Action Items",
+        "Finance representative"
+      ],
+      [
+        "Action Items",
+        "Legal representative"
+      ],
+      [
+        "Action Items",
+        "Procurement lead"
+      ],
+      [
+        "Action Items",
+        "Program management lead"
+      ],
+      [
+        "Dilhas Consulting",
+        "Engineering Lead"
+      ],
+      [
+        "Dilhas Consulting",
+        "Lagemett Ledger"
+      ],
+      [
+        "Dilhas Consulting",
+        "Zastama Industries"
+      ],
+      [
+        "Engineering Lead",
+        "Lagemett Ledger"
+      ],
+      [
+        "Engineering Lead",
+        "Misginine Systems"
+      ],
+      [
+        "Engineering lead",
+        "Lagemett Ledger"
+      ],
+      [
+        "Engineering lead",
+        "Zastama Industries"
+      ],
+      [
+        "Finance representative",
+        "Misginine Systems"
+      ],
+      [
+        "Finance representative",
+        "Zastama Industries"
+      ],
+      [
+        "Lagemett Ledger",
+        "Misginine Systems"
+      ],
+      [
+        "Lagemett Ledger",
+        "Program Management Lead"
+      ],
+      [
+        "Lagemett Ledger",
+        "Program management lead"
+      ],
+      [
+        "Lagemett Ledger",
+        "Zastama Industries"
+      ],
+      [
+        "Legal Representative",
+        "Nalzenett Labs"
+      ],
+      [
+        "Legal representative",
+        "Misginine Systems"
+      ],
+      [
+        "Legal representative",
+        "Nalzenett Labs"
+      ],
+      [
+        "Legal representative",
+        "Zastama Industries"
+      ],
+      [
+        "Master Services Agreement",
+        "Project Rakresett Services Contract"
+      ],
+      [
+        "Master Services Agreement",
+        "Zastama Industries"
+      ],
+      [
+        "Misginine Systems",
+        "Project Rakresett"
+      ],
+      [
+        "Misginine Systems",
+        "Zastama Industries"
+      ],
+      [
+        "Nalzenett Labs",
+        "Procurement lead"
+      ],
+      [
+        "Nalzenett Labs",
+        "Zastama Industries"
+      ],
+      [
+        "Operations Representative",
+        "Vendor Summary"
+      ],
+      [
+        "Operations representative",
+        "Zastama Industries"
+      ],
+      [
+        "Procurement lead",
+        "Renewal Calendar"
+      ],
+      [
+        "Procurement lead",
+        "Renewal Checklist"
+      ],
+      [
+        "Procurement lead",
+        "Zastama Industries"
+      ],
+      [
+        "Program Management Lead",
+        "Project Nuzeor"
+      ],
+      [
+        "Program management lead",
+        "Project Nuzeor"
+      ],
+      [
+        "Program management lead",
+        "Zastama Industries"
+      ],
+      [
+        "Project Nuzeor",
+        "Zastama Industries"
+      ],
+      [
+        "Project Rakresett",
+        "Zastama Industries"
+      ],
+      [
+        "Q2 FY27",
+        "Zastama Industries"
+      ],
+      [
+        "Q3 FY26",
+        "Zastama Industries"
+      ],
+      [
+        "Q4 FY28",
+        "Zastama Industries"
+      ],
+      [
+        "Renewal Calendar",
+        "Zastama Industries"
+      ],
+      [
+        "Renewal Checklist",
+        "Zastama Industries"
+      ],
+      [
+        "Services Contract",
+        "Zastama Industries"
+      ],
+      [
+        "Vendor Contracts and Renewals Review",
+        "Zastama Industries"
+      ],
+      [
+        "Vendor Management Analyst",
+        "Vendor Review Session"
+      ],
+      [
+        "Vendor Summary",
+        "Zastama Industries"
+      ],
+      [
+        "Vendor management analyst",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 48,
+    "create_time": 1793369335,
+    "update_time": 1793369335,
+    "_id": "d-public-008"
+  },
+  "d-public-013": {
+    "relation_pairs": [
+      [
+        "$0.4M",
+        "Gelgos Infrastructure Team"
+      ],
+      [
+        "24-month master services agreement",
+        "Kremarel Partners"
+      ],
+      [
+        "Fibrasine Relay",
+        "Gelgos Infrastructure Team"
+      ],
+      [
+        "Fibrasine Relay",
+        "Zastama Industries"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Givien Mubren"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Identity and Access Tooling"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Standard Internal Request Process"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Zastama Industries"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Identity and Access Tooling"
+      ],
+      [
+        "Gonnom Gosmunza",
+        "Zastama Industries"
+      ],
+      [
+        "Identity and Access Tooling",
+        "Zastama Industries"
+      ],
+      [
+        "Kremarel Partners",
+        "Zastama Industries"
+      ],
+      [
+        "Standard Internal Request Process",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1793369375,
+    "update_time": 1793369375,
+    "_id": "d-public-013"
+  },
+  "d-public-007": {
+    "relation_pairs": [
+      [
+        "Analytics",
+        "Dankenor Analytics Unit"
+      ],
+      [
+        "Berruan Zenresan",
+        "Project Stebril"
+      ],
+      [
+        "Cross-Team Status Brief",
+        "Zastama Industries"
+      ],
+      [
+        "Customer Renewal",
+        "Zastama Industries"
+      ],
+      [
+        "Dankenor Analytics Unit",
+        "Zosu Kistos"
+      ],
+      [
+        "Data Retention",
+        "Fallem Purraren"
+      ],
+      [
+        "Escalation",
+        "Zastama Industries"
+      ],
+      [
+        "Feedback Channel",
+        "Zastama Industries"
+      ],
+      [
+        "Gelgos Infrastructure Team",
+        "Identity and Access"
+      ],
+      [
+        "Nalzenett Labs",
+        "Zastama Industries"
+      ],
+      [
+        "Ownership",
+        "Zastama Industries"
+      ],
+      [
+        "Page Maintainers",
+        "Zastama Industries"
+      ],
+      [
+        "Project Leadership",
+        "Zastama Industries"
+      ],
+      [
+        "Project Stebril",
+        "Zastama Industries"
+      ],
+      [
+        "Project Vebamett",
+        "Zastama Industries"
+      ],
+      [
+        "Q2 FY27",
+        "Zastama Industries"
+      ],
+      [
+        "Quick Reference",
+        "Zastama Industries"
+      ],
+      [
+        "Request Channels",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1793369385,
+    "update_time": 1793369385,
+    "_id": "d-public-007"
+  },
+  "d-public-011": {
+    "relation_pairs": [
+      [
+        "Coordination load",
+        "Zastama Industries"
+      ],
+      [
+        "Dependency on a single supplier",
+        "Zastama Industries"
+      ],
+      [
+        "Downstream impact",
+        "Project Rakresett"
+      ],
+      [
+        "Engineering and procurement colleagues",
+        "Zastama Industries"
+      ],
+      [
+        "Feedback collection",
+        "Zastama Industries"
+      ],
+      [
+        "How You Can Help",
+        "Zastama Industries"
+      ],
+      [
+        "Internal-only tier",
+        "Lagemett Ledger"
+      ],
+      [
+        "Lagemett Ledger",
+        "Nalzenett Labs"
+      ],
+      [
+        "Lagemett Ledger",
+        "Project Rakresett"
+      ],
+      [
+        "Lagemett Ledger",
+        "Schedule pressure"
+      ],
+      [
+        "Lagemett Ledger",
+        "Zastama Industries"
+      ],
+      [
+        "Leroror Lukaine",
+        "Project Nuzeor"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zosu Kistos"
+      ],
+      [
+        "Nalzenett Labs",
+        "Zastama Industries"
+      ],
+      [
+        "Next steps",
+        "Zastama Industries"
+      ],
+      [
+        "Periodic Status Report",
+        "Zastama Industries"
+      ],
+      [
+        "Project Nuzeor",
+        "Zastama Industries"
+      ],
+      [
+        "Project Rakresett",
+        "Zastama Industries"
+      ],
+      [
+        "Status report",
+        "Zastama Industries"
+      ],
+      [
+        "Support and product staff",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1793369393,
+    "update_time": 1793369393,
+    "_id": "d-public-011"
+  },
+  "d-public-014": {
+    "relation_pairs": [
+      [
+        "Brerponen Annex",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Data Retention Tooling",
+        "Fallem Purraren"
+      ],
+      [
+        "Fallem Purraren",
+        "Zastama Industries"
+      ],
+      [
+        "Fibrasine Relay",
+        "Kimmoine Annex"
+      ],
+      [
+        "Fibrasine Relay",
+        "Relay Hosting"
+      ],
+      [
+        "Fibrasine Relay",
+        "Zastama Industries"
+      ],
+      [
+        "Fleet Telemetry",
+        "Fonathe Platform Group"
+      ],
+      [
+        "Fonathe Platform Group",
+        "Zastama Industries"
+      ],
+      [
+        "Leroror Lukaine",
+        "Zosu Kistos"
+      ],
+      [
+        "Office of the Chief Operating Officer",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1793369436,
+    "update_time": 1793369436,
+    "_id": "d-public-014"
+  },
+  "d-team_b-003": {
+    "relation_pairs": [
+      [
+        "Architecture Review",
+        "Design Decision"
+      ],
+      [
+        "Architecture Review",
+        "Restricted Access Working Notes"
+      ],
+      [
+        "Budget Attribution",
+        "Restricted Access Working Notes"
+      ],
+      [
+        "Cost Implication",
+        "Design Decision"
+      ],
+      [
+        "Customer Commitments",
+        "Zastama Industries"
+      ],
+      [
+        "Design Decision",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Design Decision",
+        "Nasgo Kesloren"
+      ],
+      [
+        "Finance Lead",
+        "Nasgo Kesloren"
+      ],
+      [
+        "Finance Lead",
+        "Zastama Industries"
+      ],
+      [
+        "Lightweight Template",
+        "Zastama Industries"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Nasgo Kesloren"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Zastama Industries"
+      ],
+      [
+        "Nasgo Kesloren",
+        "TU-1566-Y"
+      ],
+      [
+        "Nasgo Kesloren",
+        "Zastama Industries"
+      ],
+      [
+        "Page Owner",
+        "Zastama Industries"
+      ],
+      [
+        "Reconciliation Practice",
+        "Zastama Industries"
+      ],
+      [
+        "Restricted Access Working Notes",
+        "Working Conventions"
+      ],
+      [
+        "Restricted Access Working Notes",
+        "Zastama Industries"
+      ],
+      [
+        "Restricted Detail",
+        "Review Page"
+      ],
+      [
+        "Review Page",
+        "Working Conventions"
+      ],
+      [
+        "Review Page",
+        "Zastama Industries"
+      ],
+      [
+        "Staffing Plans",
+        "Zastama Industries"
+      ],
+      [
+        "Vendor Selection",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 23,
+    "create_time": 1793369501,
+    "update_time": 1793369501,
+    "_id": "d-team_b-003"
+  },
+  "d-team_b-006": {
+    "relation_pairs": [
+      [
+        "Access Governance Team",
+        "Checklist for Future Key Issuance"
+      ],
+      [
+        "Access Governance Team",
+        "Director of Security Operations"
+      ],
+      [
+        "Access Governance Team",
+        "Manager, Access Governance"
+      ],
+      [
+        "Access Governance Team",
+        "Remediation"
+      ],
+      [
+        "Access Governance Team",
+        "Restricted Review Session"
+      ],
+      [
+        "Access Governance Team",
+        "Security Engineering Lead"
+      ],
+      [
+        "Access Governance Team",
+        "Vault Credential Records"
+      ],
+      [
+        "Access Reconciliation",
+        "Vault Key ID XX-6801-K"
+      ],
+      [
+        "Audit Trail",
+        "Vault Credential Records"
+      ],
+      [
+        "General-Purpose Channels",
+        "Vault Key ID XX-6801-K"
+      ],
+      [
+        "Key Issuance Process",
+        "Vault Credential Records"
+      ],
+      [
+        "Routine Access",
+        "Thokro Pobris"
+      ],
+      [
+        "Routine Access",
+        "Zosu Kistos"
+      ],
+      [
+        "Thokro Pobris",
+        "Vault Credential Records"
+      ],
+      [
+        "Thokro Pobris",
+        "Vault Key ID XX-6801-K"
+      ],
+      [
+        "Thokro Pobris",
+        "Zastama Industries"
+      ],
+      [
+        "Vault Administrative Interface",
+        "Vault Key ID XX-6801-K"
+      ],
+      [
+        "Vault Credential Records",
+        "Zosu Kistos"
+      ],
+      [
+        "Zastama Industries",
+        "Zosu Kistos"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793369616,
+    "update_time": 1793369616,
+    "_id": "d-team_b-006"
+  },
+  "d-exec-009": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1793468904,
+    "update_time": 1793468904,
+    "_id": "d-exec-009"
+  },
+  "d-team_a-003": {
+    "relation_pairs": [
+      [
+        "Acceptance Criteria",
+        "Project Soramis"
+      ],
+      [
+        "Action Items",
+        "Steering Group"
+      ],
+      [
+        "Analytics Capability",
+        "Assumptions"
+      ],
+      [
+        "Analytics Capability",
+        "Consistency"
+      ],
+      [
+        "Analytics Capability",
+        "Downstream Teams"
+      ],
+      [
+        "Analytics Capability",
+        "Liluan Nemlurel"
+      ],
+      [
+        "Analytics Capability",
+        "Model Assumptions"
+      ],
+      [
+        "Audit Finding",
+        "Project Nolaor"
+      ],
+      [
+        "Biweekly Status Report",
+        "Zastama Industries"
+      ],
+      [
+        "Change Notice",
+        "Model Assumptions"
+      ],
+      [
+        "Control Owners",
+        "Project Nolaor"
+      ],
+      [
+        "Coordinated Scheduling",
+        "Zastama Industries"
+      ],
+      [
+        "Data Engineering",
+        "Zastama Industries"
+      ],
+      [
+        "Decision Log",
+        "Steering Group"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Forecasting Model Output"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Order Patterns"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Seasonality"
+      ],
+      [
+        "Demand Forecasting Models",
+        "Sudden Shifts"
+      ],
+      [
+        "Dependency Check-Ins",
+        "Project Soramis"
+      ],
+      [
+        "Dependency Owners",
+        "Project Soramis"
+      ],
+      [
+        "Documentation Quality",
+        "Project Nolaor"
+      ],
+      [
+        "Follow-Up Discussions",
+        "Steering Group"
+      ],
+      [
+        "Formal Testing",
+        "Project Soramis"
+      ],
+      [
+        "General Audience",
+        "Program Office"
+      ],
+      [
+        "Handoffs",
+        "Project Nolaor"
+      ],
+      [
+        "Internal Audit Details",
+        "Program Office"
+      ],
+      [
+        "Internal Pre-Review",
+        "Project Nolaor"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Performance Summary"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Planning Group"
+      ],
+      [
+        "Liluan Nemlurel",
+        "Zastama Industries"
+      ],
+      [
+        "Project Nolaor",
+        "Review Cycles"
+      ],
+      [
+        "Project Nolaor",
+        "Risk"
+      ],
+      [
+        "Project Nolaor",
+        "Steering Group"
+      ],
+      [
+        "Project Nolaor",
+        "XC-1856-X"
+      ],
+      [
+        "Project Nolaor",
+        "Zastama Industries"
+      ],
+      [
+        "Project Soramis",
+        "Risk"
+      ],
+      [
+        "Project Soramis",
+        "Shared Data Services"
+      ],
+      [
+        "Project Soramis",
+        "Steering Group"
+      ],
+      [
+        "Project Soramis",
+        "Testing Preparation"
+      ],
+      [
+        "Project Soramis",
+        "Working Group"
+      ],
+      [
+        "Project Soramis",
+        "Zastama Industries"
+      ],
+      [
+        "Quality Assurance",
+        "Zastama Industries"
+      ],
+      [
+        "Resource Contention",
+        "Zastama Industries"
+      ],
+      [
+        "Risk",
+        "Zastama Industries"
+      ],
+      [
+        "Specialists",
+        "Zastama Industries"
+      ],
+      [
+        "Staffing",
+        "Zastama Industries"
+      ],
+      [
+        "Steering Group",
+        "Steering Group Meeting"
+      ],
+      [
+        "Temporary Reallocation",
+        "Zastama Industries"
+      ]
+    ],
+    "count": 48,
+    "create_time": 1793469151,
+    "update_time": 1793469151,
+    "_id": "d-team_a-003"
+  },
+  "d-team_a-001": {
+    "relation_pairs": [
+      [
+        "Audit Closure Timing",
+        "Paskian Platform Group"
+      ],
+      [
+        "Capacity Concentration",
+        "Paskian Platform Group"
+      ],
+      [
+        "DJ-7108-L",
+        "Paskian Platform Group"
+      ],
+      [
+        "Engineering",
+        "Paskian Platform Group"
+      ],
+      [
+        "External Dependency",
+        "Paskian Platform Group"
+      ],
+      [
+        "Finance Lead",
+        "Thokro Pobris"
+      ],
+      [
+        "Gaskergur Harbor",
+        "Paskian Platform Group"
+      ],
+      [
+        "Gaskergur Harbor",
+        "Thokro Pobris"
+      ],
+      [
+        "Internal Audit Contacts",
+        "Paskian Platform Group"
+      ],
+      [
+        "Operations",
+        "Paskian Platform Group"
+      ],
+      [
+        "Paskian Platform Group",
+        "Reconciliation Complexity"
+      ],
+      [
+        "Paskian Platform Group",
+        "Scope Pressure"
+      ],
+      [
+        "Paskian Platform Group",
+        "Status Report"
+      ],
+      [
+        "Paskian Platform Group",
+        "Thokro Pobris"
+      ],
+      [
+        "Paskian Platform Group",
+        "Vendor"
+      ],
+      [
+        "Paskian Platform Group",
+        "Workstream Leads"
+      ],
+      [
+        "Paskian Platform Group",
+        "Zastama Industries"
+      ],
+      [
+        "Reconciliation Design Notes",
+        "Thokro Pobris"
+      ],
+      [
+        "Restricted Distribution",
+        "Status Report"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1793469298,
+    "update_time": 1793469298,
+    "_id": "d-team_a-001"
+  }
+}
