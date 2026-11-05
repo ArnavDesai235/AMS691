@@ -1,12 +1,10 @@
-.llm_cache*/
 corpus/mock_*/
 __pycache__/
 *.pyc
-rag_storage/
-results/
 .venv/
 .pytest_cache/
 .env
 *.sqlite3
+# C4 provenance databases are part of the shared index
+!rag_storage/**/c4_fragments.sqlite3
 *.sqlite3-journal
-logs/

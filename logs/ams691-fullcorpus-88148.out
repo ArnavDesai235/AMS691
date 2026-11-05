@@ -1,0 +1,323 @@
+name, memory.total [MiB], driver_version
+Quadro RTX 8000, 49152 MiB, 570.211.01
+Quadro RTX 8000, 49152 MiB, 570.211.01
+NAME              ID              SIZE      MODIFIED    
+bge-m3:latest     7d6f58682469    1.2 GB    2 weeks ago    
+qwen3:32b-q8_0    e456ef028d5e    35 GB     2 weeks ago    
+  ollama_host: http://127.0.0.1:52899
+[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?25l[?2026h[?25l[1G[K[?25h[?2026l[2K[1G[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25hNAME              ID              SIZE     PROCESSOR    CONTEXT    UNTIL   
+qwen3:32b-q8_0    e456ef028d5e    78 GB    100% GPU     40960      Forever    
+=== corpus Mon Nov  2 08:43:27 PM UTC 2026
+== full_cf0.3_s42 -> corpus/full_cf0.3_s42
+facts: {'public_only': 150, 'cross_tier': 45, 'restricted_only': 105} canaries={'contamination': 90, 'structural': 210}
+plan:  {'public': 120, 'team_a': 60, 'team_b': 60, 'exec': 60} shortfalls=0
+[  1/300] ok  d-public-003 attempts=1 spent=$0.00
+[  2/300] ok  d-public-000 attempts=1 spent=$0.00
+[  3/300] ok  d-public-002 attempts=1 spent=$0.00
+[  4/300] ok  d-public-001 attempts=1 spent=$0.00
+[  5/300] ok  d-public-005 attempts=1 spent=$0.00
+[  6/300] ok  d-public-004 attempts=1 spent=$0.00
+[  7/300] ok  d-public-006 attempts=1 spent=$0.00
+[  8/300] ok  d-public-007 attempts=2 spent=$0.00
+[  9/300] ok  d-public-010 attempts=1 spent=$0.00
+[ 10/300] ok  d-public-008 attempts=1 spent=$0.00
+[ 11/300] ok  d-public-011 attempts=1 spent=$0.00
+[ 12/300] ok  d-public-013 attempts=1 spent=$0.00
+[ 13/300] ok  d-public-014 attempts=1 spent=$0.00
+[ 14/300] ok  d-public-015 attempts=1 spent=$0.00
+[ 15/300] ok  d-public-012 attempts=2 spent=$0.00
+[ 16/300] ok  d-public-009 attempts=3 spent=$0.00
+[ 17/300] ok  d-public-017 attempts=1 spent=$0.00
+[ 18/300] ok  d-public-016 attempts=1 spent=$0.00
+[ 19/300] ok  d-public-019 attempts=1 spent=$0.00
+[ 20/300] ok  d-public-018 attempts=1 spent=$0.00
+[ 21/300] ok  d-public-021 attempts=1 spent=$0.00
+[ 22/300] ok  d-public-022 attempts=1 spent=$0.00
+[ 23/300] ok  d-public-023 attempts=1 spent=$0.00
+[ 24/300] ok  d-public-020 attempts=2 spent=$0.00
+[ 25/300] ok  d-public-024 attempts=1 spent=$0.00
+[ 26/300] ok  d-public-026 attempts=1 spent=$0.00
+[ 27/300] ok  d-public-025 attempts=1 spent=$0.00
+[ 28/300] ok  d-public-030 attempts=1 spent=$0.00
+[ 29/300] ok  d-public-028 attempts=1 spent=$0.00
+[ 30/300] ok  d-public-027 attempts=1 spent=$0.00
+[ 31/300] ok  d-public-029 attempts=1 spent=$0.00
+[ 32/300] ok  d-public-033 attempts=1 spent=$0.00
+[ 33/300] ok  d-public-032 attempts=2 spent=$0.00
+[ 34/300] ok  d-public-031 attempts=2 spent=$0.00
+[ 35/300] ok  d-public-034 attempts=2 spent=$0.00
+[ 36/300] ok  d-public-036 attempts=1 spent=$0.00
+[ 37/300] ok  d-public-035 attempts=2 spent=$0.00
+[ 38/300] ok  d-public-037 attempts=1 spent=$0.00
+[ 39/300] ok  d-public-039 attempts=1 spent=$0.00
+[ 40/300] ok  d-public-040 attempts=1 spent=$0.00
+[ 41/300] ok  d-public-038 attempts=1 spent=$0.00
+[ 42/300] ok  d-public-041 attempts=2 spent=$0.00
+[ 43/300] ok  d-public-042 attempts=1 spent=$0.00
+[ 44/300] ok  d-public-043 attempts=2 spent=$0.00
+[ 45/300] ok  d-public-045 attempts=2 spent=$0.00
+[ 46/300] ok  d-public-044 attempts=3 spent=$0.00
+[ 47/300] ok  d-public-046 attempts=2 spent=$0.00
+[ 48/300] ok  d-public-048 attempts=1 spent=$0.00
+[ 49/300] ok  d-public-050 attempts=1 spent=$0.00
+[ 50/300] ok  d-public-047 attempts=2 spent=$0.00
+[ 51/300] ok  d-public-051 attempts=1 spent=$0.00
+[ 52/300] ok  d-public-049 attempts=2 spent=$0.00
+[ 53/300] ok  d-public-052 attempts=1 spent=$0.00
+[ 54/300] ok  d-public-056 attempts=1 spent=$0.00
+[ 55/300] ok  d-public-054 attempts=1 spent=$0.00
+[ 56/300] ok  d-public-055 attempts=1 spent=$0.00
+[ 57/300] ok  d-public-053 attempts=2 spent=$0.00
+[ 58/300] ok  d-public-058 attempts=1 spent=$0.00
+[ 59/300] ok  d-public-059 attempts=1 spent=$0.00
+[ 60/300] ok  d-public-057 attempts=1 spent=$0.00
+[ 61/300] ok  d-public-060 attempts=1 spent=$0.00
+[ 62/300] ok  d-public-064 attempts=1 spent=$0.00
+[ 63/300] ok  d-public-062 attempts=1 spent=$0.00
+[ 64/300] ok  d-public-063 attempts=1 spent=$0.00
+[ 65/300] ok  d-public-061 attempts=1 spent=$0.00
+[ 66/300] ok  d-public-067 attempts=1 spent=$0.00
+[ 67/300] ok  d-public-068 attempts=1 spent=$0.00
+[ 68/300] ok  d-public-069 attempts=1 spent=$0.00
+[ 69/300] ok  d-public-070 attempts=1 spent=$0.00
+[ 70/300] ok  d-public-065 attempts=2 spent=$0.00
+[ 71/300] ok  d-public-066 attempts=2 spent=$0.00
+[ 72/300] ok  d-public-074 attempts=1 spent=$0.00
+[ 73/300] ok  d-public-072 attempts=1 spent=$0.00
+[ 74/300] ok  d-public-073 attempts=1 spent=$0.00
+[ 75/300] ok  d-public-077 attempts=1 spent=$0.00
+[ 76/300] ok  d-public-071 attempts=2 spent=$0.00
+[ 77/300] ok  d-public-076 attempts=2 spent=$0.00
+[ 78/300] ok  d-public-079 attempts=1 spent=$0.00
+[ 79/300] ok  d-public-075 attempts=3 spent=$0.00
+[ 80/300] ok  d-public-081 attempts=1 spent=$0.00
+[ 81/300] ok  d-public-080 attempts=2 spent=$0.00
+[ 82/300] ok  d-public-078 attempts=3 spent=$0.00
+[ 83/300] ok  d-public-083 attempts=1 spent=$0.00
+[ 84/300] ok  d-public-084 attempts=1 spent=$0.00
+[ 85/300] ok  d-public-082 attempts=2 spent=$0.00
+[ 86/300] ok  d-public-086 attempts=1 spent=$0.00
+[ 87/300] ok  d-public-085 attempts=1 spent=$0.00
+[ 88/300] ok  d-public-087 attempts=1 spent=$0.00
+[ 89/300] ok  d-public-088 attempts=1 spent=$0.00
+[ 90/300] ok  d-public-090 attempts=1 spent=$0.00
+[ 91/300] ok  d-public-091 attempts=1 spent=$0.00
+[ 92/300] ok  d-public-089 attempts=2 spent=$0.00
+[ 93/300] ok  d-public-092 attempts=1 spent=$0.00
+[ 94/300] ok  d-public-093 attempts=1 spent=$0.00
+[ 95/300] ok  d-public-095 attempts=1 spent=$0.00
+[ 96/300] ok  d-public-097 attempts=1 spent=$0.00
+[ 97/300] ok  d-public-096 attempts=1 spent=$0.00
+[ 98/300] ok  d-public-094 attempts=2 spent=$0.00
+[ 99/300] ok  d-public-100 attempts=1 spent=$0.00
+[100/300] ok  d-public-099 attempts=2 spent=$0.00
+[101/300] ok  d-public-102 attempts=1 spent=$0.00
+[102/300] ok  d-public-098 attempts=2 spent=$0.00
+[103/300] ok  d-public-101 attempts=1 spent=$0.00
+[104/300] ok  d-public-105 attempts=1 spent=$0.00
+[105/300] ok  d-public-106 attempts=1 spent=$0.00
+[106/300] ok  d-public-104 attempts=2 spent=$0.00
+[107/300] ok  d-public-103 attempts=2 spent=$0.00
+[108/300] ok  d-public-107 attempts=1 spent=$0.00
+[109/300] ok  d-public-110 attempts=1 spent=$0.00
+[110/300] ok  d-public-108 attempts=2 spent=$0.00
+[111/300] ok  d-public-109 attempts=1 spent=$0.00
+[112/300] ok  d-public-111 attempts=1 spent=$0.00
+[113/300] ok  d-public-114 attempts=1 spent=$0.00
+[114/300] ok  d-public-112 attempts=1 spent=$0.00
+[115/300] ok  d-public-115 attempts=1 spent=$0.00
+[116/300] ok  d-public-113 attempts=2 spent=$0.00
+[117/300] ok  d-public-117 attempts=1 spent=$0.00
+[118/300] ok  d-public-116 attempts=1 spent=$0.00
+[119/300] ok  d-public-118 attempts=1 spent=$0.00
+[120/300] ok  d-public-119 attempts=1 spent=$0.00
+[121/300] ok  d-team_a-000 attempts=1 spent=$0.00
+[122/300] ok  d-team_a-002 attempts=1 spent=$0.00
+[123/300] ok  d-team_a-001 attempts=1 spent=$0.00
+[124/300] ok  d-team_a-006 attempts=1 spent=$0.00
+[125/300] ok  d-team_a-004 attempts=1 spent=$0.00
+[126/300] ok  d-team_a-005 attempts=1 spent=$0.00
+[127/300] ok  d-team_a-003 attempts=1 spent=$0.00
+[128/300] ok  d-team_a-009 attempts=1 spent=$0.00
+[129/300] ok  d-team_a-007 attempts=1 spent=$0.00
+[130/300] ok  d-team_a-011 attempts=1 spent=$0.00
+[131/300] ok  d-team_a-010 attempts=2 spent=$0.00
+[132/300] ok  d-team_a-008 attempts=2 spent=$0.00
+[133/300] ok  d-team_a-014 attempts=1 spent=$0.00
+[134/300] ok  d-team_a-012 attempts=2 spent=$0.00
+[135/300] ok  d-team_a-013 attempts=2 spent=$0.00
+[136/300] ok  d-team_a-017 attempts=1 spent=$0.00
+[137/300] ok  d-team_a-015 attempts=2 spent=$0.00
+[138/300] ok  d-team_a-016 attempts=1 spent=$0.00
+[139/300] ok  d-team_a-019 attempts=1 spent=$0.00
+[140/300] ok  d-team_a-018 attempts=1 spent=$0.00
+[141/300] ok  d-team_a-021 attempts=1 spent=$0.00
+[142/300] ok  d-team_a-024 attempts=1 spent=$0.00
+[143/300] ok  d-team_a-022 attempts=1 spent=$0.00
+[144/300] ok  d-team_a-023 attempts=1 spent=$0.00
+[145/300] ok  d-team_a-027 attempts=1 spent=$0.00
+[146/300] ok  d-team_a-025 attempts=1 spent=$0.00
+[147/300] ok  d-team_a-028 attempts=1 spent=$0.00
+[148/300] ok  d-team_a-026 attempts=2 spent=$0.00
+[149/300] ok  d-team_a-029 attempts=1 spent=$0.00
+[150/300] ok  d-team_a-032 attempts=1 spent=$0.00
+[151/300] ok  d-team_a-020 attempts=5 spent=$0.00
+[152/300] ok  d-team_a-030 attempts=1 spent=$0.00
+[153/300] ok  d-team_a-031 attempts=1 spent=$0.00
+[154/300] ok  d-team_a-036 attempts=1 spent=$0.00
+[155/300] ok  d-team_a-033 attempts=1 spent=$0.00
+[156/300] ok  d-team_a-034 attempts=1 spent=$0.00
+[157/300] ok  d-team_a-038 attempts=1 spent=$0.00
+[158/300] ok  d-team_a-035 attempts=2 spent=$0.00
+[159/300] ok  d-team_a-039 attempts=1 spent=$0.00
+[160/300] ok  d-team_a-040 attempts=1 spent=$0.00
+[161/300] ok  d-team_a-037 attempts=2 spent=$0.00
+[162/300] ok  d-team_a-041 attempts=1 spent=$0.00
+[163/300] ok  d-team_a-043 attempts=1 spent=$0.00
+[164/300] ok  d-team_a-042 attempts=2 spent=$0.00
+[165/300] ok  d-team_a-045 attempts=1 spent=$0.00
+[166/300] ok  d-team_a-047 attempts=1 spent=$0.00
+[167/300] ok  d-team_a-048 attempts=1 spent=$0.00
+[168/300] ok  d-team_a-046 attempts=2 spent=$0.00
+[169/300] ok  d-team_a-051 attempts=1 spent=$0.00
+[170/300] ok  d-team_a-049 attempts=2 spent=$0.00
+[171/300] ok  d-team_a-052 attempts=2 spent=$0.00
+[172/300] ok  d-team_a-053 attempts=2 spent=$0.00
+[173/300] ok  d-team_a-054 attempts=1 spent=$0.00
+[174/300] ok  d-team_a-056 attempts=1 spent=$0.00
+[175/300] ok  d-team_a-057 attempts=1 spent=$0.00
+[176/300] ok  d-team_a-055 attempts=3 spent=$0.00
+[177/300] ok  d-team_a-059 attempts=1 spent=$0.00
+[178/300] ok  d-team_a-058 attempts=1 spent=$0.00
+[179/300] ok  d-team_b-001 attempts=2 spent=$0.00
+[180/300] ok  d-team_b-000 attempts=2 spent=$0.00
+[181/300] ok  d-team_b-003 attempts=1 spent=$0.00
+[182/300] ok  d-team_b-002 attempts=1 spent=$0.00
+[183/300] ok  d-team_b-005 attempts=1 spent=$0.00
+[184/300] ok  d-team_b-004 attempts=2 spent=$0.00
+[185/300] ok  d-team_b-006 attempts=1 spent=$0.00
+[186/300] ok  d-team_b-008 attempts=1 spent=$0.00
+[187/300] ok  d-team_b-007 attempts=1 spent=$0.00
+[188/300] ok  d-team_b-009 attempts=1 spent=$0.00
+[189/300] ok  d-team_b-010 attempts=1 spent=$0.00
+[190/300] ok  d-team_b-011 attempts=2 spent=$0.00
+[191/300] ok  d-team_b-012 attempts=3 spent=$0.00
+[192/300] ok  d-team_b-013 attempts=1 spent=$0.00
+[193/300] ok  d-team_b-014 attempts=1 spent=$0.00
+[194/300] ok  d-team_b-015 attempts=1 spent=$0.00
+[195/300] ok  d-team_b-016 attempts=1 spent=$0.00
+[196/300] ok  d-team_b-017 attempts=1 spent=$0.00
+[197/300] ok  d-team_b-019 attempts=1 spent=$0.00
+[198/300] ok  d-team_b-018 attempts=2 spent=$0.00
+[199/300] ok  d-team_b-020 attempts=1 spent=$0.00
+[200/300] ok  d-team_b-022 attempts=1 spent=$0.00
+[201/300] ok  d-team_b-021 attempts=1 spent=$0.00
+[202/300] ok  d-team_b-023 attempts=1 spent=$0.00
+[203/300] ok  d-team_b-024 attempts=1 spent=$0.00
+[204/300] ok  d-team_b-025 attempts=1 spent=$0.00
+[205/300] ok  d-team_b-027 attempts=1 spent=$0.00
+[206/300] ok  d-team_b-028 attempts=1 spent=$0.00
+[207/300] ok  d-team_b-026 attempts=3 spent=$0.00
+[208/300] ok  d-team_b-029 attempts=1 spent=$0.00
+[209/300] ok  d-team_b-030 attempts=1 spent=$0.00
+[210/300] ok  d-team_b-031 attempts=1 spent=$0.00
+[211/300] ok  d-team_b-032 attempts=1 spent=$0.00
+[212/300] ok  d-team_b-034 attempts=1 spent=$0.00
+[213/300] ok  d-team_b-033 attempts=1 spent=$0.00
+[214/300] ok  d-team_b-036 attempts=1 spent=$0.00
+[215/300] ok  d-team_b-035 attempts=1 spent=$0.00
+[216/300] ok  d-team_b-038 attempts=1 spent=$0.00
+[217/300] ok  d-team_b-037 attempts=1 spent=$0.00
+[218/300] ok  d-team_b-040 attempts=1 spent=$0.00
+[219/300] ok  d-team_b-041 attempts=1 spent=$0.00
+[220/300] ok  d-team_b-039 attempts=2 spent=$0.00
+[221/300] ok  d-team_b-043 attempts=1 spent=$0.00
+[222/300] ok  d-team_b-042 attempts=1 spent=$0.00
+[223/300] ok  d-team_b-045 attempts=1 spent=$0.00
+[224/300] ok  d-team_b-044 attempts=1 spent=$0.00
+[225/300] ok  d-team_b-047 attempts=1 spent=$0.00
+[226/300] ok  d-team_b-048 attempts=1 spent=$0.00
+[227/300] ok  d-team_b-046 attempts=2 spent=$0.00
+[228/300] ok  d-team_b-050 attempts=1 spent=$0.00
+[229/300] ok  d-team_b-049 attempts=1 spent=$0.00
+[230/300] ok  d-team_b-051 attempts=1 spent=$0.00
+[231/300] ok  d-team_b-052 attempts=2 spent=$0.00
+[232/300] ok  d-team_b-053 attempts=1 spent=$0.00
+[233/300] ok  d-team_b-054 attempts=1 spent=$0.00
+[234/300] ok  d-team_b-055 attempts=1 spent=$0.00
+[235/300] ok  d-team_b-056 attempts=1 spent=$0.00
+[236/300] ok  d-team_b-057 attempts=1 spent=$0.00
+[237/300] ok  d-team_b-058 attempts=1 spent=$0.00
+[238/300] ok  d-team_b-059 attempts=1 spent=$0.00
+[239/300] ok  d-exec-000 attempts=1 spent=$0.00
+[240/300] ok  d-exec-001 attempts=1 spent=$0.00
+[241/300] ok  d-exec-002 attempts=1 spent=$0.00
+[242/300] ok  d-exec-003 attempts=1 spent=$0.00
+[243/300] ok  d-exec-005 attempts=1 spent=$0.00
+[244/300] ok  d-exec-006 attempts=1 spent=$0.00
+[245/300] ok  d-exec-004 attempts=2 spent=$0.00
+[246/300] ok  d-exec-007 attempts=1 spent=$0.00
+[247/300] ok  d-exec-008 attempts=1 spent=$0.00
+[248/300] ok  d-exec-010 attempts=1 spent=$0.00
+[249/300] ok  d-exec-011 attempts=1 spent=$0.00
+[250/300] ok  d-exec-009 attempts=2 spent=$0.00
+[251/300] ok  d-exec-012 attempts=1 spent=$0.00
+[252/300] ok  d-exec-013 attempts=1 spent=$0.00
+[253/300] ok  d-exec-015 attempts=1 spent=$0.00
+[254/300] ok  d-exec-014 attempts=2 spent=$0.00
+[255/300] ok  d-exec-016 attempts=2 spent=$0.00
+[256/300] ok  d-exec-017 attempts=1 spent=$0.00
+[257/300] ok  d-exec-019 attempts=1 spent=$0.00
+[258/300] ok  d-exec-018 attempts=1 spent=$0.00
+[259/300] ok  d-exec-021 attempts=1 spent=$0.00
+[260/300] ok  d-exec-020 attempts=1 spent=$0.00
+[261/300] ok  d-exec-022 attempts=1 spent=$0.00
+[262/300] ok  d-exec-023 attempts=1 spent=$0.00
+[263/300] ok  d-exec-024 attempts=2 spent=$0.00
+[264/300] ok  d-exec-025 attempts=2 spent=$0.00
+[265/300] ok  d-exec-027 attempts=1 spent=$0.00
+[266/300] ok  d-exec-026 attempts=1 spent=$0.00
+[267/300] ok  d-exec-029 attempts=1 spent=$0.00
+[268/300] ok  d-exec-028 attempts=2 spent=$0.00
+[269/300] ok  d-exec-030 attempts=1 spent=$0.00
+[270/300] ok  d-exec-031 attempts=2 spent=$0.00
+[271/300] ok  d-exec-032 attempts=2 spent=$0.00
+[272/300] ok  d-exec-033 attempts=1 spent=$0.00
+[273/300] ok  d-exec-034 attempts=1 spent=$0.00
+[274/300] ok  d-exec-035 attempts=1 spent=$0.00
+[275/300] ok  d-exec-036 attempts=1 spent=$0.00
+[276/300] ok  d-exec-037 attempts=1 spent=$0.00
+[277/300] ok  d-exec-038 attempts=1 spent=$0.00
+[278/300] ok  d-exec-039 attempts=1 spent=$0.00
+[279/300] ok  d-exec-040 attempts=1 spent=$0.00
+[280/300] ok  d-exec-042 attempts=1 spent=$0.00
+[281/300] ok  d-exec-041 attempts=1 spent=$0.00
+[282/300] ok  d-exec-043 attempts=1 spent=$0.00
+[283/300] ok  d-exec-044 attempts=2 spent=$0.00
+[284/300] ok  d-exec-046 attempts=1 spent=$0.00
+[285/300] ok  d-exec-045 attempts=2 spent=$0.00
+[286/300] ok  d-exec-048 attempts=1 spent=$0.00
+[287/300] ok  d-exec-049 attempts=1 spent=$0.00
+[288/300] ok  d-exec-047 attempts=3 spent=$0.00
+[289/300] ok  d-exec-050 attempts=1 spent=$0.00
+[290/300] ok  d-exec-051 attempts=1 spent=$0.00
+[291/300] ok  d-exec-053 attempts=1 spent=$0.00
+[292/300] ok  d-exec-052 attempts=2 spent=$0.00
+[293/300] ok  d-exec-054 attempts=1 spent=$0.00
+[294/300] ok  d-exec-055 attempts=1 spent=$0.00
+[295/300] ok  d-exec-057 attempts=1 spent=$0.00
+[296/300] ok  d-exec-056 attempts=1 spent=$0.00
+[297/300] ok  d-exec-058 attempts=1 spent=$0.00
+[298/300] ok  d-exec-059 attempts=1 spent=$0.00
+[299/300] ok  d-team_a-050 attempts=2 spent=$0.00
+[300/300] ok  d-team_a-044 attempts=2 spent=$0.00
+{
+  "docs_ok": 300,
+  "query_rows": 1120,
+  "validation_ok": true,
+  "n_errors": 0,
+  "llm_cost_usd_this_run": 0.0,
+  "minutes": 3.4
+}
+WARN  review: rare Titlecase words (possible invented names): Resubmitting(1)
+=== done Mon Nov  2 08:46:52 PM UTC 2026

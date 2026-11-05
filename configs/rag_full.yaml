@@ -5,7 +5,7 @@
 #   python -m acl_rag.metrics --rag-config configs/rag.yaml
 
 corpus: corpus/full_cf0.3_s42
-working_dir: rag_storage/{corpus_name}   # LightRAG index (not in git)
+working_dir: rag_storage/{corpus_name}   # LightRAG index (committed for the team)
 results_dir: results/{corpus_name}       # one <config>.jsonl per run
 
 backend:

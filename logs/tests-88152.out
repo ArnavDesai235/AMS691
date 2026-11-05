@@ -1,0 +1,9 @@
+tests/test_acl_enforcement.py [23s] rc=0 11 passed, 2 warnings in 20.25s
+tests/test_c4_ingestion.py [3s] rc=0 1 passed, 2 warnings in 1.61s
+tests/test_c4.py [13s] rc=0 13 passed, 2 warnings in 11.93s
+tests/test_check_index.py [3s] rc=0 2 passed, 2 warnings in 1.34s
+tests/test_corpus_ollama.py [2s] rc=0 5 passed in 0.97s
+tests/test_ingest_resume.py [3s] rc=0 3 passed, 2 warnings in 1.51s
+tests/test_leakage.py [53s] rc=0 1 passed, 2 warnings in 52.09s
+tests/test_ollama_backend.py [4s] rc=0 5 passed, 2 warnings in 1.57s
+tests/test_repair.py [1s] rc=0 17 passed in 0.69s

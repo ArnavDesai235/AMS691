@@ -1,0 +1,22 @@
+/var/lib/slurm/slurmd/job88149/slurm_script: 4: source: not found
+
+CondaError: Run 'conda init' before 'conda activate'
+
+tests/test_acl_enforcement.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_c4.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_c4_ingestion.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_check_index.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_corpus_ollama.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_ingest_resume.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_leakage.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_ollama_backend.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest
+tests/test_repair.py [0s] rc=1 /home/armdesai/miniconda3/bin/python: No module named pytest
+/home/armdesai/miniconda3/bin/python: No module named pytest

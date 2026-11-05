@@ -8,7 +8,7 @@ Arnav Desai · Nov 1–4, 2026 · branch `qwen-repair`
   300 docs, 300 canaries (90 contamination, 210 structural), 1,120 query rows, 0 validation errors.
   Getting there needed deterministic repairs of qwen3 drafts: first-try pass rate went from
   14/50 to 34/50 on the dev plan, and every remaining doc now passes the unchanged hard checks.
-- **Full corpus ingested into LightRAG** (`rag_storage/full_cf0.3_s42`, not in git, 122 MB):
+- **Full corpus ingested into LightRAG** (`rag_storage/full_cf0.3_s42`, 122 MB, in git):
   300/300 docs processed, 300/300 planned entities found by exact name, realized cross-tier
   fraction 0.293, all 26 planned hubs realized. One public doc (`d-public-099`) is still
   marked truncated (see open issues).
@@ -176,8 +176,10 @@ Leakage rates over the 168 rows with forbidden canaries (exec rows excluded):
   and full), `reports/results/dev_cf0.3_s42/` (dev C1–C4 metrics and leakage summaries),
   `reports/slurm_jobs.psv` (all jobs referenced here)
 
-Not in git: the LightRAG index directories (`rag_storage/`), per-row C1–C4 result files
-(`results/*/C?.jsonl`, 133 MB) and job logs; all remain on the cluster under `~/project/AMS691`.
+Also in git (added Nov 5 for collaboration): the LightRAG indices `rag_storage/dev_cf0.3_s42` and
+`rag_storage/full_cf0.3_s42` (including the C4 fragment databases), per-row dev C1–C4 results
+`results/dev_cf0.3_s42/C?.jsonl`, all job logs in `logs/`, and the corpus-generation LLM cache
+`.llm_cache/`. Largest file: 49 MB (`vdb_relationships.json`); a larger index would need Git LFS.
 
 ## 7. Reproduce
 
