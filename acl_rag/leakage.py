@@ -42,6 +42,7 @@ from pathlib import Path
 
 from .acl import edge_key, split_source_ids
 from .rag_factory import load_config
+from .resultio import config_name, read_rows, result_files
 
 FLAGS = ["structural_item", "struct_canary", "contam_canary", "answer_canary",
          "answer_canary_via_struct", "answer_canary_via_contam", "answer_canary_no_context",
@@ -168,7 +169,7 @@ def aggregate(rows: list[dict]) -> dict:
 
 
 def evaluate(t: Truth, result_file: Path) -> dict:
-    scored = [score_row(t, t.queries[r["qid"]], r) for r in _jsonl(result_file)]
+    scored = [score_row(t, t.queries[r["qid"]], r) for r in read_rows(result_file)]
     summary = {"overall": aggregate(scored)}
     for key in ("user_tier", "type", "eval_role", "regime"):
         groups = defaultdict(list)
@@ -199,20 +200,21 @@ def table(results: dict[str, dict]) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--rag-config", default="configs/rag.yaml")
-    ap.add_argument("--config", help="C1 | C2 | C3 | C4 (default: every C?.jsonl found)")
+    ap.add_argument("--config", help="C1 | C2 | C3 | C4 (default: every C?.jsonl[.gz] found)")
     args = ap.parse_args()
     cfg = load_config(args.rag_config)
     t = Truth(cfg["corpus"], cfg["working_dir"],
               cfg.get("lightrag", {}).get("force_llm_summary_on_merge", 8))
     rdir: Path = cfg["results_dir"]
-    files = [rdir / f"{args.config.upper()}.jsonl"] if args.config else sorted(rdir.glob("C?.jsonl"))
+    files = result_files(rdir, args.config)
     results = {}
     for f in files:
         res = evaluate(t, f)
-        (rdir / f"{f.stem}_leakage.json").write_text(json.dumps(res, indent=1))
-        results[f.stem] = res
+        name = config_name(f)
+        (rdir / f"{name}_leakage.json").write_text(json.dumps(res, indent=1))
+        results[name] = res
         if res["anomalies"]:
-            print(f"WARNING {f.stem}: forbidden canary in an authorized chunk for "
+            print(f"WARNING {name}: forbidden canary in an authorized chunk for "
                   f"{len(res['anomalies'])} rows (see anomalies)")
     print(table(results))
 

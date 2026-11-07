@@ -37,6 +37,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from .rag_factory import load_config
+from .resultio import config_name, iter_rows, result_files
 
 ABSTAIN_RE = re.compile(
     r"not available|no (?:relevant )?information|(?:don't|do not|does not|doesn't) (?:have|contain|mention|include)"
@@ -157,12 +158,7 @@ def evaluate(corpus: Path, result_file: Path, ks: list[int]) -> dict:
             if line.strip():
                 q = json.loads(line)
                 queries[q["qid"]] = q
-    scored = []
-    with open(result_file) as fh:
-        for line in fh:
-            if line.strip():
-                r = json.loads(line)
-                scored.append(score_row(c, queries[r["qid"]], r, ks))
+    scored = [score_row(c, queries[r["qid"]], r, ks) for r in iter_rows(result_file)]
     summary = {"overall": _agg(scored, ks)}
     for key in ("user_tier", "type", "eval_role"):
         groups = defaultdict(list)
@@ -175,17 +171,18 @@ def evaluate(corpus: Path, result_file: Path, ks: list[int]) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--rag-config", default="configs/rag.yaml")
-    ap.add_argument("--config", help="C1 | C2 | C3 | C4 (default: every <config>.jsonl found)")
+    ap.add_argument("--config", help="C1 | C2 | C3 | C4 (default: every <config>.jsonl[.gz] found)")
     args = ap.parse_args()
     cfg = load_config(args.rag_config)
     ks = cfg.get("eval", {}).get("recall_k", [1, 3, 5, 10])
     rdir: Path = cfg["results_dir"]
-    files = [rdir / f"{args.config.upper()}.jsonl"] if args.config else sorted(rdir.glob("C?.jsonl"))
+    files = result_files(rdir, args.config)
     table = {}
     for f in files:
         res = evaluate(cfg["corpus"], f, ks)
-        (rdir / f"{f.stem}_metrics.json").write_text(json.dumps(res, indent=1))
-        table[f.stem] = res["summary"]["overall"]
+        name = config_name(f)
+        (rdir / f"{name}_metrics.json").write_text(json.dumps(res, indent=1))
+        table[name] = res["summary"]["overall"]
     print(json.dumps(table, indent=1))
 
 
