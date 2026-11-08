@@ -43,6 +43,10 @@ query:
   chunk_top_k: 20             # chunks (1.5.7 default)
   enable_rerank: false        # no reranker configured
   response_type: Multiple Paragraphs
+  answer_num_predict: 3072    # output cap for the ANSWER only (extraction/keywords/C4 summaries keep
+                              # backend.ollama_num_predict). Dev C1-C4: normal answers <= ~10k chars,
+                              # 30/896 runaways hit 6144 tokens (~25k chars, ~220 s each); capping them
+                              # at 3072 changed no answer's correctness. Part of the answer-cache key.
 
 acl:
   max_candidates: 4096        # C3 oversampling ceiling per vector search

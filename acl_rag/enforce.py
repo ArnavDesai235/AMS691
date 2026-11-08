@@ -120,8 +120,10 @@ def acting_as(acl: ACLIndex, user_id: str, mode: "str | Mode") -> Iterator[Scope
         _SCOPE.reset(token)
 
 
-def _salt(args_hash: str, scope: Scope) -> str:
-    return hashlib.md5(f"{args_hash}|acl:{scope.cache_scope}".encode()).hexdigest()
+def _salt(args_hash: str, scope: Scope, answer_tag: str = "") -> str:
+    # answer_tag is "" unless query.answer_num_predict is set, so keys made without an
+    # answer cap are unchanged; with a cap, answers cached under another cap are not reused.
+    return hashlib.md5(f"{args_hash}|acl:{scope.cache_scope}{answer_tag}".encode()).hexdigest()
 
 
 # --------------------------------------------------------------------------- C3
@@ -334,13 +336,13 @@ def _install_module_hooks(acl: ACLIndex, operate) -> None:
     async def handle_cache(hashing_kv, args_hash, prompt, mode="default", cache_type="unknown"):
         s = _SCOPE.get()
         if s is not None and cache_type == "query":
-            args_hash = _salt(args_hash, s)
+            args_hash = _salt(args_hash, s, getattr(operate, "_acl_answer_cache_tag", ""))
         return await orig_handle_cache(hashing_kv, args_hash, prompt, mode, cache_type)
 
     async def save_to_cache(hashing_kv, cache_data):
         s = _SCOPE.get()
         if s is not None and getattr(cache_data, "cache_type", None) == "query":
-            cache_data = dataclasses.replace(cache_data, args_hash=_salt(cache_data.args_hash, s))
+            cache_data = dataclasses.replace(cache_data, args_hash=_salt(cache_data.args_hash, s, getattr(operate, "_acl_answer_cache_tag", "")))
         return await orig_save_to_cache(hashing_kv, cache_data)
 
     operate._perform_kg_search = _perform_kg_search
@@ -373,5 +375,6 @@ def install(rag, acl: ACLIndex, *, operate=None, max_candidates: int = 4096) -> 
         max_candidates=max_candidates,
     )
     _install_module_hooks(acl, operate)
+    operate._acl_answer_cache_tag = getattr(rag, "_acl_answer_cache_tag", "")
     rag._acl_installed = acl
     return acl
