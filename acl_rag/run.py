@@ -113,6 +113,11 @@ async def run(cfg: dict, mode: Mode, limit: int | None = None, concurrency: int 
     out_dir: Path = cfg["results_dir"]
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / f"{mode.value}.jsonl"
+    packed = out.with_name(out.name + ".gz")
+    if packed.exists() and not out.exists():
+        raise RuntimeError(
+            f"{packed} exists but {out} does not. To resume, `gunzip -k {packed}` first; "
+            "for a new experiment use a fresh results_dir.")
     rag, acl = await build_acl_rag(cfg, mode=mode)
     if no_llm_cache:
         rag.enable_llm_cache = False

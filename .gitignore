@@ -8,3 +8,6 @@ __pycache__/
 # C4 provenance databases are part of the shared index
 !rag_storage/**/c4_fragments.sqlite3
 *.sqlite3-journal
+# Raw per-row results are large; commit the packed C?.jsonl.gz + MANIFEST.json
+# (python -m acl_rag.resultio results/<run>)
+results/**/C?.jsonl
