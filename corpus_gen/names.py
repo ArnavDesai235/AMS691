@@ -58,13 +58,14 @@ _DICTIONARY = _load_dictionary()
 
 
 def word_frequency(w: str) -> float:
-    """Zipf frequency of `w` in English web text (wordfreq); 0.0 if unknown or not installed.
-    Any nonzero value means the token occurs in real text (names, places, brands)."""
+    """Zipf frequency of `w` in English web text (wordfreq); 0.0 if unknown.
+    Any nonzero value means the token occurs in real text (names, places, brands).
+    wordfreq is required: falling back to 0.0 would let real names pass every check."""
     try:
         from wordfreq import zipf_frequency
-        return zipf_frequency(w.lower(), "en")
-    except Exception:  # noqa: BLE001
-        return 0.0
+    except ImportError as e:
+        raise ImportError("wordfreq is required for the real-name checks: pip install 'wordfreq>=3.0'") from e
+    return zipf_frequency(w.lower(), "en")
 # Codes: avoid 2-letter prefixes that read as common acronyms.
 _CODE_PREFIX_BLOCK = {"HR", "IT", "QA", "PR", "US", "UK", "EU", "AI", "ML", "ID", "OK",
                       "TV", "PC", "CV", "PM", "AM", "VP", "CF", "OS", "IP", "DB", "UI"}
