@@ -1,8 +1,8 @@
 # C4: descriptions from authorized source fragments
 
 Owner: Sai Sony Malapati. Implementation and offline integration checks complete
-on October 18, 2026. Full dev-corpus experiments with the team's actual LLM and
-embedding backend are still pending.
+on October 18, 2026. The [dev results](reports/results/dev_cf0.3_s42) cover 224
+query-user pairs with the team's model backend.
 
 This change builds on Bala Ramya's C1/C2/C3, access-set cache keys, runner, and
 metrics at commit `3a70f8c7abd98f1cf06c5413387edb7f8b3611b0`. It adds C4 to that
@@ -119,6 +119,24 @@ For later commands, `python` means the interpreter in that environment. In
 PowerShell, use `.\.venv\Scripts\python.exe` directly if the environment is not
 activated; in a Unix shell, use `.venv/bin/python`.
 
+## Offline check on the saved full index
+
+```bash
+python -m acl_rag.check_c4_index --rag-config configs/rag_full.yaml
+```
+
+This command reads the saved graph, source permissions, and fragment database.
+It recomputes the cases where a user can see a restricted code in an otherwise
+readable description or relation keyword, then runs C4's `join` strategy on
+those items. It reports retained and dropped cases and exits with a nonzero
+status if a target code remains, the source check fails, or provenance is
+missing. It does not call a model or write to the index.
+
+On `full_cf0.3_s42`, the check covered 242 cases involving 63 distinct codes.
+C4 returned a description from readable sources in every case, with no target
+codes remaining. This checks the saved graph text; live experiments are needed
+to measure retrieval and generated answers.
+
 ## Live experiment commands
 
 1. Configure the team's backend in `configs/rag.yaml`. For OpenAI, explicitly
@@ -171,9 +189,9 @@ These are implementation regression checks, **not final empirical results**.
 The 224-row fixture uses ground-truth fragments and explicit retrieval keywords;
 the real-storage fixture uses only three documents and local model stubs.
 Real model extraction can miss facts, change entity names, or omit canaries;
-generated summaries/answers can also omit facts or hallucinate. Run the full
-50-document dev experiment with the agreed backend before claiming empirical
-leakage, contamination, answer-quality, or latency numbers.
+generated summaries/answers can also omit facts or hallucinate. The measured
+50-document results are in the [dev results directory](reports/results/dev_cf0.3_s42).
+Use the full run to check whether those results hold at scale.
 
 Operate on a fixed index/manifest during an experiment. Rebuild after corpus,
 permission, deletion, or extraction-policy changes; do not ingest concurrently
