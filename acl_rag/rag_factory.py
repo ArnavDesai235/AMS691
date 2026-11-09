@@ -87,6 +87,37 @@ def ollama_llm_kwargs(b: dict[str, Any]) -> dict[str, Any]:
     return {"host": b["ollama_host"], "timeout": b.get("ollama_timeout"), "options": options}
 
 
+def answer_num_predict(cfg: dict[str, Any]) -> int | None:
+    """Output-token cap for answer generation only (``query.answer_num_predict``).
+
+    Extraction, keyword extraction and C4 summaries keep ``backend.ollama_num_predict``:
+    in LightRAG 1.5.7 only the final answer goes through the "query" LLM role
+    (keywords use "keyword"; entity/relation summaries, including C4's, use "extract").
+    """
+    cap = (cfg.get("query") or {}).get("answer_num_predict")
+    if cap is None:
+        return None
+    cap = int(cap)
+    if cap < 256:
+        raise ValueError(f"query.answer_num_predict={cap} is too small for an answer (use >= 256)")
+    return cap
+
+
+def query_role_kwargs(b: dict[str, Any], cap: int) -> dict[str, Any]:
+    """LLM kwargs for LightRAG's "query" role: the base kwargs with a lower output cap.
+
+    A role's kwargs REPLACE the base ``llm_model_kwargs`` in 1.5.7 (no merge), so the
+    host/timeout/context/sampling options are copied and only the cap changes.
+    """
+    if b["llm"] == "ollama":
+        qk = ollama_llm_kwargs(b)
+        qk["options"] = {**qk["options"], "num_predict": cap}
+        return qk
+    if b["llm"] == "openai":
+        return {"max_tokens": cap}
+    raise ValueError(f"query.answer_num_predict is not supported for backend.llm={b['llm']!r}")
+
+
 async def build_rag(cfg: dict[str, Any], *, capture_fragments: bool = False):
     """Create and initialise the LightRAG instance for this corpus (stock, no ACL yet)."""
     from lightrag import LightRAG  # noqa: PLC0415
@@ -113,7 +144,11 @@ async def build_rag(cfg: dict[str, Any], *, capture_fragments: bool = False):
             # LightRAG kills a call after 2 x default_llm_timeout (default 240 -> 480s),
             # independently of the Ollama client timeout. Keep the two consistent.
             kwargs["default_llm_timeout"] = int(b["ollama_timeout"])
+    answer_cap = answer_num_predict(cfg)
+    if answer_cap is not None:
+        kwargs["role_llm_configs"] = {"query": {"kwargs": query_role_kwargs(b, answer_cap)}}
     rag = LightRAG(**kwargs)
+    rag._acl_answer_cache_tag = f"|answer_num_predict={answer_cap}" if answer_cap is not None else ""
     await rag.initialize_storages()
     if capture_fragments and cfg.get("c4", {}).get("capture_fragments", True):
         from .fragments import FragmentStore, install_fragment_capture
