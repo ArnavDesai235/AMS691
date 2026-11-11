@@ -33,7 +33,17 @@ def _flagged_cases(report):
                 yield row["canary_id"], kind, key, user
 
 
-async def audit(corpus: Path, index: Path, fragments: Path, hub_threshold: int = 8) -> dict:
+def _recorded_fingerprint(index: Path) -> str | None:
+    """Fragment-store fingerprint that ingest recorded for this index, if any."""
+    path = index / "ingest_report.json"
+    if not path.is_file():
+        return None
+    return ((json.loads(path.read_text(encoding="utf-8")).get("c4_provenance") or {})
+            .get("fingerprint"))
+
+
+async def audit(corpus: Path, index: Path, fragments: Path, hub_threshold: int = 8, *,
+                allow_empty: bool = False, config_strategy: str | None = None) -> dict:
     report = check(corpus, index, hub_threshold)
     cases = dict.fromkeys(_flagged_cases(report))
     graph = _load_graph(index)
@@ -55,6 +65,15 @@ async def audit(corpus: Path, index: Path, fragments: Path, hub_threshold: int =
     evaluated = {}
     counts: Counter = Counter()
     issues = []
+    if not cases and not allow_empty:
+        # Zero exposures usually means a wrong or mismatched index, not a clean one:
+        # a passing audit must have checked something.
+        issues.append({"reason": "no_cases_checked",
+                       "detail": "check_index found no exposed canaries; pass --allow-empty if expected"})
+    recorded = _recorded_fingerprint(index)
+    if recorded is not None and recorded != store.fingerprint():
+        issues.append({"reason": "fragment_store_mismatch",
+                       "detail": f"{fragments} does not match the fragments recorded at ingest"})
     try:
         filter_description = C4DescriptionFilter(store, strategy="join")
         for cid, kind, key, user in cases:
@@ -98,10 +117,11 @@ async def audit(corpus: Path, index: Path, fragments: Path, hub_threshold: int =
     finally:
         store.close()
 
-    return {
+    result = {
         "corpus": str(corpus),
         "index": str(index),
         "strategy": "join",
+        "config_description_strategy": config_strategy,
         "distinct_codes_by_kind": dict(Counter(canaries[cid]["kind"] for cid in {c[0] for c in cases})),
         "cases_checked": len(cases),
         "distinct_item_user_pairs": len(evaluated),
@@ -111,14 +131,24 @@ async def audit(corpus: Path, index: Path, fragments: Path, hub_threshold: int =
         "restricted_code_remaining_cases": counts["restricted_code_remaining"],
         "issues": issues,
     }
+    if config_strategy not in (None, "join"):
+        result["note"] = (f"Experiments use description_strategy={config_strategy!r}: items at or above the "
+                          "summary threshold get an LLM summary of these same fragments. This audit checks "
+                          "fragment selection only, not those generated summaries.")
+    return result
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--rag-config", default="configs/rag.yaml")
-    cfg = load_config(ap.parse_args().rag_config)
+    ap.add_argument("--allow-empty", action="store_true",
+                    help="pass when check_index finds no exposed canaries (default: fail)")
+    args = ap.parse_args()
+    cfg = load_config(args.rag_config)
     result = asyncio.run(audit(cfg["corpus"], cfg["working_dir"], fragment_path(cfg),
-                               cfg.get("lightrag", {}).get("force_llm_summary_on_merge", 8)))
+                               cfg.get("lightrag", {}).get("force_llm_summary_on_merge", 8),
+                               allow_empty=args.allow_empty,
+                               config_strategy=cfg.get("c4", {}).get("description_strategy")))
     print(json.dumps(result, indent=2))
     return int(bool(result["issues"]))
 

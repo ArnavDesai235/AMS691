@@ -132,6 +132,13 @@ those items. It reports retained and dropped cases and exits with a nonzero
 status if a target code remains, the source check fails, or provenance is
 missing. It does not call a model or write to the index.
 
+The audit always uses `join`. Experiments use `description_strategy: auto`, where
+items with at least `force_llm_summary_on_merge` fragments get an LLM summary of
+the same authorized fragments; the audit checks fragment selection, not those
+generated summaries. It also fails when it finds no exposed canaries (pass
+`--allow-empty` if that is expected) or when `c4_fragments.sqlite3` does not
+match the fingerprint recorded in `ingest_report.json`.
+
 On `full_cf0.3_s42`, the check covered 242 cases involving 63 distinct codes.
 C4 returned a description from readable sources in every case, with no target
 codes remaining. This checks the saved graph text; live experiments are needed
