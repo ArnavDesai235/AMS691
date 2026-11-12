@@ -71,6 +71,7 @@ for step in $STEPS; do
     metrics) python -m acl_rag.metrics --rag-config "$cfg" ;;
     leakage) python -m acl_rag.leakage --rag-config "$cfg" ;;
     check)   python -m acl_rag.check_index --rag-config "$cfg" ;;
+    sweep)   python -m acl_rag.sweep_retrieval --rag-config "$cfg" ${SWEEP_ARGS:-} ;;
     C1|C2|C3|C4) python -m acl_rag.run --rag-config "$cfg" --config "$step" ;;
     *) echo "unknown step $step"; exit 1 ;;
   esac
