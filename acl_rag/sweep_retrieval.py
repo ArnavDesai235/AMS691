@@ -32,6 +32,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import gzip
+import hashlib
 import itertools
 import json
 import logging
@@ -69,6 +70,11 @@ def _ranked_docs(chunks: list[dict], field: str) -> list[str]:
         if d and d not in out:
             out.append(d)
     return out
+
+
+def split_of(query_id: str) -> str:
+    """Deterministic half split by query (all users of a query stay together)."""
+    return "tune" if int(hashlib.sha256(query_id.encode()).hexdigest(), 16) % 2 == 0 else "test"
 
 
 def settings(args, qcfg: dict) -> list[dict]:
@@ -169,6 +175,8 @@ async def sweep_config(cfg: dict, mode: Mode, grid: list[dict], rows: list[dict]
 async def main_async(args) -> Path:
     cfg = load_config(args.rag_config)
     rows = load_rows(cfg["corpus"])
+    if args.split != "all":
+        rows = [r for r in rows if split_of(r["query_id"]) == args.split]
     if args.limit:
         rows = rows[:args.limit]
     corpus = Corpus(cfg["corpus"])
@@ -177,7 +185,8 @@ async def main_async(args) -> Path:
     if missing:
         log.warning("%d queries have no recorded keywords; LightRAG will extract them with the LLM", len(missing))
     grid = settings(args, cfg.get("query", {}))
-    out_dir = Path(args.out) if args.out else cfg["results_dir"] / "sweep"
+    out_dir = Path(args.out) if args.out else cfg["results_dir"] / ("sweep" if args.split == "all"
+                                                                   else f"sweep_{args.split}")
     out_dir.mkdir(parents=True, exist_ok=True)
     summaries = []
     with gzip.open(out_dir / "rows.jsonl.gz", "wt") as rows_out:
@@ -208,6 +217,8 @@ def main() -> None:
     ap.add_argument("--chunk-top-k", nargs="+", type=int, default=[20, 40])
     ap.add_argument("--keywords", nargs="+", default=["orig", "ll"], choices=["orig", "ll"])
     ap.add_argument("--keywords-from", help="results dir of an earlier run (default: the config's results_dir)")
+    ap.add_argument("--split", default="all", choices=["all", "tune", "test"],
+                    help="half of the queries (by query_id hash): tune settings on one, confirm on the other")
     ap.add_argument("--limit", type=int, help="only the first N rows (smoke test)")
     ap.add_argument("--concurrency", type=int, default=4)
     ap.add_argument("--out", help="output dir (default: <results_dir>/sweep)")

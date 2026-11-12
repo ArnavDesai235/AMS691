@@ -48,3 +48,13 @@ def test_score_matches_metrics_definition():
 def test_ranked_docs_first_occurrence():
     chunks = [{"file_path": "a"}, {"file_path": "b"}, {"file_path": "a"}, {"file_path": None}]
     assert sw._ranked_docs(chunks, "file_path") == ["a", "b"]
+
+
+def test_split_is_by_query_and_balanced():
+    rows = sw.load_rows(ROOT / "corpus" / "full_cf0.3_s42")
+    by_q = {}
+    for r in rows:
+        by_q.setdefault(r["query_id"], set()).add(sw.split_of(r["query_id"]))
+    assert all(len(v) == 1 for v in by_q.values())
+    tune = sum(sw.split_of(q) == "tune" for q in by_q)
+    assert 0.4 < tune / len(by_q) < 0.6
