@@ -33,19 +33,40 @@ def load_rows(corpus: Path) -> list[dict]:
 
 def _query_param(qcfg: dict):
     from lightrag import QueryParam  # noqa: PLC0415
+    extra = {k: int(qcfg[k]) for k in ("max_entity_tokens", "max_relation_tokens", "max_total_tokens")
+             if qcfg.get(k) is not None}
     return QueryParam(  # fresh object per call; never share a QueryParam
         mode=qcfg.get("mode", "mix"),
         top_k=qcfg.get("top_k", 40),
         chunk_top_k=qcfg.get("chunk_top_k", 20),
         enable_rerank=qcfg.get("enable_rerank", False),
         response_type=qcfg.get("response_type", "Multiple Paragraphs"),
+        **extra,
     )
+
+
+async def _hl_from_ll(rag, text: str, param) -> None:
+    """``query.hl_from_ll``: use the low-level keywords for the high-level search too.
+
+    LightRAG's high-level keywords for entity questions are mostly generic
+    ("What do we know", "overview"), which steers the relation search away from the
+    entity. Keywords are extracted (or read from the LLM cache) exactly as LightRAG
+    would, then pinned on the QueryParam. If no low-level keywords come back, the
+    extracted pair is kept unchanged.
+    """
+    from lightrag import operate  # noqa: PLC0415
+    hl, ll = await operate.get_keywords_from_query(text, param, rag._build_global_config(),
+                                                   rag.llm_response_cache)
+    param.hl_keywords, param.ll_keywords = (list(ll), list(ll)) if ll else (list(hl), list(ll))
 
 
 async def run_one(rag, acl, row: dict, mode: Mode, qcfg: dict, run_id: str | None = None) -> dict:
     t0 = time.perf_counter()
+    param = _query_param(qcfg)
     with acting_as(acl, row["user_id"], mode) as scope:
-        res = await rag.aquery_llm(row["text"], param=_query_param(qcfg))
+        if qcfg.get("hl_from_ll"):
+            await _hl_from_ll(rag, row["text"], param)
+        res = await rag.aquery_llm(row["text"], param=param)
     latency = time.perf_counter() - t0
     data = res.get("data") or {}
     llm = res.get("llm_response") or {}
