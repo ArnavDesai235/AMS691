@@ -1,0 +1,46 @@
+{
+ "C1": {
+  "file": "C1.jsonl.gz",
+  "rows": 1120,
+  "run_ids": [
+   "9617d5e2e10f88059aaafe06931a8e97cc388c09283d5fcb5371362d7dc20411"
+  ],
+  "raw_bytes": 128210128,
+  "gz_bytes": 32159144,
+  "sha256_raw": "b641e89ad37c5dadee6748281607de90d52e949a440a04e377b5db8f6d0b35f9",
+  "sha256_gz": "1f0ba0fded9e9785abfb308d6debbef2b1914572ca5ea2f548d300e1b211e546"
+ },
+ "C2": {
+  "file": "C2.jsonl.gz",
+  "rows": 1120,
+  "run_ids": [
+   "293bbef452127184f3548c820d81baf8b60a894ec03b56a167c009def5247d1e"
+  ],
+  "raw_bytes": 123059657,
+  "gz_bytes": 31087124,
+  "sha256_raw": "ec48677c7c00d60fb01b6a88397d7eebdec757fba74edfeab328d39f645ba314",
+  "sha256_gz": "05d9d0d0339c97322392a082aaa79ca336715212ab665cbc9dd659efbee6dc44"
+ },
+ "C3": {
+  "file": "C3.jsonl.gz",
+  "rows": 1120,
+  "run_ids": [
+   "c8b44415c37dd20667797dd29a77ae7cb00c65ba9aefc995b3da4c6ee8b3d710"
+  ],
+  "raw_bytes": 134103244,
+  "gz_bytes": 33531572,
+  "sha256_raw": "97475356d3a478c91c91ecc30b2c07ac997670f5b79a9e590eca138776726040",
+  "sha256_gz": "0262c380de6d0a70cb2021ae400b6d0d61b3c618d9f74ac58aee6e62e518bf11"
+ },
+ "C4": {
+  "file": "C4.jsonl.gz",
+  "rows": 1120,
+  "run_ids": [
+   "cec195d6a8e36727be23816c8470ea9586bc8b2acf55103a44ed1955e9373301"
+  ],
+  "raw_bytes": 133089427,
+  "gz_bytes": 33246443,
+  "sha256_raw": "2347a4ffb22ec23f2177e5451a13b3fe2d3134a85b67535167d8682e8921b3ad",
+  "sha256_gz": "fa8ad2cee5795551e4ff3441e7f20df71a45becbdea63c01437a021918589647"
+ }
+}
