@@ -42,5 +42,24 @@ Chosen: `top_k` 10, `max_entity_tokens` 3000, `max_relation_tokens` 3000, `chunk
   used the pre-run LLM cache, so C4 re-summarized hub items; with the full run's cache it is 1.0.
 - Dev (50 docs) starts at 0.86-0.91 and gains 1.5-2.7 points; the problem is one of scale.
 
-Recall only. Answer accuracy and leakage under the new setting come from the full rerun
-(`results/full_cf0.3_s42_tuned`).
+## Full rerun with the tuned config (job 92389)
+
+`results/full_cf0.3_s42_tuned` vs `results/full_cf0.3_s42`, all 1120 rows per config. Every row
+retrieved the docs the sweep predicted. Authorized = positive_control + qc (650 rows).
+
+| | recall@10 | fact recall | accuracy | authorized acc. | answer canary | contam. context | p95 latency |
+|---|---|---|---|---|---|---|---|
+| C1 | 0.602 -> 0.754 | 0.805 -> 0.815 | 0.265 -> 0.254 | 0.457 -> 0.437 | 0.479 -> 0.519 | 0.83 -> 0.47 | 113 -> 74 s |
+| C2 | 0.658 -> 0.806 | 0.829 -> 0.840 | 0.326 -> 0.332 | 0.469 -> 0.489 | 0.107 -> 0.102 | 0.88 -> 0.47 | 120 -> 95 s |
+| C3 | 0.662 -> 0.776 | 0.821 -> 0.843 | 0.331 -> 0.368 | 0.469 -> 0.471 | 0.098 -> 0.095 | 0.75 -> 0.49 | 129 -> 99 s |
+| C4 | 0.672 -> 0.774 | 0.825 -> 0.844 | 0.567 -> 0.612 | 0.466 -> 0.506 | 0 -> 0 | 0 -> 0 | 178 -> 101 s |
+
+- Recall +10 to +15 points translates into only +1 to +2 points of fact recall: the answer model,
+  not retrieval, now limits accuracy. Authorized accuracy moves -2 (C1) to +4 (C4).
+- Latency: p95 down 20-43% in every config; total job time 1d15h vs 2d9h. C4's tail cost over C3
+  is almost gone (101 s vs 99 s).
+- Contamination: fewer entities halve the rows with a contaminated item in context, but C2/C3
+  answer leakage stays ~10%: the canary is in the target entity's own merged description, which is
+  still retrieved. Retrieval tuning does not fix contamination; C4 stays at 0 leakage.
+- C1 (no ACL) leaks slightly more (0.479 -> 0.519): better recall also reaches restricted target docs.
+- Same caveats as the original run: one seed, string-match scoring, same-tier users share answers.
