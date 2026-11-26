@@ -15,6 +15,8 @@ Checks (why each exists):
              entity's canonical name; never in the title; no other code-shaped
              string or other canary variant anywhere
   values     every literal value of a planned fact appears   (gold answers rely on it)
+  restricted no unplanned restatement of another tier's literal value for a planned entity
+             (low-entropy values like "on track" otherwise leak as filler)
   invented   no invented proper nouns (Titlecase, non-dictionary, not allowed)
   length     word count within tolerance of the target
 """
@@ -240,6 +242,10 @@ def check_doc(cfg: Config, ft: FactTable, d: DocPlan, title: str, body: str,
         if lit and not f.is_canary and core.lower() not in text.lower():
             v.append(f'missing value "{core}" (from: {f.sentence})')
 
+    # restricted values: a restricted fact about a planned entity must not be restated (e.g. as
+    # filler such as "currently on track") in a doc its tier cannot be confined to
+    v.extend(_restricted_value_violations(ft, d, text))
+
     # invented / real-world proper nouns: brands anywhere; otherwise Titlecase words that
     # are neither in the wordlist nor common in web text (coined names score ~0)
     invented = set()
@@ -267,6 +273,39 @@ def check_doc(cfg: Config, ft: FactTable, d: DocPlan, title: str, body: str,
     if not lo <= n_words <= hi:
         v.append(f"length {n_words} words; target about {d.target_words} (allowed {int(lo)}-{int(hi)})")
     return v
+
+
+def _tier_leaks(fact_tier: str, doc_tier: str) -> bool:
+    """True if a fact of `fact_tier` must not be readable from a doc of `doc_tier`."""
+    if fact_tier in ("public", doc_tier) or doc_tier == "exec":
+        return False
+    return True
+
+
+def _restricted_value_violations(ft: FactTable, d: DocPlan, text: str) -> list[str]:
+    """Unplanned restatement of another tier's literal value for a planned entity.
+
+    Low-entropy values (status, pricing, region) are easy for the writer to produce as filler, which
+    makes a restricted fact derivable from a lower-tier doc. A value this doc plans itself for the
+    same subject is fine (a coincidence of the generator, not a leak).
+    """
+    fm = {f.fact_id: f for f in ft.facts}
+    em = {e.entity_id: e for e in ft.entities}
+    planned_lits = {(fm[i].subject, (fm[i].object.get("literal") or "").lower()) for i in d.fact_ids}
+    sents = _sentences(text)
+    out: list[str] = []
+    for f in ft.facts:
+        lit = f.object.get("literal")
+        if not lit or f.is_canary or f.subject not in d.entities or not _tier_leaks(f.tier, d.tier):
+            continue
+        core = re.sub(r"^(about|the)\s+", "", lit, flags=re.I).lower()
+        if len(core) < 3 or (f.subject, lit.lower()) in planned_lits:
+            continue
+        name = em[f.subject].canonical_name
+        if any(name in s and core in s.lower() for s in sents):
+            out.append(f'states "{lit}" about "{name}", a fact that is not allowed in this document '
+                       f"(do not say it, even in passing)")
+    return out
 
 
 def _person_names(text: str, allowed: set[str]) -> set[str]:
