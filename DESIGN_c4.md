@@ -2,7 +2,9 @@
 
 Owner: Sai Sony Malapati. Implementation and offline integration checks complete
 on October 18, 2026. The [dev results](reports/results/dev_cf0.3_s42) cover 224
-query-user pairs with the team's model backend.
+query-user pairs with the team's model backend. Full-corpus experiments now
+cover 1120 query-user pairs per configuration; the measured C4 results and
+review of the remaining scoring flags are documented below.
 
 This change builds on Bala Ramya's C1/C2/C3, access-set cache keys, runner, and
 metrics at commit `3a70f8c7abd98f1cf06c5413387edb7f8b3611b0`. It adds C4 to that
@@ -180,7 +182,7 @@ source IDs, chunks, answer, latency, and the revision. These are the inputs to
 Arnav's separate structural-leakage/contamination analysis. Type-b neighbor
 canaries can include contamination canaries; retain that distinction.
 
-## Validation and remaining experimental work
+## Validation and empirical results
 
 `python -m pytest -q tests` covers the original C1–C3 checks plus C4:
 
@@ -198,7 +200,101 @@ the real-storage fixture uses only three documents and local model stubs.
 Real model extraction can miss facts, change entity names, or omit canaries;
 generated summaries/answers can also omit facts or hallucinate. The measured
 50-document results are in the [dev results directory](reports/results/dev_cf0.3_s42).
-Use the full run to check whether those results hold at scale.
+The full-corpus experiments below measure behavior on the 300-document corpus.
+
+### Full-corpus C4 results
+
+The [original full run](reports/results/full_cf0.3_s42) used
+`configs/rag_full.yaml` (SLURM job 89670). The tuned rerun used
+`configs/rag_full_tuned.yaml` (job 92389), with Qwen3 `qwen3:32b-q8_0`,
+`bge-m3` embeddings, and C4's `auto` description strategy. The tuned artifacts
+were reviewed from [PR #19](https://github.com/ArnavDesai235/AMS691/pull/19)
+at commit `1e77ccab5d886daba8564bc0940ff09596cbd784`:
+[raw results and archive manifest][tuned-raw],
+[quality and leakage reports][tuned-reports], and
+[retrieval tuning write-up][tuned-writeup]. These links pin the reviewed data.
+
+Both tuned C3 and C4 contain all 1120 expected query-user rows, each with
+`status: success`. Quality and latency use those 1120 rows. Leakage rates use
+the 840 rows with forbidden canaries; executive rows have none. The authorized
+accuracy subset is `positive_control` plus `qc`, totaling 650 rows.
+Recall@10 excludes rows with no relevant readable documents; fact recall
+excludes rows with no authorized facts.
+
+| Tuned full-run measure | C3 | C4 |
+|---|---:|---:|
+| Rows serving an unreadable item (840 eligible rows) | 0 / 840 | 0 / 840 |
+| Rows with a forbidden canary in a readable graph item | 412 / 840 (49.05%) | 0 / 840 |
+| Rows with a forbidden canary in the answer | 80 / 840 (9.52%) | 0 / 840 |
+| Recall@10 | 0.7761 | 0.7744 |
+| Authorized-fact recall | 0.8434 | 0.8444 |
+| Overall answer accuracy | 0.3679 | 0.6116 |
+| Authorized-subset answer accuracy | 306 / 650 (47.08%) | 329 / 650 (50.62%) |
+| Mean query latency | 38.718 s | 40.304 s |
+| p95 query latency | 99.424 s | 101.076 s |
+
+C3's item permissions prevent unreadable items from being served, but readable
+items can still carry restricted text in their globally merged descriptions.
+C4's permitted-fragment descriptions eliminate the detected canary
+contamination and answer canaries in this run, with nearly unchanged retrieval
+recall. Overall accuracy also includes the probe rows and penalizes missing
+required facts, forbidden canaries, and unauthorized-fact matches; it should
+be reported separately from accuracy on the authorized subset.
+
+Compared with original C4, tuned C4 raises recall@10 from 0.6723 to 0.7744
+and fact recall from 0.8246 to 0.8444, while reducing p95 latency from
+177.934 s to 101.076 s. Both runs have zero detected forbidden answer canaries.
+
+### Review of the two tuned C4 unauthorized-fact flags
+
+The committed quality report retains `answer_unauthorized_fact_rate: 0.0018`
+(2 / 1120). Both flags are for `Qa031`, "What do we know about Project Barkil?",
+asked by `u_team_a_1` and `u_team_a_2`.
+
+- The [fact catalog](corpus/full_cf0.3_s42/facts.json) labels `F0675`, the
+  status value `on track`, as `team_b`. The [quality scorer](acl_rag/metrics.py)
+  matches unauthorized fact values as substrings in the answer.
+- Both users can read [d-team_a-032](corpus/full_cf0.3_s42/docs/d-team_a-032.txt),
+  whose text already says the project is
+  "currently on track for a Q2 FY28 completion". The raw results retrieve
+  `d-team_a-032-chunk-000`; the served Project Barkil entity also cites only
+  that chunk. Both answers repeat the status and cite `d-team_a-032`.
+- Neither row serves an unreadable item or contains a forbidden answer canary.
+
+This is a corpus-label/content inconsistency: the fact catalog marks the status
+restricted while the generated lower-tier document already discloses it.
+The source permissions permit that text, so these flags do not demonstrate a
+C4 permission bypass. Keep the raw flags and reported scores unchanged, and
+describe this finding alongside them. If the status is intended to remain
+restricted, correct and validate the generated corpus, then rebuild the index
+and rerun in a new results directory.
+
+### Verification and limits of the full-run findings
+
+The November 23, 2026 review checked both C3/C4 gzip and decompressed SHA-256
+hashes against the committed archive manifest. Recomputing the quality and
+leakage reports from those raw rows with the repository scorers reproduced
+all four committed JSON reports byte-for-byte, including their per-row flags.
+The saved-index audit was also rerun: 242 cases, zero retained restricted
+codes, zero provenance errors, and no issues. That audit uses `join`; the
+recorded full experiment used `auto`.
+
+To reproduce scoring after checking out the tuned artifacts, run:
+
+```bash
+python -m acl_rag.metrics --rag-config configs/rag_full_tuned.yaml --config C3
+python -m acl_rag.metrics --rag-config configs/rag_full_tuned.yaml --config C4
+python -m acl_rag.leakage --rag-config configs/rag_full_tuned.yaml --config C3
+python -m acl_rag.leakage --rag-config configs/rag_full_tuned.yaml --config C4
+```
+
+These commands score saved results without model calls. The review does not
+rerun model generation. The evidence supports **zero detected canary leakage
+in this fixed-corpus run**. It does not establish that arbitrary confidential
+facts cannot leak: scoring uses string matches, and the corpus uses one seed.
+Same-access-set users can share cached answers, so query-user rows are not
+independent generations. Latencies describe the recorded runs and their cache
+state; they are not a fresh cold-cache benchmark.
 
 Operate on a fixed index/manifest during an experiment. Rebuild after corpus,
 permission, deletion, or extraction-policy changes; do not ingest concurrently
@@ -208,7 +304,12 @@ embeddings and graph-degree ranking, so it does not eliminate ranking side
 channels or promise perfect recall. Source-count hub flags in the ingestion
 report are proxies, not logs proving a particular summary-model call occurred.
 
-Next team steps: run the agreed backend once for all configurations; inspect
-canonical-name and canary extraction coverage; compute structural leakage and
-contamination separately; then fill the project's experimental results and
-presentation from those measured outputs.
+The full C1-C4 experiments and C4 result review are complete for this fixed
+corpus. Use the measured results, the two retained scoring flags, and the
+limitations above in the project's final analysis. Additional seeds or corpus
+repairs require separate indexed runs so the existing measurements remain
+traceable.
+
+[tuned-raw]: https://github.com/ArnavDesai235/AMS691/tree/1e77ccab5d886daba8564bc0940ff09596cbd784/results/full_cf0.3_s42_tuned
+[tuned-reports]: https://github.com/ArnavDesai235/AMS691/tree/1e77ccab5d886daba8564bc0940ff09596cbd784/reports/results/full_cf0.3_s42_tuned
+[tuned-writeup]: https://github.com/ArnavDesai235/AMS691/blob/1e77ccab5d886daba8564bc0940ff09596cbd784/reports/retrieval_sweep.md
