@@ -1,6 +1,6 @@
 # Authorization-Aware LightRAG — Corpus, Canaries & Gold Data (Design Notes)
 
-Owner: Arnav · Status: Week 1 pipeline complete on dev scale (docs, queries + gold, oracle splits, validator); full 300-doc build pending · Pinned: `lightrag-hku==1.5.7`
+Owner: Arnav · Status: full 300-doc corpus built (qwen3), ingested, and evaluated on C1–C4 at cf = 0.3 (original + tuned retrieval); cf = 0.1 / 0.5 sweep not run · Pinned: `lightrag-hku==1.5.7`
 
 ## 1. Purpose
 
@@ -62,10 +62,11 @@ Synthetic multi-tenant corpus for measuring **structural leakage** (wrong node r
 | Fictional names, canary codes | `names.py` (rejects dictionary words and any token found in real web text) | — |
 | Ground-truth fact table | `facts.py` | `facts.json`, `canaries.jsonl` |
 | Fact → document plan | `plan.py` | `plan.json` |
-| LLM backends + cache | `llm.py` (`claude_code` / `anthropic` / `mock`) | `.llm_cache/` |
+| LLM backends + cache | `llm.py` (`claude_code` / `anthropic` / `ollama` / `mock`) | `.llm_cache/` |
+| Deterministic draft repair | `repair.py` (expand shortened names, dedupe/anchor canary codes, insert missing fact sentences) | — |
 | Verbalize + hard checks | `verbalize.py` | `docs/*.txt`, `manifest.jsonl`, `gen_report.json` |
 
-Each draft must pass: all planned names verbatim, no shortened names, no foreign/forbidden entity names, each canary exactly once in-sentence with its entity, all fact values present, no invented proper nouns/real brands, length in range. Failures are fed back for rewrite (max 4); a doc that never passes fails the run.
+Each draft must pass: all planned names verbatim, no shortened names, no foreign/forbidden entity names, each canary exactly once in-sentence with its entity, all fact values present, **no unplanned restatement of another tier's literal value about a planned entity** (added in PR #21), no invented proper nouns/real brands, length in range. Failures are fed back for rewrite (max 6 attempts); a doc that never passes fails the run.
 
 ## 7. Output schemas (per run: `corpus/<run_name>/`)
 
@@ -80,7 +81,18 @@ Each draft must pass: all planned names verbatim, no shortened names, no foreign
 
 **Dev corpus `dev_cf0.3_s42`** — 50 docs (20 public, 10 per restricted tier), ~35k words, 46/50 accepted first try, 4 after one retry; 27 canaries (8 contamination, 19 structural). Independent check: every canary only in its origin doc at the recorded span; no forbidden names anywhere. Generation cost $1.27 via Claude Code.
 
-**Full config (not yet generated)** — 300 docs, 300 entities, 2 canaries per restricted-pool entity (300 total; at cf=0.3: 90 contamination, 210 structural); estimated ~$8–12 per cf value at 0.3, ~$4–6 for each additional sweep value.
+**Full corpus `full_cf0.3_s42`** — generated on the cluster with `qwen3:32b-q8_0` via Ollama (no API cost): 300 docs (120 public, 60 per restricted tier), 300 entities (150 public_only, 45 cross_tier, 105 restricted_only), 300 canaries (90 contamination, 210 structural), 1,120 query rows. 228 docs passed on the first attempt, 63 on the second, 8 on the third and 1 on the fifth; 233 docs needed deterministic repairs. Ingested into LightRAG (`rag_storage/full_cf0.3_s42`; one public doc, `d-public-099`, still marked truncated). See `REPORT_qwen_corpus_and_ingest.md`.
+
+**Full-run results (cf = 0.3, 840 rows with forbidden canaries; original → tuned retrieval)** — details in `results/full_cf0.3_s42{,_tuned}/` and `reports/retrieval_sweep.md`:
+
+| | structural canary | contamination canary (in context) | answer canary | recall@10 |
+|---|---|---|---|---|
+| C1 | 1.00 → 0.97 | 0.83 → 0.47 | 0.48 → 0.52 | 0.60 → 0.75 |
+| C2 | 0 → 0 | 0.88 → 0.47 | 0.11 → 0.10 | 0.66 → 0.81 |
+| C3 | 0 → 0 | 0.75 → 0.49 | 0.10 → 0.10 | 0.66 → 0.78 |
+| C4 | 0 → 0 | 0 → 0 | 0 → 0 | 0.67 → 0.77 |
+
+Tuned retrieval (`configs/rag_full_tuned.yaml`) raises recall@10 by 10–15 points and cuts context contamination in C1–C3 by retrieving less; it does not reduce answer leakage in C1–C3. C4 has zero detected leakage on every measure. By realized `source_id` regime (≥ 8 = hub), canaries reach the retrieved context at similar rates (C2/C3 tuned: 0.47–0.59), but reach the *answer* about 4× more often for hubs (C2/C3 tuned: 0.27–0.29 vs 0.06–0.07; hub n = 126 rows, uncontrolled for entity/query type).
 
 ## 9. Known limitations
 
@@ -88,10 +100,15 @@ Each draft must pass: all planned names verbatim, no shortened names, no foreign
 - Invented names built from real words (e.g. "Marrow Creek") can evade the invented-noun check; validator will list capitalized phrases for manual review.
 - `origin_chunks` filled from LightRAG's chunk store at ingest (Week 3).
 - cf = 0.1 has few contamination canaries (dev: 3; full: 30); interpret with care.
+- Low-entropy fact values (`status` has 5 values; pricing 4; region 5) are easy filler for the writer. In `full_cf0.3_s42`, one restricted fact (F0675, team_b status "on track" for Project Barkil) is restated in team_a doc `d-team_a-032`; a scan of all 262 restricted non-canary facts found no other case (exact substring, so paraphrases are not caught). This caused C4's only two tuned unauthorized-fact flags; the corpus was not regenerated.
+- The raw `answer_unauthorized_fact_rate` substring-matches restricted values anywhere in an answer, so it can over-count: it can also match text about another entity (original-C4 rows Qb011, "partner tier"). `answer_unauthorized_fact_rate_adj` (PR #21) ignores values the user's own readable docs state about the target; report both.
+- Only the cf = 0.3 corpus exists. The nested cf sweep is untested end to end.
 
 ## 10. Next
 
-Full 300-doc build at cf = 0.3 (then 0.1 / 0.5); Week 3: ACL tagging at chunking, union propagation, fill `origin_chunks` from LightRAG's chunk store.
+- cf = 0.1 / 0.5 sweep: roughly 1–2 GPU-days per cf value uncached (full ingest took 13.4 h on 2× RTX 8000; dev C1–C4 took 7.4 h for 224 rows), so the 8 h default in `scripts/run_ollama_job.sbatch` must be raised. Seeding the new index with the cf = 0.3 LLM cache should avoid most re-extraction (untested). Cheapest informative option: cf = 0.5 only, C3 and C4 only.
+- The new restricted-value check only applies to docs that are regenerated (~15% of restricted docs at other cf values); the F0675 doc is redone only if it gains bridge facts, so fix it explicitly or keep documenting the flag.
+- Week 3: ACL tagging at chunking, union propagation, fill `origin_chunks` from LightRAG's chunk store.
 
 ## 11. Commands
 
