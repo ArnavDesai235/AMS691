@@ -16,6 +16,7 @@
 #   INGEST_ARGS="--retry-truncated --rounds 3" sbatch scripts/run_ollama_job.sbatch
 #   OLLAMA_NUM_PARALLEL=1 OLLAMA_KV_CACHE_TYPE=q8_0 MIN_GPU_MEM_MIB=45000 \
 #     sbatch --nodelist=quadro1 --gres=gpu:1 scripts/run_ollama_job.sbatch   # one 48 GB card
+#   STEPS=judge JUDGE_ARGS="--limit 200" RAG_CONFIG=configs/rag_full_tuned.yaml sbatch ...   # LLM judge, sampled
 #   STEPS=corpus sbatch scripts/run_ollama_job.sbatch            # generate configs/full.yaml's corpus locally
 # Submit from the repo root. Env vars: ENV_NAME (AMS691), STEPS, RAG_CONFIG (configs/rag.yaml), INGEST_ARGS,
 #   CORPUS_CONFIG (configs/full.yaml)
@@ -71,6 +72,7 @@ for step in $STEPS; do
     metrics) python -m acl_rag.metrics --rag-config "$cfg" ;;
     leakage) python -m acl_rag.leakage --rag-config "$cfg" ;;
     check)   python -m acl_rag.check_index --rag-config "$cfg" ;;
+    judge)   python -m acl_rag.judge --rag-config "$cfg" --model "$llm" --host "http://$OLLAMA_HOST" ${JUDGE_ARGS:-} ;;
     sweep)   python -m acl_rag.sweep_retrieval --rag-config "$cfg" ${SWEEP_ARGS:-} ;;
     C1|C2|C3|C4) python -m acl_rag.run --rag-config "$cfg" --config "$step" ;;
     *) echo "unknown step $step"; exit 1 ;;
