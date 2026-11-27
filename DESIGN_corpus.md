@@ -94,7 +94,7 @@ Each draft must pass: all planned names verbatim, no shortened names, no foreign
 
 Tuned retrieval (`configs/rag_full_tuned.yaml`) raises recall@10 by 10–15 points and cuts context contamination in C1–C3 by retrieving less; it does not reduce answer leakage in C1–C3. C4 has zero detected leakage on every measure. By realized `source_id` regime (≥ 8 = hub), canaries reach the retrieved context at similar rates (C2/C3 tuned: 0.47–0.59), but reach the *answer* about 4× more often for hubs (C2/C3 tuned: 0.27–0.29 vs 0.06–0.07; hub n = 126 rows, uncontrolled for entity/query type).
 
-**Paraphrase check (in-session judge, 30 string-negative rows per config, tuned run):** judge found a paraphrased restricted fact in 8/30 C2 rows, 4/30 C3 and 0/30 C4 (`results/full_cf0.3_s42_tuned/judge_insession.json`). The pipeline judge (`acl_rag/judge.py`, sbatch step `judge`, job 99240) is queued and has not run.
+**Paraphrase check (in-session judge, 60 string-negative rows per config, tuned run):** the judge found a paraphrased restricted fact in 13/60 C2 rows, 8/60 C3 and 0/60 C4 (`results/full_cf0.3_s42_tuned/judge_insession.json`). The pipeline judge (`acl_rag/judge.py`, sbatch step `judge`) was implemented and tested but not run: the cluster job (99240) was cancelled for lack of a free GPU.
 
 ## 9. Known limitations
 
