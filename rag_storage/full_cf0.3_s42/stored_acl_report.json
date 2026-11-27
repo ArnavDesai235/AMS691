@@ -1,0 +1,15 @@
+{
+ "chunks": 302,
+ "nodes": 3719,
+ "edges": 6053,
+ "nodes_with_empty_acl": 0,
+ "source_chunks_missing_from_chunk_map": [],
+ "n_missing": 0,
+ "disagreements_with_query_time_acl": [],
+ "n_disagreements": 0,
+ "canaries": 300,
+ "canaries_in_multiple_chunks": 0,
+ "canaries_lost": [],
+ "canaries_in_foreign_chunks": {},
+ "origin_chunks_written": true
+}
