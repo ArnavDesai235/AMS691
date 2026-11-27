@@ -100,7 +100,7 @@ Tuned retrieval (`configs/rag_full_tuned.yaml`) raises recall@10 by 10–15 poin
 
 - ~15% of restricted docs gain bridge facts at higher cf and are regenerated (their canaries stay in the same doc).
 - Invented names built from real words (e.g. "Marrow Creek") can evade the invented-noun check; validator will list capitalized phrases for manual review.
-- `origin_chunks` filled from LightRAG's chunk store at ingest (Week 3).
+- `origin_chunks` is filled for `full_cf0.3_s42` by `python -m acl_rag.stored_acl --write-canaries` (the 300 canaries are each in exactly one chunk of their origin doc, none elsewhere). Re-run it after any re-ingest; the dev corpus is not filled.
 - cf = 0.1 has few contamination canaries (dev: 3; full: 30); interpret with care.
 - Low-entropy fact values (`status` has 5 values; pricing 4; region 5) are easy filler for the writer. In `full_cf0.3_s42`, one restricted fact (F0675, team_b status "on track" for Project Barkil) is restated in team_a doc `d-team_a-032`; a scan of all 262 restricted non-canary facts found no other case (exact substring, so paraphrases are not caught). This caused C4's only two tuned unauthorized-fact flags; the corpus was not regenerated.
 - The raw `answer_unauthorized_fact_rate` substring-matches restricted values anywhere in an answer, so it can over-count: it can also match text about another entity (original-C4 rows Qb011, "partner tier"). `answer_unauthorized_fact_rate_adj` (PR #21) ignores values the user's own readable docs state about the target; report both.
@@ -110,7 +110,7 @@ Tuned retrieval (`configs/rag_full_tuned.yaml`) raises recall@10 by 10–15 poin
 
 - cf = 0.1 / 0.5 sweep: roughly 1–2 GPU-days per cf value uncached (full ingest took 13.4 h on 2× RTX 8000; dev C1–C4 took 7.4 h for 224 rows), so the 8 h default in `scripts/run_ollama_job.sbatch` must be raised. Seeding the new index with the cf = 0.3 LLM cache should avoid most re-extraction (untested). Cheapest informative option: cf = 0.5 only, C3 and C4 only.
 - The new restricted-value check only applies to docs that are regenerated (~15% of restricted docs at other cf values); the F0675 doc is redone only if it gains bridge facts, so fix it explicitly or keep documenting the flag.
-- Week 3: ACL tagging at chunking, union propagation, fill `origin_chunks` from LightRAG's chunk store.
+- Done (Week 3): stored ACLs and `origin_chunks` via `acl_rag/stored_acl.py` (see 11). The stored union is derived offline from the finished index and verified against the query-time `ACLIndex` (0 disagreements over 3,719 nodes and 6,053 edges); LightRAG itself still does not store the union at merge time.
 
 ## 11. Commands
 
@@ -121,4 +121,5 @@ python -m corpus_gen.plan    --config configs/full.yaml --sweep 0.1 0.3 0.5   # 
 python -m corpus_gen.run --config configs/dev.yaml                              # everything: docs, queries, gold, oracle, validation
 python -m corpus_gen.run --config configs/full.yaml --set entities.cross_tier_fraction=0.5
 python -m corpus_gen.validate corpus/dev_cf0.3_s42                             # re-validate a corpus
+python -m acl_rag.stored_acl --rag-config configs/rag_full.yaml --write-canaries # stored_acl.json + origin_chunks (no GPU)
 ```
